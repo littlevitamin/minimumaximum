@@ -41,7 +41,7 @@
       "signup_form_email_placeholder": "Email của bạn",
       "signup_form_submit": "Gửi",
       "signup_form_success": "Chúng tôi sẽ gửi email cho bạn ngay trước khi chúng tôi mở cửa!",
-      "admin_link_html": "Bạn là chủ cửa hàng? <a href=\"/admin\">Đăng nhập tại đây</a>",
+      "admin_link_html": "Bạn là chủ cửa hàng? <a href=\"\/admin\">Đăng nhập tại đây<\/a>",
       "password_link": "Vào bằng mật khẩu",
       "powered_by_shopify_html": "Cửa hàng này sẽ được cung cấp bởi {{ shopify }}"
     },
@@ -91,7 +91,7 @@
       "back": "Quay lại",
       "play_video": "Phát video",
       "language_dropdown_label": "Ngôn ngữ",
-      "country_dropdown_label": "Quốc gia/vùng",
+      "country_dropdown_label": "Quốc gia\/vùng",
       "quantity": "Số lượng",
       "price": {
         "regular": "Giá thông thường",
@@ -104,7 +104,7 @@
         "pinterest": "Chia sẻ trên Pinterest"
       },
       "rating": "xếp hạng",
-      "rating_info": "Xếp hạng : {{ rating_value }} / {{ rating_max }}",
+      "rating_info": "Xếp hạng : {{ rating_value }} \/ {{ rating_max }}",
       "form_error": "Lỗi",
       "go_to_top": "Lên đầu trang",
       "top": "Trên cùng"
@@ -136,13 +136,13 @@
       "collection_results_title": "Bộ sưu tập",
       "page_results_title": "Trang",
       "article_results_title": "Từ tạp chí",
-      "search_for_html": "Tìm kiếm <strong>\"{{ terms }}\"</strong>",
+      "search_for_html": "Tìm kiếm <strong>\"{{ terms }}\"<\/strong>",
       "try_again": "Hãy thử lại với một từ khóa khác.",
       "search_button_label": "Tìm kiếm",
       "search_again_button_label": "Tìm kiếm lại",
       "results_for_html": {
-        "one": "{{ count }} kết quả cho <strong>\"{{ terms }}\"</strong>",
-        "other": "{{ count }} kết quả cho <strong>\"{{ terms }}\"</strong>"
+        "one": "{{ count }} kết quả cho <strong>\"{{ terms }}\"<\/strong>",
+        "other": "{{ count }} kết quả cho <strong>\"{{ terms }}\"<\/strong>"
       }
     },
     "paginate": {
@@ -172,8 +172,8 @@
     },
     "max_price_html": "Giá cao nhất là {{ price }}",
     "product_count": {
-      "one": "{{ product_count }} / {{ count }} sản phẩm",
-      "other": "{{ product_count }} / {{ count }} sản phẩm"
+      "one": "{{ product_count }} \/ {{ count }} sản phẩm",
+      "other": "{{ product_count }} \/ {{ count }} sản phẩm"
     },
     "product_count_simple": {
       "one": "{{ count }} sản phẩm",
@@ -183,7 +183,7 @@
     "sort_button": "Sắp xếp",
     "sort_by_label": "Sắp xếp theo:",
     "to": "Đến",
-    "use_fewer_filters_html": "Sử dụng ít bộ lọc hơn hoặc <a class=\"{{ class }}\" href=\"{{ link }}\">xóa tất cả</a>",
+    "use_fewer_filters_html": "Sử dụng ít bộ lọc hơn hoặc <a class=\"{{ class }}\" href=\"{{ link }}\">xóa tất cả<\/a>",
     "view_all_products": "Xem tất cả sản phẩm",
     "no_collections": "Chúng tôi rất tiếc, hiện tại không có bộ sưu tập nào trên cửa hàng này.",
     "match_all_label": "Phù hợp với tất cả",
@@ -234,7 +234,7 @@
       },
       "loading_reviews": "Đang tải thêm đánh giá",
       "include_taxes": "Đã bao gồm thuế.",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Phí vận chuyển</a> được tính khi thanh toán.",
+      "shipping_policy_html": "<a href=\"{{ link }}\">Phí vận chuyển<\/a> được tính khi thanh toán.",
       "view_in_space": "Xem trong không gian của bạn",
       "view_in_space_label": "Xem trong không gian của bạn, tải vật phẩm trong cửa sổ thực tế tăng cường",
       "no_reviews": "Không có đánh giá nào về sản phẩm này. Hãy là người đầu tiên đánh giá.",
@@ -255,9 +255,9 @@
     "update": "Cập nhật giỏ hàng",
     "note": "Hướng dẫn đặc biệt cho người bán",
     "policies": {
-      "taxes_and_shipping_policy_at_checkout_html": "Thuế và <a href=\"{{ link }}\">phí vận chuyển</a> được tính khi thanh toán",
+      "taxes_and_shipping_policy_at_checkout_html": "Thuế và <a href=\"{{ link }}\">phí vận chuyển<\/a> được tính khi thanh toán",
       "taxes_included_but_shipping_at_checkout": "Đã bao gồm thuế, phí vận chuyển được tính khi thanh toán",
-      "taxes_included_and_shipping_policy_html": "Đã bao gồm thuế. <a href=\"{{ link }}\">Phí vận chuyển</a> được tính khi thanh toán.",
+      "taxes_included_and_shipping_policy_html": "Đã bao gồm thuế. <a href=\"{{ link }}\">Phí vận chuyển<\/a> được tính khi thanh toán.",
       "taxes_and_shipping_at_checkout": "Thuế và phí vận chuyển được tính khi thanh toán"
     },
     "empty": "Giỏ hàng của bạn hiện đang trống.",
@@ -344,7 +344,7 @@
       "results_count": {
         "zero": "Không có kết quả nào",
         "one": "Hiển thị {{ count }} kết quả",
-        "other": "Hiển thị {{ offset }} - {{ page_size }} / {{ count }} kết quả"
+        "other": "Hiển thị {{ offset }} - {{ page_size }} \/ {{ count }} kết quả"
       },
       "form_placeholder": "Nhập từ khóa vào đây",
       "search_button_label": "Tìm kiếm",
@@ -434,7 +434,7 @@
         "city_label": "Thành phố",
         "country_label": "Quốc gia",
         "province_label": "Tỉnh",
-        "zip_label": "Mã Zip/Mã bưu chính",
+        "zip_label": "Mã Zip\/Mã bưu chính",
         "phone_label": "Điện thoại",
         "add_button": "Thêm Địa chỉ",
         "update_button": "Cập nhật Địa chỉ",
@@ -490,8 +490,8 @@
     "check_other_stores": "Kiểm tra tình trạng còn hàng tại các cửa hàng khác",
     "pick_up_available": "Sẵn có để đến lấy",
     "pick_up_currently_unavailable": "Không sẵn có để đến lấy",
-    "pick_up_available_at_html": "Sẵn có để đến lấy tại <strong>{{ location_name }}</strong>",
-    "pick_up_unavailable_at_html": "Không sẵn có để đến lấy tại <strong>{{ location_name }}</strong>",
+    "pick_up_available_at_html": "Sẵn có để đến lấy tại <strong>{{ location_name }}<\/strong>",
+    "pick_up_unavailable_at_html": "Không sẵn có để đến lấy tại <strong>{{ location_name }}<\/strong>",
     "invalid_location_address": "Liên hệ với cửa hàng để xác nhận địa chỉ",
     "refresh": "Làm mới"
   },

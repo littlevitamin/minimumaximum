@@ -82,7 +82,7 @@
         },
         "enhance_featured_products": {
           "label": "Mettre en valeur les nouveautés",
-          "info": "[En savoir plus](https://shopify-support.krownthemes.com/article/471-general-settings#featured-products)"
+          "info": "[En savoir plus](https:\/\/shopify-support.krownthemes.com\/article\/471-general-settings#featured-products)"
         },
         "show_discount": {
           "label": "Afficher la réduction en tant que...",
@@ -112,7 +112,7 @@
         },
         "header__1": {
           "content": "Évaluation du produit",
-          "info": "Pour afficher les évaluations, ajoutez une application d'évaluation des produits. [Apprendre encore plus](https://apps.shopify.com/search?q=product%20reviews)"
+          "info": "Pour afficher les évaluations, ajoutez une application d'évaluation des produits. [Apprendre encore plus](https:\/\/apps.shopify.com\/search?q=product%20reviews)"
         },
         "header__2": {
           "content": "Évaluation des produits"
@@ -192,7 +192,7 @@
     },
     "follow_on_shop": {
       "content": "Suivre sur Shop",
-      "info": "Pour autoriser les clients à suivre votre boutique sur l’application Shop depuis votre boutique en ligne, Shop Pay doit être activé. [En savoir plus](https://help.shopify.com/manual/online-store/themes/customizing-themes/follow-on-shop)",
+      "info": "Pour autoriser les clients à suivre votre boutique sur l’application Shop depuis votre boutique en ligne, Shop Pay doit être activé. [En savoir plus](https:\/\/help.shopify.com\/manual\/online-store\/themes\/customizing-themes\/follow-on-shop)",
       "label": "Activer Suivre sur Shop"
     }
   },
@@ -245,7 +245,7 @@
         "embellishments": "Décorations"
       },
       "text": {
-        "icons_info": "Pour visualiser et télécharger d'autres icônes, veuillez vous rendre sur [ce lien](https://resources.krownthemes.com/icons/)."
+        "icons_info": "Pour visualiser et télécharger d'autres icônes, veuillez vous rendre sur [ce lien](https:\/\/resources.krownthemes.com\/icons\/)."
       },
       "borders": {
         "top_border": "Bordure du haut",
@@ -367,18 +367,18 @@
       "cart_upsell": {
         "name": "Recommandation individuelle de produits ",
         "product": "Produit",
-        "info": "Les recommandations dynamiques se basent sur les articles de votre panier. Elles changent et s'améliorent avec le temps [En savoir plus](https://help.shopify.com/en/themes/development/recommended-products)"
+        "info": "Les recommandations dynamiques se basent sur les articles de votre panier. Elles changent et s'améliorent avec le temps [En savoir plus](https:\/\/help.shopify.com\/en\/themes\/development\/recommended-products)"
       },
       "gift_wrapping": {
         "name": "Emballage cadeau",
-        "info": "L'emballage cadeau doit être configuré comme un produit. [En savoir plus](https://shopify-support.krownthemes.com/article/696-cart-features#gift-wrap)",
+        "info": "L'emballage cadeau doit être configuré comme un produit. [En savoir plus](https:\/\/shopify-support.krownthemes.com\/article\/696-cart-features#gift-wrap)",
         "settings": {
           "label": "Texte",
           "button": "Étiquette de bouton"
         }
       },
       "custom_code": {
-        "name": "HTML personnalisé / Liquid"
+        "name": "HTML personnalisé \/ Liquid"
       },
       "rating": {
         "name": "Application d'évaluations",
@@ -448,7 +448,7 @@
             "amount_saved": "Montant économisé"
           },
           "regular_badges": {
-            "info": "Retrouvez plus d'informations sur les badges de produits [ici](https://shopify-support.krownthemes.com/article/377-collection-pages#product-badges)."
+            "info": "Retrouvez plus d'informations sur les badges de produits [ici](https:\/\/shopify-support.krownthemes.com\/article\/377-collection-pages#product-badges)."
           },
           "sold_out": {
             "name": "Badge épuisé",
@@ -457,8 +457,8 @@
           },
           "custom_badges": {
             "name": "Badges de produits personnalisés",
-            "info": "Ce thème utilise des badges de produits personnalisés que vous pouvez définir ici. [En savoir plus](https://shopify-support.krownthemes.com/article/564-product-pages#product-badges)",
-            "split_info": "Ce thème utilise des badges de produits personnalisés que vous pouvez définir ici. [En savoir plus](https://shopify-support.krownthemes.com/article/377-collection-pages#product-badges)",
+            "info": "Ce thème utilise des badges de produits personnalisés que vous pouvez définir ici. [En savoir plus](https:\/\/shopify-support.krownthemes.com\/article\/564-product-pages#product-badges)",
+            "split_info": "Ce thème utilise des badges de produits personnalisés que vous pouvez définir ici. [En savoir plus](https:\/\/shopify-support.krownthemes.com\/article\/377-collection-pages#product-badges)",
             "name__1": "Badge personnalisé 1",
             "name__2": "Badge personnalisé 2",
             "name__3": "Badge personnalisé 3",
@@ -533,7 +533,7 @@
             "name": "Expédition",
             "show": {
               "label": "Afficher le montant minimum de l'expédition gratuite",
-              "info": "Pour configurer les frais d'expédition, accédez à vos [paramètres d'expédition](/admin/settings/shipping)."
+              "info": "Pour configurer les frais d'expédition, accédez à vos [paramètres d'expédition](\/admin\/settings\/shipping)."
             },
             "amount": {
               "label": "Montant minimum d'expédition gratuite",
@@ -564,7 +564,7 @@
           },
           "local-pickup": {
             "name": "Disponibilité locale",
-            "info": "Ce thème affiche la disponibilité locale des produits. [En savoir plus](https://shopify-support.krownthemes.com/article/641-collection-page-product-grids#dynamic-text)"
+            "info": "Ce thème affiche la disponibilité locale des produits. [En savoir plus](https:\/\/shopify-support.krownthemes.com\/article\/641-collection-page-product-grids#dynamic-text)"
           },
           "badges": {
             "name": "Badges de produits par défaut",
@@ -580,7 +580,7 @@
             },
             "custom_badges": {
               "name": "Badges de produits personnalisés",
-              "info": "Ce thème utilise des badges de produits personnalisés que vous pouvez définir ici. [En savoir plus](https://shopify-support.krownthemes.com/article/639-theme-settings#product-badges)",
+              "info": "Ce thème utilise des badges de produits personnalisés que vous pouvez définir ici. [En savoir plus](https:\/\/shopify-support.krownthemes.com\/article\/639-theme-settings#product-badges)",
               "name__1": "Badge personnalisé 1",
               "name__2": "Badge personnalisé 2",
               "name__3": "Badge personnalisé 3",
@@ -633,7 +633,7 @@
               "info": "256 x 256 px"
             },
             "select_icon": {
-              "info": "Pour visualiser et télécharger plus d'icônes, veuillez visiter [ce lien](https://resources.krownthemes.com/icons/)"
+              "info": "Pour visualiser et télécharger plus d'icônes, veuillez visiter [ce lien](https:\/\/resources.krownthemes.com\/icons\/)"
             },
             "icon_color": {
               "label": "Icône",
@@ -755,7 +755,7 @@
               "settings": {
                 "name": {
                   "label": "Nom",
-                  "info": "Le nom du magasin doit correspondre au nom de votre magasin défini dans vos [paramètres de localisation](/admin/settings/locations)."
+                  "info": "Le nom du magasin doit correspondre au nom de votre magasin défini dans vos [paramètres de localisation](\/admin\/settings\/locations)."
                 },
                 "pickup_price": {
                   "label": "Prix de l'enlèvement"
@@ -779,7 +779,7 @@
                 },
                 "map": {
                   "name": "Épingle de carte",
-                  "info": "Si la carte est activée, vous devez définir une épingle personnalisée pour cette adresse. [Apprenez comment obtenir les coordonnées de votre adresse](https://support.google.com/maps/answer/18539?hl=en)"
+                  "info": "Si la carte est activée, vous devez définir une épingle personnalisée pour cette adresse. [Apprenez comment obtenir les coordonnées de votre adresse](https:\/\/support.google.com\/maps\/answer\/18539?hl=en)"
                 },
                 "map_latitude": {
                   "label": "Latitude",
@@ -840,15 +840,15 @@
             },
             "store-selector": {
               "name": "Sélecteur de magasin",
-              "content": "Le sélecteur de magasin peut être configuré dans la section « Sélecteur de magasin ». [En savoir plus](https://shopify-support.krownthemes.com/article/640-header-the-store-selector#store-selector)",
-              "info": "Ce thème vous permet de connecter les emplacements de vos magasins réels à un sélecteur de magasin interactif. [En savoir plus](https://shopify-support.krownthemes.com/article/640-header-the-store-selector#store-selector)"
+              "content": "Le sélecteur de magasin peut être configuré dans la section « Sélecteur de magasin ». [En savoir plus](https:\/\/shopify-support.krownthemes.com\/article\/640-header-the-store-selector#store-selector)",
+              "info": "Ce thème vous permet de connecter les emplacements de vos magasins réels à un sélecteur de magasin interactif. [En savoir plus](https:\/\/shopify-support.krownthemes.com\/article\/640-header-the-store-selector#store-selector)"
             },
             "mega-menu": {
               "name": "Mégamenu",
               "settings": {
                 "menu_handle": {
                   "label": "Poignée de menu",
-                  "info": "Ce thème utilise des méga-menus. [En savoir plus](https://shopify-support.krownthemes.com/article/640-header-the-store-selector#mega-menus)"
+                  "info": "Ce thème utilise des méga-menus. [En savoir plus](https:\/\/shopify-support.krownthemes.com\/article\/640-header-the-store-selector#mega-menus)"
                 }
               }
             }
@@ -1041,8 +1041,8 @@
             },
             "icons": {
               "name": "Liste des icônes",
-              "info": "Pour visualiser et télécharger les icônes incluses dans le thème, veuillez visiter [ce lien](https://resources.krownthemes.com/icons/).",
-              "help": "Ce thème vous permet d'ajouter des icônes de produits personnalisées grâce à un contenu dynamique. [En savoir plus](https://shopify-support.krownthemes.com/article/639-theme-settings#dynamic-icons)",
+              "info": "Pour visualiser et télécharger les icônes incluses dans le thème, veuillez visiter [ce lien](https:\/\/resources.krownthemes.com\/icons\/).",
+              "help": "Ce thème vous permet d'ajouter des icônes de produits personnalisées grâce à un contenu dynamique. [En savoir plus](https:\/\/shopify-support.krownthemes.com\/article\/639-theme-settings#dynamic-icons)",
               "headers": {
                 "icon_1": "Icône 1",
                 "icon_2": "Icône 2",
@@ -1074,7 +1074,7 @@
         },
         "main-article-comments": {
           "name": "Commentaires sur les articles",
-          "info": "Pour activer les commentaires, allez dans les [paramètres du blog](/admin/blogs)."
+          "info": "Pour activer les commentaires, allez dans les [paramètres du blog](\/admin\/blogs)."
         },
         "main-article-navigation": {
           "name": "Navigation dans les articles",
@@ -1100,7 +1100,7 @@
           "blocks": {
             "payment": {
               "name": "Icônes de paiement",
-              "info": "Les icônes qui s'affichent sont déterminées par les [paramètres de paiement] de votre magasin (/admin/settings/payments) ainsi que par la région et la devise du client."
+              "info": "Les icônes qui s'affichent sont déterminées par les [paramètres de paiement] de votre magasin (\/admin\/settings\/payments) ainsi que par la région et la devise du client."
             }
           }
         },
@@ -1177,7 +1177,7 @@
             "vendor": "Fournisseur",
             "text": {
               "name": "Texte dynamique",
-              "info": "Utilisez une source dynamique pour mettre en évidence un attribut unique en créant un méta-champ de produit. [En savoir plus](https://shopify-support.krownthemes.com/article/641-collection-page-product-grids#dynamic-text)",
+              "info": "Utilisez une source dynamique pour mettre en évidence un attribut unique en créant un méta-champ de produit. [En savoir plus](https:\/\/shopify-support.krownthemes.com\/article\/641-collection-page-product-grids#dynamic-text)",
               "settings": {
                 "text": {
                   "label": "Méta-champ d'étiquette"
@@ -1199,7 +1199,7 @@
               }
             },
             "icons": {
-              "info": "Utilisez des sources dynamiques pour mettre en évidence des attributs uniques en créant des méta-champs de produit pour la liste d'icônes. [En savoir plus](https://shopify-support.krownthemes.com/article/639-theme-settings#dynamic-icons)",
+              "info": "Utilisez des sources dynamiques pour mettre en évidence des attributs uniques en créant des méta-champs de produit pour la liste d'icônes. [En savoir plus](https:\/\/shopify-support.krownthemes.com\/article\/639-theme-settings#dynamic-icons)",
               "settings": {
                 "icon": "Méta-champ d'icône",
                 "label": "Méta-champ d'étiquette"
@@ -1222,7 +1222,7 @@
       "name": "Produits complémentaires",
       "settings": {
         "paragraph": {
-          "content": "Pour sélectionner des produits complémentaires, ajoutez l'application Search & Discovery. [En savoir plus](https://help.shopify.com/manual/online-store/search-and-discovery/product-recommendations)"
+          "content": "Pour sélectionner des produits complémentaires, ajoutez l'application Search & Discovery. [En savoir plus](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/product-recommendations)"
         }
       }
     },
@@ -1410,7 +1410,7 @@
             },
             "color_swatches": {
               "label": "Afficher les échantillons de couleurs (uniquement pour le style bloc)",
-              "info": "Ce thème peut afficher des images personnalisées pour les échantillons de couleurs. [Learn more](https://shopify-support.krownthemes.com/article/554-using-color-swatches)"
+              "info": "Ce thème peut afficher des images personnalisées pour les échantillons de couleurs. [Learn more](https:\/\/shopify-support.krownthemes.com\/article\/554-using-color-swatches)"
             }
           }
         },
@@ -1508,7 +1508,7 @@
             "link_info": "Le lien se changera en objet intelligent si c'est un produit ou une collection.",
             "background": "Couleur de fond",
             "text": "Couleur du texte",
-            "product_info": "Ce thème peut afficher du contenu unique pour les pages de produits individuels. [Learn more](https://shopify-support.krownthemes.com/article/378-product-pages#unique-promotions)"
+            "product_info": "Ce thème peut afficher du contenu unique pour les pages de produits individuels. [Learn more](https:\/\/shopify-support.krownthemes.com\/article\/378-product-pages#unique-promotions)"
           }
         },
         "main-collection-page": {
@@ -1596,7 +1596,7 @@
               "address": "Adresse de la carte",
               "api": {
                 "label": "Clé API Google Maps",
-                "info": "Vous devrez enregistrer un [Google Maps API Key](http://shopify-support.krownthemes.com/article/385-generate-an-api-key-for-google-maps) pour afficher la carte."
+                "info": "Vous devrez enregistrer un [Google Maps API Key](http:\/\/shopify-support.krownthemes.com\/article\/385-generate-an-api-key-for-google-maps) pour afficher la carte."
               },
               "image": {
                 "label": "Image",
@@ -1803,7 +1803,7 @@
         },
         "icons": {
           "label": "Icônes",
-          "info": "Pour visualiser toutes les icônes comprises dans le thème, veuillez consulter [ce lien](https://krownthemes.com/krown-icons/)"
+          "info": "Pour visualiser toutes les icônes comprises dans le thème, veuillez consulter [ce lien](https:\/\/krownthemes.com\/krown-icons\/)"
         }
       },
       "blocks": {
@@ -1831,17 +1831,17 @@
         },
         "language_selector": {
           "content": "Sélecteur de langue",
-          "info": "Pour ajouter une langue, rendez-vous dans vos [paramètres de langue.](/admin/settings/languages)"
+          "info": "Pour ajouter une langue, rendez-vous dans vos [paramètres de langue.](\/admin\/settings\/languages)"
         },
         "language_selector_show": {
           "label": "Afficher le sélecteur de langue"
         },
         "country_selector": {
-          "content": "Sélecteur de pays/région",
-          "info": "Pour ajouter un pays/une région, allez à vos [paramètres de paiement.](/admin/settings/payments)"
+          "content": "Sélecteur de pays\/région",
+          "info": "Pour ajouter un pays\/une région, allez à vos [paramètres de paiement.](\/admin\/settings\/payments)"
         },
         "country_selector_show": {
-          "label": "Afficher le sélecteur de pays/région"
+          "label": "Afficher le sélecteur de pays\/région"
         }
       },
       "blocks": {
@@ -2665,7 +2665,7 @@
         },
         "header__1": {
           "content": "Recommandations de produits",
-          "info": "Les recommandations dynamiques utilisent les informations sur les commandes et les produits pour évoluer et s'améliorer au fil du temps. [En savoir plus](https://help.shopify.com/en/themes/development/recommended-products)"
+          "info": "Les recommandations dynamiques utilisent les informations sur les commandes et les produits pour évoluer et s'améliorer au fil du temps. [En savoir plus](https:\/\/help.shopify.com\/en\/themes\/development\/recommended-products)"
         }
       }
     },
@@ -2772,7 +2772,7 @@
         },
         "enable_filtering": {
           "label": "Activer le filtrage",
-          "info": "[Personnaliser les filtres](/admin/menus)"
+          "info": "[Personnaliser les filtres](\/admin\/menus)"
         },
         "enable_sorting": {
           "label": "Activer le tri"
@@ -2786,7 +2786,7 @@
       "name": "Bannière de collection",
       "settings": {
         "paragraph": {
-          "content": "Pour modifier les descriptions ou les images des collections, [modifiez vos collections.](/admin/collections)"
+          "content": "Pour modifier les descriptions ou les images des collections, [modifiez vos collections.](\/admin\/collections)"
         },
         "show_collection_description": {
           "label": "Afficher la description de la collection"
@@ -2830,7 +2830,7 @@
           "name": "Données fiscales"
         },
         "sku_barcode": {
-          "name": "SKU / CODE-BARRES"
+          "name": "SKU \/ CODE-BARRES"
         },
         "quantity_selector": {
           "name": "Sélecteur de quantité"
@@ -2846,7 +2846,7 @@
             },
             "low_inventory_notification": {
               "label": "Notification d'inventaire",
-              "info": "Le suivi de l'inventaire doit être activé pour les variantes afin que cette fonctionnalité puisse fonctionner. [En savoir plus](https://help.shopify.com/en/manual/products/inventory/track_inventory)",
+              "info": "Le suivi de l'inventaire doit être activé pour les variantes afin que cette fonctionnalité puisse fonctionner. [En savoir plus](https:\/\/help.shopify.com\/en\/manual\/products\/inventory\/track_inventory)",
               "options__1": {
                 "label": "Ne pas afficher les informations relatives à l'inventaire"
               },
@@ -2864,7 +2864,7 @@
           "settings": {
             "show_dynamic_checkout": {
               "label": "Afficher les boutons de paiement dynamiques",
-              "info": "Grâce aux modes de paiement disponibles sur votre boutique, les clients voient leur option préférée, comme PayPal ou Apple Pay. [En savoir plus](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)"
+              "info": "Grâce aux modes de paiement disponibles sur votre boutique, les clients voient leur option préférée, comme PayPal ou Apple Pay. [En savoir plus](https:\/\/help.shopify.com\/manual\/using-themes\/change-the-layout\/dynamic-checkout)"
             },
             "show_gift_card_recipient": {
               "label": "Afficher le formulaire du destinataire pour les cartes‑cadeaux en tant que produit",
@@ -2903,10 +2903,10 @@
           "name": "Partager",
           "settings": {
             "featured_image_info": {
-              "content": "Si vous incluez un lien dans une publication sur vos réseaux sociaux, l'image vedette de la page s'affichera comme image d'aperçu. [En savoir plus](https://help.shopify.com/en/manual/online-store/images/showing-social-media-thumbnail-images)."
+              "content": "Si vous incluez un lien dans une publication sur vos réseaux sociaux, l'image vedette de la page s'affichera comme image d'aperçu. [En savoir plus](https:\/\/help.shopify.com\/en\/manual\/online-store\/images\/showing-social-media-thumbnail-images)."
             },
             "title_info": {
-              "content": "Le titre et la description de la boutique sont inclus dans l'image d'aperçu. [En savoir plus](https://help.shopify.com/en/manual/promoting-marketing/seo/adding-keywords#set-a-title-and-description-for-your-online-store)."
+              "content": "Le titre et la description de la boutique sont inclus dans l'image d'aperçu. [En savoir plus](https:\/\/help.shopify.com\/en\/manual\/promoting-marketing\/seo\/adding-keywords#set-a-title-and-description-for-your-online-store)."
             }
           }
         },
@@ -2932,7 +2932,7 @@
       "settings": {
         "header": {
           "content": "Supports multimédias",
-          "info": "En savoir plus sur les [types de supports multipédias](https://help.shopify.com/manual/products/product-media)"
+          "info": "En savoir plus sur les [types de supports multipédias](https:\/\/help.shopify.com\/manual\/products\/product-media)"
         },
         "enable_sticky_info": {
           "label": "Activer l'affichage d'informations sur les produits populaires sur les grands écrans"

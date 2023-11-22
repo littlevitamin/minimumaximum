@@ -41,7 +41,7 @@
       "signup_form_email_placeholder": "Το email σας",
       "signup_form_submit": "Υποβολή",
       "signup_form_success": "Θα σας στείλουμε ένα email πριν ανοίξουμε!",
-      "admin_link_html": "Είστε ιδιοκτήτης του καταστήματος; <a href=\"/admin\">Συνδεθείτε εδώ</a>",
+      "admin_link_html": "Είστε ιδιοκτήτης του καταστήματος; <a href=\"\/admin\">Συνδεθείτε εδώ<\/a>",
       "password_link": "Είσοδος με χρήση κωδικού",
       "powered_by_shopify_html": "Το κατάστημα θα υποστηρίζεται από {{ shopify }}"
     },
@@ -91,7 +91,7 @@
       "back": "Πίσω",
       "play_video": "Αναπαραγωγή βίντεο",
       "language_dropdown_label": "Γλώσσα",
-      "country_dropdown_label": "Χώρα/περιοχή",
+      "country_dropdown_label": "Χώρα\/περιοχή",
       "quantity": "Ποσότητα",
       "price": {
         "regular": "Κανονική τιμή",
@@ -136,13 +136,13 @@
       "collection_results_title": "Συλλογές",
       "page_results_title": "Σελίδες",
       "article_results_title": "Από το ημερολόγιο",
-      "search_for_html": "Αναζήτηση για <strong>\"{{ terms }}\"</strong>",
+      "search_for_html": "Αναζήτηση για <strong>\"{{ terms }}\"<\/strong>",
       "try_again": "Προσπαθήστε ξανά με διαφορετική λέξη-κλειδί.",
       "search_button_label": "Αναζήτηση",
       "search_again_button_label": "Αναζήτηση ξανά",
       "results_for_html": {
-        "one": "{{ count }} αποτέλεσμα για <strong>\"{{ terms }}\"</strong>",
-        "other": "{{ count }} αποτελέσματα για <strong>\"{{ terms }}\"</strong>"
+        "one": "{{ count }} αποτέλεσμα για <strong>\"{{ terms }}\"<\/strong>",
+        "other": "{{ count }} αποτελέσματα για <strong>\"{{ terms }}\"<\/strong>"
       }
     },
     "paginate": {
@@ -183,7 +183,7 @@
     "sort_button": "Κατηγοριοποίηση",
     "sort_by_label": "Κατηγοριοποίηση με:",
     "to": "Σε",
-    "use_fewer_filters_html": "Χρήση λιγότερων φίλτρων ΄ή <a class=\"{{ class }}\" href=\"{{ link }}\">καθαρισμός όλων</a>",
+    "use_fewer_filters_html": "Χρήση λιγότερων φίλτρων ΄ή <a class=\"{{ class }}\" href=\"{{ link }}\">καθαρισμός όλων<\/a>",
     "view_all_products": "Εμφάνιση όλων των προϊόντων",
     "no_collections": "Λυπούμαστε, δεν υπάρχουν συλλογές στο κατάστημα αυτήν τη στιγμή.",
     "match_all_label": "Αντιστοιχεί με όλα",
@@ -234,7 +234,7 @@
       },
       "loading_reviews": "Φόρτωση περισσότερων κριτικών",
       "include_taxes": "Συμπεριλαμβάνεται φόρος.",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Τα μεταφορικά</a> υπολογίζονται στη σελίδα πληρωμής.",
+      "shipping_policy_html": "<a href=\"{{ link }}\">Τα μεταφορικά<\/a> υπολογίζονται στη σελίδα πληρωμής.",
       "view_in_space": "Προβολή στον χώρο σας",
       "view_in_space_label": "Η προβολή στον χώρο σας φορτώνει το αντικείμενο σε παράθυρο επαυξημένης πραγματικότητας",
       "no_reviews": "Δεν υπάρχουν κριτικές για αυτό το προϊόν. Αφήστε εσείς την πρώτη!",
@@ -255,9 +255,9 @@
     "update": "Ενημέρωση καλαθιού",
     "note": "Ειδικές οδηγίες για τον πωλητή",
     "policies": {
-      "taxes_and_shipping_policy_at_checkout_html": "Φόροι και <a href=\"{{ link }}\">μεταφορικά</a> υπολογίζονται στη σελίδα πληρωμής",
+      "taxes_and_shipping_policy_at_checkout_html": "Φόροι και <a href=\"{{ link }}\">μεταφορικά<\/a> υπολογίζονται στη σελίδα πληρωμής",
       "taxes_included_but_shipping_at_checkout": "Ο φόρος συμπεριλαμβάνεται και τα μεταφορικά υπολογίζονται στη σελίδα πληρωμής",
-      "taxes_included_and_shipping_policy_html": "Συμπεριλαμβάνεται φόρος. <a href=\"{{ link }}\">Τα μεταφορικά</a> υπολογίζονται στη σελίδα πληρωμής.",
+      "taxes_included_and_shipping_policy_html": "Συμπεριλαμβάνεται φόρος. <a href=\"{{ link }}\">Τα μεταφορικά<\/a> υπολογίζονται στη σελίδα πληρωμής.",
       "taxes_and_shipping_at_checkout": "Φόροι και μεταφορικά υπολογίζονται στη σελίδα πληρωμής"
     },
     "empty": "Το καλάθι σας είναι άδειο προς το παρόν.",
@@ -490,8 +490,8 @@
     "check_other_stores": "Ελέγξτε τη διαθεσιμότητα σε ΄άλλα καταστήματα",
     "pick_up_available": "Διαθεσιμότητα παραλαβής",
     "pick_up_currently_unavailable": "Η παραλαβή δεν είναι διαθέσιμη προς το παρόν",
-    "pick_up_available_at_html": "Διαθεσιμότητα παραλαβής σε <strong>{{ location_name }}</strong>",
-    "pick_up_unavailable_at_html": "Η παραλαβή δεν είναι διαθέσιμη προς το παρόν σε <strong>{{ location_name }}</strong>",
+    "pick_up_available_at_html": "Διαθεσιμότητα παραλαβής σε <strong>{{ location_name }}<\/strong>",
+    "pick_up_unavailable_at_html": "Η παραλαβή δεν είναι διαθέσιμη προς το παρόν σε <strong>{{ location_name }}<\/strong>",
     "invalid_location_address": "Επικοινωνήστε με το κατάστημα για επιβεβαίωση της διεύθυνσης",
     "refresh": "Ανανέωση"
   },

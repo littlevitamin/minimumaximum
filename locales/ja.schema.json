@@ -82,7 +82,7 @@
         },
         "enhance_featured_products": {
           "label": "注目商品を強調する",
-          "info": "[詳細](https://shopify-support.krownthemes.com/article/471-general-settings#featured-products)"
+          "info": "[詳細](https:\/\/shopify-support.krownthemes.com\/article\/471-general-settings#featured-products)"
         },
         "show_discount": {
           "label": "割引の表示方法...",
@@ -112,7 +112,7 @@
         },
         "header__1": {
           "content": "製品の評価",
-          "info": "評価を表示するには、製品評価アプリを追加します。 [もっと詳しく知る](https://apps.shopify.com/search?q=product%20reviews)"
+          "info": "評価を表示するには、製品評価アプリを追加します。 [もっと詳しく知る](https:\/\/apps.shopify.com\/search?q=product%20reviews)"
         },
         "header__2": {
           "content": "商品レビュー"
@@ -192,7 +192,7 @@
     },
     "follow_on_shop": {
       "content": "Shopでフォロー",
-      "info": "お客様がストアフロントからShopアプリでストアをフォローできるようにするには、Shop Payを有効にする必要があります。[詳しくはこちら](https://help.shopify.com/manual/online-store/themes/customizing-themes/follow-on-shop)",
+      "info": "お客様がストアフロントからShopアプリでストアをフォローできるようにするには、Shop Payを有効にする必要があります。[詳しくはこちら](https:\/\/help.shopify.com\/manual\/online-store\/themes\/customizing-themes\/follow-on-shop)",
       "label": "Shopでフォローを有効にする"
     }
   },
@@ -245,7 +245,7 @@
         "embellishments": "装飾"
       },
       "text": {
-        "icons_info": "より多くのアイコンをビジュアル化・ダウンロードするには、[このリンク](https://resources.krownthemes.com/icons/)をご覧ください。"
+        "icons_info": "より多くのアイコンをビジュアル化・ダウンロードするには、[このリンク](https:\/\/resources.krownthemes.com\/icons\/)をご覧ください。"
       },
       "borders": {
         "top_border": "上辺ボーダー",
@@ -367,18 +367,18 @@
       "cart_upsell": {
         "name": "個別商品の提案",
         "product": "商品",
-        "info": "ダイナミックレコメンデーションは、カートの中の商品に基づいて行われます。提案内容は時とともに変化し、改善されていきます。[詳しくはこちら](https://help.shopify.com/en/themes/development/recommended-products)"
+        "info": "ダイナミックレコメンデーションは、カートの中の商品に基づいて行われます。提案内容は時とともに変化し、改善されていきます。[詳しくはこちら](https:\/\/help.shopify.com\/en\/themes\/development\/recommended-products)"
       },
       "gift_wrapping": {
         "name": "ギフト包装",
-        "info": "ギフト包装は商品として設定する必要があります。[詳しくはこちら](https://shopify-support.krownthemes.com/article/696-cart-features#gift-wrap)",
+        "info": "ギフト包装は商品として設定する必要があります。[詳しくはこちら](https:\/\/shopify-support.krownthemes.com\/article\/696-cart-features#gift-wrap)",
         "settings": {
           "label": "文字",
           "button": "ボタンラベル"
         }
       },
       "custom_code": {
-        "name": "カスタムHTML / リキッド"
+        "name": "カスタムHTML \/ リキッド"
       },
       "rating": {
         "name": "レビューアプリ",
@@ -448,7 +448,7 @@
             "amount_saved": "保存されている量"
           },
           "regular_badges": {
-            "info": "商品バッジについて詳しくは[こちら](https://shopify-support.krownthemes.com/article/377-collection-pages#product-badges)をご覧ください。"
+            "info": "商品バッジについて詳しくは[こちら](https:\/\/shopify-support.krownthemes.com\/article\/377-collection-pages#product-badges)をご覧ください。"
           },
           "sold_out": {
             "name": "完売バッジ",
@@ -457,8 +457,8 @@
           },
           "custom_badges": {
             "name": "カスタム商品バッジ",
-            "info": "このテーマでは、ここで定義可能なカスタム商品バッジを使用しています。[詳しくはこちら](https://shopify-support.krownthemes.com/article/564-product-pages#product-badges)",
-            "split_info": "このテーマでは、ここで定義可能なカスタム商品バッジを使用しています。[詳しくはこちら](https://shopify-support.krownthemes.com/article/377-collection-pages#product-badges)",
+            "info": "このテーマでは、ここで定義可能なカスタム商品バッジを使用しています。[詳しくはこちら](https:\/\/shopify-support.krownthemes.com\/article\/564-product-pages#product-badges)",
+            "split_info": "このテーマでは、ここで定義可能なカスタム商品バッジを使用しています。[詳しくはこちら](https:\/\/shopify-support.krownthemes.com\/article\/377-collection-pages#product-badges)",
             "name__1": "カスタムバッジ 1",
             "name__2": "カスタムバッジ 2",
             "name__3": "カスタムバッジ 3",
@@ -533,7 +533,7 @@
             "name": "配送",
             "show": {
               "label": "無料配送最小金額を表示",
-              "info": "配送料の設定は、[配送設定]（/admin/settings/shipping）で行ってください。"
+              "info": "配送料の設定は、[配送設定]（\/admin\/settings\/shipping）で行ってください。"
             },
             "amount": {
               "label": "無料配送最小金額",
@@ -564,7 +564,7 @@
           },
           "local-pickup": {
             "name": "現地入手可能性",
-            "info": "このテーマは、商品の現地入手可能性を表示します。[詳しく知る]（https://shopify-support.krownthemes.com/article/641-collection-page-product-grids#dynamic-text）"
+            "info": "このテーマは、商品の現地入手可能性を表示します。[詳しく知る]（https:\/\/shopify-support.krownthemes.com\/article\/641-collection-page-product-grids#dynamic-text）"
           },
           "badges": {
             "name": "デフォルトの商品バッジ",
@@ -580,7 +580,7 @@
             },
             "custom_badges": {
               "name": "カスタム商品バッジ",
-              "info": "このテーマは、ここで定義することができるカスタム商品バッジを使用します。[詳しく知る]（https://shopify-support.krownthemes.com/article/639-theme-settings#product-badges）",
+              "info": "このテーマは、ここで定義することができるカスタム商品バッジを使用します。[詳しく知る]（https:\/\/shopify-support.krownthemes.com\/article\/639-theme-settings#product-badges）",
               "name__1": "カスタムバッジ 1",
               "name__2": "カスタムバッジ 2",
               "name__3": "カスタムバッジ 3",
@@ -633,7 +633,7 @@
               "info": "256 x 256px"
             },
             "select_icon": {
-              "info": "もっと多くのアイコンを表示・ダウンロードするには、[このリンク]（https://resources.krownthemes.com/icons/）へ行ってください"
+              "info": "もっと多くのアイコンを表示・ダウンロードするには、[このリンク]（https:\/\/resources.krownthemes.com\/icons\/）へ行ってください"
             },
             "icon_color": {
               "label": "アイコン",
@@ -755,7 +755,7 @@
               "settings": {
                 "name": {
                   "label": "名前",
-                  "info": "ストア名は、[ロケーション設定]（/admin/settings/locations）で定義したストアの名前と一致している必要があります"
+                  "info": "ストア名は、[ロケーション設定]（\/admin\/settings\/locations）で定義したストアの名前と一致している必要があります"
                 },
                 "pickup_price": {
                   "label": "ピックアップ価格"
@@ -779,7 +779,7 @@
                 },
                 "map": {
                   "name": "マップピン",
-                  "info": "マップが有効な場合、この住所用のカスタムピンを定義する必要があります。[住所の座標を取得する方法を知る]（https://support.google.com/maps/answer/18539?hl=en）"
+                  "info": "マップが有効な場合、この住所用のカスタムピンを定義する必要があります。[住所の座標を取得する方法を知る]（https:\/\/support.google.com\/maps\/answer\/18539?hl=en）"
                 },
                 "map_latitude": {
                   "label": "緯度",
@@ -840,15 +840,15 @@
             },
             "store-selector": {
               "name": "ストアセレクター",
-              "content": "ストアセレクターは、「ストアセレクター」セクションで設定できます。[詳しく知る]（https://shopify-support.krownthemes.com/article/640-header-the-store-selector#store-selector）",
-              "info": "このテーマは、本物の店舗の場所と、インタラクティブなストアセレクターを結びつけることができます。[詳しく知る]（https://shopify-support.krownthemes.com/article/640-header-the-store-selector#store-selector）"
+              "content": "ストアセレクターは、「ストアセレクター」セクションで設定できます。[詳しく知る]（https:\/\/shopify-support.krownthemes.com\/article\/640-header-the-store-selector#store-selector）",
+              "info": "このテーマは、本物の店舗の場所と、インタラクティブなストアセレクターを結びつけることができます。[詳しく知る]（https:\/\/shopify-support.krownthemes.com\/article\/640-header-the-store-selector#store-selector）"
             },
             "mega-menu": {
               "name": "メガメニュー",
               "settings": {
                 "menu_handle": {
                   "label": "メニューハンドル",
-                  "info": "このテーマはメガメニューを使用します。[詳しく知る]（https://shopify-support.krownthemes.com/article/640-header-the-store-selector#mega-menus）"
+                  "info": "このテーマはメガメニューを使用します。[詳しく知る]（https:\/\/shopify-support.krownthemes.com\/article\/640-header-the-store-selector#mega-menus）"
                 }
               }
             }
@@ -1041,8 +1041,8 @@
             },
             "icons": {
               "name": "アイコンリスト",
-              "info": "このテーマに含まれるアイコンを表示・ダウンロードするには、[このリンク]へ行ってください（https://resources.krownthemes.com/icons/）。",
-              "help": "このテーマは、ダイナミックコンテンツを通してカスタム商品アイコンを追加することができます。[詳しく知る]（https://shopify-support.krownthemes.com/article/639-theme-settings#dynamic-icons）",
+              "info": "このテーマに含まれるアイコンを表示・ダウンロードするには、[このリンク]へ行ってください（https:\/\/resources.krownthemes.com\/icons\/）。",
+              "help": "このテーマは、ダイナミックコンテンツを通してカスタム商品アイコンを追加することができます。[詳しく知る]（https:\/\/shopify-support.krownthemes.com\/article\/639-theme-settings#dynamic-icons）",
               "headers": {
                 "icon_1": "アイコン 1",
                 "icon_2": "アイコン 2",
@@ -1074,7 +1074,7 @@
         },
         "main-article-comments": {
           "name": "記事コメント",
-          "info": "コメントを有効化するには、[ブログ設定]（/admin/blogs）へ行ってください。"
+          "info": "コメントを有効化するには、[ブログ設定]（\/admin\/blogs）へ行ってください。"
         },
         "main-article-navigation": {
           "name": "記事ナビゲーション",
@@ -1100,7 +1100,7 @@
           "blocks": {
             "payment": {
               "name": "決済アイコン",
-              "info": "表示されるアイコンは、ストアの[決済設定]（/admin/settings/payments）および顧客の地域と通貨によって決定されます。"
+              "info": "表示されるアイコンは、ストアの[決済設定]（\/admin\/settings\/payments）および顧客の地域と通貨によって決定されます。"
             }
           }
         },
@@ -1177,7 +1177,7 @@
             "vendor": "販売業者",
             "text": {
               "name": "ダイナミックテキスト",
-              "info": "ダイナミックソースを使って商品メタフィールドを作成することで、固有の属性を強調してください。[詳しく知る]（https://shopify-support.krownthemes.com/article/641-collection-page-product-grids#dynamic-text）",
+              "info": "ダイナミックソースを使って商品メタフィールドを作成することで、固有の属性を強調してください。[詳しく知る]（https:\/\/shopify-support.krownthemes.com\/article\/641-collection-page-product-grids#dynamic-text）",
               "settings": {
                 "text": {
                   "label": "ラベルメタフィールド"
@@ -1199,7 +1199,7 @@
               }
             },
             "icons": {
-              "info": "ダイナミックソースを使ってアイコンリスト用の商品メタフィールドを作成することで、固有の属性を強調してください。[詳しく知る]（https://shopify-support.krownthemes.com/article/639-theme-settings#dynamic-icons）",
+              "info": "ダイナミックソースを使ってアイコンリスト用の商品メタフィールドを作成することで、固有の属性を強調してください。[詳しく知る]（https:\/\/shopify-support.krownthemes.com\/article\/639-theme-settings#dynamic-icons）",
               "settings": {
                 "icon": "アイコンメタフィールド",
                 "label": "ラベルメタフィールド"
@@ -1222,7 +1222,7 @@
       "name": "付属商品",
       "settings": {
         "paragraph": {
-          "content": "補完する商品を選択するには、Search & Discoveryアプリを追加してください。[詳しくはこちら](https://help.shopify.com/manual/online-store/search-and-discovery/product-recommendations)"
+          "content": "補完する商品を選択するには、Search & Discoveryアプリを追加してください。[詳しくはこちら](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/product-recommendations)"
         }
       }
     },
@@ -1410,7 +1410,7 @@
             },
             "color_swatches": {
               "label": "色見本を表示する（ブロックスタイルの場合のみ）",
-              "info": "このテーマでは、色見本のカスタム画像を表示できます。[Learn more](https://shopify-support.krownthemes.com/article/554-using-color-swatches)"
+              "info": "このテーマでは、色見本のカスタム画像を表示できます。[Learn more](https:\/\/shopify-support.krownthemes.com\/article\/554-using-color-swatches)"
             }
           }
         },
@@ -1508,7 +1508,7 @@
             "link_info": "リンクが製品またはコレクションの場合、そのリンクはスマートオブジェクトに変わります。",
             "background": "背景カラー",
             "text": "テキストカラー",
-            "product_info": "このテーマは、個々の製品ページに固有のコンテンツを表示できます。[Learn more](https://shopify-support.krownthemes.com/article/378-product-pages#unique-promotions)"
+            "product_info": "このテーマは、個々の製品ページに固有のコンテンツを表示できます。[Learn more](https:\/\/shopify-support.krownthemes.com\/article\/378-product-pages#unique-promotions)"
           }
         },
         "main-collection-page": {
@@ -1596,7 +1596,7 @@
               "address": "マップの住所",
               "api": {
                 "label": "Google Maps API キー",
-                "info": "マップを表示するには、[Google Maps API Key](http://shopify-support.krownthemes.com/article/385-generate-an-api-key-for-google-maps) を登録する必要があります。"
+                "info": "マップを表示するには、[Google Maps API Key](http:\/\/shopify-support.krownthemes.com\/article\/385-generate-an-api-key-for-google-maps) を登録する必要があります。"
               },
               "image": {
                 "label": "画像",
@@ -1803,7 +1803,7 @@
         },
         "icons": {
           "label": "アイコン",
-          "info": "このテーマに含まれるすべてのアイコンを表示するには、 [こちらのリンク](https://krownthemes.com/krown-icons/) をご覧ください"
+          "info": "このテーマに含まれるすべてのアイコンを表示するには、 [こちらのリンク](https:\/\/krownthemes.com\/krown-icons\/) をご覧ください"
         }
       },
       "blocks": {
@@ -1831,17 +1831,17 @@
         },
         "language_selector": {
           "content": "言語セレクター",
-          "info": "言語を追加するには、[言語設定](/admin/settings/languages) にアクセスしてください。"
+          "info": "言語を追加するには、[言語設定](\/admin\/settings\/languages) にアクセスしてください。"
         },
         "language_selector_show": {
           "label": "言語セレクターを表示する"
         },
         "country_selector": {
-          "content": "国/地域セレクター",
-          "info": "国/地域を追加するには、[決済設定](/admin/settings/payments) に移動します"
+          "content": "国\/地域セレクター",
+          "info": "国\/地域を追加するには、[決済設定](\/admin\/settings\/payments) に移動します"
         },
         "country_selector_show": {
-          "label": "国/地域セレクターを有効にする"
+          "label": "国\/地域セレクターを有効にする"
         }
       },
       "blocks": {
@@ -2665,7 +2665,7 @@
         },
         "header__1": {
           "content": "おすすめ商品",
-          "info": "ダイナミックレコメンデーションは、注文情報や商品情報を利用することで、時間とともに変化・改善していきます。 [詳細](https://help.shopify.com/en/themes/development/recommended-products)"
+          "info": "ダイナミックレコメンデーションは、注文情報や商品情報を利用することで、時間とともに変化・改善していきます。 [詳細](https:\/\/help.shopify.com\/en\/themes\/development\/recommended-products)"
         }
       }
     },
@@ -2772,7 +2772,7 @@
         },
         "enable_filtering": {
           "label": "フィルタリングを有効化する",
-          "info": "[フィルターのカスタマイズ](/admin/menus)"
+          "info": "[フィルターのカスタマイズ](\/admin\/menus)"
         },
         "enable_sorting": {
           "label": "並び替えを有効化する"
@@ -2786,7 +2786,7 @@
       "name": "コレクションバナー",
       "settings": {
         "paragraph": {
-          "content": "コレクションの説明や画像を変更するには、[コレクションを編集してください。](/admin/collections)"
+          "content": "コレクションの説明や画像を変更するには、[コレクションを編集してください。](\/admin\/collections)"
         },
         "show_collection_description": {
           "label": "コレクションの説明を表示する"
@@ -2830,7 +2830,7 @@
           "name": "課税情報"
         },
         "sku_barcode": {
-          "name": "SKU / バーコード"
+          "name": "SKU \/ バーコード"
         },
         "quantity_selector": {
           "name": "数量セレクター"
@@ -2846,7 +2846,7 @@
             },
             "low_inventory_notification": {
               "label": "在庫通知",
-              "info": "この機能を使用するには、バリエーションで在庫追跡が有効になっている必要があります。 [詳細](https://help.shopify.com/en/manual/products/inventory/track_inventory)",
+              "info": "この機能を使用するには、バリエーションで在庫追跡が有効になっている必要があります。 [詳細](https:\/\/help.shopify.com\/en\/manual\/products\/inventory\/track_inventory)",
               "options__1": {
                 "label": "在庫情報を表示しない"
               },
@@ -2864,7 +2864,7 @@
           "settings": {
             "show_dynamic_checkout": {
               "label": "動的チェックアウトボタンを表示する",
-              "info": "あなたのストアで利用可能な支払い方法を使用して、購入者は PayPal や Apple Pay などの希望するオプションを確認できます。[詳細](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)"
+              "info": "あなたのストアで利用可能な支払い方法を使用して、購入者は PayPal や Apple Pay などの希望するオプションを確認できます。[詳細](https:\/\/help.shopify.com\/manual\/using-themes\/change-the-layout\/dynamic-checkout)"
             },
             "show_gift_card_recipient": {
               "label": "ギフトカード商品の受取人フォームを表示する",
@@ -2903,10 +2903,10 @@
           "name": "共有する",
           "settings": {
             "featured_image_info": {
-              "content": "ソーシャルメディアの投稿にリンクを含めると、そのページのアイキャッチ画像がプレビュー画像として表示されます。[詳細](https://help.shopify.com/en/manual/online-store/images/showing-social-media-thumbnail-images)。"
+              "content": "ソーシャルメディアの投稿にリンクを含めると、そのページのアイキャッチ画像がプレビュー画像として表示されます。[詳細](https:\/\/help.shopify.com\/en\/manual\/online-store\/images\/showing-social-media-thumbnail-images)。"
             },
             "title_info": {
-              "content": "プレビュー画像には、ストア名と説明が表示されます。[詳細](https://help.shopify.com/en/manual/promoting-marketing/seo/adding-keywords#set-a-title-and-description-for-your-online-store)。"
+              "content": "プレビュー画像には、ストア名と説明が表示されます。[詳細](https:\/\/help.shopify.com\/en\/manual\/promoting-marketing\/seo\/adding-keywords#set-a-title-and-description-for-your-online-store)。"
             }
           }
         },
@@ -2932,7 +2932,7 @@
       "settings": {
         "header": {
           "content": "メディア",
-          "info": "[メディアタイプ](https://help.shopify.com/manual/products/product-media) を詳しく見る"
+          "info": "[メディアタイプ](https:\/\/help.shopify.com\/manual\/products\/product-media) を詳しく見る"
         },
         "enable_sticky_info": {
           "label": "大画面で商品情報を固定表示する"

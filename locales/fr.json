@@ -91,7 +91,7 @@
       "close": "Fermer",
       "play_video": "Lire la vidéo",
       "language_dropdown_label": "Langue",
-      "country_dropdown_label": "Pays/région",
+      "country_dropdown_label": "Pays\/région",
       "price": {
         "regular": "Prix régulier",
         "sale": "Prix de solde",
@@ -136,7 +136,7 @@
       "collection_results_title": "Collections",
       "page_results_title": "Pages",
       "article_results_title": "Du blog",
-      "search_for_html": "Rechercher <strong>\"{{ terms }}\"</strong>",
+      "search_for_html": "Rechercher <strong>\"{{ terms }}\"<\/strong>",
       "try_again": "Réessayez avec un autre mot clé.",
       "search_button_label": "Rechercher",
       "search_again_button_label": "Rechercher à nouveau",
@@ -171,7 +171,7 @@
     "max_price_html": "Le prix le plus élevé est de {{ price }}",
     "reset": "Réinitialiser",
     "to": "À",
-    "use_fewer_filters_html": "Utiliser moins de filtres ou <a class=\"{{ class }}\" href=\"{{ link }}\">tout effacer</a>",
+    "use_fewer_filters_html": "Utiliser moins de filtres ou <a class=\"{{ class }}\" href=\"{{ link }}\">tout effacer<\/a>",
     "product_count": {
       "one": "{{ product_count }} produit sur {{ count }}",
       "other": "{{ product_count }} produits sur {{ count }}"
@@ -234,7 +234,7 @@
       },
       "loading_reviews": "Voir plus de commentaires",
       "include_taxes": "Taxes incluses.",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Frais d'expédition</a> calculés lors du passage à la caisse.",
+      "shipping_policy_html": "<a href=\"{{ link }}\">Frais d'expédition<\/a> calculés lors du passage à la caisse.",
       "view_in_space": "Afficher dans votre espace.",
       "view_in_space_label": "Affichage dans votre espace, charge l'article dans une fenêtre de réalité augmentée.",
       "no_reviews": "Il n'y a aucune critique sur ce produit. Soyez le premier à en laisser un!",
@@ -255,9 +255,9 @@
     "update": "Mettre à jour",
     "note": "Instructions spéciales pour la commande",
     "policies": {
-      "taxes_and_shipping_policy_at_checkout_html": "Taxes et <a href=\"{{ link }}\">frais d'expédition</a> calculés lors du paiement",
+      "taxes_and_shipping_policy_at_checkout_html": "Taxes et <a href=\"{{ link }}\">frais d'expédition<\/a> calculés lors du paiement",
       "taxes_included_but_shipping_at_checkout": "Taxes incluses et frais d'expédition calculés lors du paiement",
-      "taxes_included_and_shipping_policy_html": "Taxes incluses. <a href=\"{{ link }}\">Frais d'expédition</a> calculés à l'étape de paiement.",
+      "taxes_included_and_shipping_policy_html": "Taxes incluses. <a href=\"{{ link }}\">Frais d'expédition<\/a> calculés à l'étape de paiement.",
       "taxes_and_shipping_at_checkout": "Taxes et frais d'expédition calculés lors du paiement"
     },
     "empty": "Votre panier est vide",
@@ -490,8 +490,8 @@
     "check_other_stores": "Vérifier la disponibilité dans d'autres boutiques",
     "pick_up_available": "Ramassage disponible",
     "pick_up_currently_unavailable": "Ramassage actuellement indisponible",
-    "pick_up_available_at_html": "Ramassage disponible à <strong>{{ location_name }}</strong>",
-    "pick_up_unavailable_at_html": "Ramassage actuellement indisponible à <strong>{{ location_name }}</strong>",
+    "pick_up_available_at_html": "Ramassage disponible à <strong>{{ location_name }}<\/strong>",
+    "pick_up_unavailable_at_html": "Ramassage actuellement indisponible à <strong>{{ location_name }}<\/strong>",
     "invalid_location_address": "Contactez le boutique pour confirmer l'adresse",
     "refresh": "Actualiser"
   },
