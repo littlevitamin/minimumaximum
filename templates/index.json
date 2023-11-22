@@ -42,6 +42,7 @@
         "1637249880c19b891c-0",
         "1637249880c19b891c-1"
       ],
+      "disabled": true,
       "settings": {
         "desktop_layout": "split",
         "desktop_image_positioning": "image-on-left",
