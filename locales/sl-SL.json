@@ -41,7 +41,7 @@
       "signup_form_email_placeholder": "Vaš e-poštni naslov",
       "signup_form_submit": "Pošlji",
       "signup_form_success": "Poslali vam bomo e-poštno sporočilo neposredno pred odprtjem.",
-      "admin_link_html": "Ali ste lastnik trgovine? <a href=\"\/admin\">Prijavite se tukaj<\/a>",
+      "admin_link_html": "Ali ste lastnik trgovine? <a href=\"/admin\">Prijavite se tukaj</a>",
       "password_link": "Vstopite z geslom",
       "powered_by_shopify_html": "Ta trgovina bo uporabljala tehnologijo {{ shopify }}"
     },
@@ -91,7 +91,7 @@
       "back": "Nazaj",
       "play_video": "Predvajaj videoposnetek",
       "language_dropdown_label": "Jezik",
-      "country_dropdown_label": "Država\/regija",
+      "country_dropdown_label": "Država/regija",
       "quantity": "Količina",
       "price": {
         "regular": "Redna cena",
@@ -136,13 +136,13 @@
       "collection_results_title": "Zbirke",
       "page_results_title": "Strani",
       "article_results_title": "Iz dnevnika",
-      "search_for_html": "Poiščite <strong>\"{{ terms }}\"<\/strong>",
+      "search_for_html": "Poiščite <strong>\"{{ terms }}\"</strong>",
       "try_again": "Poskusite znova z drugo ključno besedo.",
       "search_button_label": "Išči",
       "search_again_button_label": "Išči znova",
       "results_for_html": {
-        "one": "{{ count }} rezultat za <strong>\"{{ terms }}\"<\/strong>",
-        "other": "{{ count }} rezultatov za <strong>\"{{ terms }}\"<\/strong>"
+        "one": "{{ count }} rezultat za <strong>\"{{ terms }}\"</strong>",
+        "other": "{{ count }} rezultatov za <strong>\"{{ terms }}\"</strong>"
       }
     },
     "paginate": {
@@ -183,7 +183,7 @@
     "sort_button": "Razvrsti",
     "sort_by_label": "Razvrsti po:",
     "to": "Do",
-    "use_fewer_filters_html": "Uporabite manj filtrov ali <a class=\"{{ class }}\" href=\"{{ link }}\">počistite vse<\/a>",
+    "use_fewer_filters_html": "Uporabite manj filtrov ali <a class=\"{{ class }}\" href=\"{{ link }}\">počistite vse</a>",
     "view_all_products": "Prikaži vse izdelke",
     "no_collections": "V tej trgovini žal trenutno ni zbirk.",
     "match_all_label": "Ustreza vsem",
@@ -234,7 +234,7 @@
       },
       "loading_reviews": "Nalaganje več ocen",
       "include_taxes": "Davek vključen.",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Stroški dostave<\/a> so obračunani pri dokončanju nakupa.",
+      "shipping_policy_html": "<a href=\"{{ link }}\">Stroški dostave</a> so obračunani pri dokončanju nakupa.",
       "view_in_space": "Oglejte si v svojem prostoru",
       "view_in_space_label": "Oglejte si v svojem prostoru, nalaganje izdelka v oknu razširjene resničnosti",
       "no_reviews": "Za ta izdelek ni ocen. Bodite prvi, ki ga bo ocenil.",
@@ -255,9 +255,9 @@
     "update": "Posodobi voziček",
     "note": "Posebna navodila za prodajalca",
     "policies": {
-      "taxes_and_shipping_policy_at_checkout_html": "Davki in <a href=\"{{ link }}\">stroški dostave<\/a> so izračunani pri dokončanju nakupa",
+      "taxes_and_shipping_policy_at_checkout_html": "Davki in <a href=\"{{ link }}\">stroški dostave</a> so izračunani pri dokončanju nakupa",
       "taxes_included_but_shipping_at_checkout": "Davek je vključen, stroški dostave pa so izračunani pri dokončanju nakupa",
-      "taxes_included_and_shipping_policy_html": "Davek vključen. <a href=\"{{ link }}\">Stroški dostave<\/a> so izračunani pri dokončanju nakupa.",
+      "taxes_included_and_shipping_policy_html": "Davek vključen. <a href=\"{{ link }}\">Stroški dostave</a> so izračunani pri dokončanju nakupa.",
       "taxes_and_shipping_at_checkout": "Davki in stroški dostave so izračunani pri dokončanju nakupa"
     },
     "empty": "Vaš voziček je trenutno prazen.",
@@ -295,7 +295,7 @@
         "one": "{{ count }} komentar",
         "other": "Št. komentarjev: {{ count }}"
       },
-      "tags_label": "Označeno s\/z:",
+      "tags_label": "Označeno s/z:",
       "read_more_label": "Nadaljuj branje",
       "no_articles_text": "V tem spletnem dnevniku trenutno ni nobenega članka.",
       "tags_dropdown": {
@@ -490,8 +490,8 @@
     "check_other_stores": "Preverite razpoložljivost v drugih trgovinah",
     "pick_up_available": "Prevzem je na voljo",
     "pick_up_currently_unavailable": "Prevzem trenutno ni na voljo",
-    "pick_up_available_at_html": "Prevzem je na voljo v trgovini <strong>{{ location_name }}<\/strong>",
-    "pick_up_unavailable_at_html": "Prevzem trenutno ni na voljo v trgovini <strong>{{ location_name }}<\/strong>",
+    "pick_up_available_at_html": "Prevzem je na voljo v trgovini <strong>{{ location_name }}</strong>",
+    "pick_up_unavailable_at_html": "Prevzem trenutno ni na voljo v trgovini <strong>{{ location_name }}</strong>",
     "invalid_location_address": "Za potrditev naslova se obrnite na trgovino",
     "refresh": "Osveži"
   },

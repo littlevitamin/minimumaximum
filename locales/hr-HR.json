@@ -41,7 +41,7 @@
       "signup_form_email_placeholder": "Vaša e-pošta",
       "signup_form_submit": "Pošalji",
       "signup_form_success": "Poslat ćemo vam poruku e-pošte netom prije otvaranja!",
-      "admin_link_html": "Jeste li vlasnik trgovine? <a href=\"\/admin\">Ovdje se prijavite<\/a>",
+      "admin_link_html": "Jeste li vlasnik trgovine? <a href=\"/admin\">Ovdje se prijavite</a>",
       "password_link": "Ulazak uz pomoć lozinke",
       "powered_by_shopify_html": "Ovu trgovinu omogućuje {{ shopify }}"
     },
@@ -91,7 +91,7 @@
       "back": "Natrag",
       "play_video": "Reproduciraj videozapis",
       "language_dropdown_label": "Jezik",
-      "country_dropdown_label": "Država\/regija",
+      "country_dropdown_label": "Država/regija",
       "quantity": "Količina",
       "price": {
         "regular": "Redovna cijena",
@@ -136,13 +136,13 @@
       "collection_results_title": "Kolekcije",
       "page_results_title": "Stranice",
       "article_results_title": "Iz časopisa",
-      "search_for_html": "Pretraživanje pojma <strong>\"{{ terms }}\"<\/strong>",
+      "search_for_html": "Pretraživanje pojma <strong>\"{{ terms }}\"</strong>",
       "try_again": "Pokušajte ponovno s drugom ključnom riječi.",
       "search_button_label": "Pretraživanje",
       "search_again_button_label": "Ponovno pretraživanje",
       "results_for_html": {
-        "one": "{{ count }} rezultat za <strong>\"{{ terms }}\"<\/strong>",
-        "other": "{{ count }} rezultata za <strong>\"{{ terms }}\"<\/strong>"
+        "one": "{{ count }} rezultat za <strong>\"{{ terms }}\"</strong>",
+        "other": "{{ count }} rezultata za <strong>\"{{ terms }}\"</strong>"
       }
     },
     "paginate": {
@@ -183,7 +183,7 @@
     "sort_button": "Sortiraj",
     "sort_by_label": "Sortiraj po:",
     "to": "Do",
-    "use_fewer_filters_html": "Upotrijebi manje filtara ili <a class=\"{{ class }}\" href=\"{{ link }}\">očisti sve<\/a>",
+    "use_fewer_filters_html": "Upotrijebi manje filtara ili <a class=\"{{ class }}\" href=\"{{ link }}\">očisti sve</a>",
     "view_all_products": "Prikaži sve proizvode",
     "no_collections": "Nažalost, trenutno nema nijedne kolekcije u ovoj trgovini.",
     "match_all_label": "Uskladi sve",
@@ -234,7 +234,7 @@
       },
       "loading_reviews": "Učitava se još recenzija",
       "include_taxes": "Porez uključen.",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Trošak dostave<\/a> obračunava se pri završetku kupnje.",
+      "shipping_policy_html": "<a href=\"{{ link }}\">Trošak dostave</a> obračunava se pri završetku kupnje.",
       "view_in_space": "Prikaz u vašem prostoru",
       "view_in_space_label": "Prikaz u vašem prostoru, stavka se učitava u prozoru za proširenu stvarnost",
       "no_reviews": "Nema recenzija za taj proizvod. Budite prvi!",
@@ -255,9 +255,9 @@
     "update": "Ažuriraj košaricu",
     "note": "Posebne upute za prodavatelja",
     "policies": {
-      "taxes_and_shipping_policy_at_checkout_html": "Porezi i <a href=\"{{ link }}\">trošak dostave<\/a> obračunavaju se pri završetku kupnje",
+      "taxes_and_shipping_policy_at_checkout_html": "Porezi i <a href=\"{{ link }}\">trošak dostave</a> obračunavaju se pri završetku kupnje",
       "taxes_included_but_shipping_at_checkout": "Porez je uključen, a trošak dostave obračunava se pri završetku kupnje",
-      "taxes_included_and_shipping_policy_html": "Porez uključen. <a href=\"{{ link }}\">Trošak dostave<\/a> obračunava se pri završetku kupnje.",
+      "taxes_included_and_shipping_policy_html": "Porez uključen. <a href=\"{{ link }}\">Trošak dostave</a> obračunava se pri završetku kupnje.",
       "taxes_and_shipping_at_checkout": "Porezi i trošak dostave obračunavaju se pri završetku kupnje"
     },
     "empty": "Košarica je trenutno prazna.",
@@ -490,8 +490,8 @@
     "check_other_stores": "Provjerite dostupnost u ostalim trgovinama",
     "pick_up_available": "Dostupno je preuzimanje",
     "pick_up_currently_unavailable": "Preuzimanje trenutno nije dostupno",
-    "pick_up_available_at_html": "Dostupno je preuzimanje na lokaciji <strong>{{ location_name }}<\/strong>",
-    "pick_up_unavailable_at_html": "Preuzimanje trenutno nije dostupno na lokaciji <strong>{{ location_name }}<\/strong>",
+    "pick_up_available_at_html": "Dostupno je preuzimanje na lokaciji <strong>{{ location_name }}</strong>",
+    "pick_up_unavailable_at_html": "Preuzimanje trenutno nije dostupno na lokaciji <strong>{{ location_name }}</strong>",
     "invalid_location_address": "Obratite se trgovini da biste potvrdili adresu",
     "refresh": "Osvježi"
   },

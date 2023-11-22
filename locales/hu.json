@@ -41,7 +41,7 @@
       "signup_form_email_placeholder": "Az ön e-mail-címe",
       "signup_form_submit": "Beküldés",
       "signup_form_success": "Küldünk egy e-mailt közvetlenül a nyitás előtt'",
-      "admin_link_html": "Ön az áruház tulajdonosa? <a href=\"\/admin\">Lépjen be itt<\/a>",
+      "admin_link_html": "Ön az áruház tulajdonosa? <a href=\"/admin\">Lépjen be itt</a>",
       "password_link": "Lépjen be jelszóval",
       "powered_by_shopify_html": "Ezt az áruházat a(z) {{ shopify }} fogja üzemeltetni"
     },
@@ -91,7 +91,7 @@
       "back": "Vissza",
       "play_video": "Videó lejátszása",
       "language_dropdown_label": "Nyelv",
-      "country_dropdown_label": "Ország\/terület",
+      "country_dropdown_label": "Ország/terület",
       "quantity": "Mennyiség",
       "price": {
         "regular": "Szokványos ár",
@@ -104,7 +104,7 @@
         "pinterest": "Megosztás Pinterest"
       },
       "rating": "minősítés",
-      "rating_info": "Minősítés: {{ rating_value }} \/ {{ rating_max }}",
+      "rating_info": "Minősítés: {{ rating_value }} / {{ rating_max }}",
       "form_error": "Hiba",
       "go_to_top": "Ugrás az elejére",
       "top": "Eleje"
@@ -136,13 +136,13 @@
       "collection_results_title": "Kollekciók",
       "page_results_title": "Oldalak",
       "article_results_title": "Az újságból",
-      "search_for_html": "<strong>\"{{ terms }}\"<\/strong> keresése",
+      "search_for_html": "<strong>\"{{ terms }}\"</strong> keresése",
       "try_again": "Próbálja újra más kulcsszóval.",
       "search_button_label": "Keresés",
       "search_again_button_label": "Keresés újra",
       "results_for_html": {
-        "one": "{{ count }} találat: <strong>\"{{ terms }}\"<\/strong>",
-        "other": "{{ count }} találat: <strong>\"{{ terms }}\"<\/strong>"
+        "one": "{{ count }} találat: <strong>\"{{ terms }}\"</strong>",
+        "other": "{{ count }} találat: <strong>\"{{ terms }}\"</strong>"
       }
     },
     "paginate": {
@@ -172,8 +172,8 @@
     },
     "max_price_html": "{{ price }} a legnagyobb ár",
     "product_count": {
-      "one": "{{ product_count }} \/ {{ count }} termék",
-      "other": "{{ product_count }} \/ {{ count }} termék"
+      "one": "{{ product_count }} / {{ count }} termék",
+      "other": "{{ product_count }} / {{ count }} termék"
     },
     "product_count_simple": {
       "one": "{{ count }} termék",
@@ -183,7 +183,7 @@
     "sort_button": "Rendezés",
     "sort_by_label": "Rendezési kritérium:",
     "to": "Ide",
-    "use_fewer_filters_html": "Használjon kevesebb szűrőt, vagy <a class=\"{{ class }}\" href=\"{{ link }}\">törölje az összeset<\/a>",
+    "use_fewer_filters_html": "Használjon kevesebb szűrőt, vagy <a class=\"{{ class }}\" href=\"{{ link }}\">törölje az összeset</a>",
     "view_all_products": "Minden termék megtekintése",
     "no_collections": "Sajnáljuk, jelenleg nincs kollekció ebben az áruházban.",
     "match_all_label": "Az összesnek megfelelő",
@@ -234,7 +234,7 @@
       },
       "loading_reviews": "További beszámolók betöltése",
       "include_taxes": "Tartalmazza az adót.",
-      "shipping_policy_html": "A <a href=\"{{ link }}\">szállítás<\/a> a pénztárnál lesz kiszámolva.",
+      "shipping_policy_html": "A <a href=\"{{ link }}\">szállítás</a> a pénztárnál lesz kiszámolva.",
       "view_in_space": "Megtekintés az ön helyén",
       "view_in_space_label": "Nézze meg az ön helyén, a cikk egy kiterjesztett valóság ablakban jelenik meg.",
       "no_reviews": "Nincs vélemény erről a termékről. Legyen az első aki ír egyet!",
@@ -255,9 +255,9 @@
     "update": "Kosár frissítése",
     "note": "Külön utasítások az eladó számára",
     "policies": {
-      "taxes_and_shipping_policy_at_checkout_html": "Az adók és a <a href=\"{{ link }}\">szállítás<\/a> a pénztárnál lesz kiszámítva",
+      "taxes_and_shipping_policy_at_checkout_html": "Az adók és a <a href=\"{{ link }}\">szállítás</a> a pénztárnál lesz kiszámítva",
       "taxes_included_but_shipping_at_checkout": "A pénztárnál adjuk hozzá az adókat és számítjuk ki a szállítási költségeket",
-      "taxes_included_and_shipping_policy_html": "Tartalmazza az adót. A <a href=\"{{ link }}\">szállítás<\/a> a pénztárnál lesz kiszámolva.",
+      "taxes_included_and_shipping_policy_html": "Tartalmazza az adót. A <a href=\"{{ link }}\">szállítás</a> a pénztárnál lesz kiszámolva.",
       "taxes_and_shipping_at_checkout": "Az adókat és a szállítást a pénztárnál számítjuk ki"
     },
     "empty": "A kosara jelenleg üres",
@@ -319,7 +319,7 @@
       "previous_article_link": "Előző cikk",
       "next_article_link": "Következő cikk",
       "author": "{{ author }} által",
-      "comment_meta_html": "{{ author }} \/ {{ date }}"
+      "comment_meta_html": "{{ author }} / {{ date }}"
     },
     "view_all_articles": "Blog felkeresése"
   },
@@ -344,7 +344,7 @@
       "results_count": {
         "zero": "Nincs találat",
         "one": "{{ count }} találat mutatása",
-        "other": "{{ offset }} - {{ page_size }} \/ {{ count }} találat mutatása"
+        "other": "{{ offset }} - {{ page_size }} / {{ count }} találat mutatása"
       },
       "form_placeholder": "Írja ide a kulcsszavakat",
       "search_button_label": "Keresés",
@@ -490,8 +490,8 @@
     "check_other_stores": "Elérhetőség ellenőrzése más áruházakban",
     "pick_up_available": "Az átvétel lehetséges",
     "pick_up_currently_unavailable": "Az átvétel jelenleg nem lehetséges",
-    "pick_up_available_at_html": "Az átvétel lehetséges itt: <strong>{{ location_name }}<\/strong>",
-    "pick_up_unavailable_at_html": "Az átvétel jelenleg nem lehetséges itt: <strong>{{ location_name }}<\/strong>",
+    "pick_up_available_at_html": "Az átvétel lehetséges itt: <strong>{{ location_name }}</strong>",
+    "pick_up_unavailable_at_html": "Az átvétel jelenleg nem lehetséges itt: <strong>{{ location_name }}</strong>",
     "invalid_location_address": "Vegye fel a kapcsolatot az áruházzal a cím megerősítése érdekében",
     "refresh": "Frissítés"
   },

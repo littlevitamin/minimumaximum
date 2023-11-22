@@ -41,7 +41,7 @@
       "signup_form_email_placeholder": "Sähköpostiosoitteesi",
       "signup_form_submit": "Lähetä",
       "signup_form_success": "Lähetämme sinulle sähköpostia juuri ennen kuin avaamme!",
-      "admin_link_html": "Oletko kaupan omistaja? <a href=\"\/admin\">Kirjaudu tästä<\/a>",
+      "admin_link_html": "Oletko kaupan omistaja? <a href=\"/admin\">Kirjaudu tästä</a>",
       "password_link": "Siirry käyttäen salasanaa",
       "powered_by_shopify_html": "Tämän kaupan palvelun tarjoaa {{ shopify }}"
     },
@@ -91,7 +91,7 @@
       "back": "Takaisin",
       "play_video": "Toista video",
       "language_dropdown_label": "Kieli",
-      "country_dropdown_label": "Maa\/alue",
+      "country_dropdown_label": "Maa/alue",
       "quantity": "Määrä",
       "price": {
         "regular": "Vakituinen hinta",
@@ -104,7 +104,7 @@
         "pinterest": "Jaa Pinterestissä"
       },
       "rating": "arvosana",
-      "rating_info": "Arvosana: {{ rating_value }}\/{{ rating_max }}",
+      "rating_info": "Arvosana: {{ rating_value }}/{{ rating_max }}",
       "form_error": "Virhe",
       "go_to_top": "Siirry ylös",
       "top": "Ylhäällä"
@@ -136,13 +136,13 @@
       "collection_results_title": "Kokoelmat",
       "page_results_title": "Sivut",
       "article_results_title": "Julkaisusta",
-      "search_for_html": "Hae kohdetta <strong>\"{{ terms }}\"<\/strong>.",
+      "search_for_html": "Hae kohdetta <strong>\"{{ terms }}\"</strong>.",
       "try_again": "Kokeile toisella hakusanalla.",
       "search_button_label": "Haku",
       "search_again_button_label": "Hae uudestaan",
       "results_for_html": {
-        "one": "{{ count }} tulos haulla <strong>\"{{ terms }}\"<\/strong>",
-        "other": "{{ count }} tulosta haulla <strong>\"{{ terms }}\"<\/strong>"
+        "one": "{{ count }} tulos haulla <strong>\"{{ terms }}\"</strong>",
+        "other": "{{ count }} tulosta haulla <strong>\"{{ terms }}\"</strong>"
       }
     },
     "paginate": {
@@ -172,8 +172,8 @@
     },
     "max_price_html": "Korkein hinta on {{ price }}",
     "product_count": {
-      "one": "{{ product_count }}\/{{ count }} tuote",
-      "other": "{{ product_count }}\/{{ count }} tuotetta"
+      "one": "{{ product_count }}/{{ count }} tuote",
+      "other": "{{ product_count }}/{{ count }} tuotetta"
     },
     "product_count_simple": {
       "one": "{{ count }} tuote",
@@ -183,7 +183,7 @@
     "sort_button": "Lajittele",
     "sort_by_label": "Lajitteluperuste:",
     "to": "Päättyy",
-    "use_fewer_filters_html": "Käytä vähemmän suodattimia tai <a class=\"{{ class }}\" href=\"{{ link }}\">tyhjennä kaikki<\/a>",
+    "use_fewer_filters_html": "Käytä vähemmän suodattimia tai <a class=\"{{ class }}\" href=\"{{ link }}\">tyhjennä kaikki</a>",
     "view_all_products": "Näytä kaikki tuotteet",
     "no_collections": "Olemme pahoillamme, mutta tässä kaupassa ei ole tällä hetkellä yhtään kokoelmaa.",
     "match_all_label": "Sovella kaikkia",
@@ -234,7 +234,7 @@
       },
       "loading_reviews": "Ladataan lisää arvosteluja",
       "include_taxes": "Sisältää veron.",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Toimituskulut<\/a> lasketaan kassalla.",
+      "shipping_policy_html": "<a href=\"{{ link }}\">Toimituskulut</a> lasketaan kassalla.",
       "view_in_space": "Näytä omassa tilassasi",
       "view_in_space_label": "Näytä omassa tilassasi, lataa kohteen lisätyn todellisuuden ikkunaan",
       "no_reviews": "Tälle tuotteelle ei ole arvioita. Tee niin ensimmäisenä!",
@@ -255,9 +255,9 @@
     "update": "Päivitä ostoskori",
     "note": "Erityisohjeistus myyjälle",
     "policies": {
-      "taxes_and_shipping_policy_at_checkout_html": "Verot ja <a href=\"{{ link }}\">toimituskulut<\/a> lasketaan kassalla",
+      "taxes_and_shipping_policy_at_checkout_html": "Verot ja <a href=\"{{ link }}\">toimituskulut</a> lasketaan kassalla",
       "taxes_included_but_shipping_at_checkout": "Sisältää veron, ja toimituskulut lasketaan kassalla",
-      "taxes_included_and_shipping_policy_html": "Sisältää veron. <a href=\"{{ link }}\">Toimituskulut<\/a> lasketaan kassalla.",
+      "taxes_included_and_shipping_policy_html": "Sisältää veron. <a href=\"{{ link }}\">Toimituskulut</a> lasketaan kassalla.",
       "taxes_and_shipping_at_checkout": "Verot ja toimituskulut lasketaan kassalla"
     },
     "empty": "Ostoskorisi on tällä hetkellä tyhjä.",
@@ -344,7 +344,7 @@
       "results_count": {
         "zero": "Ei tuloksia",
         "one": "Näytetään {{ count }} hakutulos",
-        "other": "Näytetään {{ offset }} - {{ page_size }} \/{{ count }} hakutuloksesta"
+        "other": "Näytetään {{ offset }} - {{ page_size }} /{{ count }} hakutuloksesta"
       },
       "form_placeholder": "Kirjoita hakusana tähän",
       "search_button_label": "Haku",
@@ -490,8 +490,8 @@
     "check_other_stores": "Tarkista saatavuus muissa kaupoissa",
     "pick_up_available": "Noutomahdollisuus",
     "pick_up_currently_unavailable": "Nouto ei ole tällä hetkellä mahdollinen",
-    "pick_up_available_at_html": "Noutomahdollisuus kohteessa <strong>{{ location_name }}<\/strong>",
-    "pick_up_unavailable_at_html": "Nouto ei tällä hetkellä ole mahdollinen kohteessa <strong>{{ location_name }}<\/strong>",
+    "pick_up_available_at_html": "Noutomahdollisuus kohteessa <strong>{{ location_name }}</strong>",
+    "pick_up_unavailable_at_html": "Nouto ei tällä hetkellä ole mahdollinen kohteessa <strong>{{ location_name }}</strong>",
     "invalid_location_address": "Ota yhteys kauppaan osoitteen varmistamiseksi",
     "refresh": "Päivitä"
   },

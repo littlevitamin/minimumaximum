@@ -41,7 +41,7 @@
       "signup_form_email_placeholder": "Email Anda",
       "signup_form_submit": "Kirim",
       "signup_form_success": "Kami akan mengirimi Anda email tepat sebelum kami buka!",
-      "admin_link_html": "Apakah Anda pemilik toko? <a href=\"\/admin\">Masuk di sini<\/a>",
+      "admin_link_html": "Apakah Anda pemilik toko? <a href=\"/admin\">Masuk di sini</a>",
       "password_link": "Masuk menggunakan kata sandi",
       "powered_by_shopify_html": "Toko ini akan didukung oleh {{ shopify }}"
     },
@@ -91,7 +91,7 @@
       "back": "Kembali",
       "play_video": "Putar video",
       "language_dropdown_label": "Bahasa",
-      "country_dropdown_label": "Negara\/kawasan",
+      "country_dropdown_label": "Negara/kawasan",
       "quantity": "Kuantitas",
       "price": {
         "regular": "Harga normal",
@@ -136,13 +136,13 @@
       "collection_results_title": "Koleksi",
       "page_results_title": "Halaman",
       "article_results_title": "Dari jurnal",
-      "search_for_html": "Cari <strong>\"{{ terms }}\"<\/strong>",
+      "search_for_html": "Cari <strong>\"{{ terms }}\"</strong>",
       "try_again": "Coba lagi dengan kata kunci yang berbeda.",
       "search_button_label": "Cari",
       "search_again_button_label": "Cari lagi",
       "results_for_html": {
-        "one": "{{ count }} hasil untuk <strong>\"{{ terms }}\"<\/strong>",
-        "other": "{{ count }} hasil untuk <strong>\"{{ terms }}\"<\/strong>"
+        "one": "{{ count }} hasil untuk <strong>\"{{ terms }}\"</strong>",
+        "other": "{{ count }} hasil untuk <strong>\"{{ terms }}\"</strong>"
       }
     },
     "paginate": {
@@ -183,7 +183,7 @@
     "sort_button": "Urutkan",
     "sort_by_label": "Urutkan berdasarkan:",
     "to": "Ke",
-    "use_fewer_filters_html": "Gunakan lebih sedikit filter atau <a class=\"{{ class }}\" href=\"{{ link }}\">hapus semua<\/a>",
+    "use_fewer_filters_html": "Gunakan lebih sedikit filter atau <a class=\"{{ class }}\" href=\"{{ link }}\">hapus semua</a>",
     "view_all_products": "Lihat semua produk",
     "no_collections": "Maaf, saat ini tidak ada koleksi di toko ini.",
     "match_all_label": "Cocokkan semua",
@@ -234,7 +234,7 @@
       },
       "loading_reviews": "memuat lebih banyak ulasan",
       "include_taxes": "Termasuk pajak.",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Pengiriman<\/a> dihitung saat checkout.",
+      "shipping_policy_html": "<a href=\"{{ link }}\">Pengiriman</a> dihitung saat checkout.",
       "view_in_space": "Lihat di ruang Anda",
       "view_in_space_label": "Lihat di ruang Anda, muat barang di jendela augmented reality",
       "no_reviews": "Tidak ada ulasan untuk produk ini. Jadilah yang pertama meninggalkan ulasan!",
@@ -255,9 +255,9 @@
     "update": "Perbarui keranjang",
     "note": "Instruksi khusus untuk penjual",
     "policies": {
-      "taxes_and_shipping_policy_at_checkout_html": "Pajak dan <a href=\"{{ link }}\">pengiriman<\/a> dihitung saat checkout",
+      "taxes_and_shipping_policy_at_checkout_html": "Pajak dan <a href=\"{{ link }}\">pengiriman</a> dihitung saat checkout",
       "taxes_included_but_shipping_at_checkout": "Sudah termasuk pajak dan biaya pengiriman dihitung saat checkout",
-      "taxes_included_and_shipping_policy_html": "Termasuk pajak. <a href=\"{{ link }}\">Pengiriman<\/a> dihitung saat checkout.",
+      "taxes_included_and_shipping_policy_html": "Termasuk pajak. <a href=\"{{ link }}\">Pengiriman</a> dihitung saat checkout.",
       "taxes_and_shipping_at_checkout": "Pajak dan pengiriman dihitung saat checkout"
     },
     "empty": "Keranjang Anda saat ini kosong.",
@@ -490,8 +490,8 @@
     "check_other_stores": "Periksa ketersediaan di toko lain",
     "pick_up_available": "Tersedia pengambilan",
     "pick_up_currently_unavailable": "Pengambilan tidak tersedia saat ini",
-    "pick_up_available_at_html": "Pengambilan tersedia di <strong>{{ location_name }}<\/strong>",
-    "pick_up_unavailable_at_html": "Pengambilan saat ini tidak tersedia di <strong>{{ location_name }}<\/strong>",
+    "pick_up_available_at_html": "Pengambilan tersedia di <strong>{{ location_name }}</strong>",
+    "pick_up_unavailable_at_html": "Pengambilan saat ini tidak tersedia di <strong>{{ location_name }}</strong>",
     "invalid_location_address": "Hubungi toko untuk mengonfirmasi alamat",
     "refresh": "Segarkan"
   },

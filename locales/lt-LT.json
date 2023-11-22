@@ -41,7 +41,7 @@
       "signup_form_email_placeholder": "Jūsų el. paštas",
       "signup_form_submit": "Pateikti",
       "signup_form_success": "Mes atsiųsime jums el. laišką prieš pat atsiidarydami!",
-      "admin_link_html": "Ar esate parduotuvės savininkas? <a href=\"\/admin\">Prisijunkite čia<\/a>",
+      "admin_link_html": "Ar esate parduotuvės savininkas? <a href=\"/admin\">Prisijunkite čia</a>",
       "password_link": "Įeiti naudojant slaptažodį",
       "powered_by_shopify_html": "Ši parduotuvė veikia naudodama {{ shopify }}"
     },
@@ -91,7 +91,7 @@
       "back": "Atgal",
       "play_video": "Leisti vaizdo įrašą",
       "language_dropdown_label": "Kalba",
-      "country_dropdown_label": "Šalis \/ regionas",
+      "country_dropdown_label": "Šalis / regionas",
       "quantity": "Kiekis",
       "price": {
         "regular": "Normali kaina",
@@ -136,13 +136,13 @@
       "collection_results_title": "Kolekcijos",
       "page_results_title": "Puslapiai",
       "article_results_title": "Iš žurnalo",
-      "search_for_html": "Ieškoti <strong>\"{{ terms }}\"<\/strong>",
+      "search_for_html": "Ieškoti <strong>\"{{ terms }}\"</strong>",
       "try_again": "Bandykite dar kartą naudodami kitą raktažodį.",
       "search_button_label": "Ieška",
       "search_again_button_label": "Ieškoti dar kartą",
       "results_for_html": {
-        "one": "{{ count }} rezultatas <strong>\"{{ terms }}\"<\/strong>",
-        "other": "{{ count }} rezultatų: <strong>\"{{ terms }}\"<\/strong>"
+        "one": "{{ count }} rezultatas <strong>\"{{ terms }}\"</strong>",
+        "other": "{{ count }} rezultatų: <strong>\"{{ terms }}\"</strong>"
       }
     },
     "paginate": {
@@ -183,7 +183,7 @@
     "sort_button": "Rikiuoti",
     "sort_by_label": "Rikiuoti pagal:",
     "to": "Iki",
-    "use_fewer_filters_html": "Naudokite mažiau filtrų arba <a class=\"{{ class }}\" href=\"{{ link }}\">išvalykite viską<\/a>",
+    "use_fewer_filters_html": "Naudokite mažiau filtrų arba <a class=\"{{ class }}\" href=\"{{ link }}\">išvalykite viską</a>",
     "view_all_products": "Žiūrėti visus produktus",
     "no_collections": "Deja, šiuo metu šioje parduotuvėje nėra kolekcijų.",
     "match_all_label": "Atitikti visas",
@@ -234,7 +234,7 @@
       },
       "loading_reviews": "Įkeliama daugiau atsiliepimų",
       "include_taxes": "Mokesčiai įskaičiuoti.",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Siuntimas<\/a> įskaičiuojamas apmokant.",
+      "shipping_policy_html": "<a href=\"{{ link }}\">Siuntimas</a> įskaičiuojamas apmokant.",
       "view_in_space": "Žiūrėkite savo erdvėje",
       "view_in_space_label": "Peržiūrėkite savo erdvėje, prekė įkeliama papildytosios realybės lange",
       "no_reviews": "Nėra atsiliepimų apie šį produktą. Būkite pirmieji pateikę!",
@@ -255,9 +255,9 @@
     "update": "Atnaujinti krepšelį",
     "note": "Specialios instrukcijos pardavėjui",
     "policies": {
-      "taxes_and_shipping_policy_at_checkout_html": "Mokesčiai ir <a href=\"{{ link }}\">siuntimas<\/a> įskaičiuojami apmokant",
+      "taxes_and_shipping_policy_at_checkout_html": "Mokesčiai ir <a href=\"{{ link }}\">siuntimas</a> įskaičiuojami apmokant",
       "taxes_included_but_shipping_at_checkout": "Įskaičiuoti mokesčiai ir siuntimas apskaičiuojamas apmokant",
-      "taxes_included_and_shipping_policy_html": "Mokesčiai įskaičiuoti. <a href=\"{{ link }}\">Siuntimas<\/a> įskaičiuojamas apmokant.",
+      "taxes_included_and_shipping_policy_html": "Mokesčiai įskaičiuoti. <a href=\"{{ link }}\">Siuntimas</a> įskaičiuojamas apmokant.",
       "taxes_and_shipping_at_checkout": "Mokesčiai ir siuntimas įskaičiuojami apmokant"
     },
     "empty": "Jūsų krepšelis šiuo metu tuščias.",
@@ -490,8 +490,8 @@
     "check_other_stores": "Patikrinkite prieinamumą kitose parduotuvėse",
     "pick_up_available": "Galima pasiimti",
     "pick_up_currently_unavailable": "Atsiimti šiuo metu negalima",
-    "pick_up_available_at_html": "Galima pasiimti adresu <strong>{{ location_name }}<\/strong>",
-    "pick_up_unavailable_at_html": "Atsiimti šiuo metu negalima adresu <strong>{{ location_name }}<\/strong>",
+    "pick_up_available_at_html": "Galima pasiimti adresu <strong>{{ location_name }}</strong>",
+    "pick_up_unavailable_at_html": "Atsiimti šiuo metu negalima adresu <strong>{{ location_name }}</strong>",
     "invalid_location_address": "Norėdami patvirtinti adresą, susisiekite su parduotuve",
     "refresh": "Atnaujinti"
   },

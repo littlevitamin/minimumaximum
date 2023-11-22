@@ -1,13 +1,1 @@
-{
-  "sections": {
-    "main": {
-      "type": "product-quick-view",
-      "settings": {
-      }
-    }
-  },
-  "order": [
-    "main"
-  ],
-  "layout": "popup"
-}
+{"sections":{"main":{"type":"product-quick-view","settings":{}}},"order":["main"],"layout":"popup"}

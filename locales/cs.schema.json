@@ -82,7 +82,7 @@
         },
         "enhance_featured_products": {
           "label": "Zdůraznit doporučené produkty",
-          "info": "[Další informace](https:\/\/shopify-support.krownthemes.com\/article\/471-general-settings#featured-products)"
+          "info": "[Další informace](https://shopify-support.krownthemes.com/article/471-general-settings#featured-products)"
         },
         "show_discount": {
           "label": "Zobrazit slevy jako...",
@@ -112,7 +112,7 @@
         },
         "header__1": {
           "content": "Hodnocení produktu",
-          "info": "Chcete-li zobrazit hodnocení, přidejte aplikaci pro hodnocení produktů. [Další informace](https:\/\/apps.shopify.com\/search?q=product%20reviews)"
+          "info": "Chcete-li zobrazit hodnocení, přidejte aplikaci pro hodnocení produktů. [Další informace](https://apps.shopify.com/search?q=product%20reviews)"
         },
         "header__2": {
           "content": "Recenze produktu"
@@ -192,7 +192,7 @@
     },
     "follow_on_shop": {
       "content": "Sledovat obchod",
-      "info": "Aby mohli zákazníci sledovat váš obchod v aplikaci Shop z vaší prodejny, musí být povolena funkce Shop Pay. [Další informace](https:\/\/help.shopify.com\/manual\/online-store\/themes\/customizing-themes\/follow-on-shop)",
+      "info": "Aby mohli zákazníci sledovat váš obchod v aplikaci Shop z vaší prodejny, musí být povolena funkce Shop Pay. [Další informace](https://help.shopify.com/manual/online-store/themes/customizing-themes/follow-on-shop)",
       "label": "Povolit sledování obchodu"
     }
   },
@@ -284,7 +284,7 @@
             "info": "Tato funkce funguje pouze s jednou měnou a způsobem dopravy. Pokud používáte více způsobů dopravy nebo měn, může se stát, že se zákazníkovi zobrazí nesprávné hodnoty.",
             "show": {
               "label": "Zobrazit minimální částku pro dopravu zdarma",
-              "info": "Chcete-li nakonfigurovat přepravní sazby, přejděte do [nastavení dopravy](\/admin\/settings\/shipping)."
+              "info": "Chcete-li nakonfigurovat přepravní sazby, přejděte do [nastavení dopravy](/admin/settings/shipping)."
             },
             "amount": {
               "label": "Minimální částka pro dopravu zdarma",
@@ -315,7 +315,7 @@
           },
           "local-pickup": {
             "name": "Lokální dostupnost",
-            "info": "Tento motiv zobrazuje lokální dostupnost produktů. [Další informace](https:\/\/shopify-support.krownthemes.com\/article\/641-collection-page-product-grids#dynamic-text)"
+            "info": "Tento motiv zobrazuje lokální dostupnost produktů. [Další informace](https://shopify-support.krownthemes.com/article/641-collection-page-product-grids#dynamic-text)"
           },
           "products-list": {
             "name": "Seznam produktů"
@@ -334,7 +334,7 @@
             },
             "custom_badges": {
               "name": "Vlastní odznaky produktů",
-              "info": "Tento motiv používá vlastní odznaky produktů, které můžete definovat zde. [Další informace](https:\/\/shopify-support.krownthemes.com\/article\/639-theme-settings#product-badges)",
+              "info": "Tento motiv používá vlastní odznaky produktů, které můžete definovat zde. [Další informace](https://shopify-support.krownthemes.com/article/639-theme-settings#product-badges)",
               "name__1": "Vlastní odznak 1",
               "name__2": "Vlastní odznak 2",
               "name__3": "Vlastní odznak 3",
@@ -388,7 +388,7 @@
               "info": "256 x 256px"
             },
             "select_icon": {
-              "info": "Chcete-li zobrazit a stáhnout další ikony, navštivte [tento odkaz](https:\/\/resources.krownthemes.com\/icons\/)."
+              "info": "Chcete-li zobrazit a stáhnout další ikony, navštivte [tento odkaz](https://resources.krownthemes.com/icons/)."
             },
             "icon_color": {
               "label": "Ikona",
@@ -510,7 +510,7 @@
               "settings": {
                 "name": {
                   "label": "Název",
-                  "info": "Název obchodu musí odpovídat názvu vašeho obchodu definovaného v [nastavení umístění](\/admin\/settings\/locations)."
+                  "info": "Název obchodu musí odpovídat názvu vašeho obchodu definovaného v [nastavení umístění](/admin/settings/locations)."
                 },
                 "pickup_price": {
                   "label": "Cena při vyzvednutí"
@@ -534,7 +534,7 @@
                 },
                 "map": {
                   "name": "Špendlík na mapě",
-                  "info": "Pokud je mapa povolena, je třeba pro tuto adresu definovat vlastní špendlík. [Přečtěte si, jak získat souřadnice adresy](https:\/\/support.google.com\/maps\/answer\/18539?hl=en)"
+                  "info": "Pokud je mapa povolena, je třeba pro tuto adresu definovat vlastní špendlík. [Přečtěte si, jak získat souřadnice adresy](https://support.google.com/maps/answer/18539?hl=en)"
                 },
                 "map_latitude": {
                   "label": "Zeměpisná šířka",
@@ -595,15 +595,15 @@
             },
             "store-selector": {
               "name": "Výběr obchodu",
-              "content": "Výběr obchodu lze nakonfigurovat v části Výběr obchodu. [Další informace](https:\/\/shopify-support.krownthemes.com\/article\/640-header-the-store-selector#store-selector)",
-              "info": "Tento motiv umožňuje propojit skutečná umístění obchodů s interaktivním výběrem obchodů. [Další informace](https:\/\/shopify-support.krownthemes.com\/article\/640-header-the-store-selector#store-selector)"
+              "content": "Výběr obchodu lze nakonfigurovat v části Výběr obchodu. [Další informace](https://shopify-support.krownthemes.com/article/640-header-the-store-selector#store-selector)",
+              "info": "Tento motiv umožňuje propojit skutečná umístění obchodů s interaktivním výběrem obchodů. [Další informace](https://shopify-support.krownthemes.com/article/640-header-the-store-selector#store-selector)"
             },
             "mega-menu": {
               "name": "Mega menu",
               "settings": {
                 "menu_handle": {
                   "label": "Popisek menu",
-                  "info": "Tento motiv používá mega menu. [Další informace](https:\/\/shopify-support.krownthemes.com\/article\/640-header-the-store-selector#mega-menus)"
+                  "info": "Tento motiv používá mega menu. [Další informace](https://shopify-support.krownthemes.com/article/640-header-the-store-selector#mega-menus)"
                 }
               }
             }
@@ -801,8 +801,8 @@
             },
             "icons": {
               "name": "Seznam ikon",
-              "info": "Chcete-li zobrazit a stáhnout ikony obsažené v motivu, navštivte [tento odkaz](https:\/\/www.krownthemes.com\/krown-icons\/).",
-              "help": "Tento motiv umožňuje přidávat vlastní ikony produktů prostřednictvím dynamického obsahu. [Další informace](https:\/\/shopify-support.krownthemes.com\/article\/639-theme-settings#dynamic-icons)",
+              "info": "Chcete-li zobrazit a stáhnout ikony obsažené v motivu, navštivte [tento odkaz](https://www.krownthemes.com/krown-icons/).",
+              "help": "Tento motiv umožňuje přidávat vlastní ikony produktů prostřednictvím dynamického obsahu. [Další informace](https://shopify-support.krownthemes.com/article/639-theme-settings#dynamic-icons)",
               "headers": {
                 "icon_1": "Ikona 1",
                 "icon_2": "Ikona 2",
@@ -834,7 +834,7 @@
         },
         "main-article-comments": {
           "name": "Komentáře k článku",
-          "info": "Chcete-li povolit komentáře, přejděte do [nastavení blogu] (\/admin\/blogy)."
+          "info": "Chcete-li povolit komentáře, přejděte do [nastavení blogu] (/admin/blogy)."
         },
         "main-article-navigation": {
           "name": "Navigace v článcích",
@@ -860,7 +860,7 @@
           "blocks": {
             "payment": {
               "name": "Ikony platby",
-              "info": "Ikony, které se zobrazí, jsou určeny [nastavením plateb](\/admin\/settings\/payments) vašeho obchodu a oblastí a měnou zákazníka."
+              "info": "Ikony, které se zobrazí, jsou určeny [nastavením plateb](/admin/settings/payments) vašeho obchodu a oblastí a měnou zákazníka."
             },
             "text": {
               "name": "Textové ikony a ikony sociálních sítí"
@@ -940,7 +940,7 @@
             "vendor": "Prodejce",
             "text": {
               "name": "Dynamický text",
-              "info": "Pomocí dynamického zdroje můžete zvýraznit jedinečný atribut vytvořením metapole produktu. [Další informace](https:\/\/shopify-support.krownthemes.com\/article\/641-collection-page-product-grids#dynamic-text)",
+              "info": "Pomocí dynamického zdroje můžete zvýraznit jedinečný atribut vytvořením metapole produktu. [Další informace](https://shopify-support.krownthemes.com/article/641-collection-page-product-grids#dynamic-text)",
               "settings": {
                 "text": {
                   "label": "Metapole štítku"
@@ -962,7 +962,7 @@
               }
             },
             "icons": {
-              "info": "Použijte dynamické zdroje pro zvýraznění jedinečných atributů vytvořením metapolí produktu pro seznam ikon. [Další informace](https:\/\/shopify-support.krownthemes.com\/article\/639-theme-settings#dynamic-icons)",
+              "info": "Použijte dynamické zdroje pro zvýraznění jedinečných atributů vytvořením metapolí produktu pro seznam ikon. [Další informace](https://shopify-support.krownthemes.com/article/639-theme-settings#dynamic-icons)",
               "settings": {
                 "icon": "Metapole ikony",
                 "label": "Metapole štítku"
@@ -985,7 +985,7 @@
       "name": "Doplňkové produkty",
       "settings": {
         "paragraph": {
-          "content": "Chcete-li vybrat doplňkové produkty, přidejte aplikaci Search &amp; Discovery. [Další informace](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/product-recommendations)"
+          "content": "Chcete-li vybrat doplňkové produkty, přidejte aplikaci Search &amp; Discovery. [Další informace](https://help.shopify.com/manual/online-store/search-and-discovery/product-recommendations)"
         }
       }
     },
@@ -1001,7 +1001,7 @@
       "seo_late": {
         "breadcrumbs": {
           "label": "Zlepšit drobečkovou navigaci produktu",
-          "info": "Přidá názvy kolekcí do drobečkové navigace duplikováním url adres produktů. [Další informace](https:\/\/shopify-support.krownthemes.com\/article\/697-seo#breadcrumbs)"
+          "info": "Přidá názvy kolekcí do drobečkové navigace duplikováním url adres produktů. [Další informace](https://shopify-support.krownthemes.com/article/697-seo#breadcrumbs)"
         }
       },
       "seo": {
@@ -1010,7 +1010,7 @@
         "info": "Zadejte úroveň nadpisu, abyste pomohli vyhledávačům indexovat strukturu stránky.",
         "microdata": {
           "label": "Zakázat schéma mikrodat",
-          "info": "Tím se ze stránky odstraní značka schema.org. Zakázat pouze v případě, že používáte aplikaci třetí strany pro SEO! [Další informace](https:\/\/shopify-support.krownthemes.com\/article\/697-seo#microdata)"
+          "info": "Tím se ze stránky odstraní značka schema.org. Zakázat pouze v případě, že používáte aplikaci třetí strany pro SEO! [Další informace](https://shopify-support.krownthemes.com/article/697-seo#microdata)"
         }
       },
       "late_edits": {
@@ -1044,7 +1044,7 @@
         "optional": "Volitelné"
       },
       "text": {
-        "icons_info": "Chcete-li zobrazit a stáhnout další ikony, navštivte [tento odkaz](https:\/\/resources.krownthemes.com\/icons\/)."
+        "icons_info": "Chcete-li zobrazit a stáhnout další ikony, navštivte [tento odkaz](https://resources.krownthemes.com/icons/)."
       },
       "borders": {
         "show_border": "Zobrazit ohraničení",
@@ -1172,18 +1172,18 @@
       "cart_upsell": {
         "name": "Individuální doporučení produktu",
         "product": "Produkt",
-        "info": "Dynamická doporučení závisí na položkách, které máte v košíku. Tyto se mění a během doby se zdokonalují. [Zjistit více](https:\/\/help.shopify.com\/en\/themes\/development\/recommended-products)"
+        "info": "Dynamická doporučení závisí na položkách, které máte v košíku. Tyto se mění a během doby se zdokonalují. [Zjistit více](https://help.shopify.com/en/themes/development/recommended-products)"
       },
       "gift_wrapping": {
         "name": "Dárkové balení",
-        "info": "Dárkové balení musí být nastaveno jako produkt. [Zjistit více](https:\/\/shopify-support.krownthemes.com\/article\/696-cart-features#gift-wrap)",
+        "info": "Dárkové balení musí být nastaveno jako produkt. [Zjistit více](https://shopify-support.krownthemes.com/article/696-cart-features#gift-wrap)",
         "settings": {
           "label": "Text",
           "button": "Štítek tlačítka"
         }
       },
       "custom_code": {
-        "name": "Přizpůsobení HTML \/ Kapalně"
+        "name": "Přizpůsobení HTML / Kapalně"
       },
       "rating": {
         "name": "Recenze aplikace",
@@ -1253,7 +1253,7 @@
             "amount_saved": "Ušetřená částka"
           },
           "regular_badges": {
-            "info": "Další informace o produktových štítcích [zde](https:\/\/shopify-support.krownthemes.com\/article\/377-collection-pages#product-badges)."
+            "info": "Další informace o produktových štítcích [zde](https://shopify-support.krownthemes.com/article/377-collection-pages#product-badges)."
           },
           "sold_out": {
             "name": "Odznak 'Vyprodáno'",
@@ -1262,8 +1262,8 @@
           },
           "custom_badges": {
             "name": "Vlastní odznaky produktů",
-            "info": "Toto téma využívá individuální produktové štítky, které lze definovat zde. [Zjistit více](https:\/\/shopify-support.krownthemes.com\/article\/564-product-pages#product-badges)",
-            "split_info": "Toto téma využívá individuální produktové štítky, které lze definovat zde. [Zjistit více](https:\/\/shopify-support.krownthemes.com\/article\/377-collection-pages#product-badges)",
+            "info": "Toto téma využívá individuální produktové štítky, které lze definovat zde. [Zjistit více](https://shopify-support.krownthemes.com/article/564-product-pages#product-badges)",
+            "split_info": "Toto téma využívá individuální produktové štítky, které lze definovat zde. [Zjistit více](https://shopify-support.krownthemes.com/article/377-collection-pages#product-badges)",
             "name__1": "Vlastní odznak 1",
             "name__2": "Vlastní odznak 2",
             "name__3": "Vlastní odznak 3",
@@ -1460,7 +1460,7 @@
             },
             "color_swatches": {
               "label": "Zobrazit barevné vzorky (pouze pro styl bloku)",
-              "info": "Toto téma dokáže zobrazit individuální obrázky pro barevné vzorky. [Zjistit více](https:\/\/shopify-support.krownthemes.com\/article\/554-using-color-swatches)"
+              "info": "Toto téma dokáže zobrazit individuální obrázky pro barevné vzorky. [Zjistit více](https://shopify-support.krownthemes.com/article/554-using-color-swatches)"
             }
           }
         },
@@ -1558,7 +1558,7 @@
             "link_info": "Pokud se jedná o produkt nebo kolekci, odkaz se promění v chytrý objekt.",
             "background": "Barva pozadí",
             "text": "Barva textu",
-            "product_info": "Na tomto tématu se může zobrazovat jedinečný obsah pro stránky jednotlivých produktů. [Další informace](https:\/\/shopify-support.krownthemes.com\/article\/378-product-pages#unique-promotions"
+            "product_info": "Na tomto tématu se může zobrazovat jedinečný obsah pro stránky jednotlivých produktů. [Další informace](https://shopify-support.krownthemes.com/article/378-product-pages#unique-promotions"
           }
         },
         "main-collection-page": {
@@ -1646,7 +1646,7 @@
               "address": "Adresa mapy",
               "api": {
                 "label": "Klíč Google Maps API",
-                "info": "Chcete-li si zobrazit mapu, budete si muset zaregistrovat [klíč API Map Google](http:\/\/shopify-support.krownthemes.com\/article\/385-generate-an-api-key-for-google-maps)."
+                "info": "Chcete-li si zobrazit mapu, budete si muset zaregistrovat [klíč API Map Google](http://shopify-support.krownthemes.com/article/385-generate-an-api-key-for-google-maps)."
               },
               "image": {
                 "label": "Obrázek",
@@ -1853,7 +1853,7 @@
         },
         "icons": {
           "label": "Ikony",
-          "info": "Pokud chcete vizualizovat všechny ikony obsažené v tématu, navštivte [tento odkaz](https:\/\/krownthemes.com\/krown-icons\/)"
+          "info": "Pokud chcete vizualizovat všechny ikony obsažené v tématu, navštivte [tento odkaz](https://krownthemes.com/krown-icons/)"
         }
       },
       "blocks": {
@@ -1881,17 +1881,17 @@
         },
         "language_selector": {
           "content": "Volba jazyka",
-          "info": "Pokud chcete doplnit jazyk, přejděte na [jazyková nastavení.](\/správce\/nastavení\/jazyky)"
+          "info": "Pokud chcete doplnit jazyk, přejděte na [jazyková nastavení.](/správce/nastavení/jazyky)"
         },
         "language_selector_show": {
           "label": "Zobrazit volbu jazyka"
         },
         "country_selector": {
-          "content": "Volba země\/regionu",
-          "info": "Pokud chcete přidat zemi\/region, přejděte na [nastavení plateb.](\/správce\/nastavení\/platby)"
+          "content": "Volba země/regionu",
+          "info": "Pokud chcete přidat zemi/region, přejděte na [nastavení plateb.](/správce/nastavení/platby)"
         },
         "country_selector_show": {
-          "label": "Zobrazit volbu země\/regionu"
+          "label": "Zobrazit volbu země/regionu"
         }
       },
       "blocks": {
@@ -2715,7 +2715,7 @@
         },
         "header__1": {
           "content": "Doporučení produktu",
-          "info": "Dynamické doporučování využívá pořadí produktů a údaje o nich pro průběžné změny. [Zjistit více](https:\/\/help.shopify.com\/en\/themes\/development\/recommended-products)"
+          "info": "Dynamické doporučování využívá pořadí produktů a údaje o nich pro průběžné změny. [Zjistit více](https://help.shopify.com/en/themes/development/recommended-products)"
         }
       }
     },
@@ -2822,7 +2822,7 @@
         },
         "enable_filtering": {
           "label": "Povolit třídění",
-          "info": "[Přizpůsobit filtry](\/správci\/nabídky)"
+          "info": "[Přizpůsobit filtry](/správci/nabídky)"
         },
         "enable_sorting": {
           "label": "Povolit řazení"
@@ -2836,7 +2836,7 @@
       "name": "Banner kolekce",
       "settings": {
         "paragraph": {
-          "content": "Popisy nebo obrázky kolekcí změníte tak, že [si kolekce upravíte.](\/správce\/kolekce)"
+          "content": "Popisy nebo obrázky kolekcí změníte tak, že [si kolekce upravíte.](/správce/kolekce)"
         },
         "show_collection_description": {
           "label": "Zobrazit popis kolekce"
@@ -2880,7 +2880,7 @@
           "name": "Zobrazit sazby daní"
         },
         "sku_barcode": {
-          "name": "SKU \/ ČÁROVÝ KÓD"
+          "name": "SKU / ČÁROVÝ KÓD"
         },
         "quantity_selector": {
           "name": "Volba množství"
@@ -2896,7 +2896,7 @@
             },
             "low_inventory_notification": {
               "label": "Upozornění na stav skladu",
-              "info": "Aby funkce fungovala, musejí mát varianty povolenu možnost sledování stavu skladu. [Zjistit více](https:\/\/help.shopify.com\/en\/manual\/products\/inventory\/track_inventory)",
+              "info": "Aby funkce fungovala, musejí mát varianty povolenu možnost sledování stavu skladu. [Zjistit více](https://help.shopify.com/en/manual/products/inventory/track_inventory)",
               "options__1": {
                 "label": "Nezobrazovat údaje o stavu skladu"
               },
@@ -2914,7 +2914,7 @@
           "settings": {
             "show_dynamic_checkout": {
               "label": "Zobrazit tlačítka dynamické pokladny",
-              "info": "Při využití způsobu platby z nabídky obchodu uvidí zákazníci svou upřednostňovanou volbu, například PayPal nebo Apple Pay. [Zjistit více](https:\/\/help.shopify.com\/manual\/using-themes\/change-the-layout\/dynamic-checkout)"
+              "info": "Při využití způsobu platby z nabídky obchodu uvidí zákazníci svou upřednostňovanou volbu, například PayPal nebo Apple Pay. [Zjistit více](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)"
             },
             "show_gift_card_recipient": {
               "label": "Zobrazit formulář údajů příjemce k produktům dárkových karet",
@@ -2953,10 +2953,10 @@
           "name": "Sdílet",
           "settings": {
             "featured_image_info": {
-              "content": "Pokud přidáte odkaz na příspěvky na sociálních sítích, jako náhled se zobrazí typický obrázek daných stránek. [Zjistit více](https:\/\/help.shopify.com\/en\/manual\/online-store\/images\/showing-social-media-thumbnail-images)."
+              "content": "Pokud přidáte odkaz na příspěvky na sociálních sítích, jako náhled se zobrazí typický obrázek daných stránek. [Zjistit více](https://help.shopify.com/en/manual/online-store/images/showing-social-media-thumbnail-images)."
             },
             "title_info": {
-              "content": "Název a popis obchodu tvoří součást obrázku náhledu. [Zjistit více](https:\/\/help.shopify.com\/en\/manual\/promoting-marketing\/seo\/adding-keywords#set-a-title-and-description-for-your-online-store)."
+              "content": "Název a popis obchodu tvoří součást obrázku náhledu. [Zjistit více](https://help.shopify.com/en/manual/promoting-marketing/seo/adding-keywords#set-a-title-and-description-for-your-online-store)."
             }
           }
         },
@@ -2982,7 +2982,7 @@
       "settings": {
         "header": {
           "content": "Média",
-          "info": "Zjistit více o [typech médií](https:\/\/help.shopify.com\/manual\/products\/product-media)"
+          "info": "Zjistit více o [typech médií](https://help.shopify.com/manual/products/product-media)"
         },
         "enable_sticky_info": {
           "label": "Povolit údaje nejatraktivnějších produktů na velké obrazovce"

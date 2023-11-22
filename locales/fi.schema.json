@@ -82,7 +82,7 @@
         },
         "enhance_featured_products": {
           "label": "Korosta esittelyssä olevia tuotteita",
-          "info": "[Lue lisää](https:\/\/shopify-support.krownthemes.com\/article\/471-general-settings#featured-products)"
+          "info": "[Lue lisää](https://shopify-support.krownthemes.com/article/471-general-settings#featured-products)"
         },
         "show_discount": {
           "label": "Näytä alennus muodossa…",
@@ -112,7 +112,7 @@
         },
         "header__1": {
           "content": "Tuotearvio",
-          "info": "Lisää tuotearviointisovellus näyttääksesi arvioita. [Lue lisää](https:\/\/apps.shopify.com\/search?q=product%20reviews)"
+          "info": "Lisää tuotearviointisovellus näyttääksesi arvioita. [Lue lisää](https://apps.shopify.com/search?q=product%20reviews)"
         },
         "header__2": {
           "content": "Tuotearvostelut"
@@ -192,7 +192,7 @@
     },
     "follow_on_shop": {
       "content": "Seuraa Shopissa",
-      "info": "Jotta asiakkaat voivat seurata kauppaasi Shop-sovelluksessa kaupastasi käsin, Shop Payn tulee olla käytössä. [Lue lisää](https:\/\/help.shopify.com\/manual\/online-store\/themes\/customizing-themes\/follow-on-shop)",
+      "info": "Jotta asiakkaat voivat seurata kauppaasi Shop-sovelluksessa kaupastasi käsin, Shop Payn tulee olla käytössä. [Lue lisää](https://help.shopify.com/manual/online-store/themes/customizing-themes/follow-on-shop)",
       "label": "Ota Seuraa Shopissa -toiminto käyttöön"
     }
   },
@@ -284,7 +284,7 @@
             "info": "Tämä ominaisuus toimii vain silloin, kun käytössä on yksi valuutta ja yksi toimitustapa. Jos käytät useita eri toimitustapoja tai valuuttoja, ominaisuus saattaa näyttää asiakkaalle vääriä arvoja.",
             "show": {
               "label": "Näytä ilmaisen toimituksen vähimmäissumma",
-              "info": "Voit määrittää toimitushinnat siirtymällä [toimitusasetuksiin](\/admin\/settings\/shipping)."
+              "info": "Voit määrittää toimitushinnat siirtymällä [toimitusasetuksiin](/admin/settings/shipping)."
             },
             "amount": {
               "label": "Ilmaisen toimituksen vähimmäissumma",
@@ -315,7 +315,7 @@
           },
           "local-pickup": {
             "name": "Paikallinen saatavuus",
-            "info": "Tämä teema näyttää tuotteiden paikallisen saatavuuden. [Lue lisää](https:\/\/shopify-support.krownthemes.com\/article\/641-collection-page-product-grids#dynamic-text)"
+            "info": "Tämä teema näyttää tuotteiden paikallisen saatavuuden. [Lue lisää](https://shopify-support.krownthemes.com/article/641-collection-page-product-grids#dynamic-text)"
           },
           "products-list": {
             "name": "Tuoteluettelo"
@@ -334,7 +334,7 @@
             },
             "custom_badges": {
               "name": "Mukautetut tuotetunnukset",
-              "info": "Tämä teema käyttää mukautettuja tuotetunnuksia, joita voit määrittää täällä. [Lue lisää](https:\/\/shopify-support.krownthemes.com\/article\/639-theme-settings#product-badges)",
+              "info": "Tämä teema käyttää mukautettuja tuotetunnuksia, joita voit määrittää täällä. [Lue lisää](https://shopify-support.krownthemes.com/article/639-theme-settings#product-badges)",
               "name__1": "Mukautettu tunnus 1",
               "name__2": "Mukautettu tunnus 2",
               "name__3": "Mukautettu tunnus 3",
@@ -388,7 +388,7 @@
               "info": "256 × 256 pikseliä"
             },
             "select_icon": {
-              "info": "Voit visualisoida ja ladata lisää kuvakkeita [tämän linkin](https:\/\/resources.krownthemes.com\/icons\/) kautta"
+              "info": "Voit visualisoida ja ladata lisää kuvakkeita [tämän linkin](https://resources.krownthemes.com/icons/) kautta"
             },
             "icon_color": {
               "label": "Kuvake",
@@ -510,7 +510,7 @@
               "settings": {
                 "name": {
                   "label": "Nimi",
-                  "info": "Kaupan nimen tulee vastata sitä nimeä, joka on määritetty [sijaintiasetuksissa](\/admin\/settings\/locations)"
+                  "info": "Kaupan nimen tulee vastata sitä nimeä, joka on määritetty [sijaintiasetuksissa](/admin/settings/locations)"
                 },
                 "pickup_price": {
                   "label": "Noudon hinta"
@@ -534,7 +534,7 @@
                 },
                 "map": {
                   "name": "Karttaneula",
-                  "info": "Jos kartta on otettu käyttöön, sinun tulee määrittää mukautettu karttaneula tätä osoitetta varten. [Lue lisää osoitteen koordinaattien hakemisesta](https:\/\/support.google.com\/maps\/answer\/18539?hl=en)"
+                  "info": "Jos kartta on otettu käyttöön, sinun tulee määrittää mukautettu karttaneula tätä osoitetta varten. [Lue lisää osoitteen koordinaattien hakemisesta](https://support.google.com/maps/answer/18539?hl=en)"
                 },
                 "map_latitude": {
                   "label": "Leveys",
@@ -595,15 +595,15 @@
             },
             "store-selector": {
               "name": "Kaupan valitsin",
-              "content": "Kaupan valitsin voidaan määrittää Kaupan valitsin -osiossa. [Lue lisää](https:\/\/shopify-support.krownthemes.com\/article\/640-header-the-store-selector#store-selector)",
-              "info": "Tämän teeman avulla voit yhdistää kauppojesi todelliset sijainnit interaktiiviseen kaupan valitsimeen. [Lue lisää](https:\/\/shopify-support.krownthemes.com\/article\/640-header-the-store-selector#store-selector)"
+              "content": "Kaupan valitsin voidaan määrittää Kaupan valitsin -osiossa. [Lue lisää](https://shopify-support.krownthemes.com/article/640-header-the-store-selector#store-selector)",
+              "info": "Tämän teeman avulla voit yhdistää kauppojesi todelliset sijainnit interaktiiviseen kaupan valitsimeen. [Lue lisää](https://shopify-support.krownthemes.com/article/640-header-the-store-selector#store-selector)"
             },
             "mega-menu": {
               "name": "Megavalikko",
               "settings": {
                 "menu_handle": {
                   "label": "Valikon kutsumanimi",
-                  "info": "Tämä teema käyttää megavalikkoja. [Lue lisää](https:\/\/shopify-support.krownthemes.com\/article\/640-header-the-store-selector#mega-menus)"
+                  "info": "Tämä teema käyttää megavalikkoja. [Lue lisää](https://shopify-support.krownthemes.com/article/640-header-the-store-selector#mega-menus)"
                 }
               }
             }
@@ -801,8 +801,8 @@
             },
             "icons": {
               "name": "Kuvakeluettelo",
-              "info": "Voit visualisoida ja ladata teemaan sisältyviä kuvakkeita [tämän linkin](https:\/\/www.krownthemes.com\/krown-icons\/) kautta.",
-              "help": "Tämä teema mahdollistaa mukautettujen tuotekuvakkeiden lisäämisen dynaamisen sisällön avulla. [Lue lisää](https:\/\/shopify-support.krownthemes.com\/article\/639-theme-settings#dynamic-icons)",
+              "info": "Voit visualisoida ja ladata teemaan sisältyviä kuvakkeita [tämän linkin](https://www.krownthemes.com/krown-icons/) kautta.",
+              "help": "Tämä teema mahdollistaa mukautettujen tuotekuvakkeiden lisäämisen dynaamisen sisällön avulla. [Lue lisää](https://shopify-support.krownthemes.com/article/639-theme-settings#dynamic-icons)",
               "headers": {
                 "icon_1": "Kuvake 1",
                 "icon_2": "Kuvake 2",
@@ -834,7 +834,7 @@
         },
         "main-article-comments": {
           "name": "Artikkelin kommentit",
-          "info": "Voit ottaa kommentoinnin käyttöön siirtymällä [blogin asetuksiin](\/admin\/blogs)."
+          "info": "Voit ottaa kommentoinnin käyttöön siirtymällä [blogin asetuksiin](/admin/blogs)."
         },
         "main-article-navigation": {
           "name": "Artikkelin navigointi",
@@ -860,7 +860,7 @@
           "blocks": {
             "payment": {
               "name": "Maksukuvakkeet",
-              "info": "Näytettävät kuvakkeet määräytyvät kauppasi [maksuasetusten](\/admin\/settings\/payments) sekä asiakkaan alueen ja valuutan mukaan."
+              "info": "Näytettävät kuvakkeet määräytyvät kauppasi [maksuasetusten](/admin/settings/payments) sekä asiakkaan alueen ja valuutan mukaan."
             },
             "text": {
               "name": "Teksti ja sosiaalisen median kuvakkeet"
@@ -940,7 +940,7 @@
             "vendor": "Myyjä",
             "text": {
               "name": "Dynaaminen teksti",
-              "info": "Luo tuotteen metakenttä, niin voit käyttää dynaamista lähdettä ainutlaatuisen ominaisuuden korostamiseen. [Lue lisää](https:\/\/shopify-support.krownthemes.com\/article\/641-collection-page-product-grids#dynamic-text)",
+              "info": "Luo tuotteen metakenttä, niin voit käyttää dynaamista lähdettä ainutlaatuisen ominaisuuden korostamiseen. [Lue lisää](https://shopify-support.krownthemes.com/article/641-collection-page-product-grids#dynamic-text)",
               "settings": {
                 "text": {
                   "label": "Nimikkeen metakenttä"
@@ -962,7 +962,7 @@
               }
             },
             "icons": {
-              "info": "Luo tuotteiden metakenttiä kuvakeluetteloa varten, niin voit käyttää dynaamisia lähteitä ainutlaatuisten ominaisuuksien korostamiseen. [Lue lisää](https:\/\/shopify-support.krownthemes.com\/article\/639-theme-settings#dynamic-icons)",
+              "info": "Luo tuotteiden metakenttiä kuvakeluetteloa varten, niin voit käyttää dynaamisia lähteitä ainutlaatuisten ominaisuuksien korostamiseen. [Lue lisää](https://shopify-support.krownthemes.com/article/639-theme-settings#dynamic-icons)",
               "settings": {
                 "icon": "Kuvakkeen metakenttä",
                 "label": "Nimikkeen metakenttä"
@@ -985,7 +985,7 @@
       "name": "Täydentävät tuotteet",
       "settings": {
         "paragraph": {
-          "content": "Jotta voit valita täydentäviä tuotteita, sinun tulee lisätä Search &amp; Discovery -sovellus. [Lue lisää](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/product-recommendations)"
+          "content": "Jotta voit valita täydentäviä tuotteita, sinun tulee lisätä Search &amp; Discovery -sovellus. [Lue lisää](https://help.shopify.com/manual/online-store/search-and-discovery/product-recommendations)"
         }
       }
     },
@@ -1001,7 +1001,7 @@
       "seo_late": {
         "breadcrumbs": {
           "label": "Paranna linkkipolkua pitkin navigointia",
-          "info": "Tämä asetus luo tuotesivujen URL-osoitteista kaksoiskappaleita, joihin sisällytetään kokoelmien nimet. [Lue lisää](https:\/\/shopify-support.krownthemes.com\/article\/697-seo#breadcrumbs)"
+          "info": "Tämä asetus luo tuotesivujen URL-osoitteista kaksoiskappaleita, joihin sisällytetään kokoelmien nimet. [Lue lisää](https://shopify-support.krownthemes.com/article/697-seo#breadcrumbs)"
         }
       },
       "seo": {
@@ -1010,7 +1010,7 @@
         "info": "Määritä otsikkotaso, jotta hakukoneet voivat indeksoida sivusi rakenteen helpommin.",
         "microdata": {
           "label": "Poista schema.org-merkkaus käytöstä",
-          "info": "Tämä poistaa schema.org-merkkauksen sivulta. Poista tämä käytöstä vain, jos käytät kolmannen osapuolen sovellusta hakukoneoptimointiin! [Lue lisää](https:\/\/shopify-support.krownthemes.com\/article\/697-seo#microdata)"
+          "info": "Tämä poistaa schema.org-merkkauksen sivulta. Poista tämä käytöstä vain, jos käytät kolmannen osapuolen sovellusta hakukoneoptimointiin! [Lue lisää](https://shopify-support.krownthemes.com/article/697-seo#microdata)"
         }
       },
       "late_edits": {
@@ -1044,7 +1044,7 @@
         "optional": "Valinnainen"
       },
       "text": {
-        "icons_info": "Voit visualisoida ja ladata lisää kuvakkeita [tämän linkin](https:\/\/resources.krownthemes.com\/icons\/) kautta"
+        "icons_info": "Voit visualisoida ja ladata lisää kuvakkeita [tämän linkin](https://resources.krownthemes.com/icons/) kautta"
       },
       "borders": {
         "show_border": "Näytä reuna",
@@ -1172,18 +1172,18 @@
       "cart_upsell": {
         "name": "Yksittäinen tuotesuositus",
         "product": "Tuote",
-        "info": "Dynaamiset suositukset perustuvat tuotteisiin ostoskorissasi. Ne muuttuvat ja paranevat ajan mittaan. [Lue lisää](https:\/\/help.shopify.com\/en\/themes\/development\/recommended-products)"
+        "info": "Dynaamiset suositukset perustuvat tuotteisiin ostoskorissasi. Ne muuttuvat ja paranevat ajan mittaan. [Lue lisää](https://help.shopify.com/en/themes/development/recommended-products)"
       },
       "gift_wrapping": {
         "name": "Lahjapaketointi",
-        "info": "Lahjapaketointi on asetettava tuotteeksi. [Lue lisää](https:\/\/shopify-support.krownthemes.com\/article\/696-cart-features#gift-wrap)",
+        "info": "Lahjapaketointi on asetettava tuotteeksi. [Lue lisää](https://shopify-support.krownthemes.com/article/696-cart-features#gift-wrap)",
         "settings": {
           "label": "Teksti",
           "button": "Painikkeen teksti"
         }
       },
       "custom_code": {
-        "name": "Mukautettu HTML\/Liquid"
+        "name": "Mukautettu HTML/Liquid"
       },
       "rating": {
         "name": "Reviews-sovellus",
@@ -1253,7 +1253,7 @@
             "amount_saved": "Säästetty summa"
           },
           "regular_badges": {
-            "info": "Lue tuotetunnuksista lisää [täältä](https:\/\/shopify-support.krownthemes.com\/article\/377-collection-pages#product-badges)."
+            "info": "Lue tuotetunnuksista lisää [täältä](https://shopify-support.krownthemes.com/article/377-collection-pages#product-badges)."
           },
           "sold_out": {
             "name": "\"Loppuunmyyty\"-tunnus",
@@ -1262,8 +1262,8 @@
           },
           "custom_badges": {
             "name": "Mukautetut tuotetunnukset",
-            "info": "Tässä teemassa käytetään mukautettuja tuotetunnuksia, jotka voit määrittää täällä. [Lue lisää](https:\/\/shopify-support.krownthemes.com\/article\/564-product-pages#product-badges)",
-            "split_info": "Tässä teemassa käytetään mukautettuja tuotetunnuksia, jotka voit määrittää täällä. [Lue lisää](https:\/\/shopify-support.krownthemes.com\/article\/377-collection-pages#product-badges)",
+            "info": "Tässä teemassa käytetään mukautettuja tuotetunnuksia, jotka voit määrittää täällä. [Lue lisää](https://shopify-support.krownthemes.com/article/564-product-pages#product-badges)",
+            "split_info": "Tässä teemassa käytetään mukautettuja tuotetunnuksia, jotka voit määrittää täällä. [Lue lisää](https://shopify-support.krownthemes.com/article/377-collection-pages#product-badges)",
             "name__1": "Mukautettu tunnus 1",
             "name__2": "Mukautettu tunnus 2",
             "name__3": "Mukautettu tunnus 3",
@@ -1460,7 +1460,7 @@
             },
             "color_swatches": {
               "label": "Näytä väriruudut (vain alueen tyyliä varten)",
-              "info": "Tässä teemassa voidaan näyttää mukautettuja kuvia väriruutuja varten. [Lue lisää](https:\/\/shopify-support.krownthemes.com\/article\/554-using-color-swatches)"
+              "info": "Tässä teemassa voidaan näyttää mukautettuja kuvia väriruutuja varten. [Lue lisää](https://shopify-support.krownthemes.com/article/554-using-color-swatches)"
             }
           }
         },
@@ -1558,7 +1558,7 @@
             "link_info": "Linkki muuttuu toiminto-objektiksi, jos se on tuote tai kokoelma.",
             "background": "Taustaväri",
             "text": "Tekstin väri",
-            "product_info": "Tämä teema voi näyttää yksilöllistä sisältöä yksittäisille tuotesivuille. [Lue lisää](https:\/\/shopify-support.krownthemes.com\/article\/378-product-pages#unique-promotions)"
+            "product_info": "Tämä teema voi näyttää yksilöllistä sisältöä yksittäisille tuotesivuille. [Lue lisää](https://shopify-support.krownthemes.com/article/378-product-pages#unique-promotions)"
           }
         },
         "main-collection-page": {
@@ -1646,7 +1646,7 @@
               "address": "Kartan osoite",
               "api": {
                 "label": "Google Mapsin ohjelmointirajapinnan avain",
-                "info": "Jos haluat näyttää kartan, sinun on rekisteröitävä [Google Mapsin ohjelmointirajapinnan avain](http:\/\/shopify-support.krownthemes.com\/article\/385-generate-an-api-key-for-google-maps)."
+                "info": "Jos haluat näyttää kartan, sinun on rekisteröitävä [Google Mapsin ohjelmointirajapinnan avain](http://shopify-support.krownthemes.com/article/385-generate-an-api-key-for-google-maps)."
               },
               "image": {
                 "label": "Kuva",
@@ -1853,7 +1853,7 @@
         },
         "icons": {
           "label": "Kuvakkeet",
-          "info": "Voit katsella kaikkia tähän teemaan kuuluvia kuvakkeita käymällä [tässä linkissä](https:\/\/krownthemes.com\/krown-icons\/)"
+          "info": "Voit katsella kaikkia tähän teemaan kuuluvia kuvakkeita käymällä [tässä linkissä](https://krownthemes.com/krown-icons/)"
         }
       },
       "blocks": {
@@ -1881,14 +1881,14 @@
         },
         "language_selector": {
           "content": "Kielen valitsin",
-          "info": "Lisää kieli siirtymällä [kieliasetuksiin.](\/admin\/settings\/languages)"
+          "info": "Lisää kieli siirtymällä [kieliasetuksiin.](/admin/settings/languages)"
         },
         "language_selector_show": {
           "label": "Näytä kielen valitsin"
         },
         "country_selector": {
           "content": "Maan ja alueen valitsin",
-          "info": "Lisää maa ja alue siirtymällä [maksuasetuksiin.](\/admin\/settings\/payments)"
+          "info": "Lisää maa ja alue siirtymällä [maksuasetuksiin.](/admin/settings/payments)"
         },
         "country_selector_show": {
           "label": "Näytä maan ja alueen valitsin"
@@ -2715,7 +2715,7 @@
         },
         "header__1": {
           "content": "Tuotesuositukset",
-          "info": "Dynaamiset suositukset käyttävät tilaus- ja tuotetietoja muuttuakseen ja parantuakseen ajan mittaan. [Lue lisää](https:\/\/help.shopify.com\/en\/themes\/development\/recommended-products)"
+          "info": "Dynaamiset suositukset käyttävät tilaus- ja tuotetietoja muuttuakseen ja parantuakseen ajan mittaan. [Lue lisää](https://help.shopify.com/en/themes/development/recommended-products)"
         }
       }
     },
@@ -2822,7 +2822,7 @@
         },
         "enable_filtering": {
           "label": "Ota suodatus käyttöön",
-          "info": "[Mukauta suodattimet](\/admin\/menus)"
+          "info": "[Mukauta suodattimet](/admin/menus)"
         },
         "enable_sorting": {
           "label": "Ota lajittelu käyttöön"
@@ -2836,7 +2836,7 @@
       "name": "Malliston mainospalkki",
       "settings": {
         "paragraph": {
-          "content": "Jos haluat muuttaa malliston kuvauksia tai malliston kuvia, [muokkaa mallistojasi.](\/admin\/collections)"
+          "content": "Jos haluat muuttaa malliston kuvauksia tai malliston kuvia, [muokkaa mallistojasi.](/admin/collections)"
         },
         "show_collection_description": {
           "label": "Näytä malliston kuvaus"
@@ -2880,7 +2880,7 @@
           "name": "Näytä verotiedot"
         },
         "sku_barcode": {
-          "name": "Varastoyksikkö\/viivakoodi"
+          "name": "Varastoyksikkö/viivakoodi"
         },
         "quantity_selector": {
           "name": "Lukumäärän valitsin"
@@ -2896,7 +2896,7 @@
             },
             "low_inventory_notification": {
               "label": "Varastoilmoitus",
-              "info": "Jotta tämä ominaisuus toimisi, varianteissa on oltava käytössä varastoseuranta. [Lue lisää](https:\/\/help.shopify.com\/en\/manual\/products\/inventory\/track_inventory)",
+              "info": "Jotta tämä ominaisuus toimisi, varianteissa on oltava käytössä varastoseuranta. [Lue lisää](https://help.shopify.com/en/manual/products/inventory/track_inventory)",
               "options__1": {
                 "label": "Älä näytä varastotietoja"
               },
@@ -2914,7 +2914,7 @@
           "settings": {
             "show_dynamic_checkout": {
               "label": "Näytä dynaamisen kassatapahtuman painikkeet",
-              "info": "Kun käytät kaupassasi saatavilla olevia maksutapoja, asiakkaat näkevät mieluisimman vaihtoehtonsa, esimerkiksi PayPalin tai Apple Payn. [Lue lisää](https:\/\/help.shopify.com\/manual\/using-themes\/change-the-layout\/dynamic-checkout)"
+              "info": "Kun käytät kaupassasi saatavilla olevia maksutapoja, asiakkaat näkevät mieluisimman vaihtoehtonsa, esimerkiksi PayPalin tai Apple Payn. [Lue lisää](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)"
             },
             "show_gift_card_recipient": {
               "label": "Näytä lahjakorttituotteissa vastaanottajan tietolomake",
@@ -2953,10 +2953,10 @@
           "name": "Jaa",
           "settings": {
             "featured_image_info": {
-              "content": "Jos liität mukaan linkin sosiaalisen median julkaisuihin, sivun esittelyssä oleva kuva näytettään esikatselukuvana. [Lue lisää](https:\/\/help.shopify.com\/en\/manual\/online-store\/images\/showing-social-media-thumbnail-images)."
+              "content": "Jos liität mukaan linkin sosiaalisen median julkaisuihin, sivun esittelyssä oleva kuva näytettään esikatselukuvana. [Lue lisää](https://help.shopify.com/en/manual/online-store/images/showing-social-media-thumbnail-images)."
             },
             "title_info": {
-              "content": "Esikatselukuvan mukana tulevat kaupan nimi ja kuvaus. [Lue lisää](https:\/\/help.shopify.com\/en\/manual\/promoting-marketing\/seo\/adding-keywords#set-a-title-and-description-for-your-online-store)."
+              "content": "Esikatselukuvan mukana tulevat kaupan nimi ja kuvaus. [Lue lisää](https://help.shopify.com/en/manual/promoting-marketing/seo/adding-keywords#set-a-title-and-description-for-your-online-store)."
             }
           }
         },
@@ -2982,7 +2982,7 @@
       "settings": {
         "header": {
           "content": "Media",
-          "info": "Lue lisää [mediatyypeistä](https:\/\/help.shopify.com\/manual\/products\/product-media)"
+          "info": "Lue lisää [mediatyypeistä](https://help.shopify.com/manual/products/product-media)"
         },
         "enable_sticky_info": {
           "label": "Ota suurissa näytöissä käyttöön kiinnitetyt tuotetiedot"

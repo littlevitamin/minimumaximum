@@ -82,7 +82,7 @@
         },
         "enhance_featured_products": {
           "label": "突出特色产品",
-          "info": "[了解更多](https:\/\/shopify-support.krownthemes.com\/article\/471-general-settings#featured-products)"
+          "info": "[了解更多](https://shopify-support.krownthemes.com/article/471-general-settings#featured-products)"
         },
         "show_discount": {
           "label": "显示折扣为……",
@@ -112,7 +112,7 @@
         },
         "header__1": {
           "content": "产品评级",
-          "info": "要显示评分，请添加产品评分应用。 [了解更多](https:\/\/apps.shopify.com\/search?q=product%20reviews)"
+          "info": "要显示评分，请添加产品评分应用。 [了解更多](https://apps.shopify.com/search?q=product%20reviews)"
         },
         "header__2": {
           "content": "产品评论"
@@ -192,7 +192,7 @@
     },
     "follow_on_shop": {
       "content": "在 Shop 中关注",
-      "info": "若要使客户能够通过您的店面在 Shop 应用中关注您的商店，则必须启用 Shop Pay。[了解详细信息](https:\/\/help.shopify.com\/manual\/online-store\/themes\/customizing-themes\/follow-on-shop)",
+      "info": "若要使客户能够通过您的店面在 Shop 应用中关注您的商店，则必须启用 Shop Pay。[了解详细信息](https://help.shopify.com/manual/online-store/themes/customizing-themes/follow-on-shop)",
       "label": "启用在 Shop 中关注"
     }
   },
@@ -245,7 +245,7 @@
         "embellishments": "装饰"
       },
       "text": {
-        "icons_info": "如果要显示 & 下载更多图标，请访问 [此链接](https:\/\/resources.krownthemes.com\/icons\/)。"
+        "icons_info": "如果要显示 & 下载更多图标，请访问 [此链接](https://resources.krownthemes.com/icons/)。"
       },
       "borders": {
         "top_border": "上边框",
@@ -367,18 +367,18 @@
       "cart_upsell": {
         "name": "单个产品推荐",
         "product": "产品",
-        "info": "动态推荐根据的是您的购物车中的商品。它们会随着时间而发生改变和完善。[了解更多](https:\/\/help.shopify.com\/en\/themes\/development\/recommended-products)"
+        "info": "动态推荐根据的是您的购物车中的商品。它们会随着时间而发生改变和完善。[了解更多](https://help.shopify.com/en/themes/development/recommended-products)"
       },
       "gift_wrapping": {
         "name": "礼品包装",
-        "info": "礼品包装需要设置为产品。[了解更多](https:\/\/shopify-support.krownthemes.com\/article\/696-cart-features#gift-wrap)",
+        "info": "礼品包装需要设置为产品。[了解更多](https://shopify-support.krownthemes.com/article/696-cart-features#gift-wrap)",
         "settings": {
           "label": "文本",
           "button": "按钮标签"
         }
       },
       "custom_code": {
-        "name": "自定义 HTML \/ Liquid"
+        "name": "自定义 HTML / Liquid"
       },
       "rating": {
         "name": "评价应用",
@@ -448,7 +448,7 @@
             "amount_saved": "节省金额"
           },
           "regular_badges": {
-            "info": "进一步了解产品徽章 [这里](https:\/\/shopify-support.krownthemes.com\/article\/377-collection-pages#product-badges)。"
+            "info": "进一步了解产品徽章 [这里](https://shopify-support.krownthemes.com/article/377-collection-pages#product-badges)。"
           },
           "sold_out": {
             "name": "售罄徽章",
@@ -457,8 +457,8 @@
           },
           "custom_badges": {
             "name": "定制产品标识",
-            "info": "该主题使用自定义产品徽标，您可以在这里进行设置。[了解更多](https:\/\/shopify-support.krownthemes.com\/article\/564-product-pages#product-badges)",
-            "split_info": "该主题使用自定义产品徽标，您可以在这里进行设置。[了解更多](https:\/\/shopify-support.krownthemes.com\/article\/377-collection-pages#product-badges)",
+            "info": "该主题使用自定义产品徽标，您可以在这里进行设置。[了解更多](https://shopify-support.krownthemes.com/article/564-product-pages#product-badges)",
+            "split_info": "该主题使用自定义产品徽标，您可以在这里进行设置。[了解更多](https://shopify-support.krownthemes.com/article/377-collection-pages#product-badges)",
             "name__1": "自定义标识 1",
             "name__2": "自定义标识 2",
             "name__3": "自定义标识 3",
@@ -532,7 +532,7 @@
             "name": "送货",
             "show": {
               "label": "显示免费送货的最低金额",
-              "info": "设置运费，请前往你的 [运费设置](\/admin\/settings\/shipping)。"
+              "info": "设置运费，请前往你的 [运费设置](/admin/settings/shipping)。"
             },
             "amount": {
               "label": "免费送货的最低金额",
@@ -563,7 +563,7 @@
           },
           "local-pickup": {
             "name": "本地供应情况",
-            "info": "此主题显示产品的本地供应情况。[了解更多](https:\/\/shopify-support.krownthemes.com\/article\/641-collection-page-product-grids#dynamic-text)"
+            "info": "此主题显示产品的本地供应情况。[了解更多](https://shopify-support.krownthemes.com/article/641-collection-page-product-grids#dynamic-text)"
           },
           "badges": {
             "name": "默认产品标识",
@@ -579,7 +579,7 @@
             },
             "custom_badges": {
               "name": "定制产品标识",
-              "info": "此主题使用自定义产品标识，你可以在这里为之定义。[了解更多](https:\/\/shopify-support.krownthemes.com\/article\/639-theme-settings#product-badges)",
+              "info": "此主题使用自定义产品标识，你可以在这里为之定义。[了解更多](https://shopify-support.krownthemes.com/article/639-theme-settings#product-badges)",
               "name__1": "自定义标识 1",
               "name__2": "自定义标识 2",
               "name__3": "自定义标识 3",
@@ -632,7 +632,7 @@
               "info": "256 x 256px"
             },
             "select_icon": {
-              "info": "要可视化和下载更多图标，请访问 [此链接](https:\/\/resources.krownthemes.com\/icons\/)"
+              "info": "要可视化和下载更多图标，请访问 [此链接](https://resources.krownthemes.com/icons/)"
             },
             "icon_color": {
               "label": "图标",
@@ -754,7 +754,7 @@
               "settings": {
                 "name": {
                   "label": "名字",
-                  "info": "商店名称需要与你在 [定位设置](\/admin\/settings\/locations) 中定义的商店名称相匹配"
+                  "info": "商店名称需要与你在 [定位设置](/admin/settings/locations) 中定义的商店名称相匹配"
                 },
                 "pickup_price": {
                   "label": "取件价格"
@@ -778,7 +778,7 @@
                 },
                 "map": {
                   "name": "地图图钉",
-                  "info": "如果启用了地图，则需要为此地址定义一个自定义图钉。[了解如何获取你的地址坐标](https:\/\/support.google.com\/maps\/answer\/18539?hl=en)"
+                  "info": "如果启用了地图，则需要为此地址定义一个自定义图钉。[了解如何获取你的地址坐标](https://support.google.com/maps/answer/18539?hl=en)"
                 },
                 "map_latitude": {
                   "label": "纬度",
@@ -839,15 +839,15 @@
             },
             "store-selector": {
               "name": "商店选择器",
-              "content": "可以在“店铺选择器“分部中对商店选择器进行配置。[了解更多](https:\/\/shopify-support.krownthemes.com\/article\/640-header-the-store-selector#store-selector)",
-              "info": "这个主题允许你将真实商店位置连接到交互式商店选择器。[了解更多](https:\/\/shopify-support.krownthemes.com\/article\/640-header-the-store-selector#store-selector)"
+              "content": "可以在“店铺选择器“分部中对商店选择器进行配置。[了解更多](https://shopify-support.krownthemes.com/article/640-header-the-store-selector#store-selector)",
+              "info": "这个主题允许你将真实商店位置连接到交互式商店选择器。[了解更多](https://shopify-support.krownthemes.com/article/640-header-the-store-selector#store-selector)"
             },
             "mega-menu": {
               "name": "超级菜单",
               "settings": {
                 "menu_handle": {
                   "label": "菜单操控",
-                  "info": "这个主题使用超级菜单。[了解更多](https:\/\/shopify-support.krownthemes.com\/article\/640-header-the-store-selector#mega-menus)"
+                  "info": "这个主题使用超级菜单。[了解更多](https://shopify-support.krownthemes.com/article/640-header-the-store-selector#mega-menus)"
                 }
               }
             }
@@ -1040,8 +1040,8 @@
             },
             "icons": {
               "name": "图标列表",
-              "info": "要可视化和下载主题中包含的图标，请访问 [此链接](https:\/\/resources.krownthemes.com\/icons\/)。",
-              "help": "此主题允许你通过动态内容添加自定义产品图标。[了解更多](https:\/\/shopify-support.krownthemes.com\/article\/639-theme-settings#dynamic-icons)",
+              "info": "要可视化和下载主题中包含的图标，请访问 [此链接](https://resources.krownthemes.com/icons/)。",
+              "help": "此主题允许你通过动态内容添加自定义产品图标。[了解更多](https://shopify-support.krownthemes.com/article/639-theme-settings#dynamic-icons)",
               "headers": {
                 "icon_1": "图标 1",
                 "icon_2": "图标 2",
@@ -1073,7 +1073,7 @@
         },
         "main-article-comments": {
           "name": "文章评论",
-          "info": "启用评论，请前往你的 [博客设置]。(\/admin\/blogs)"
+          "info": "启用评论，请前往你的 [博客设置]。(/admin/blogs)"
         },
         "main-article-navigation": {
           "name": "文章导航",
@@ -1099,7 +1099,7 @@
           "blocks": {
             "payment": {
               "name": "付款图标",
-              "info": "显示的图标取决于商店的 [支付设置](\/admin\/settings\/payments) 以及客户所在的地区和使用的货币。"
+              "info": "显示的图标取决于商店的 [支付设置](/admin/settings/payments) 以及客户所在的地区和使用的货币。"
             }
           }
         },
@@ -1176,7 +1176,7 @@
             "vendor": "供应商",
             "text": {
               "name": "动态文本",
-              "info": "通过创建产品元字段，使用动态源突出显示独特属性。[了解更多](https:\/\/shopify-support.krownthemes.com\/article\/641-collection-page-product-grids#dynamic-text)",
+              "info": "通过创建产品元字段，使用动态源突出显示独特属性。[了解更多](https://shopify-support.krownthemes.com/article/641-collection-page-product-grids#dynamic-text)",
               "settings": {
                 "text": {
                   "label": "标签元字段"
@@ -1198,7 +1198,7 @@
               }
             },
             "icons": {
-              "info": "通过为图标列表创建产品元字段，使用动态源突出显示独特属性。[了解更多](https:\/\/shopify-support.krownthemes.com\/article\/639-theme-settings#dynamic-icons)",
+              "info": "通过为图标列表创建产品元字段，使用动态源突出显示独特属性。[了解更多](https://shopify-support.krownthemes.com/article/639-theme-settings#dynamic-icons)",
               "settings": {
                 "icon": "图标元字段",
                 "label": "标签元字段"
@@ -1221,7 +1221,7 @@
       "name": "互补产品",
       "settings": {
         "paragraph": {
-          "content": "若要选择互补产品，请添加 Search & Discovery 应用。[了解详细信息](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/product-recommendations)"
+          "content": "若要选择互补产品，请添加 Search & Discovery 应用。[了解详细信息](https://help.shopify.com/manual/online-store/search-and-discovery/product-recommendations)"
         }
       }
     },
@@ -1409,7 +1409,7 @@
             },
             "color_swatches": {
               "label": "显示色板（仅适用于版块样式）",
-              "info": "此主题可以显示色板的自定义图像。 [Learn more](https:\/\/shopify-support.krownthemes.com\/article\/554-using-color-swatches)"
+              "info": "此主题可以显示色板的自定义图像。 [Learn more](https://shopify-support.krownthemes.com/article/554-using-color-swatches)"
             }
           }
         },
@@ -1507,7 +1507,7 @@
             "link_info": "如果链接指向产品或集合，则它将变为智能对象。",
             "background": "背景颜色",
             "text": "文本颜色",
-            "product_info": "此主题可以为各个产品页面显示唯一内容。 [Learn more](https:\/\/shopify-support.krownthemes.com\/article\/378-product-pages#unique-promotions"
+            "product_info": "此主题可以为各个产品页面显示唯一内容。 [Learn more](https://shopify-support.krownthemes.com/article/378-product-pages#unique-promotions"
           }
         },
         "main-collection-page": {
@@ -1595,7 +1595,7 @@
               "address": "地图地址",
               "api": {
                 "label": "Google Maps API 密钥",
-                "info": "您需要注册一个[Google Maps API Key](http:\/\/shopify-support.krownthemes.com\/article\/385-generate-an-api-key-for-google-maps) 以显示地图。"
+                "info": "您需要注册一个[Google Maps API Key](http://shopify-support.krownthemes.com/article/385-generate-an-api-key-for-google-maps) 以显示地图。"
               },
               "image": {
                 "label": "图片",
@@ -1802,7 +1802,7 @@
         },
         "icons": {
           "label": "图标",
-          "info": "要可视化主题中包含的所有图标，请访问[此链接](https:\/\/krownthemes.com\/krown-icons\/)"
+          "info": "要可视化主题中包含的所有图标，请访问[此链接](https://krownthemes.com/krown-icons/)"
         }
       },
       "blocks": {
@@ -1830,17 +1830,17 @@
         },
         "language_selector": {
           "content": "语言选择器",
-          "info": "要添加语言，请转到您的[语言设置。](\/admin\/settings\/languages)"
+          "info": "要添加语言，请转到您的[语言设置。](/admin/settings/languages)"
         },
         "language_selector_show": {
           "label": "显示语言选择器"
         },
         "country_selector": {
-          "content": "国家\/地区选择器",
-          "info": "若要添加国家\/地区，请转到 [支付设置](\/admin\/settings\/payments)。"
+          "content": "国家/地区选择器",
+          "info": "若要添加国家/地区，请转到 [支付设置](/admin/settings/payments)。"
         },
         "country_selector_show": {
-          "label": "启用国家\/地区选择器"
+          "label": "启用国家/地区选择器"
         }
       },
       "blocks": {
@@ -2664,7 +2664,7 @@
         },
         "header__1": {
           "content": "产品推荐",
-          "info": "动态推荐使用订单和产品信息，以便随时间变化和改进。 [了解更多](https:\/\/help.shopify.com\/en\/themes\/development\/recommended-products)"
+          "info": "动态推荐使用订单和产品信息，以便随时间变化和改进。 [了解更多](https://help.shopify.com/en/themes/development/recommended-products)"
         }
       }
     },
@@ -2771,7 +2771,7 @@
         },
         "enable_filtering": {
           "label": "启用过滤",
-          "info": "[自定义过滤条件](\/admin\/menus)"
+          "info": "[自定义过滤条件](/admin/menus)"
         },
         "enable_sorting": {
           "label": "启用排序"
@@ -2785,7 +2785,7 @@
       "name": "产品系列横幅",
       "settings": {
         "paragraph": {
-          "content": "要更改产品系列描述或产品系列图片，[请编辑您的产品系列。](\/admin\/collections)"
+          "content": "要更改产品系列描述或产品系列图片，[请编辑您的产品系列。](/admin/collections)"
         },
         "show_collection_description": {
           "label": "显示产品系列描述"
@@ -2829,7 +2829,7 @@
           "name": "税费信息"
         },
         "sku_barcode": {
-          "name": "SKU \/ 条形码"
+          "name": "SKU / 条形码"
         },
         "quantity_selector": {
           "name": "数量选择器"
@@ -2845,7 +2845,7 @@
             },
             "low_inventory_notification": {
               "label": "库存通知",
-              "info": "多属性需要启用库存跟踪才能使用此功能。 [了解更多](https:\/\/help.shopify.com\/en\/manual\/products\/inventory\/track_inventory)",
+              "info": "多属性需要启用库存跟踪才能使用此功能。 [了解更多](https://help.shopify.com/en/manual/products/inventory/track_inventory)",
               "options__1": {
                 "label": "不显示库存信息"
               },
@@ -2863,7 +2863,7 @@
           "settings": {
             "show_dynamic_checkout": {
               "label": "显示动态结账按钮",
-              "info": "使用您商店中提供的付款方式，客户可以看到他们首选的支付方式，例如 PayPal 或 Apple Pay。[了解更多](https:\/\/help.shopify.com\/manual\/using-themes\/change-the-layout\/dynamic-checkout)"
+              "info": "使用您商店中提供的付款方式，客户可以看到他们首选的支付方式，例如 PayPal 或 Apple Pay。[了解更多](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)"
             },
             "show_gift_card_recipient": {
               "label": "显示礼品卡产品的收件人表单",
@@ -2902,10 +2902,10 @@
           "name": "分享",
           "settings": {
             "featured_image_info": {
-              "content": "如果您的社交媒体帖子中包含了链接，则该页面的配图将显示为预览图片。[了解更多](https:\/\/help.shopify.com\/en\/manual\/online-store\/images\/showing-social-media-thumbnail-images)。"
+              "content": "如果您的社交媒体帖子中包含了链接，则该页面的配图将显示为预览图片。[了解更多](https://help.shopify.com/en/manual/online-store/images/showing-social-media-thumbnail-images)。"
             },
             "title_info": {
-              "content": "预览图片中包含商店标题和描述。[了解更多](https:\/\/help.shopify.com\/en\/manual\/promoting-marketing\/seo\/adding-keywords#set-a-title-and-description-for-your-online-store)。"
+              "content": "预览图片中包含商店标题和描述。[了解更多](https://help.shopify.com/en/manual/promoting-marketing/seo/adding-keywords#set-a-title-and-description-for-your-online-store)。"
             }
           }
         },
@@ -2931,7 +2931,7 @@
       "settings": {
         "header": {
           "content": "媒体",
-          "info": "详细了解[媒体类型](https:\/\/help.shopify.com\/manual\/products\/product-media)"
+          "info": "详细了解[媒体类型](https://help.shopify.com/manual/products/product-media)"
         },
         "enable_sticky_info": {
           "label": "在大屏幕上启用粘性产品信息"

@@ -41,7 +41,7 @@
       "signup_form_email_placeholder": "Вашият имейл",
       "signup_form_submit": "Изпращане",
       "signup_form_success": "Ще изпратим имейл точно преди да отворим!",
-      "admin_link_html": "Вие ли сте собственикът на магазина? <a href=\"\/admin\">Влез тук<\/a>",
+      "admin_link_html": "Вие ли сте собственикът на магазина? <a href=\"/admin\">Влез тук</a>",
       "password_link": "Вход с парола",
       "powered_by_shopify_html": "Този магазин ще се поддържа от {{ shopify }}"
     },
@@ -91,7 +91,7 @@
       "back": "Обратно",
       "play_video": "Възпроизвеждане на видео",
       "language_dropdown_label": "Език",
-      "country_dropdown_label": "Държава\/ регион",
+      "country_dropdown_label": "Държава/ регион",
       "quantity": "Количество",
       "price": {
         "regular": "Редовна цена",
@@ -136,13 +136,13 @@
       "collection_results_title": "Колекции",
       "page_results_title": "Страници",
       "article_results_title": "От дневника",
-      "search_for_html": "Търсете <strong>\"{{ terms }}\"<\/strong>",
+      "search_for_html": "Търсете <strong>\"{{ terms }}\"</strong>",
       "try_again": "Опитайте отново с друга ключова дума.",
       "search_button_label": "Търсене",
       "search_again_button_label": "Повторно търсене",
       "results_for_html": {
-        "one": "{{ count }} резултат за <strong>\"{{ terms }}\"<\/strong>",
-        "other": "{{ count }} резултата за <strong>\"{{ terms }}\"<\/strong>"
+        "one": "{{ count }} резултат за <strong>\"{{ terms }}\"</strong>",
+        "other": "{{ count }} резултата за <strong>\"{{ terms }}\"</strong>"
       }
     },
     "paginate": {
@@ -183,7 +183,7 @@
     "sort_button": "Сортирай",
     "sort_by_label": "Сортирай по:",
     "to": "До",
-    "use_fewer_filters_html": "Използвай по - малко филтри или <a class=\"{{ class }}\" href=\"{{ link }}\">изчисти всички<\/a>",
+    "use_fewer_filters_html": "Използвай по - малко филтри или <a class=\"{{ class }}\" href=\"{{ link }}\">изчисти всички</a>",
     "view_all_products": "Разгледай всички продукти",
     "no_collections": "Съжаляваме, в момента в този магазин няма колекции.",
     "match_all_label": "Изрявняване за всички",
@@ -234,7 +234,7 @@
       },
       "loading_reviews": "Още отзиви са в процес на зареждане",
       "include_taxes": "Включен данък.",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Доставката<\/a> се изчислява при плащане.",
+      "shipping_policy_html": "<a href=\"{{ link }}\">Доставката</a> се изчислява при плащане.",
       "view_in_space": "Преглед във вашето пространство",
       "view_in_space_label": "Преглед във вашето пространство, зареждане на елемент в прозорец с добавена реалност",
       "no_reviews": "За този продукт няма коментари. Направете коментар преди всички останали!",
@@ -255,9 +255,9 @@
     "update": "Обнови количката",
     "note": "Специални инструкции за продавача",
     "policies": {
-      "taxes_and_shipping_policy_at_checkout_html": "Данъци и <a href=\"{{ link }}\">доставка<\/a>, изчислени при плащане",
+      "taxes_and_shipping_policy_at_checkout_html": "Данъци и <a href=\"{{ link }}\">доставка</a>, изчислени при плащане",
       "taxes_included_but_shipping_at_checkout": "Включеният данък и доставката се изчисляват на етап плащане",
-      "taxes_included_and_shipping_policy_html": "Включен данък. <a href=\"{{ link }}\">Доставката<\/a> се изчислява при плащане.",
+      "taxes_included_and_shipping_policy_html": "Включен данък. <a href=\"{{ link }}\">Доставката</a> се изчислява при плащане.",
       "taxes_and_shipping_at_checkout": "Данъците и доставката се изчисляват на етап плащане"
     },
     "empty": "В момента вашата количка е празна.",
@@ -490,8 +490,8 @@
     "check_other_stores": "Проверка на складовата наличност в други магазини",
     "pick_up_available": "Възможност за лично получаване",
     "pick_up_currently_unavailable": "В момента няма възможност за лично получаване",
-    "pick_up_available_at_html": "Личното получаване е възможно от <strong>{{ location_name }}<\/strong>",
-    "pick_up_unavailable_at_html": "В момента няма възможност за лично получаване от <strong>{{ location_name }}<\/strong>",
+    "pick_up_available_at_html": "Личното получаване е възможно от <strong>{{ location_name }}</strong>",
+    "pick_up_unavailable_at_html": "В момента няма възможност за лично получаване от <strong>{{ location_name }}</strong>",
     "invalid_location_address": "Свържете се с магазина за потвърждение на адреса",
     "refresh": "Обновяване"
   },
