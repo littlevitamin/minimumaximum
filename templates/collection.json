@@ -3,7 +3,7 @@
     "main": {
       "type": "main-collection",
       "settings": {
-        "show_collection_banner": true,
+        "show_collection_banner": false,
         "collection_desktop_layout": "full",
         "show_collection_description": false,
         "show_collection_image": false,
