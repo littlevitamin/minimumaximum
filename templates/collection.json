@@ -1,1 +1,31 @@
-{"sections":{"main":{"type":"main-collection","settings":{}},"navigation":{"type":"main-collection-navigation","settings":{}}},"order":["main","navigation"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "show_collection_banner": true,
+        "collection_desktop_layout": "full",
+        "show_collection_description": false,
+        "show_collection_image": false,
+        "mobile_overlay_background": "rgba(0,0,0,0)",
+        "mobile_overlay_text": "rgba(0,0,0,0)",
+        "collection_rows": 4,
+        "enable_filtering": true,
+        "enable_sorting": true
+      }
+    },
+    "navigation": {
+      "type": "main-collection-navigation",
+      "settings": {
+        "navigation_style": "2",
+        "navigation_images": false,
+        "custom_text": "rgba(0,0,0,0)",
+        "custom_overlay": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "navigation"
+  ]
+}
