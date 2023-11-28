@@ -2760,3 +2760,7 @@ li.has-submenu:hover > ul {
 .mount-scrolling-text {
   overflow: hidden;
 }
+
+.site-filter-handle-holder:not(:first-child) {
+  display: none;
+}
