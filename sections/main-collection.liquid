@@ -127,6 +127,9 @@
     <div id="CollectionProductGrid" class="collection__holder">
 
       <div id="main-collection-product-grid" data-id="{{ section.id }}"
+      data-next-url="{{ paginate.next.url }}"
+              class="
+                products-on-page"
         {% if collection.products.size <= 4 %} data-no-bottom-borders {% endif %}
         {% if section.settings.collection_desktop_layout == "split" and section.settings.show_collection_image and collection.image %}
           data-no-borders-all
@@ -271,15 +274,46 @@
 
         {%- endif -%}
 
-        {%- render 'pagination', paginate: paginate -%}
+        {% comment %} {%- render 'pagination', paginate: paginate -%} {% endcomment %}
+        {%comment%}Infinite scroll element{%endcomment%}
+        {% if paginate.next.url != blank %}
+          <div class="load-more"></div>
+        {% endif %}
+
 
       </div>
-
     </div>
 
   {%- endpaginate -%}
 
 </div>
+
+  {%comment%}Infinite scroll observer logic{%endcomment%}
+  <script>
+    function observeLoadMore(targetElement) {
+        var observer = new IntersectionObserver(function(entries, observer) {
+            entries.forEach(function(entry) {
+                if (entry.isIntersecting && entry.target.classList.contains('load-more')) {
+                    loadMoreProducts();
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.5 });
+
+        observer.observe(targetElement);
+    }
+
+    document.querySelectorAll('.load-more').forEach(function(element) {
+        observeLoadMore(element);
+    });
+
+    document.addEventListener('DOMNodeInserted', function(event) {
+        if (event.target.classList && event.target.classList.contains('load-more')) {
+            observeLoadMore(event.target);
+        }
+    });
+  </script>
+
 
 {%- if section.settings.mobile_overlay_text != 'rgba(0,0,0,0)' and section.settings.show_collection_image and collection.image -%}
   {% style %}
@@ -379,7 +413,7 @@
         "type": "range",
         "id": "collection_rows",
         "label": "t:sections.split-extra-words.sections.main-collection-page.settings.product_grid.products_per_row",
-        "min": 2,
+        "min": 1,
         "max": 16,
         "default": 3,
         "step": 1

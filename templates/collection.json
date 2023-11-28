@@ -9,13 +9,14 @@
         "show_collection_image": false,
         "mobile_overlay_background": "rgba(0,0,0,0)",
         "mobile_overlay_text": "rgba(0,0,0,0)",
-        "collection_rows": 2,
+        "collection_rows": 1,
         "enable_filtering": true,
         "enable_sorting": true
       }
     },
     "navigation": {
       "type": "main-collection-navigation",
+      "disabled": true,
       "settings": {
         "navigation_style": "2",
         "navigation_images": false,
