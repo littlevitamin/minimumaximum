@@ -2764,3 +2764,9 @@ li.has-submenu:hover > ul {
 .site-filter-handle-holder:not(:first-child) {
   display: none;
 }
+
+.product-gallery-item > img {
+  background-image: url(https://cdn.shopify.com/s/files/1/0635/9731/4234/files/Group_4.svg?v=1701248849);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
