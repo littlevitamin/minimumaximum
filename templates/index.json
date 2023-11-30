@@ -61,19 +61,22 @@
         "1637134811779b275e-0": {
           "type": "collection",
           "settings": {
-            "collection": "mens"
+            "collection": "mens",
+            "image": "shopify:\/\/shop_images\/Group_8.png"
           }
         },
         "1637134811779b275e-1": {
           "type": "collection",
           "settings": {
-            "collection": "women"
+            "collection": "women",
+            "image": "shopify:\/\/shop_images\/Group_9.png"
           }
         },
         "1637134811779b275e-2": {
           "type": "collection",
           "settings": {
-            "collection": "accessories"
+            "collection": "accessories",
+            "image": "shopify:\/\/shop_images\/Group_7.png"
           }
         },
         "72b2baec-beba-441e-be59-19891ef57dd5": {
