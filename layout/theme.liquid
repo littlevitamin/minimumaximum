@@ -408,71 +408,35 @@
         });
     </script>
 
-    {% comment %} <script>
-    function switchImage() {
-        const label = document.querySelector('.product-variant__label');
-        const image = document.querySelector('.product-gallery-item > img');
+    <script>
+      function animateProductGalleryItem(variantNumber) {
+        var galleryItem = document.querySelector('.gallery-item-' + variantNumber);
+        var galleryItemImage = galleryItem.querySelector('img');
+        galleryItemImage.style.transition = 'none';
+        galleryItemImage.style.width = '50%';
+        galleryItemImage.style.height = '50%';
+        galleryItemImage.style.transform = 'translate(50%, 50%)';
+        galleryItemImage.style.opacity = 0;
 
-        if (label && image) {
-            const labelText = label.textContent.trim();
-            const altText = image.getAttribute('alt');
+        galleryItemImage.offsetHeight;
 
-            // Remove active class from all images
-            document.querySelectorAll('.product-gallery-item > img').forEach(elm => {
-                elm.classList.remove('active');
-            });
+        setTimeout(function () {
 
-            // Add active class to the corresponding image
-            const clickedImage = document.querySelector('.product-gallery-item > img[alt="' + labelText + '"]');
-            if (clickedImage) {
-                clickedImage.classList.add('active');
-            }
+          galleryItemImage.style.transition = 'width 0.5s linear, height 0.5s linear, opacity 0.2s ease-out, transform 0.5s ease-out';
+          galleryItemImage.style.width = '100%';
+          galleryItemImage.style.height = '100%';
+          galleryItemImage.style.opacity = 1;
+          galleryItemImage.style.transform = 'translate(0%, 0%)';
+        }, 0); // set a delay if needed
+      }
 
-            if (labelText === altText) {
-                image.classList.add('show');
-                image.classList.remove('hide');
-
-                setTimeout(() => {
-                    image.classList.remove('show');
-                }, 500);
-
-                const otherImage = document.querySelector('.product-gallery-item > img:not([alt="' + altText + '"])');
-                if (otherImage) {
-                    otherImage.classList.add('hide');
-                    setTimeout(() => {
-                        otherImage.classList.remove('hide');
-                    }, 500);
-                }
-
-                // Fade out the first element
-                const firstImage = document.querySelector('.product-gallery-item:first-child > img');
-                if (firstImage) {
-                    firstImage.classList.add('hide');
-                    setTimeout(() => {
-                        firstImage.classList.remove('hide');
-                    }, 500);
-                }
-            } else {
-                image.classList.add('hide');
-                setTimeout(() => {
-                    image.classList.remove('hide');
-                }, 500);
-            }
-        }
-    }
-</script> {% endcomment %}
-
-  <script>
-    function animateProductGalleryItem() {
-      const productGalleryItem = document.querySelector('.product-gallery-item:nth-child(1) > img');
-      productGalleryItem.classList.add('animate');
-
-      // Reset the animation after 0.5s
-      setTimeout(() => {
-        productGalleryItem.classList.remove('animate');
-      }, 500);
-    }
-  </script>
+      document.querySelectorAll('.product-variant__label').forEach(function (label) {
+        label.addEventListener('click', function () {
+          var variantNumber = label.className.match(/\bvariant-label-(\d+)\b/)[1];
+          animateProductGalleryItem(variantNumber);
+        });
+      });
+    </script>
 
 </body>
 </html>

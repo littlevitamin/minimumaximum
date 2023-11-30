@@ -1,6 +1,6 @@
 <div 
   id="FeaturedMedia-{{ section.id }}-{{ media.id }}" 
-  class="product-gallery-item {% if gallery_style == 'slider' %} {% endif %}"
+  class="product-gallery-item gallery-item-{{ index | plus: 1 }} {% if gallery_style == 'slider' %} {% endif %}"
   data-product-media-type="{{ media.media_type }}{% if media.media_type == 'external_video' %}-{{ media.host }}{% endif %}"
   data-product-single-media-wrapper
   data-media-id="{{ media.id }}"
