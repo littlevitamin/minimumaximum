@@ -292,7 +292,7 @@
                               {% endif %}
                             ">
                               <input type="radio" name="product-{{ option.name | escape | downcase | strip }}-{{ section.id }}" id="{{ product.handle }}-option-{{ option.name | escape | downcase | strip }}-{{ forloop.index }}-{{ section.id }}" value="{{ value | escape }}" {% if option.selected_value == value %}checked{% endif %} class="product-variant__input product-variant-value">
-                              <label for="{{ product.handle }}-option-{{ option.name | escape | downcase | strip }}-{{ forloop.index }}-{{ section.id }}" class="product-variant__label">
+                              <label onclick="animateProductGalleryItem()" for="{{ product.handle }}-option-{{ option.name | escape | downcase | strip }}-{{ forloop.index }}-{{ section.id }}" class="product-variant__label">
                                 {%- if color_label contains downcased_option and block.settings.show_color_swatches -%}
                                   {%- assign color_swatch_name = value | handle | append: '.png' -%}
                                   {%- assign color_swatch_image = images[color_swatch_name] -%}
