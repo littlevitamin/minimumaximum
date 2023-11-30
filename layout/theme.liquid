@@ -413,14 +413,14 @@
         var galleryItem = document.querySelector('.gallery-item-' + variantNumber);
         var galleryItemImage = galleryItem.querySelector('img');
         galleryItemImage.style.transition = 'none';
-        galleryItemImage.style.transform = 'translate(0%, 0%) scale(0.5)';
+        galleryItemImage.style.transform = 'translate(0%, 0%) scale(0.3)';
         galleryItemImage.style.opacity = 0;
 
         galleryItemImage.offsetHeight;
 
         setTimeout(function () {
 
-          galleryItemImage.style.transition = 'opacity 0.1s linear, transform 0.5s linear';
+          galleryItemImage.style.transition = 'opacity 0.1s linear, transform 0.7s linear';
           galleryItemImage.style.opacity = 1;
           galleryItemImage.style.transform = 'translate(0%, 0%) scale(1)';
         }, 0); // set a delay if needed
