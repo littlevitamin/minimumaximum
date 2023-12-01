@@ -2,6 +2,11 @@
 
 <main-header id="site-header" class="site-header desktop-view--{{ section.settings.menu_style }} {% if section.settings.menu_hide_border %} site-header--no-border {% endif %}" data-logo_height="{{ section.settings.logo_height }}"
 data-sticky="{{ section.settings.menu_sticky }}">
+      <div class="site-nav-container portable--hide">
+        <nav class="primary-menu">
+          {%- render 'site-nav', linklist: section.settings.main_linklist, collection_linklist: section.settings.collection_linklist, show_locale_selector: section.settings.show_locale_selector, show_country_selector: section.settings.show_country_selector, show_collection_images: section.settings.show_collection_image, promotion_block: promotion_block, type: 'classic' -%}
+        </nav>
+      </div>
 
   <!-- logo -->
   
@@ -85,11 +90,11 @@ data-sticky="{{ section.settings.menu_sticky }}">
     {%- endif -%}
 
     {%- if section.settings.menu_style == 'classic' -%}
-      <div class="site-nav-container portable--hide">
+      {% comment %} <div class="site-nav-container portable--hide">
         <nav class="primary-menu">
           {%- render 'site-nav', linklist: section.settings.main_linklist, collection_linklist: section.settings.collection_linklist, show_locale_selector: section.settings.show_locale_selector, show_country_selector: section.settings.show_country_selector, show_collection_images: section.settings.show_collection_image, promotion_block: promotion_block, type: 'classic' -%}
         </nav>
-      </div>
+      </div> {% endcomment %}
     {%- else -%}
       <noscript>
         <div class="site-nav-container portable--hide">

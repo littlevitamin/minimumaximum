@@ -2803,4 +2803,19 @@ li.has-submenu:hover > ul {
   }
 }
 
+.site-nav-container .link-list {
+  display: flex;
+  margin: 0;
+}
+
+.site-nav-container .link-list > li {
+  margin-right: 20px;
+}
+
+@media screen and (min-width: 990px) {
+  .site-header .logo {
+    margin-left: -5%!important;
+  }
+}
+
 
