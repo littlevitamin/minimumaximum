@@ -414,14 +414,16 @@
         var galleryItemImage = galleryItem.querySelector('img');
         galleryItemImage.style.transition = 'none';
         galleryItemImage.style.transform = 'translate(0%, 0%) scale(0.3)';
+        galleryItemImage.style.filter = 'blur(8px)';
         galleryItemImage.style.opacity = 0;
 
         galleryItemImage.offsetHeight;
 
         setTimeout(function () {
 
-          galleryItemImage.style.transition = 'opacity 0.1s linear, transform 0.7s linear';
+          galleryItemImage.style.transition = 'opacity 0.1s linear, transform 2s linear, filter 1.5s linear';
           galleryItemImage.style.opacity = 1;
+          galleryItemImage.style.filter = 'blur(0px)';
           galleryItemImage.style.transform = 'translate(0%, 0%) scale(1)';
         }, 0); // set a delay if needed
       }
@@ -433,6 +435,6 @@
         });
       });
     </script>
-
+    
 </body>
 </html>
