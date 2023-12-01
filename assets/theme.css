@@ -2762,7 +2762,9 @@ li.has-submenu:hover > ul {
 }
 
 .site-filter-handle-holder:not(:first-child),
-.product-gallery__thumbnails {
+.product-gallery__thumbnails,
+.product-gallery-item:not(:first-child),
+.css-slider-navigation-container {
   display: none;
 }
 
