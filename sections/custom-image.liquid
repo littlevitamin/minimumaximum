@@ -59,7 +59,7 @@
     var translateY = Math.max(0, Math.min(scrollPosition, initialPadding)); // Limit translateY between 0 and initialPadding
     var translateZ = -Math.max(0, Math.min(scrollPosition, initialPadding)); // Limit translateZ between 0 and -initialPadding
 
-    imageContainer.style.transform = 'translateY(' + translateY + 'px) translateZ(' + translateZ + 'px)';
+    imageContainer.style.transform = 'translateY(' + translateY * 1.5 + 'px) translateZ(' + translateZ + 'px)';
   }
 
   function updatePerspectiveOnScroll() {
