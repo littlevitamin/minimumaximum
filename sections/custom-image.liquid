@@ -7,23 +7,23 @@
       {%- assign image = section.settings.image -%}
 
       <div class="blank-image" style="height: 100vh; overflow: hidden;">
-        <div class="scene" style="height: 100%; perspective: none;">
-          <div style="perspective: 50px;" class="cube">
-              <!-- Apply perspective effect to the image -->
-              <img
-                src="{{ image | image_url: width: 640 }}" alt="{{ image.alt | strip_html | escape }}"
-                srcset="{{ image | image_url: width: 320 }} 320w, {{ image | image_url: width: 480 }} 480w, {{ image | image_url: width: 640 }} 640w, {{ image | image_url: width: 840 }} 840w, {{ image | image_url: width: 1080 }} 1080w, {{ image | image_url: width: 1280 }} 1280w, {{ image | image_url: width: 1540 }} 1540w, {{ image | image_url: width: 1860 }} 1860w, {{ image | image_url: width: 2100 }} 2100w"
-                sizes="100vw"
-                width="{{ image.width }}" height="{{ image.height }}"
-                {% unless preload %} loading="lazy" {% endunless %} class="lazy cube__image"
-                onload="this.classList.add('lazyloaded')"
-                style="width: 100%; height: 100vh; object-fit: cover; transform: translateY(0) translateZ(0); transition: transform 0.3s ease;"
-              />
-                  <div class="cube__face cube__face--right">right</div>
-    <div class="cube__face cube__face--left">left</div>
-    <div class="cube__face cube__face--top">top</div>
-    <div class="cube__face cube__face--bottom">bottom</div>
-            </div>
+        <div class="scene" style="height: 100%; perspective: none; position: relative;">
+          <div style="perspective: 300px;" class="cube">
+            <!-- Apply perspective effect to the image -->
+            <img
+              src="{{ image | image_url: width: 640 }}" alt="{{ image.alt | strip_html | escape }}"
+              srcset="{{ image | image_url: width: 320 }} 320w, {{ image | image_url: width: 480 }} 480w, {{ image | image_url: width: 640 }} 640w, {{ image | image_url: width: 840 }} 840w, {{ image | image_url: width: 1080 }} 1080w, {{ image | image_url: width: 1280 }} 1280w, {{ image | image_url: width: 1540 }} 1540w, {{ image | image_url: width: 1860 }} 1860w, {{ image | image_url: width: 2100 }} 2100w"
+              sizes="100vw"
+              width="{{ image.width }}" height="{{ image.height }}"
+              {% unless preload %} loading="lazy" {% endunless %} class="lazy cube__image"
+              onload="this.classList.add('lazyloaded')"
+              style="width: 100%; height: 100%; object-fit: cover; transform: translateY(0) translateZ(0); transition: transform 0.3s ease;"
+            />
+            {% comment %} <div class="cube__face cube__face--right">right</div>
+            <div class="cube__face cube__face--left">left</div>
+            <div class="cube__face cube__face--top">top</div>
+            <div class="cube__face cube__face--bottom">bottom</div> {% endcomment %}
+          </div>
         </div>
       </div>
 
@@ -39,39 +39,46 @@
 </div>
 
 <script>
+  var section = document.getElementById("section-{{ section.id }}");
   var scene = document.querySelector('.scene');
   var imageContainer = document.querySelector('.cube__image');
   var isSticky = true;
+  var initialPadding = 400;
 
   function updateTransformOnScroll() {
     var scrollPosition = window.scrollY || window.pageYOffset;
-    var translateY = Math.max(0, Math.min(scrollPosition, 400)); // Limit translateY between 0 and 400
-    var translateZ = -Math.max(0, Math.min(scrollPosition, 400)); // Limit translateZ between 0 and -400
-    
+    var translateY = Math.max(0, Math.min(scrollPosition, initialPadding)); // Limit translateY between 0 and initialPadding
+    var translateZ = -Math.max(0, Math.min(scrollPosition, initialPadding)); // Limit translateZ between 0 and -initialPadding
+
     imageContainer.style.transform = 'translateY(' + translateY + 'px) translateZ(' + translateZ + 'px)';
   }
 
   function updatePerspectiveOnScroll() {
     var scrollPosition = window.scrollY || window.pageYOffset;
-    var perspectiveValue = Math.min(scrollPosition, 200);
-    
-    scene.style.perspective = perspectiveValue + 'px';
 
-    if (perspectiveValue >= 200 && isSticky) {
-      document.getElementById("section-{{ section.id }}").style.position = 'static';
+    if (scrollPosition >= initialPadding) {
+      section.style.paddingBottom = "0";
+      scene.style.perspective = 'none';
+    } else {
+      section.style.paddingBottom = initialPadding - scrollPosition + "px";
+      scene.style.perspective = scrollPosition + 'px';
+    }
+
+    if (scrollPosition >= initialPadding && isSticky) {
+      section.style.position = 'static';
       isSticky = false;
-    } else if (perspectiveValue < 200 && !isSticky) {
-      document.getElementById("section-{{ section.id }}").style.position = 'sticky';
+    } else if (scrollPosition < initialPadding && !isSticky) {
+      section.style.position = 'sticky';
       isSticky = true;
     }
   }
 
-  window.addEventListener('scroll', function() {
+  window.addEventListener('scroll', function () {
     updatePerspectiveOnScroll();
     updateTransformOnScroll();
   });
-  
-  scene.style.perspective = 'none'; // Initial perspective setting
+
+  section.style.paddingBottom = initialPadding + "px"; // Initial paddingBottom setting
 </script>
 
 {% schema %}
@@ -95,7 +102,7 @@
         "label": "t:sections.local-extra-words.sections.announcement-bar.blocks.content.settings.target",
         "default": false
       }
-    ], 
+    ],
     "presets": [
       {
         "name": "Perspective Image"
@@ -106,3 +113,4 @@
     }
   }
 {% endschema %}
+
