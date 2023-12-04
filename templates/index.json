@@ -1,58 +1,11 @@
 {
   "sections": {
-    "16372498804121dda9": {
-      "type": "split-screen-slider",
-      "blocks": {
-        "1637249880c19b891c-2": {
-          "type": "slide",
-          "settings": {
-            "tagline": "Introducing",
-            "title": "Our brand new store",
-            "subtitle": "Showcase your best products",
-            "button_label": "Explore all",
-            "button_link": "",
-            "seo_h_tag": "h2"
-          }
-        },
-        "1637249880c19b891c-0": {
-          "type": "slide",
-          "settings": {
-            "tagline": "Why not",
-            "title": "Write about yourself",
-            "subtitle": "Include some awesome images",
-            "button_label": "Learn more",
-            "button_link": "shopify:\/\/collections\/new-os2-0",
-            "seo_h_tag": "h2"
-          }
-        },
-        "1637249880c19b891c-1": {
-          "type": "slide",
-          "settings": {
-            "tagline": "Take the opportunity to",
-            "title": "Promote your products",
-            "subtitle": "Include various promotions and flash sales",
-            "button_label": "Shop now",
-            "button_link": "",
-            "seo_h_tag": "h2"
-          }
-        }
-      },
-      "block_order": [
-        "1637249880c19b891c-2",
-        "1637249880c19b891c-0",
-        "1637249880c19b891c-1"
-      ],
-      "disabled": true,
+    "a18f44ec-293c-477f-9f53-1ae19c07bb2a": {
+      "type": "custom-image",
       "settings": {
-        "desktop_layout": "split",
-        "desktop_image_positioning": "image-on-left",
-        "desktop_text": "rgba(0,0,0,0)",
-        "desktop_background": "#ebebed",
-        "desktop_overlay": "rgba(0,0,0,0)",
-        "mobile_height": "var(--window-height)",
-        "mobile_text": "#ffffff",
-        "mobile_background": "#000000",
-        "heading_size": "h1"
+        "image": "shopify:\/\/shop_images\/MM_Store_1_1.png",
+        "link": "",
+        "target": false
       }
     },
     "16371348113d6d6d6d": {
@@ -103,7 +56,7 @@
     }
   },
   "order": [
-    "16372498804121dda9",
+    "a18f44ec-293c-477f-9f53-1ae19c07bb2a",
     "16371348113d6d6d6d"
   ]
 }
