@@ -442,6 +442,7 @@
         var header = document.querySelector('.homepage-header');
         var mountHeader = document.querySelector('.mount-header');
         var perspectiveImageSection = document.querySelector('.image-container');
+        var logoImageSection = document.querySelector('.logo-image');
 
         window.addEventListener('scroll', function() {
           // Get the scroll position
@@ -452,9 +453,11 @@
             header.classList.add('show-header');
             mountHeader.classList.add('is-sticky');
             perspectiveImageSection.classList.add('hide-perspective');
+            logoImageSection.classList.add('hide-perspective');
           } else {
             header.classList.remove('show-header');
             perspectiveImageSection.classList.add('show-perspective');
+            logoImageSection.classList.add('show-perspective');
           }
         });
       });
