@@ -435,6 +435,30 @@
         });
       });
     </script>
+
+    {% comment %}Homepage header animate{% endcomment %}
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        var header = document.querySelector('.homepage-header');
+        var mountHeader = document.querySelector('.mount-header');
+        var perspectiveImageSection = document.querySelector('.image-container');
+
+        window.addEventListener('scroll', function() {
+          // Get the scroll position
+          var scrollPosition = window.scrollY;
+
+          // Show the header when scroll position is greater than or equal to 400px
+          if (scrollPosition >= 400) {
+            header.classList.add('show-header');
+            mountHeader.classList.add('is-sticky');
+            perspectiveImageSection.classList.add('hide-perspective');
+          } else {
+            header.classList.remove('show-header');
+            perspectiveImageSection.classList.add('show-perspective');
+          }
+        });
+      });
+    </script>
     
 </body>
 </html>

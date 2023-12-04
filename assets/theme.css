@@ -2818,4 +2818,17 @@ li.has-submenu:hover > ul {
   }
 }
 
+.homepage-header,
+.hide-perspective {
+  display: none!important;
+}
+
+.show-perspective {
+  display: block!important;
+}
+
+.show-header {
+  display: flex!important;
+}
+
 

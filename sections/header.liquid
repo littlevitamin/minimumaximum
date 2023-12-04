@@ -1,6 +1,6 @@
 {{ 'section-header.css' | asset_url | stylesheet_tag }}
 
-<main-header id="site-header" class="site-header desktop-view--{{ section.settings.menu_style }} {% if section.settings.menu_hide_border %} site-header--no-border {% endif %}" data-logo_height="{{ section.settings.logo_height }}"
+<main-header id="site-header" class="site-header {% if template.name == "index" %}homepage-header{% endif %} desktop-view--{{ section.settings.menu_style }} {% if section.settings.menu_hide_border %} site-header--no-border {% endif %}" data-logo_height="{{ section.settings.logo_height }}"
 data-sticky="{{ section.settings.menu_sticky }}">
       <div class="site-nav-container portable--hide">
         <nav class="primary-menu">

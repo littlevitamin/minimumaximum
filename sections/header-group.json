@@ -27,7 +27,6 @@
     },
     "header": {
       "type": "header",
-      "disabled": true,
       "settings": {
         "logo_height": 40,
         "main_linklist": "main-menu",
