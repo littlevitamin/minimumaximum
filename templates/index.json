@@ -37,13 +37,20 @@
           "settings": {
             "collection": "ice-cream"
           }
+        },
+        "8bc740e6-7cdc-4c1b-a88f-870022376d4b": {
+          "type": "collection",
+          "settings": {
+            "collection": "viktor-rolf"
+          }
         }
       },
       "block_order": [
         "1637134811779b275e-0",
         "1637134811779b275e-1",
         "1637134811779b275e-2",
-        "72b2baec-beba-441e-be59-19891ef57dd5"
+        "72b2baec-beba-441e-be59-19891ef57dd5",
+        "8bc740e6-7cdc-4c1b-a88f-870022376d4b"
       ],
       "settings": {
         "title": "Our Collections",
