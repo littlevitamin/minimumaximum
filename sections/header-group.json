@@ -8,8 +8,8 @@
         "content": {
           "type": "content",
           "settings": {
-            "text": "Write an important announcement here",
-            "link": "",
+            "text": "FREE LOCAL DELIVERY",
+            "link": "#",
             "target": false
           }
         }
@@ -17,7 +17,6 @@
       "block_order": [
         "content"
       ],
-      "disabled": true,
       "settings": {
         "visibility": "all",
         "bar_txtcolor": "#000000",
