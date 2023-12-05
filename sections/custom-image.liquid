@@ -1,107 +1,107 @@
-<div id="section-{{ section.id }}" class="site-box-container image-container container--fullscreen">
+<div id="section-{{ section.id }}" class="site-box-container image-container container--fullscreen connecting-lines">
   {%- if section.settings.link != blank -%}
     <a href="{{ section.settings.link }}" {% if section.settings.target %} target="_blank" {% endif %}>
   {%- endif -%}
 
   {%- unless section.settings.image == blank -%}
     {%- assign image = section.settings.image -%}
-    {% comment %}<img class="web-image" src="https://cdn.shopify.com/s/files/1/0635/9731/4234/files/Group_4_1.svg?v=1701700887" width="100%"/>{% endcomment %}
-      <div id="blank__image" class="blank-image" style="height: 100vh; overflow: hidden;">
-        <div class="scene" style="height: 100%; perspective: none; position: relative;">
-          <div style="perspective: 300px;" class="cube">
-            <!-- Apply perspective effect to the image -->
-            <img
-              src="{{ image | image_url: width: 640 }}" alt="{{ image.alt | strip_html | escape }}"
-              srcset="{{ image | image_url: width: 320 }} 320w, {{ image | image_url: width: 480 }} 480w, {{ image | image_url: width: 640 }} 640w, {{ image | image_url: width: 840 }} 840w, {{ image | image_url: width: 1080 }} 1080w, {{ image | image_url: width: 1280 }} 1280w, {{ image | image_url: width: 1540 }} 1540w, {{ image | image_url: width: 1860 }} 1860w, {{ image | image_url: width: 2100 }} 2100w"
-              sizes="100vw"
-              width="{{ image.width }}" height="{{ image.height }}"
-              {% unless preload %} loading="lazy" {% endunless %} class="lazy cube__image"
-              onload="this.classList.add('lazyloaded')"
-              style="width: 100%; height: 100vh; object-fit: cover; transform: translateY(0) translateZ(0); transition: transform 0.3s ease;"
-            />
-            <img class="logo-image" src="https://cdn.shopify.com/s/files/1/0635/9731/4234/files/Group_2.svg?v=1701696688" width="100%"/>
-          </div>
-        </div>
-      </div>
-
-    {%- else -%}
-      <div class="box__blank-image" style="height: 100vh; overflow: hidden;">
-        <span class="onboarding-svg section--image-text--item__image onboarding-background">
-          {{ 'image' | placeholder_svg_tag }}
-        </span>
-      </div>
-    {%- endunless -%}
+    <div id="blank__image" class="blank-image">
+      <img
+        src="{{ image | image_url: width: 640 }}" alt="{{ image.alt | strip_html | escape }}"
+        srcset="{{ image | image_url: width: 320 }} 320w, {{ image | image_url: width: 480 }} 480w, {{ image | image_url: width: 640 }} 640w, {{ image | image_url: width: 840 }} 840w, {{ image | image_url: width: 1080 }} 1080w, {{ image | image_url: width: 1280 }} 1280w, {{ image | image_url: width: 1540 }} 1540w, {{ image | image_url: width: 1860 }} 1860w, {{ image | image_url: width: 2100 }} 2100w"
+        sizes="100vw"
+        width="{{ image.width }}" height="{{ image.height }}"
+        {% unless preload %} loading="lazy" {% endunless %} class="lazy"
+        style="width: 100%; height: 100vh; object-fit: cover;"
+      />
+    </div>
+    <img class="logo-image" src="https://cdn.shopify.com/s/files/1/0635/9731/4234/files/Group_2.svg?v=1701696688" width="100%"/>
+  {%- else -%}
+    <div class="box__blank-image">
+      <span class="onboarding-svg section--image-text--item__image onboarding-background">
+        {{ 'image' | placeholder_svg_tag }}
+      </span>
+    </div>
+  {%- endunless -%}
 
   {%- if section.settings.link != blank -%} </a> {%- endif -%}
 </div>
 
 <style>
+  .image-container {
+    background-image: url("https://cdn.shopify.com/s/files/1/0635/9731/4234/files/Group_4_1.svg?v=1701700887")!important;
+    background-size: cover!important;
+    background-repeat: no-repeat!important;
+    background-position: center center!important;
+  }
+
+  #blank__image {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  #blank__image .lazy {
+    opacity: 1;
+  }
+
   .logo-image {
     position: absolute;
-    left: 0;
-    top: 75%;
-    transition: width 0.3s ease, left 0.3s ease, top 0.3s ease;
+    left: 50%;
+    top: 100%; /* Change the starting point to the bottom of the page */
+    transform: translate(-50%, -50%);
+    width: 100%;
   }
 
-  .web-image {
-    position: absolute;
-    width: 100vw;
-    top: 0;
-  }
 </style>
 
+
+<!-- ... Your HTML code ... -->
+
 <script>
-  var section = document.getElementById("blank__image");
-  var scene = document.querySelector('.scene');
-  var imageContainer = document.querySelector('.cube__image');
-  var logoImage = document.querySelector('.logo-image');
-  var webImage = document.querySelector('.web-image');
-  var isSticky = true;
-  var initialPadding = 400;
-  var initialLogoWidth = 100;
-  var initialTop = 75;
+  document.addEventListener("DOMContentLoaded", function() {
+    // Initiate ScrollTrigger
+    gsap.registerPlugin(ScrollTrigger);
 
-  function updateTransformOnScroll() {
-    var scrollPosition = window.scrollY || window.pageYOffset;
-    var translateY = Math.max(0, Math.min(scrollPosition, initialPadding)); // Limit translateY between 0 and initialPadding
-    var translateZ = -Math.max(0, Math.min(scrollPosition, initialPadding)); // Limit translateZ between 0 and -initialPadding
+    // Get the section and image elements
+    var section = document.querySelector(".image-container");
+    var image = section.querySelector(".blank-image"); // Replace with the actual class of your image
+    var logo = section.querySelector(".logo-image"); // Logo image element
 
-    imageContainer.style.transform = 'translateY(' + translateY * 1.5 + 'px) translateZ(' + translateZ + 'px)';
-  }
+    // Pin the section for the first 400 pixels
+    gsap.timeline({
+      scrollTrigger: {
+        trigger: section,
+        start: "top top",
+        end: "400px top",
+        pin: true,
+        scrub: true,
+      },
+    });
 
-  function updatePerspectiveOnScroll() {
-    var scrollPosition = window.scrollY || window.pageYOffset;
+    // Shrink the image as we scroll down
+    gsap.timeline({
+      scrollTrigger: {
+        trigger: section,
+        start: "top 400px",
+        scrub: true,
+      },
+    })
+    .to(image, { scale: 0.5, transformOrigin: "center center" });
 
-    if (scrollPosition >= initialPadding) {
-      section.style.marginBottom = "0";
-      scene.style.perspective = 'none';
-      logoImage.style.width = "20%"; // Change to your desired final width
-      logoImage.style.left = "40%"; // Change to your desired final left position
-      logoImage.style.top = "30%"; // Change to your desired final top position
-    } else {
-      section.style.marginBottom = initialPadding - scrollPosition + "px";
-      scene.style.perspective = scrollPosition + 'px';
-      logoImage.style.width = initialLogoWidth - (scrollPosition / initialPadding) * (initialLogoWidth - 20) + "%";
-      logoImage.style.left = (scrollPosition / initialPadding) * 40 + "%";
-      logoImage.style.top = initialTop - (scrollPosition / initialPadding) * (initialTop - 80) + "%";
-    }
-
-    if (scrollPosition >= initialPadding && isSticky) {
-      section.style.position = 'static';
-      isSticky = false;
-    } else if (scrollPosition < initialPadding && !isSticky) {
-      section.style.position = 'sticky';
-      isSticky = true;
-    }
-  }
-
-  window.addEventListener('scroll', function () {
-    updatePerspectiveOnScroll();
-    updateTransformOnScroll();
+    gsap.timeline({
+      scrollTrigger: {
+        trigger: section,
+        start: "top 10%",
+        end: "400px top",
+        scrub: true,
+      },
+    })
+    .to(logo, { top: "10%", width: "10%", ease: "none" });
   });
-
-  section.style.paddingBottom = initialPadding + "px"; // Initial paddingBottom setting
 </script>
+
+
 
 {% schema %}
   {

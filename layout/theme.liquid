@@ -51,6 +51,8 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js" defer="defer"></script>
   <script src="{{ 'collection-infinite-scroll.js' | asset_url }}" defer="defer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/ScrollTrigger.min.js"></script>
 
   {{ content_for_header }}
 
@@ -449,15 +451,11 @@
           var scrollPosition = window.scrollY;
 
           // Show the header when scroll position is greater than or equal to 400px
-          if (scrollPosition >= 400) {
+          if (scrollPosition >= 550) {
             header.classList.add('show-header');
             mountHeader.classList.add('is-sticky');
-            perspectiveImageSection.classList.add('hide-perspective');
-            logoImageSection.classList.add('hide-perspective');
-          } else {
+          } else if (scrollPosition < 550) {
             header.classList.remove('show-header');
-            perspectiveImageSection.classList.add('show-perspective');
-            logoImageSection.classList.add('show-perspective');
           }
         });
       });
