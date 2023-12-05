@@ -10,8 +10,8 @@
         "mobile_overlay_background": "rgba(0,0,0,0)",
         "mobile_overlay_text": "rgba(0,0,0,0)",
         "collection_rows": 2,
-        "enable_filtering": false,
-        "enable_sorting": false
+        "enable_filtering": true,
+        "enable_sorting": true
       }
     },
     "navigation": {
