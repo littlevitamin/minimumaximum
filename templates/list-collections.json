@@ -2,6 +2,32 @@
   "sections": {
     "main": {
       "type": "main-list-collections",
+      "blocks": {
+        "7592a5e8-8f30-4bea-a695-4cbc1e95ddc3": {
+          "type": "collection",
+          "settings": {
+            "collection": "ami-paris"
+          }
+        },
+        "f1d41a21-e8ff-4a3b-804c-fec780dbfb88": {
+          "type": "collection",
+          "settings": {
+            "collection": "anya-hindmarch",
+            "image": "shopify:\/\/shop_images\/5050925180962_FRONT.webp"
+          }
+        },
+        "4022f7cd-fed5-4207-b64e-850e5b3a435a": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "7592a5e8-8f30-4bea-a695-4cbc1e95ddc3",
+        "f1d41a21-e8ff-4a3b-804c-fec780dbfb88",
+        "4022f7cd-fed5-4207-b64e-850e5b3a435a"
+      ],
       "settings": {
         "text_alignment": "horizontal-left vertical-bottom",
         "custom_text": "rgba(0,0,0,0)",
