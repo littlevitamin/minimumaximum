@@ -96,6 +96,7 @@
         "template--16337080877242__f098fd41-d9bc-4391-a94b-1012f45db617-text-icon-2",
         "template--16337080877242__f098fd41-d9bc-4391-a94b-1012f45db617-text-icon-3"
       ],
+      "disabled": true,
       "settings": {
         "custom_background": "rgba(0,0,0,0)",
         "custom_text": "rgba(0,0,0,0)",

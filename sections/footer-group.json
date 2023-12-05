@@ -41,8 +41,8 @@
           "type": "text",
           "settings": {
             "title": "Contact information",
-            "content": "<p>Write a short statement about your brand.<\/p>",
-            "size": "text-size--large"
+            "content": "<p><em>M<\/em>inimu<em>M<\/em>aximu<em>M <\/em>is a new premium retail destination, focusing on luxury, timeless and enduring fashion pieces, accessories and lifestyle goods from independent brands. <\/p>",
+            "size": ""
           }
         },
         "menu-1": {
@@ -74,8 +74,8 @@
       ],
       "settings": {
         "show_payment_icons": true,
-        "show_locale_selector": true,
-        "show_country_selector": true,
+        "show_locale_selector": false,
+        "show_country_selector": false,
         "enable_follow_on_shop": true,
         "custom_background": "rgba(0,0,0,0)",
         "custom_text": "rgba(0,0,0,0)",
