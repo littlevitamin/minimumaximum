@@ -14,7 +14,7 @@
         "1637134811779b275e-0": {
           "type": "collection",
           "settings": {
-            "collection": "mens",
+            "collection": "ami-paris",
             "image": "shopify:\/\/shop_images\/Group_8.png"
           }
         },
@@ -61,7 +61,7 @@
         "ed7c2a01-7f5a-4e1a-bed1-9c136cc2feb5"
       ],
       "settings": {
-        "title": "Our Collections",
+        "title": "BRANDS WE MAXIMISE",
         "text_alignment": "horizontal-left vertical-bottom",
         "custom_background": "#eeeeef",
         "custom_text": "rgba(0,0,0,0)",
