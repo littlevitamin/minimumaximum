@@ -13,20 +13,41 @@
           "type": "collection",
           "settings": {
             "collection": "anya-hindmarch",
-            "image": "shopify:\/\/shop_images\/5050925180962_FRONT.webp"
+            "image": "shopify:\/\/shop_images\/5050925180962_FRONT.png"
           }
         },
         "4022f7cd-fed5-4207-b64e-850e5b3a435a": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "billionaire-boys-club"
+          }
+        },
+        "89b6dec2-dec3-45e9-9701-9b6a4699239a": {
+          "type": "collection",
+          "settings": {
+            "collection": "ice-cream"
+          }
+        },
+        "184056eb-e3fc-4529-9ce1-8cb66befc06e": {
+          "type": "collection",
+          "settings": {
+            "collection": "viktor-rolf"
+          }
+        },
+        "ff9020df-7c15-472c-990e-ed135a697ab1": {
+          "type": "collection",
+          "settings": {
+            "collection": "vivienne-westwood"
           }
         }
       },
       "block_order": [
         "7592a5e8-8f30-4bea-a695-4cbc1e95ddc3",
         "f1d41a21-e8ff-4a3b-804c-fec780dbfb88",
-        "4022f7cd-fed5-4207-b64e-850e5b3a435a"
+        "4022f7cd-fed5-4207-b64e-850e5b3a435a",
+        "89b6dec2-dec3-45e9-9701-9b6a4699239a",
+        "184056eb-e3fc-4529-9ce1-8cb66befc06e",
+        "ff9020df-7c15-472c-990e-ed135a697ab1"
       ],
       "settings": {
         "text_alignment": "horizontal-left vertical-bottom",
