@@ -12,10 +12,19 @@
             "link": "#",
             "target": false
           }
+        },
+        "9aa6280c-225b-4b1e-b155-2d4816c797f9": {
+          "type": "content",
+          "settings": {
+            "text": "WORLDWIDE SHIPPING",
+            "link": "#",
+            "target": false
+          }
         }
       },
       "block_order": [
-        "content"
+        "content",
+        "9aa6280c-225b-4b1e-b155-2d4816c797f9"
       ],
       "settings": {
         "visibility": "no-homepage",
