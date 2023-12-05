@@ -56,9 +56,55 @@
         "display_type": "selected",
         "sort": "alphabetical"
       }
+    },
+    "f098fd41-d9bc-4391-a94b-1012f45db617": {
+      "type": "text-columns-with-icons",
+      "blocks": {
+        "template--16337080877242__f098fd41-d9bc-4391-a94b-1012f45db617-text-icon-1": {
+          "type": "text-icon",
+          "settings": {
+            "title": "WORLDWIDE SHIPPING",
+            "body": "<p>Useful information about your shipping details<\/p>",
+            "label": "",
+            "link": "",
+            "select_icon": "delivery"
+          }
+        },
+        "template--16337080877242__f098fd41-d9bc-4391-a94b-1012f45db617-text-icon-2": {
+          "type": "text-icon",
+          "settings": {
+            "title": "FREE RETURNS",
+            "body": "<p>Show how much time customers have for testing your products<\/p>",
+            "label": "",
+            "link": "",
+            "select_icon": "time-limit"
+          }
+        },
+        "template--16337080877242__f098fd41-d9bc-4391-a94b-1012f45db617-text-icon-3": {
+          "type": "text-icon",
+          "settings": {
+            "title": "FREE LOCAL DELIVERY",
+            "body": "<p>If you live within 1 mile of our store, we'll deliver to you for free and on the same day<\/p>",
+            "label": "Find out more",
+            "link": "",
+            "select_icon": "delivery-time"
+          }
+        }
+      },
+      "block_order": [
+        "template--16337080877242__f098fd41-d9bc-4391-a94b-1012f45db617-text-icon-1",
+        "template--16337080877242__f098fd41-d9bc-4391-a94b-1012f45db617-text-icon-2",
+        "template--16337080877242__f098fd41-d9bc-4391-a94b-1012f45db617-text-icon-3"
+      ],
+      "settings": {
+        "custom_background": "rgba(0,0,0,0)",
+        "custom_text": "rgba(0,0,0,0)",
+        "seo_h_tag": "h3"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "f098fd41-d9bc-4391-a94b-1012f45db617"
   ]
 }
