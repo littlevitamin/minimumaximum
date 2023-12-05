@@ -444,18 +444,24 @@
         var header = document.querySelector('.homepage-header');
         var mountHeader = document.querySelector('.mount-header');
         var perspectiveImageSection = document.querySelector('.image-container');
-        var logoImageSection = document.querySelector('.logo-image');
+        var logo = document.querySelector('.logo-image');
+
+        mountHeader.classList.add('mount-header-homepage');
 
         window.addEventListener('scroll', function() {
           // Get the scroll position
           var scrollPosition = window.scrollY;
 
           // Show the header when scroll position is greater than or equal to 400px
-          if (scrollPosition >= 550) {
+          if (scrollPosition >= 450) {
             header.classList.add('show-header');
             mountHeader.classList.add('is-sticky');
-          } else if (scrollPosition < 550) {
+            mountHeader.classList.remove('mount-header-homepage');
+            logo.classList.add('retain-position');
+          } else if (scrollPosition < 450) {
             header.classList.remove('show-header');
+            mountHeader.classList.add('is-sticky');
+            logo.classList.remove('retain-position');
           }
         });
       });

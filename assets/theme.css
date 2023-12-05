@@ -2818,9 +2818,19 @@ li.has-submenu:hover > ul {
   }
 }
 
-.homepage-header,
 .hide-perspective {
   display: none!important;
+}
+
+.homepage-header {
+  display: flex;
+  opacity: 0;
+  height: 0;
+  transition: opacity 0.5s ease, height 0.5s ease;
+}
+
+.mount-header-homepage {
+  height: 0!important;
 }
 
 .show-perspective {
@@ -2828,7 +2838,13 @@ li.has-submenu:hover > ul {
 }
 
 .show-header {
-  display: flex!important;
+  opacity: 1;
+  height: 100%;
 }
 
 
+.logo-image.retain-position {
+  position: fixed !important;
+  top: 10% !important;
+  z-index: 9999;
+}

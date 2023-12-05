@@ -43,7 +43,7 @@
 
   .box {
     width: 100%;
-    height: 100%;
+    height: 100vh;
     position: relative;
     transform-style: preserve-3d;
     transition: transform 1s;
@@ -60,7 +60,7 @@
   }
 
   .box__face--back {
-    transform: rotateY(180deg) translateZ(50px);
+    transform: rotateY(0deg) translateZ(0px);
   }
   .box__face--right {
     transform: rotateY(90deg) translateZ(50vw);
@@ -84,57 +84,68 @@
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 180%);
     width: 100%;
   }
 </style>
-
 <script>
-  document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function () {
     gsap.registerPlugin(ScrollTrigger);
 
     var section = document.querySelector(".image-container");
     var image = section.querySelector(".box__face--back");
     var logo = section.querySelector(".logo-image"); 
 
-    gsap.timeline({
-      scrollTrigger: {
-        trigger: section,
-        start: "top top",
-        end: "400px top",
-        pin: true,
-        scrub: true,
-      },
-    });
-
-    gsap.timeline({
-      scrollTrigger: {
-        trigger: section,
-        start: "top 400px",
-        scrub: true,
-      },
-    })
-    .to(image, {
-      scale: 0.8,
-      transformOrigin: "center center",
-      onStart: () => {
-        gsap.set(image, {
-          opacity: 1,
-          transform: "translate3d(0px, 0px, 0px) rotateY(0) scale(1)",
-        });
-      },
-    });
-
-    gsap.timeline({
-      scrollTrigger: {
-        trigger: section,
-        start: "top 10%", 
-        end: "400px top", 
-        scrub: true,
-      },
-    })
-      .to(logo, { top: "10%", width: "30%", ease: "none" }); 
+  gsap.timeline({
+    scrollTrigger: {
+      trigger: section,
+      start: "top top",
+      end: "400px top",
+      pin: true,
+      scrub: true,
+    },
   });
+
+  gsap.fromTo(
+    image,
+    {
+      opacity: 1,
+      transform: "scale(1.3)",
+    },
+    {
+      opacity: 1,
+      transform: "scale(0.95)",
+      ease: "none",
+      scrollTrigger: {
+        trigger: section,
+        start: "top 20px",
+        end: "200px top",
+        scrub: true,
+      },
+    }
+  );
+
+  gsap.timeline({
+    scrollTrigger: {
+      trigger: section,
+      start: "top 400px",
+      scrub: true,
+    },
+  }).to(image, {
+    opacity: 1,
+    transform: "scale(0.6)",
+    ease: "none",
+  });
+
+  gsap.timeline({
+    scrollTrigger: {
+      trigger: section,
+      start: "top 10%",
+      end: "400px top",
+      scrub: true,
+    },
+  }).to(logo, { top: "10%", width: "30%", ease: "none" });
+});
 </script>
 
 
