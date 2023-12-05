@@ -48,14 +48,14 @@
         "menu-1": {
           "type": "menu",
           "settings": {
-            "title": "Quick links",
+            "title": "About MinimuMaximum",
             "menu": "footer"
           }
         },
         "menu-2": {
           "type": "menu",
           "settings": {
-            "title": "Quick links",
+            "title": "Information",
             "menu": "footer"
           }
         },
