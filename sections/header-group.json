@@ -20,11 +20,20 @@
             "link": "#",
             "target": false
           }
+        },
+        "c1991a00-e7f2-45df-b8b0-a0370657208c": {
+          "type": "content",
+          "settings": {
+            "text": "NEW PRODUCTS WEEKLY",
+            "link": "#",
+            "target": false
+          }
         }
       },
       "block_order": [
         "content",
-        "9aa6280c-225b-4b1e-b155-2d4816c797f9"
+        "9aa6280c-225b-4b1e-b155-2d4816c797f9",
+        "c1991a00-e7f2-45df-b8b0-a0370657208c"
       ],
       "settings": {
         "visibility": "no-homepage",
