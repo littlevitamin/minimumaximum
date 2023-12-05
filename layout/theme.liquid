@@ -457,11 +457,11 @@
             header.classList.add('show-header');
             mountHeader.classList.add('is-sticky');
             mountHeader.classList.remove('mount-header-homepage');
-            logo.classList.add('retain-position');
+            logo.classList.add('hide-perspective');
           } else if (scrollPosition < 450) {
             header.classList.remove('show-header');
             mountHeader.classList.add('is-sticky');
-            logo.classList.remove('retain-position');
+            logo.classList.remove('hide-perspective');
           }
         });
       });
