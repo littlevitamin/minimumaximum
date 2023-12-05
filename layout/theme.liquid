@@ -141,7 +141,7 @@
   {%- sections 'header-group' -%}
   <script>window.fixVhByVars();</script>
 
-  <main class="wrapper main-content" id="main" role="main">
+  <main class="wrapper main-content {% if template.name != 'index' %}main-not-landing{% endif %}" id="main" role="main">
 
     {{ 'component-slider.css' | asset_url | stylesheet_tag }}
     <script src="{{ 'component-slider.js' | asset_url }}" defer></script>
@@ -448,17 +448,18 @@
 
         mountHeader.classList.add('mount-header-homepage');
 
+        var viewportHeight = window.innerHeight;
+        var scrollThreshold = viewportHeight * 1.3; // Adjust the multiplier as needed
+
         window.addEventListener('scroll', function() {
-          // Get the scroll position
           var scrollPosition = window.scrollY;
 
-          // Show the header when scroll position is greater than or equal to 400px
-          if (scrollPosition >= 450) {
+          if (scrollPosition >= scrollThreshold) {
             header.classList.add('show-header');
             mountHeader.classList.add('is-sticky');
             mountHeader.classList.remove('mount-header-homepage');
             logo.classList.add('hide-perspective');
-          } else if (scrollPosition < 450) {
+          } else {
             header.classList.remove('show-header');
             mountHeader.classList.add('is-sticky');
             logo.classList.remove('hide-perspective');
@@ -466,6 +467,7 @@
         });
       });
     </script>
+
     
 </body>
 </html>

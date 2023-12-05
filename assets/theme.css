@@ -1504,6 +1504,10 @@ toggle-tab.opened .toggle__title .symbol--minus {
   margin-top: -1px;
 }
 
+#main.main-not-landing {
+  margin-top: 10px;
+}
+
 @media screen and (max-width: 768px), screen and (max-width: 1024px) and (orientation: portrait) {
   #main {
     overflow: hidden;
