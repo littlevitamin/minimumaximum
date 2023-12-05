@@ -2848,3 +2848,9 @@ li.has-submenu:hover > ul {
   top: 10% !important;
   z-index: 9999;
 }
+
+@media screen and (min-width: 990px) {
+  .min-width-container {
+    min-width: 250px!important;
+  }
+}

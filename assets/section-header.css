@@ -505,6 +505,7 @@ html[dir=ltr] .skip-to-content:focus {
 }
 .site-nav.style--classic {
   display: flex;
+  justify-content: flex-end;
   margin-inline-end: -10px;
 }
 @media screen and (max-width: 1024px) {
