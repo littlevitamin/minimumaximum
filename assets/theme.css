@@ -2807,6 +2807,8 @@ li.has-submenu:hover > ul {
   }
 }
 
+/* Hero section animation styling */
+
 .site-nav-container .link-list {
   display: flex;
   margin: 0;
@@ -2823,7 +2825,7 @@ li.has-submenu:hover > ul {
 }
 
 .hide-perspective {
-  display: none!important;
+  opacity: 0!important;
 }
 
 .homepage-header {
@@ -2846,15 +2848,13 @@ li.has-submenu:hover > ul {
   height: 100%;
 }
 
-
-.logo-image.retain-position {
-  position: fixed !important;
-  top: 10% !important;
-  z-index: 9999;
-}
-
 @media screen and (min-width: 990px) {
   .min-width-container {
     min-width: 250px!important;
   }
+}
+
+.logo-img > img {
+  max-width: 30vw;
+  margin-left: 4%;
 }

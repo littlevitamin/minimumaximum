@@ -1,7 +1,7 @@
 {
   "sections": {
-    "a18f44ec-293c-477f-9f53-1ae19c07bb2a": {
-      "type": "custom-image",
+    "1ca209a4-d7fb-49e3-a000-97d47af6cdc5": {
+      "type": "perspective-section",
       "settings": {
         "image": "shopify:\/\/shop_images\/MM_Store_1_1.png",
         "link": "",
@@ -56,7 +56,7 @@
     }
   },
   "order": [
-    "a18f44ec-293c-477f-9f53-1ae19c07bb2a",
+    "1ca209a4-d7fb-49e3-a000-97d47af6cdc5",
     "16371348113d6d6d6d"
   ]
 }

@@ -1,3 +1,5 @@
+{% comment %}Homepage hero perspective section{% endcomment %}
+
 <div id="section-{{ section.id }}" class="site-box-container image-container container--fullscreen connecting-lines">
   {%- if section.settings.link != blank -%}
     <a href="{{ section.settings.link }}" {% if section.settings.target %} target="_blank" {% endif %}>
@@ -86,74 +88,74 @@
     top: 50%;
     transform: translate(-50%, 20vh);
     width: 100%;
+    opacity: 1;
+    transition: opacity 0.5s ease;
   }
 </style>
+
 <script>
-document.addEventListener("DOMContentLoaded", function () {
-    gsap.registerPlugin(ScrollTrigger);
+  document.addEventListener("DOMContentLoaded", function () {
+      gsap.registerPlugin(ScrollTrigger);
 
-    var section = document.querySelector(".image-container");
-    var image = section.querySelector(".box__face--back");
-    var logo = section.querySelector(".logo-image"); 
+      var section = document.querySelector(".image-container");
+      var image = section.querySelector(".box__face--back");
+      var logo = section.querySelector(".logo-image"); 
 
-  gsap.timeline({
-    scrollTrigger: {
-      trigger: section,
-      start: "top top",
-      end: "100% top", // Change to percentage of viewport height
-      pin: true,
-      scrub: true,
-    },
-  });
-
-  gsap.fromTo(
-    image,
-    {
-      opacity: 1,
-      transform: "scale(1.4)",
-    },
-    {
-      opacity: 1,
-      transform: "scale(1)",
-      ease: "none",
+    gsap.timeline({
       scrollTrigger: {
         trigger: section,
-        start: "top 20px",
-        end: "50% top", // Change to percentage of viewport height
+        start: "top top",
+        end: "100% top", // Change to percentage of viewport height
+        pin: true,
         scrub: true,
       },
-    }
-  );
+    });
 
-  gsap.timeline({
-    scrollTrigger: {
-      trigger: section,
-      start: "top 100%", // Change to percentage of viewport height
-      scrub: true,
-    },
-  }).to(image, {
-    opacity: 1,
-    transform: "scale(0.6)",
-    ease: "none",
+    gsap.fromTo(
+      image,
+      {
+        opacity: 1,
+        transform: "scale(1.4)",
+      },
+      {
+        opacity: 1,
+        transform: "scale(1)",
+        ease: "none",
+        scrollTrigger: {
+          trigger: section,
+          start: "top 20px",
+          end: "50% top", // Change to percentage of viewport height
+          scrub: true,
+        },
+      }
+    );
+
+    gsap.timeline({
+      scrollTrigger: {
+        trigger: section,
+        start: "top 100%", // Change to percentage of viewport height
+        scrub: true,
+      },
+    }).to(image, {
+      opacity: 1,
+      transform: "scale(0.6)",
+      ease: "none",
+    });
+
+    gsap.timeline({
+      scrollTrigger: {
+        trigger: section,
+        start: "top 10%",
+        end: "100% top", // Change to percentage of viewport height
+        scrub: true,
+      },
+    }).to(logo, { top: "10%", width: "30%", ease: "none" });
   });
-
-  gsap.timeline({
-    scrollTrigger: {
-      trigger: section,
-      start: "top 10%",
-      end: "100% top", // Change to percentage of viewport height
-      scrub: true,
-    },
-  }).to(logo, { top: "10%", width: "30%", ease: "none" });
-});
-
 </script>
-
-
 
 {% schema %}
   {
-    "name": "Perspective Image",
+    "name": "Perspective Section",
     "class": "index-section",
     "settings": [
       {
@@ -175,7 +177,7 @@ document.addEventListener("DOMContentLoaded", function () {
     ],
     "presets": [
       {
-        "name": "Perspective Image"
+        "name": "Perspective Section"
       }
     ],
     "disabled_on": {
