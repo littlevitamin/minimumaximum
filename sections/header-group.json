@@ -18,7 +18,7 @@
         "content"
       ],
       "settings": {
-        "visibility": "all",
+        "visibility": "no-homepage",
         "bar_txtcolor": "#000000",
         "bar_bgcolor": "#f1e9dc",
         "bar_bordercolor": "#f1e9dc"
