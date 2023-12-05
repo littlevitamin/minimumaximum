@@ -40,7 +40,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "title": "Contact information",
+            "title": "WHO",
             "content": "<p><em>M<\/em>inimu<em>M<\/em>aximu<em>M <\/em>is a new premium retail destination, focusing on luxury, timeless and enduring fashion pieces, accessories and lifestyle goods from independent brands. <\/p>",
             "size": ""
           }
@@ -48,14 +48,14 @@
         "menu-1": {
           "type": "menu",
           "settings": {
-            "title": "About MinimuMaximum",
+            "title": "WHAT",
             "menu": "footer"
           }
         },
         "menu-2": {
           "type": "menu",
           "settings": {
-            "title": "Information",
+            "title": "HOW",
             "menu": "footer"
           }
         },
