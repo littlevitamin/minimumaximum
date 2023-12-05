@@ -22,14 +22,14 @@
           "type": "collection",
           "settings": {
             "collection": "anya-hindmarch",
-            "image": "shopify:\/\/shop_images\/Group_9.png"
+            "image": "shopify:\/\/shop_images\/5050925180962_FRONT.png"
           }
         },
         "1637134811779b275e-2": {
           "type": "collection",
           "settings": {
             "collection": "billionaire-boys-club",
-            "image": "shopify:\/\/shop_images\/Group_7.png"
+            "image": "shopify:\/\/shop_images\/Billionaires_Boys_Club.webp"
           }
         },
         "72b2baec-beba-441e-be59-19891ef57dd5": {
@@ -61,7 +61,7 @@
         "ed7c2a01-7f5a-4e1a-bed1-9c136cc2feb5"
       ],
       "settings": {
-        "title": "BRANDS WE MAXIMISE",
+        "title": "BRANDS WE'RE STOCKING",
         "text_alignment": "horizontal-left vertical-bottom",
         "custom_background": "#eeeeef",
         "custom_text": "rgba(0,0,0,0)",
