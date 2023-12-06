@@ -253,12 +253,6 @@
         start: "top 10%",
         end: "100% top",
         scrub: true,
-        onUpdate: function () {
-        var zIndexIsTen = getComputedStyle(mobileElement).zIndex === "10";  
-          if (zIndexIsTen) {
-            tl.pause();
-          }
-        },
       },
     }).to(logo, { top: "10%", width: "30%", ease: "none" });
   });
