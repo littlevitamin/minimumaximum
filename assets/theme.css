@@ -2876,8 +2876,8 @@ li.has-submenu:hover > ul {
 
 .mobile-icon {
   position: absolute;
-  top: 10px;
-  left: 10px;
+  top: 20px;
+  left: 20px;
   z-index: 11;
   cursor: pointer;
   transition: transform 0.3s ease;
