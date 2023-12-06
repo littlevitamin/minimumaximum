@@ -4,6 +4,7 @@
       "type": "perspective-section",
       "settings": {
         "image": "shopify:\/\/shop_images\/MM_Store_1_1.png",
+        "mobile_image": "shopify:\/\/shop_images\/m_2.png",
         "link": "",
         "target": false
       }
