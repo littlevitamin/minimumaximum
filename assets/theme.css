@@ -2883,6 +2883,7 @@ li.has-submenu:hover > ul {
   transition: transform 0.3s ease;
 }
 
+/* Perspective image mobile option */
 .mobile-image {
   display: block;
 }
