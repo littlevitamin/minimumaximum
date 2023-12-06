@@ -16,7 +16,7 @@
             srcset="{{ image | image_url: width: 320 }} 320w, {{ image | image_url: width: 480 }} 480w, {{ image | image_url: width: 640 }} 640w, {{ image | image_url: width: 840 }} 840w, {{ image | image_url: width: 1080 }} 1080w, {{ image | image_url: width: 1280 }} 1280w, {{ image | image_url: width: 1540 }} 1540w, {{ image | image_url: width: 1860 }} 1860w, {{ image | image_url: width: 2100 }} 2100w"
             sizes="100vw"
             width="{{ image.width }}" height="{{ image.height }}"
-            {% unless preload %} loading="lazy" {% endunless %} class="lazy box__face box__face--back"
+            {% unless preload %} loading="lazy" {% endunless %} class="lazy scale-one box__face box__face--back"
             style="opacity: 1;"/>
         <div class="box__face box__face--right"></div>
         <div class="box__face box__face--left"></div>
@@ -60,9 +60,9 @@
   .box__face--front {
     transform: rotateY(0deg) translateZ(50px);
   }
-
   .box__face--back {
-    transform: rotateY(0deg) translateZ(0px);
+    transform: translate3d(0px, 0px, 0px) scale(1);
+    transition: transform 0.3s ease;
   }
   .box__face--right {
     transform: rotateY(90deg) translateZ(50vw);
@@ -109,37 +109,6 @@
         pin: true,
         scrub: true,
       },
-    });
-
-    gsap.fromTo(
-      image,
-      {
-        opacity: 1,
-        transform: "scale(1.4)",
-      },
-      {
-        opacity: 1,
-        transform: "scale(1)",
-        ease: "none",
-        scrollTrigger: {
-          trigger: section,
-          start: "top 20px",
-          end: "50% top", // Change to percentage of viewport height
-          scrub: true,
-        },
-      }
-    );
-
-    gsap.timeline({
-      scrollTrigger: {
-        trigger: section,
-        start: "top 100%", // Change to percentage of viewport height
-        scrub: true,
-      },
-    }).to(image, {
-      opacity: 1,
-      transform: "scale(0.6)",
-      ease: "none",
     });
 
     gsap.timeline({

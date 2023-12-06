@@ -467,6 +467,18 @@
         });
       });
     </script>
-    
+
+    {% comment %}Perspective section image animation speed{% endcomment %}
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var boxElement = document.querySelector('.box__face--back');
+            function handleScroll() {
+                var scale = 1 - window.pageYOffset / (window.innerHeight * 2); //adjust the speed from here
+                scale = Math.max(0.6, Math.min(1, scale));
+                boxElement.style.transform = 'translate3d(0px, 0px, 0px) scale(' + scale + ')';
+            }
+            window.addEventListener('scroll', handleScroll);
+        });
+    </script> 
 </body>
 </html>
