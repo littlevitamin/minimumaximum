@@ -231,7 +231,7 @@
         pin: true,
         scrub: true,
         onUpdate: function (self) {
-          var zIndexIsZero = getComputedStyle(mobileElement).zIndex === "0";
+          var zIndexIsZero = getComputedStyle(mobileElement).zIndex === "-1";
           if (!zIndexIsZero) {
             tl.pause();
           } else {
