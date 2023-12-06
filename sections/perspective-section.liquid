@@ -216,19 +216,28 @@
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-      gsap.registerPlugin(ScrollTrigger);
+    gsap.registerPlugin(ScrollTrigger);
 
-      var section = document.querySelector(".image-container");
-      var image = section.querySelector(".box__face--back");
-      var logo = section.querySelector(".logo-image"); 
+    var section = document.querySelector(".image-container");
+    var image = section.querySelector(".box__face--back");
+    var logo = section.querySelector(".logo-image");
+    var mobileElement = document.querySelector(".mobile");
 
-    gsap.timeline({
+    var tl = gsap.timeline({
       scrollTrigger: {
         trigger: section,
         start: "top top",
         end: "100% top",
         pin: true,
         scrub: true,
+        onUpdate: function (self) {
+          var isOverMobile = self.progress >= 0 && self.progress <= 1 && isElementInView(mobileElement);
+          if (isOverMobile) {
+            tl.pause();
+          } else {
+            tl.resume();
+          }
+        },
       },
     });
 
@@ -240,6 +249,11 @@
         scrub: true,
       },
     }).to(logo, { top: "10%", width: "30%", ease: "none" });
+  });
+      function isElementInView(el) {
+      var rect = el.getBoundingClientRect();
+      return rect.top <= window.innerHeight && rect.bottom >= 0;
+    }
   });
 </script>
 
