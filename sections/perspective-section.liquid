@@ -236,14 +236,6 @@
         end: "100% top",
         pin: true,
         scrub: true,
-        onUpdate: function () {
-        var zIndexIsTen = getComputedStyle(mobileElement).zIndex === "10";  
-          if (zIndexIsTen) {
-            tl.pause();
-          } else {
-            tl.resume();
-          }
-        },
       },
     });
 
