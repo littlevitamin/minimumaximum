@@ -1,6 +1,6 @@
 {% comment %}Homepage hero perspective section{% endcomment %}
 
-<div id="section-{{ section.id }}" class="site-box-container image-container container--fullscreen connecting-lines">
+<div id="section-{{ section.id }}" class="site-box-container image-container container--fullscreen">
   {%- if section.settings.link != blank -%}
     <a href="{{ section.settings.link }}" {% if section.settings.target %} target="_blank" {% endif %}>
   {%- endif -%}
