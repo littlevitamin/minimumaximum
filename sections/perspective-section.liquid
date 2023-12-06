@@ -231,8 +231,8 @@
         pin: true,
         scrub: true,
         onUpdate: function (self) {
-          var isOverMobile = self.progress >= 0 && self.progress <= 1 && isElementInView(mobileElement);
-          if (isOverMobile) {
+          var zIndexIsZero = getComputedStyle(mobileElement).zIndex === "0";
+          if (!zIndexIsZero) {
             tl.pause();
           } else {
             tl.resume();
