@@ -5,6 +5,11 @@
     <a href="{{ section.settings.link }}" {% if section.settings.target %} target="_blank" {% endif %}>
   {%- endif -%}
 
+      <svg class="mobile-icon" enable-background="new 0 0 50 50" height="50px" id="Layer_1" version="1.1" viewBox="0 0 50 50" width="50px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <rect fill="none" height="50" width="50"/>
+        <line fill="none" stroke="#000000" stroke-miterlimit="10" stroke-width="1" x1="9" x2="41" y1="25" y2="25"/><line fill="none" stroke="#000000" stroke-miterlimit="10" stroke-width="1" x1="25" x2="25" y1="9" y2="41"/>
+      </svg>
+
   {%- unless section.settings.image == blank -%}
     {%- assign image = section.settings.image -%}
     <div class="perspective-container">
@@ -34,6 +39,108 @@
   {%- endunless -%}
 
   {%- if section.settings.link != blank -%} </a> {%- endif -%}
+
+      <div class="mobile">
+      <div class="s-info active" id="info-section">
+      <div class="s-info-inside">
+        <div class="s-info-text s-info-t1">
+          <div class="s-info-text-content justify"><p><em>M</em>inimu<em>M</em>aximu<em>M</em> is a new premium retail destination, bringing a piece of Mayfair to the affluent area of Hadley Wood located just outside of north London. We focus on luxury, timeless and enduring fashion pieces, accessories and lifestyle goods from both established and up-and-coming independent brands.&nbsp;</p></div>
+        </div>
+        <div class="s-info-text s-info-t2">
+          <div class="s-info-text-title">
+            <h3>Currently Stocking</h3>
+          </div>
+          <div class="s-info-text-content">
+            <div class="s-info-text-content-m"><p>Adnym Atelier, AMI Paris, Acqua dell’Elba, by FAR, BALR, Church’s, Coach, dunhill, Duvetica, Felisi, GaGà Milano, Heeley Perfumes, IL BISONTE, John Smedley, juun.j, Mackintosh, Marni, Max Mara, MSGM, Neal’s Yard, Ray-Ban, P448, Prada, Roberto Cavalli, Soulland, Spalwart, SUNNEI, Tatras, Tricker’s, Viktor&amp;Rolf, White:Space</p></div>
+          </div>
+        </div>
+        <div class="s-info-text s-info-t3">
+          <div class="s-info-text-title">
+            <h3>Visit Us</h3>
+          </div>
+          <div class="s-info-text-content center">
+            <p>
+              <a href="https://goo.gl/maps/8WX5LeFMYvEitFYh8" target="_blank">220–222 High Street, Barnet, EN5 5SZ</a>
+            </p>
+          </div>
+          <div class="s-info-text s-info-t4">
+            <div class="s-info-text-title">
+              <h3>Opening Hours</h3>
+            </div>
+            <div class="s-info-text-content">
+              <div class="s-info-text-content-table">
+                <div class="s-info-text-content-table-row">
+                  <span>Monday–Saturday</span>
+                  <span class="s-info-text-content-table-row-line"></span>
+                  <span>10:00–18:00</span>
+                </div>
+                <div class="s-info-text-content-table-row">
+                  <span>Sunday</span>
+                  <span class="s-info-text-content-table-row-line"></span>
+                  <span>Closed</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="s-info-text s-info-t5">
+          <div class="s-info-text-title">
+            <h3>General Enquiries</h3>
+          </div>
+          <div class="s-info-text-content">
+            <p>
+              <a href="mailto:info@minimumaximum.store">info@minimumaximum.store</a><br>
+              <a href="tel:(+44(0)2036743795)">+44(0)2036743795</a>
+            </p>
+          </div>
+        </div>
+        <div class="s-info-text s-info-t6">
+          <div class="s-info-text-title">
+            <h3>Newsletter</h3>
+          </div>
+          <div class="s-info-text-content">
+            <script src="//minimumaximum.store/cdn/shop/t/3/assets/newsletter_form.js?v=168932596681554546621658150325"></script>
+
+    <div class="mailchimp-container" id="mc_embed_signup">
+      <form action="https://store.us20.list-manage.com/subscribe/post?u=918194736ae42ad28609d9da2&amp;id=cce3a2a3ef" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate form-submit mc-embedded-subscribe-form newsletter-form" target="_blank" novalidate="true" autocomplete="off">
+        <div class="row-newsletter">
+          <div class="row-field active">
+            <input type="email" value="" name="EMAIL" id="mce-EMAIL" placeholder="Email" required="" fdprocessedid="9etie">
+            <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" fdprocessedid="icmri5">
+          </div>
+          <div class="row-alert remove">
+            <p>Thanks for joining MinimuMaximum's newsletter</p>
+          </div>
+        </div>
+        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_918194736ae42ad28609d9da2_cce3a2a3ef" tabindex="-1" value=""></div>
+      </form>
+    </div>
+    <script>
+      $(window).on('load', () => {
+        setupMCAjax();
+      });
+      function callbackFunction(resp) {
+        if (resp.result === 'success') {
+        }
+      }
+      function setupMCAjax() {
+        var $forms = $('.mc-embedded-subscribe-form');
+        $forms.each(function (el) {
+          $(this).ajaxChimp({
+            callback: callbackFunction,
+          });
+        });
+      }
+    </script>
+
+          </div>
+          <div class="s-info-text-title">
+            <h3>Follow Us on <a href="https://www.instagram.com/minimumaximum.store/" target="_blank">Instagram</a></h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
 <style>
@@ -67,19 +174,23 @@
   .box__face--right {
     transform: rotateY(90deg) translateZ(50vw);
     border: 0;
+    background: white;
   }
   .box__face--left {
     transform: rotateY(-90deg) translateZ(50vw);
     border: 0;
+    background: white;
   }
   .box__face--top {
     transform: rotateX(90deg) translateZ(50vh);
     border: 2px solid black;
+    background: white;
   }
 
   .box__face--bottom {
     transform: rotateX(-90deg) translateZ(50vh);
     border: 2px solid black;
+    background: white;
   }
 
   .logo-image {
@@ -105,7 +216,7 @@
       scrollTrigger: {
         trigger: section,
         start: "top top",
-        end: "100% top", // Change to percentage of viewport height
+        end: "100% top",
         pin: true,
         scrub: true,
       },
@@ -115,7 +226,7 @@
       scrollTrigger: {
         trigger: section,
         start: "top 10%",
-        end: "100% top", // Change to percentage of viewport height
+        end: "100% top",
         scrub: true,
       },
     }).to(logo, { top: "10%", width: "30%", ease: "none" });

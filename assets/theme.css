@@ -2858,3 +2858,33 @@ li.has-submenu:hover > ul {
   max-width: 30vw;
   margin-left: 4%;
 }
+
+/* Show on mobile */
+.mobile {
+  display: block;
+  position: absolute;
+  z-index: -1;
+  opacity: 1;
+  top: 0;
+  padding-top: 80px;
+  height: 100vh;
+  background: #f1e9dc;
+  text-align: center;
+  transition: opacity 0.5s ease, z-index 0.5s ease;
+}
+
+
+.mobile-icon {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 11;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+@media screen and (min-width: 990px) {
+  .mobile, .mobile-icon {
+    display: none;
+  }
+}

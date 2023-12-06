@@ -474,11 +474,25 @@
             var boxElement = document.querySelector('.box__face--back');
             function handleScroll() {
                 var scale = 1 - window.pageYOffset / (window.innerHeight * 2); //adjust the speed from here
-                scale = Math.max(0.6, Math.min(1, scale));
+                scale = Math.max(0.7, Math.min(1, scale));
                 boxElement.style.transform = 'translate3d(0px, 0px, 0px) scale(' + scale + ')';
             }
             window.addEventListener('scroll', handleScroll);
         });
     </script> 
+
+    <script>
+      const mobileIcon = document.querySelector('.mobile-icon');
+      const mobileContent = document.querySelector('.mobile');
+      let rotated = false;
+
+      mobileIcon.addEventListener('click', () => {
+        rotated = !rotated;
+        mobileIcon.style.transform = rotated ? 'rotate(45deg)' : 'rotate(0deg)';
+        mobileContent.style.zIndex = rotated ? '10' : '-1';
+        mobileContent.style.opacity = rotated ? '1' : '0';
+      });
+
+    </script>
 </body>
 </html>
