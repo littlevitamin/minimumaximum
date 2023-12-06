@@ -2850,7 +2850,7 @@ li.has-submenu:hover > ul {
 
 @media screen and (min-width: 990px) {
   .min-width-container {
-    min-width: 250px!important;
+    min-width: 350px!important;
   }
 }
 
