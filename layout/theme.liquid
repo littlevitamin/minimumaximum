@@ -496,6 +496,7 @@
     <script>
       const mobileIcon = document.querySelector('.mobile-icon');
       const mobileContent = document.querySelector('.mobile');
+      const section = document.querySelector('.pin-spacer');
       let rotated = false;
 
       mobileIcon.addEventListener('click', () => {
@@ -503,6 +504,7 @@
         mobileIcon.style.transform = rotated ? 'rotate(45deg)' : 'rotate(0deg)';
         mobileContent.style.zIndex = rotated ? '10' : '-1';
         mobileContent.style.opacity = rotated ? '1' : '0';
+        section.style.height = rotated ? '100vh' : section.scrollHeight + 'px';
       });
 
     </script>
