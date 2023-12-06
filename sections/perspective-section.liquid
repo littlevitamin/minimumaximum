@@ -236,6 +236,14 @@
         end: "100% top",
         pin: true,
         scrub: true,
+        onUpdate: function () {
+        var zIndexIsTen = getComputedStyle(mobileElement).zIndex === "10";  
+          if (zIndexIsTen) {
+            tl.pause();
+          } else {
+            tl.resume();
+          }
+        },
       },
     });
 
@@ -245,6 +253,14 @@
         start: "top 10%",
         end: "100% top",
         scrub: true,
+        onUpdate: function () {
+        var zIndexIsTen = getComputedStyle(mobileElement).zIndex === "10";  
+          if (zIndexIsTen) {
+            tl.pause();
+          } else {
+            tl.resume();
+          }
+        },
       },
     }).to(logo, { top: "10%", width: "30%", ease: "none" });
   });
