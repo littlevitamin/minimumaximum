@@ -8,21 +8,38 @@
         "content": {
           "type": "content",
           "settings": {
-            "text": "Write an important announcement here",
-            "link": "",
+            "text": "FREE LOCAL DELIVERY",
+            "link": "#",
+            "target": false
+          }
+        },
+        "9aa6280c-225b-4b1e-b155-2d4816c797f9": {
+          "type": "content",
+          "settings": {
+            "text": "WORLDWIDE SHIPPING",
+            "link": "#",
+            "target": false
+          }
+        },
+        "c1991a00-e7f2-45df-b8b0-a0370657208c": {
+          "type": "content",
+          "settings": {
+            "text": "NEW PRODUCTS WEEKLY",
+            "link": "#",
             "target": false
           }
         }
       },
       "block_order": [
-        "content"
+        "content",
+        "9aa6280c-225b-4b1e-b155-2d4816c797f9",
+        "c1991a00-e7f2-45df-b8b0-a0370657208c"
       ],
-      "disabled": true,
       "settings": {
-        "visibility": "all",
-        "bar_txtcolor": "#ffffff",
-        "bar_bgcolor": "#111111",
-        "bar_bordercolor": "rgba(0,0,0,0)"
+        "visibility": "no-homepage",
+        "bar_txtcolor": "#000000",
+        "bar_bgcolor": "#f1e9dc",
+        "bar_bordercolor": "#f1e9dc"
       }
     },
     "header": {
@@ -49,6 +66,7 @@
     },
     "breadcrumb": {
       "type": "breadcrumb",
+      "disabled": true,
       "settings": {
       }
     }

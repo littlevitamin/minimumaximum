@@ -1,1 +1,33 @@
-{"type":"custom.overlay","name":"t:sections.refactor_words.labels.overlay_group","sections":{"popup":{"type":"popup","settings":{}},"cookie":{"type":"cookie","settings":{}}},"order":["popup","cookie"]}
+{
+  "type": "custom.overlay",
+  "name": "t:sections.refactor_words.labels.overlay_group",
+  "sections": {
+    "popup": {
+      "type": "popup",
+      "settings": {
+        "title": "We are MinimuMaximum",
+        "content": "<p>Stay up to date on the latest product releases, special offers & news by signing up for our newsletter.<\/p><p>Read our <a href=\"#\">privacy policy<\/a>.<\/p>",
+        "newsletter_enable": true,
+        "popup_enable": false,
+        "newsletter_auto": 10,
+        "newsletter_frequent": "once",
+        "image_link": "",
+        "image_mobile": false,
+        "popup_bgcolor": "#ffffff",
+        "popup_txtcolor": "#000000"
+      }
+    },
+    "cookie": {
+      "type": "cookie",
+      "settings": {
+        "enable": false,
+        "bg_color": "#f7f7f7",
+        "txt_color": "#000000"
+      }
+    }
+  },
+  "order": [
+    "popup",
+    "cookie"
+  ]
+}

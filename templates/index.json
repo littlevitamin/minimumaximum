@@ -14,28 +14,41 @@
         "1637134811779b275e-0": {
           "type": "collection",
           "settings": {
-            "collection": "mens",
+            "collection": "ami-paris",
             "image": "shopify:\/\/shop_images\/Group_8.png"
           }
         },
         "1637134811779b275e-1": {
           "type": "collection",
           "settings": {
-            "collection": "women",
-            "image": "shopify:\/\/shop_images\/Group_9.png"
+            "collection": "anya-hindmarch",
+            "image": "shopify:\/\/shop_images\/5050925180962_FRONT.png"
           }
         },
         "1637134811779b275e-2": {
           "type": "collection",
           "settings": {
-            "collection": "accessories",
-            "image": "shopify:\/\/shop_images\/Group_7.png"
+            "collection": "billionaire-boys-club",
+            "image": "shopify:\/\/shop_images\/Billionaires_Boys_Club.webp"
           }
         },
         "72b2baec-beba-441e-be59-19891ef57dd5": {
           "type": "collection",
           "settings": {
-            "collection": "frontpage"
+            "collection": "ice-cream"
+          }
+        },
+        "8bc740e6-7cdc-4c1b-a88f-870022376d4b": {
+          "type": "collection",
+          "settings": {
+            "collection": "viktor-rolf"
+          }
+        },
+        "ed7c2a01-7f5a-4e1a-bed1-9c136cc2feb5": {
+          "type": "collection",
+          "settings": {
+            "collection": "vivienne-westwood",
+            "image": "shopify:\/\/shop_images\/42040011U-W00QH-ET_MULTI_1_large_1d2907de-3529-4cf8-8202-285eb10a2d4f.jpg"
           }
         }
       },
@@ -43,15 +56,17 @@
         "1637134811779b275e-0",
         "1637134811779b275e-1",
         "1637134811779b275e-2",
-        "72b2baec-beba-441e-be59-19891ef57dd5"
+        "72b2baec-beba-441e-be59-19891ef57dd5",
+        "8bc740e6-7cdc-4c1b-a88f-870022376d4b",
+        "ed7c2a01-7f5a-4e1a-bed1-9c136cc2feb5"
       ],
       "settings": {
-        "title": "Our Collections",
+        "title": "BRANDS WE'RE STOCKING",
         "text_alignment": "horizontal-left vertical-bottom",
         "custom_background": "#eeeeef",
         "custom_text": "rgba(0,0,0,0)",
         "bg_overlay": false,
-        "seo_h_tag": "h2"
+        "seo_h_tag": "h1"
       }
     }
   },

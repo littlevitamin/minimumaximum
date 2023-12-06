@@ -1,1 +1,111 @@
-{"sections":{"main":{"type":"main-list-collections","settings":{}}},"order":["main"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-list-collections",
+      "blocks": {
+        "7592a5e8-8f30-4bea-a695-4cbc1e95ddc3": {
+          "type": "collection",
+          "settings": {
+            "collection": "ami-paris"
+          }
+        },
+        "f1d41a21-e8ff-4a3b-804c-fec780dbfb88": {
+          "type": "collection",
+          "settings": {
+            "collection": "anya-hindmarch",
+            "image": "shopify:\/\/shop_images\/5050925180962_FRONT.png"
+          }
+        },
+        "4022f7cd-fed5-4207-b64e-850e5b3a435a": {
+          "type": "collection",
+          "settings": {
+            "collection": "billionaire-boys-club"
+          }
+        },
+        "89b6dec2-dec3-45e9-9701-9b6a4699239a": {
+          "type": "collection",
+          "settings": {
+            "collection": "ice-cream"
+          }
+        },
+        "184056eb-e3fc-4529-9ce1-8cb66befc06e": {
+          "type": "collection",
+          "settings": {
+            "collection": "viktor-rolf"
+          }
+        },
+        "ff9020df-7c15-472c-990e-ed135a697ab1": {
+          "type": "collection",
+          "settings": {
+            "collection": "vivienne-westwood"
+          }
+        }
+      },
+      "block_order": [
+        "7592a5e8-8f30-4bea-a695-4cbc1e95ddc3",
+        "f1d41a21-e8ff-4a3b-804c-fec780dbfb88",
+        "4022f7cd-fed5-4207-b64e-850e5b3a435a",
+        "89b6dec2-dec3-45e9-9701-9b6a4699239a",
+        "184056eb-e3fc-4529-9ce1-8cb66befc06e",
+        "ff9020df-7c15-472c-990e-ed135a697ab1"
+      ],
+      "settings": {
+        "text_alignment": "horizontal-left vertical-bottom",
+        "custom_text": "rgba(0,0,0,0)",
+        "custom_overlay": "rgba(0,0,0,0)",
+        "display_type": "selected",
+        "sort": "alphabetical"
+      }
+    },
+    "f098fd41-d9bc-4391-a94b-1012f45db617": {
+      "type": "text-columns-with-icons",
+      "blocks": {
+        "template--16337080877242__f098fd41-d9bc-4391-a94b-1012f45db617-text-icon-1": {
+          "type": "text-icon",
+          "settings": {
+            "title": "WORLDWIDE SHIPPING",
+            "body": "<p>Useful information about your shipping details<\/p>",
+            "label": "",
+            "link": "",
+            "select_icon": "delivery"
+          }
+        },
+        "template--16337080877242__f098fd41-d9bc-4391-a94b-1012f45db617-text-icon-2": {
+          "type": "text-icon",
+          "settings": {
+            "title": "FREE RETURNS",
+            "body": "<p>Show how much time customers have for testing your products<\/p>",
+            "label": "",
+            "link": "",
+            "select_icon": "time-limit"
+          }
+        },
+        "template--16337080877242__f098fd41-d9bc-4391-a94b-1012f45db617-text-icon-3": {
+          "type": "text-icon",
+          "settings": {
+            "title": "FREE LOCAL DELIVERY",
+            "body": "<p>If you live within 1 mile of our store, we'll deliver to you for free and on the same day<\/p>",
+            "label": "Find out more",
+            "link": "",
+            "select_icon": "delivery-time"
+          }
+        }
+      },
+      "block_order": [
+        "template--16337080877242__f098fd41-d9bc-4391-a94b-1012f45db617-text-icon-1",
+        "template--16337080877242__f098fd41-d9bc-4391-a94b-1012f45db617-text-icon-2",
+        "template--16337080877242__f098fd41-d9bc-4391-a94b-1012f45db617-text-icon-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "custom_background": "rgba(0,0,0,0)",
+        "custom_text": "rgba(0,0,0,0)",
+        "seo_h_tag": "h3"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "f098fd41-d9bc-4391-a94b-1012f45db617"
+  ]
+}
