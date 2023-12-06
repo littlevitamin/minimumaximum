@@ -229,25 +229,25 @@
       var image = section.querySelector(".box__face--back");
       var logo = section.querySelector(".logo-image"); 
 
-    gsap.timeline({
-      scrollTrigger: {
-        trigger: section,
-        start: "top top",
-        end: "100% top",
-        pin: true,
-        scrub: true,
-      },
-    });
+    // gsap.timeline({
+    //   scrollTrigger: {
+    //     trigger: section,
+    //     start: "top top",
+    //     end: "100% top",
+    //     pin: true,
+    //     scrub: true,
+    //   },
+    // });
 
-    gsap.timeline({
-      scrollTrigger: {
-        trigger: section,
-        start: "top 10%",
-        end: "100% top",
-        scrub: true,
-      },
-    }).to(logo, { top: "10%", width: "30%", ease: "none" });
-  });
+  //   gsap.timeline({
+  //     scrollTrigger: {
+  //       trigger: section,
+  //       start: "top 10%",
+  //       end: "100% top",
+  //       scrub: true,
+  //     },
+  //   }).to(logo, { top: "10%", width: "30%", ease: "none" });
+  // });
 </script>
 
 {% schema %}
