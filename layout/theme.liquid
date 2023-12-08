@@ -497,6 +497,7 @@
       const mobileIcon = document.querySelector('.mobile-icon');
       const mobileContent = document.querySelector('.mobile');
       const scrollContent = document.querySelector('.perspective-section-container');
+      const sections = document.querySelectorAll('.shopify-section:not(.index-section)');
       let initialHeight = scrollContent.scrollHeight + 'px';
       let rotated = false;
 
@@ -507,6 +508,10 @@
         mobileContent.style.opacity = rotated ? '1' : '0';
         scrollContent.style.visibility = rotated ? 'hidden' : 'visible';
         scrollContent.style.height = rotated ? '100vh' : scrollContent.scrollHeight + 'px' ;
+        
+        sections.forEach((section) => {
+          section.style.display = rotated ? 'none' : 'block';
+        });
       });
 
 
