@@ -115,21 +115,23 @@
         "template--16337080680634__679e6177-ed60-482c-ab7b-5d17f9dfbdfb-text-icon-1": {
           "type": "text-icon",
           "settings": {
-            "title": "Shipping",
-            "body": "<p>Useful information about your shipping details<\/p>",
+            "title": "",
+            "body": "",
             "label": "",
-            "link": "",
-            "select_icon": "delivery"
+            "link": "shopify:\/\/collections\/vivienne-westwood",
+            "select_icon": "delivery",
+            "custom_icon": "shopify:\/\/shop_images\/vivienne-westwood-1-logo-png-transparent.png"
           }
         },
         "template--16337080680634__679e6177-ed60-482c-ab7b-5d17f9dfbdfb-text-icon-2": {
           "type": "text-icon",
           "settings": {
-            "title": "Returns",
-            "body": "<p>Show how much time customers have for testing your products<\/p>",
+            "title": "",
+            "body": "",
             "label": "",
             "link": "",
-            "select_icon": "time-limit"
+            "select_icon": "time-limit",
+            "custom_icon": "shopify:\/\/shop_images\/LOGO_AMI_2000x_ddd4d1d1-faa7-4146-ba8b-622e5e1889d0.webp"
           }
         },
         "template--16337080680634__679e6177-ed60-482c-ab7b-5d17f9dfbdfb-text-icon-3": {
