@@ -2870,12 +2870,12 @@ li.has-submenu:hover > ul {
   height: 100vh;
   background: #f1e9dc;
   text-align: center;
-  transition: opacity 0.5s ease, z-index 0.5s ease;
+  transition: height 0.5s ease, z-index 0.5s ease;
 }
 
 
 .mobile-icon {
-  position: absolute;
+  position: fixed;
   top: 20px;
   left: 20px;
   z-index: 11;

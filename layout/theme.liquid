@@ -496,6 +496,8 @@
     <script>
       const mobileIcon = document.querySelector('.mobile-icon');
       const mobileContent = document.querySelector('.mobile');
+      const scrollContent = document.querySelector('.perspective-section-container');
+      let initialHeight = scrollContent.scrollHeight + 'px';
       let rotated = false;
 
       mobileIcon.addEventListener('click', () => {
@@ -503,7 +505,10 @@
         mobileIcon.style.transform = rotated ? 'rotate(45deg)' : 'rotate(0deg)';
         mobileContent.style.zIndex = rotated ? '10' : '-1';
         mobileContent.style.opacity = rotated ? '1' : '0';
+        scrollContent.style.visibility = rotated ? 'hidden' : 'visible';
+        scrollContent.style.height = rotated ? '100vh' : scrollContent.scrollHeight + 'px' ;
       });
+
 
     </script>
 </body>
