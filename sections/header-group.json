@@ -2,46 +2,6 @@
   "type": "header",
   "name": "t:sections.refactor_words.labels.header_group",
   "sections": {
-    "announcement": {
-      "type": "announcement-bar",
-      "blocks": {
-        "content": {
-          "type": "content",
-          "settings": {
-            "text": "FREE LOCAL DELIVERY",
-            "link": "#",
-            "target": false
-          }
-        },
-        "9aa6280c-225b-4b1e-b155-2d4816c797f9": {
-          "type": "content",
-          "settings": {
-            "text": "WORLDWIDE SHIPPING",
-            "link": "#",
-            "target": false
-          }
-        },
-        "c1991a00-e7f2-45df-b8b0-a0370657208c": {
-          "type": "content",
-          "settings": {
-            "text": "NEW PRODUCTS WEEKLY",
-            "link": "#",
-            "target": false
-          }
-        }
-      },
-      "block_order": [
-        "content",
-        "9aa6280c-225b-4b1e-b155-2d4816c797f9",
-        "c1991a00-e7f2-45df-b8b0-a0370657208c"
-      ],
-      "settings": {
-        "visibility": "no-homepage",
-        "bar_txtcolor": "#000000",
-        "bar_bgcolor": "#f1e9dc",
-        "bar_bordercolor": "#f1e9dc"
-      }
-    },
     "header": {
       "type": "header",
       "settings": {
@@ -72,7 +32,6 @@
     }
   },
   "order": [
-    "announcement",
     "header",
     "breadcrumb"
   ]
