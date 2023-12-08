@@ -9,6 +9,45 @@
         "target": false
       }
     },
+    "00a34610-6f14-4c42-84e1-0900435a78f3": {
+      "type": "marquee",
+      "blocks": {
+        "template--16337080680634__00a34610-6f14-4c42-84e1-0900435a78f3-text-1": {
+          "type": "text",
+          "settings": {
+            "marquee_text": "<strong>WORLDWIDE SHIPPING<\/strong>"
+          }
+        },
+        "af47f87d-a141-46a8-a4c0-6056d7d01b89": {
+          "type": "text",
+          "settings": {
+            "marquee_text": "<strong>FREE LOCAL DELIVERY<\/strong>"
+          }
+        },
+        "2755d718-b996-4cd9-a602-24d851e7b9c4": {
+          "type": "text",
+          "settings": {
+            "marquee_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16337080680634__00a34610-6f14-4c42-84e1-0900435a78f3-text-1",
+        "af47f87d-a141-46a8-a4c0-6056d7d01b89",
+        "2755d718-b996-4cd9-a602-24d851e7b9c4"
+      ],
+      "settings": {
+        "scroll_direction": "ltr",
+        "speed": 100,
+        "pause_on_hover": true,
+        "horizontal_space": "regular-x-2",
+        "text_size": "text-size--larger",
+        "has_top_border": true,
+        "has_bottom_border": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)"
+      }
+    },
     "16371348113d6d6d6d": {
       "type": "collection-list",
       "blocks": {
@@ -115,37 +154,12 @@
         "custom_text": "rgba(0,0,0,0)",
         "seo_h_tag": "h3"
       }
-    },
-    "00a34610-6f14-4c42-84e1-0900435a78f3": {
-      "type": "marquee",
-      "blocks": {
-        "template--16337080680634__00a34610-6f14-4c42-84e1-0900435a78f3-text-1": {
-          "type": "text",
-          "settings": {
-            "marquee_text": "Introduce product <strong>promotions<\/strong>. Write about your brand. Flash deals!"
-          }
-        }
-      },
-      "block_order": [
-        "template--16337080680634__00a34610-6f14-4c42-84e1-0900435a78f3-text-1"
-      ],
-      "settings": {
-        "scroll_direction": "ltr",
-        "speed": 100,
-        "pause_on_hover": true,
-        "horizontal_space": "regular-x-2",
-        "text_size": "text-size--larger",
-        "has_top_border": true,
-        "has_bottom_border": false,
-        "color_background_main": "rgba(0,0,0,0)",
-        "color_text_main": "rgba(0,0,0,0)"
-      }
     }
   },
   "order": [
     "1ca209a4-d7fb-49e3-a000-97d47af6cdc5",
+    "00a34610-6f14-4c42-84e1-0900435a78f3",
     "16371348113d6d6d6d",
-    "679e6177-ed60-482c-ab7b-5d17f9dfbdfb",
-    "00a34610-6f14-4c42-84e1-0900435a78f3"
+    "679e6177-ed60-482c-ab7b-5d17f9dfbdfb"
   ]
 }

@@ -2,31 +2,6 @@
   "type": "header",
   "name": "t:sections.refactor_words.labels.header_group",
   "sections": {
-    "46c74e1e-66cc-4260-8025-f0347b1c5049": {
-      "type": "marquee",
-      "blocks": {
-        "sections--16337080549562__46c74e1e-66cc-4260-8025-f0347b1c5049-text-1": {
-          "type": "text",
-          "settings": {
-            "marquee_text": "Introduce product <strong>promotions<\/strong>. Write about your brand. Flash deals!"
-          }
-        }
-      },
-      "block_order": [
-        "sections--16337080549562__46c74e1e-66cc-4260-8025-f0347b1c5049-text-1"
-      ],
-      "settings": {
-        "scroll_direction": "ltr",
-        "speed": 100,
-        "pause_on_hover": true,
-        "horizontal_space": "regular-x-2",
-        "text_size": "text-size--larger",
-        "has_top_border": true,
-        "has_bottom_border": false,
-        "color_background_main": "rgba(0,0,0,0)",
-        "color_text_main": "rgba(0,0,0,0)"
-      }
-    },
     "header": {
       "type": "header",
       "settings": {
@@ -57,7 +32,6 @@
     }
   },
   "order": [
-    "46c74e1e-66cc-4260-8025-f0347b1c5049",
     "header",
     "breadcrumb"
   ]
