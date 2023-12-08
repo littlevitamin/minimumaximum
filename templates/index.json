@@ -38,12 +38,12 @@
       ],
       "settings": {
         "scroll_direction": "ltr",
-        "speed": 100,
+        "speed": 30,
         "pause_on_hover": true,
-        "horizontal_space": "regular-x-2",
-        "text_size": "text-size--larger",
+        "horizontal_space": "xlarge-x-2",
+        "text_size": "text-size--smaller",
         "has_top_border": true,
-        "has_bottom_border": false,
+        "has_bottom_border": true,
         "color_background_main": "rgba(0,0,0,0)",
         "color_text_main": "rgba(0,0,0,0)"
       }
@@ -101,9 +101,9 @@
         "ed7c2a01-7f5a-4e1a-bed1-9c136cc2feb5"
       ],
       "settings": {
-        "title": "BRANDS WE'RE STOCKING",
+        "title": "BRANDS",
         "text_alignment": "horizontal-left vertical-bottom",
-        "custom_background": "#eeeeef",
+        "custom_background": "#ffffff",
         "custom_text": "rgba(0,0,0,0)",
         "bg_overlay": false,
         "seo_h_tag": "h1"
