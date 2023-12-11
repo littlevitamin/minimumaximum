@@ -222,7 +222,7 @@ html[dir=ltr] .site-filter-handle-holder {
 .site-filter-handle {
   position: sticky;
   pointer-events: all;
-  top: 30px;
+  top: 100px;
   /* background: var(--main-text);
   color: var(--main-background);
   border-radius: var(--buttons-radius); */
