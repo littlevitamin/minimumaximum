@@ -2873,7 +2873,7 @@ li.has-submenu:hover > ul {
 }
 
 .mobile > *,
-.s-info-content {
+.s-info-content > p {
   font-family: Times,serif,"Helvetica, sans-serif";
   font-size: 1.6rem!important;
   line-height: 1.2!important;
