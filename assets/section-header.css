@@ -1,5 +1,5 @@
 .site-header {
-  padding: var(--header-padding) var(--site-horizontal-padding);
+  padding: 10px var(--site-horizontal-padding);
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
