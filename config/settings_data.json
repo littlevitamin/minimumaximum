@@ -77,10 +77,10 @@
   "current": {
     "header_background": "#ffffff",
     "header_text": "#000000",
-    "header_borders_opacity": 10,
+    "header_borders_opacity": 100,
     "main_background": "#ffffff",
     "main_text": "#000000",
-    "borders_opacity": 10,
+    "borders_opacity": 100,
     "sidebar_background": "#ffffff",
     "headings_font": "helvetica_n4",
     "headings_size": 51,
