@@ -223,9 +223,9 @@ html[dir=ltr] .site-filter-handle-holder {
   position: sticky;
   pointer-events: all;
   top: 30px;
-  background: var(--main-text);
+  /* background: var(--main-text);
   color: var(--main-background);
-  border-radius: var(--buttons-radius);
+  border-radius: var(--buttons-radius); */
   height: var(--button-size);
   width: max-content;
   max-width: var(--button-size);
@@ -234,9 +234,13 @@ html[dir=ltr] .site-filter-handle-holder {
   text-transform: uppercase;
   padding: 0 20px;
   transition: all 25ms linear !important;
+  border-radius: 28px;
+  border: 1px solid black;
+  background: rgba(255, 255, 255, 0.40);
+  backdrop-filter: blur(5px);
 }
 .site-filter-handle svg * {
-  fill: var(--main-background);
+  fill: black;
 }
 .site-filter-handle .filter-text {
   padding-inline-start: 12px;
