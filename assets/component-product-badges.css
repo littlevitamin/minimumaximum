@@ -39,6 +39,10 @@ html[dir=ltr] .product-badges-holder {
   font-weight: var(--font-weight-body-bold);
   z-index: 99;
   border-radius: var(--buttons-radius);
+  border: 1px solid black;
+  background: rgba(255, 255, 255, 0.40);
+  backdrop-filter: blur(10px);
+  color: black;
 }
 html[dir=rtl] .product-badge.right {
   left: 12px;
