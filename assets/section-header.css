@@ -365,7 +365,7 @@ html[dir=ltr] #site-search .preloader p {
   fill: var(--header-text);
 }
 
-@media screen and (min-width: 990px) {
+@media screen and (min-width: 1025px) {
   #site-menu-handle {
     display: none;
   }
