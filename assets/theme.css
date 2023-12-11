@@ -2933,5 +2933,5 @@ li.has-submenu:hover > ul {
 }
 
 span, a {
-  font-family: var(--font-heading-family)!important;
+  font-family: var(--font-stack-headings)!important;
 }
