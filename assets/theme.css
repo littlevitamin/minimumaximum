@@ -2874,8 +2874,8 @@ li.has-submenu:hover > ul {
 
 .mobile > * {
   font-family: Times,serif,"Helvetica, sans-serif";
-  font-size: 1.6rem;
-  line-height: 1.2;
+  font-size: 1.6rem!important;
+  line-height: 1.2!important;
 }
 
 .mobile::after {
