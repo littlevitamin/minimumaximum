@@ -40,9 +40,9 @@ html[dir=ltr] .product-badges-holder {
   z-index: 99;
   border-radius: var(--buttons-radius);
   border: 1px solid black;
-  background: rgba(255, 255, 255, 0.40);
+  background: rgba(255, 255, 255, 0.40)!important;
   backdrop-filter: blur(10px);
-  color: black;
+  color: black!important;
 }
 html[dir=rtl] .product-badge.right {
   left: 12px;
