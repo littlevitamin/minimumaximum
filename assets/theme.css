@@ -2914,6 +2914,10 @@ li.has-submenu:hover > ul {
     margin: 10px;
 }
 
+.mobile {
+  padding: 0 10px;
+}
+
 /* Perspective image mobile option */
 .mobile-image {
   display: block;
