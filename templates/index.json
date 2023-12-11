@@ -177,7 +177,8 @@
         "f9fff972-d942-45fb-a9dc-3f2751d0ae0c": {
           "type": "image",
           "settings": {
-            "image_padding": 100,
+            "image": "shopify:\/\/shop_images\/image.png",
+            "image_padding": 80,
             "link": "",
             "open_in_new_tab": false
           }
