@@ -371,6 +371,12 @@ html[dir=ltr] #site-search .preloader p {
   }
 }
 
+@media screen and (max-width: 1024px) {
+  .primary-menu {
+    display: none;
+  }
+}
+
 .cart-menu {
   position: relative;
   display: block;
