@@ -2872,13 +2872,6 @@ li.has-submenu:hover > ul {
   transition: height 0.5s ease, z-index 0.5s ease;
 }
 
-.mobile > *,
-.s-info-content > p {
-  font-family: Times,serif,"Helvetica, sans-serif";
-  font-size: 1.6rem!important;
-  line-height: 1.2!important;
-}
-
 .mobile::after {
   content: "";
   position: fixed;
