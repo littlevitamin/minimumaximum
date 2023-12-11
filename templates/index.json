@@ -191,7 +191,7 @@
       ],
       "settings": {
         "scroll_direction": "ltr",
-        "speed": 50,
+        "speed": 40,
         "pause_on_hover": false
       }
     }
