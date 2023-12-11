@@ -98,7 +98,7 @@
       ],
       "settings": {
         "title": "BRANDS",
-        "text_alignment": "horizontal-left vertical-bottom",
+        "text_alignment": "horizontal-left vertical-top",
         "custom_background": "#ffffff",
         "custom_text": "rgba(0,0,0,0)",
         "bg_overlay": false,
