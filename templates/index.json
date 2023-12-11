@@ -192,7 +192,7 @@
       "settings": {
         "scroll_direction": "ltr",
         "speed": 100,
-        "pause_on_hover": true
+        "pause_on_hover": false
       }
     }
   },
