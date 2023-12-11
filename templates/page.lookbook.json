@@ -59,8 +59,9 @@
         "308361a2-725d-450b-be44-e476de5295d4": {
           "type": "image",
           "settings": {
-            "image_padding": 100,
-            "link": "",
+            "image": "shopify:\/\/shop_images\/vivienne-westwood-1-logo-png-transparent.png",
+            "image_padding": 44,
+            "link": "shopify:\/\/collections\/vivienne-westwood",
             "open_in_new_tab": false
           }
         }
