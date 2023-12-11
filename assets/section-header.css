@@ -365,6 +365,12 @@ html[dir=ltr] #site-search .preloader p {
   fill: var(--header-text);
 }
 
+@media screen and (min-width: 990px) {
+  .hamburger-menu {
+    display: none;
+  }
+}
+
 .cart-menu {
   position: relative;
   display: block;
