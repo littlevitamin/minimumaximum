@@ -54,15 +54,13 @@
         "1637134811779b275e-0": {
           "type": "collection",
           "settings": {
-            "collection": "ami-paris",
-            "image": "shopify:\/\/shop_images\/Group_8.png"
+            "collection": "ami-paris"
           }
         },
         "1637134811779b275e-1": {
           "type": "collection",
           "settings": {
-            "collection": "anya-hindmarch",
-            "image": "shopify:\/\/shop_images\/5050925180962_FRONT.png"
+            "collection": "anya-hindmarch"
           }
         },
         "1637134811779b275e-2": {
