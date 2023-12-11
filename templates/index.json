@@ -173,11 +173,20 @@
             "link": "",
             "open_in_new_tab": false
           }
+        },
+        "f9fff972-d942-45fb-a9dc-3f2751d0ae0c": {
+          "type": "image",
+          "settings": {
+            "image_padding": 100,
+            "link": "",
+            "open_in_new_tab": false
+          }
         }
       },
       "block_order": [
         "template--16337080680634__8fdbfdda-dcdc-406f-a2d8-47603bc1137a-image-1",
-        "d22c478c-0e9c-415f-8490-886816d7ced5"
+        "d22c478c-0e9c-415f-8490-886816d7ced5",
+        "f9fff972-d942-45fb-a9dc-3f2751d0ae0c"
       ],
       "settings": {
         "scroll_direction": "ltr",
