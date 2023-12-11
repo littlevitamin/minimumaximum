@@ -110,6 +110,9 @@ data-sticky="{{ section.settings.menu_sticky }}">
       </noscript>
     {%- endif -%}
 
+          <nav class="primary-menu">{%- render 'site-nav', linklist: section.settings.main_linklist_right, collection_linklist: section.settings.collection_linklist, show_collection_images: false, type: 'sidebar', show_locale_selector: section.settings.show_locale_selector, show_country_selector: section.settings.show_country_selector -%}</nav>
+
+
     <span 
       class="site-search-handle site-menu-handle" 
       title="{{ 'general.accessibility_labels.open_search' | t }}"
