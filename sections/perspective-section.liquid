@@ -229,13 +229,19 @@
     mix-blend-mode: difference;
   }
 
-  @media screen and (min-height: 750px) {
+  @media screen and (max-height: 580px) {
+    .logo-image {
+      transform: translate(-50%, 25vh);
+    }
+  }
+
+  @media (max-width: 750px) and (min-height: 750px) {
     .logo-image {
       transform: translate(-50%, 35vh);
     }
   }
   
-  @media screen and (min-height: 850px) {
+  @media (max-width: 750px) and (min-height: 850px) {
     .logo-image {
       transform: translate(-50%, 40vh);
     }
