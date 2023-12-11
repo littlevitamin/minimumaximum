@@ -45,6 +45,7 @@ html[dir=ltr] .site-header .logo img {
 .site-header a {
   display: inline-block;
   color: var(--header-text);
+  font-size: 14px;
 }
 .site-header:not(.site-header--no-border) {
   border-bottom: 1px solid var(--header-grid-borders);
