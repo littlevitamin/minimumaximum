@@ -2894,11 +2894,13 @@ li.has-submenu:hover > ul {
 
 .mobile-icon {
   position: fixed;
-  top: 5px;
-  left: 5px;
+  top: 10px;
+  left: 10px;
   z-index: 11;
   cursor: pointer;
   transition: transform 0.3s ease;
+  width: 25px;
+  height: 25px;
 }
 
 /* Perspective image mobile option */
