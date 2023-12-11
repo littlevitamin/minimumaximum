@@ -449,7 +449,7 @@
         mountHeader.classList.add('mount-header-homepage');
         
         var viewportHeight = window.innerHeight;
-        var scrollThreshold = viewportHeight * 1.25; // Adjust the multiplier as needed
+        var scrollThreshold = viewportHeight * 1.4; // Adjust the multiplier as needed
 
         window.addEventListener('scroll', function() {
           var scrollPosition = window.scrollY;
@@ -473,8 +473,8 @@
         document.addEventListener("DOMContentLoaded", function() {
             var boxElement = document.querySelector('.box__face--back');
             function handleScroll() {
-                var scale = 1 - window.pageYOffset / (window.innerHeight * 2); //adjust the speed from here
-                scale = Math.max(0.7, Math.min(1, scale));
+                var scale = 1 - window.pageYOffset / (window.innerHeight * 3); //adjust the speed from here
+                scale = Math.max(0.5, Math.min(1, scale));
                 boxElement.style.transform = 'translate3d(0px, 0px, 0px) scale(' + scale + ')';
             }
             window.addEventListener('scroll', handleScroll);

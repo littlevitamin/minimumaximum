@@ -198,23 +198,23 @@
   }
   .box__face--right {
     transform: rotateY(90deg) translateZ(50vw);
-    border: 0;
+    border: 2px solid black;
     background: white;
   }
   .box__face--left {
     transform: rotateY(-90deg) translateZ(50vw);
-    border: 0;
+    border: 2px solid black;
     background: white;
   }
   .box__face--top {
     transform: rotateX(90deg) translateZ(50vh);
-    border: 2px solid black;
+    border: 0;
     background: white;
   }
 
   .box__face--bottom {
     transform: rotateX(-90deg) translateZ(50vh);
-    border: 2px solid black;
+    border: 0;
     background: white;
   }
 
@@ -222,11 +222,17 @@
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, 20vh);
+    transform: translate(-50%, 30vh);
     width: 100%;
     opacity: 1;
     transition: opacity 0.5s ease;
     mix-blend-mode: difference;
+  }
+
+  @media screen and (min-height: 750px) {
+    .logo-image {
+      transform: translate(-50%, 35vh);
+    }
   }
 </style>
 
@@ -248,15 +254,15 @@
       },
     });
 
-    gsap.timeline({
+     gsap.timeline({
       scrollTrigger: {
         trigger: section,
-        start: "top 10%",
-        end: "100% top",
+        start: "top",
+        end: "200%",
         scrub: true,
       },
-    }).to(logo, { top: "10%", width: "30%", ease: "none" });
-  });
+    }).to(logo, { top: "10%", width: "15%", ease: "none" });
+  }); 
 </script>
 
 {% schema %}
