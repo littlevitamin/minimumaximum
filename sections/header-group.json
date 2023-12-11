@@ -7,6 +7,7 @@
       "settings": {
         "logo_src": "shopify:\/\/shop_images\/Group_2.svg",
         "logo_height": 40,
+        "main_linklist_mobile": "mobile-navigation",
         "main_linklist": "main-menu",
         "menu_style": "classic",
         "menu_sticky": "sticky--scroll",
