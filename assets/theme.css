@@ -1505,7 +1505,7 @@ toggle-tab.opened .toggle__title .symbol--minus {
 }
 
 #main.main-not-landing {
-  margin-top: 10px;
+  margin-top: 0px;
 }
 
 @media screen and (max-width: 768px), screen and (max-width: 1024px) and (orientation: portrait) {
@@ -2765,7 +2765,7 @@ li.has-submenu:hover > ul {
   overflow: hidden;
 }
 
-.site-filter-handle-holder:not(:first-child),
+/* .site-filter-handle-holder:not(:first-child), */
 .product-gallery__thumbnails,
 .product-gallery-item:not(:first-child),
 .css-slider-navigation-container {
