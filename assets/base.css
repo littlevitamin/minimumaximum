@@ -264,10 +264,6 @@ body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
   font-weight: var(--font-body-weight);
 }
 
-span, a {
-  font-family: var(--font-heading-family)!important;
-}
-
 h1,
 h2,
 h3,
