@@ -2897,6 +2897,21 @@ li.has-submenu:hover > ul {
   height: 25px;
 }
 
+.s-info .s-info-inside .newsletter-form .row-field input, .s-info .s-info-inside .newsletter-form .row-field button {
+    border: 0;
+    background-color: transparent;
+    border-radius: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.s-info .s-info-inside .newsletter-form .row-field {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-bottom: 0.1rem solid black;
+}
+
 /* Perspective image mobile option */
 .mobile-image {
   display: block;
