@@ -2910,6 +2910,8 @@ li.has-submenu:hover > ul {
     display: -ms-flexbox;
     display: flex;
     border-bottom: 0.1rem solid black;
+    justify-content: space-around;
+    margin: 10px;
 }
 
 /* Perspective image mobile option */
