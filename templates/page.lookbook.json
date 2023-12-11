@@ -51,7 +51,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/LOGO_AMI_2000x_copy.png",
-            "image_padding": 50,
+            "image_padding": 44,
             "link": "shopify:\/\/collections\/ami-paris",
             "open_in_new_tab": false
           }
@@ -60,7 +60,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/vivienne-westwood-1-logo-png-transparent.png",
-            "image_padding": 44,
+            "image_padding": 50,
             "link": "shopify:\/\/collections\/vivienne-westwood",
             "open_in_new_tab": false
           }
