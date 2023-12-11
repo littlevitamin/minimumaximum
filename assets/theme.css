@@ -2761,7 +2761,6 @@ li.has-submenu:hover > ul {
   overflow: hidden;
 }
 
-/* .site-filter-handle-holder:not(:first-child), */
 .product-gallery__thumbnails,
 .product-gallery-item:not(:first-child),
 .css-slider-navigation-container {
@@ -2931,4 +2930,8 @@ li.has-submenu:hover > ul {
   .desktop-image {
     display: block;
   }
+}
+
+span, a {
+  font-family: var(--font-heading-family)!important;
 }
