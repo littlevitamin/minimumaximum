@@ -161,7 +161,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/vivienne-westwood-1-logo-png-transparent.png",
             "image_padding": 50,
-            "link": "",
+            "link": "shopify:\/\/collections\/vivienne-westwood",
             "open_in_new_tab": false
           }
         },
@@ -170,7 +170,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/LOGO_AMI_2000x_copy.png",
             "image_padding": 44,
-            "link": "",
+            "link": "shopify:\/\/collections\/ami-paris",
             "open_in_new_tab": false
           }
         },
@@ -179,7 +179,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/image.png",
             "image_padding": 80,
-            "link": "",
+            "link": "shopify:\/\/collections\/anya-hindmarch",
             "open_in_new_tab": false
           }
         }
