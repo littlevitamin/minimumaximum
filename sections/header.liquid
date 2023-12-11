@@ -8,6 +8,11 @@ data-sticky="{{ section.settings.menu_sticky }}">
         </nav>
       </div>
 
+    <button id="site-menu-handle" class="site-menu-handle site-burger-handle hide portable--show" aria-expanded="false" aria-controls="site-nav--mobile" title="{{ 'general.accessibility_labels.open_menu' | t }}" data-js-sidebar-handle>
+      <span class="visually-hidden">{{ 'general.accessibility_labels.open_menu' | t }}</span>
+      <span class="hamburger-menu" aria-hidden="true" style="height:16px;margin-top:-5px;">{%- render 'theme-symbols', icon: 'burger' -%}</span>
+    </button>
+
   <!-- logo -->
   
   <span class="logo">
