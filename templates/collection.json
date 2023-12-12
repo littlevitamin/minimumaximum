@@ -4,7 +4,7 @@
       "type": "main-collection",
       "settings": {
         "show_collection_banner": true,
-        "collection_desktop_layout": "full",
+        "collection_desktop_layout": "split",
         "show_collection_description": true,
         "show_collection_image": true,
         "mobile_overlay_background": "rgba(0,0,0,0)",
