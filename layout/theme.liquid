@@ -473,7 +473,7 @@
         document.addEventListener("DOMContentLoaded", function() {
             var boxElement = document.querySelector('.box__face--back');
             function handleScroll() {
-                var scale = 1 - window.pageYOffset / (window.innerHeight * 3); //adjust the speed from here
+                var scale = 1 - window.pageYOffset / (window.innerHeight * 4); //adjust the speed from here
                 scale = Math.max(0.5, Math.min(1, scale));
                 boxElement.style.transform = 'translate3d(0px, 0px, 0px) scale(' + scale + ')';
             }
