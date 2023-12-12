@@ -494,6 +494,27 @@
     </script> 
 
     <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var imageContainer = document.querySelector(".image-container");
+        var viewportHeight = window.innerHeight;
+        var scrollThreshold = viewportHeight * 1.2;
+        
+        window.addEventListener("scroll", function () {
+          var scrollPosition = window.scrollY;
+    
+          if (scrollPosition > scrollThreshold) {
+            imageContainer.style.position = "fixed";
+            imageContainer.style.top = "0";
+          } else {
+            imageContainer.style.position = "relative";
+            imageContainer.style.top = "auto";
+          }
+        });
+      });
+    </script>
+
+
+    <script>
       const mobileIcon = document.querySelector('.mobile-icon');
       const mobileContent = document.querySelector('.mobile');
       const scrollContent = document.querySelector('.perspective-section-container');
