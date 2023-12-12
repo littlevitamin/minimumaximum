@@ -480,6 +480,20 @@
             window.addEventListener('scroll', handleScroll);
         });
     </script>
+
+    <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var logoImage = document.getElementById('logoImage');
+      var scrollHeight = 100;
+
+      window.addEventListener('scroll', function () {
+        var scrollPercentage = (window.scrollY / scrollHeight) * 100;
+        var translateY = Math.min(scrollPercentage, 100);
+
+        logoImage.style.transform = 'translate(-50%, ' + translateY + 'vh)';
+      });
+    });
+  </script>
   
     <script>
         document.addEventListener("DOMContentLoaded", function() {
