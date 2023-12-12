@@ -4,12 +4,12 @@
       "type": "main-collection",
       "settings": {
         "show_collection_banner": true,
-        "collection_desktop_layout": "split",
+        "collection_desktop_layout": "full",
         "show_collection_description": true,
         "show_collection_image": true,
         "mobile_overlay_background": "rgba(0,0,0,0)",
         "mobile_overlay_text": "rgba(0,0,0,0)",
-        "collection_rows": 3,
+        "collection_rows": 2,
         "enable_filtering": true,
         "enable_sorting": true
       }
