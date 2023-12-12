@@ -2768,8 +2768,8 @@ li.has-submenu:hover > ul {
   display: none!important;
 }
 
-.site-box-collection-image:first-child {
-  display: block!important;
+.site-box-collection-image:not(:first-child) {
+  display: none!important;
 }
 
 
