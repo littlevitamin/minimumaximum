@@ -484,11 +484,11 @@
     <script>
     document.addEventListener('DOMContentLoaded', function () {
       var logoImage = document.querySelector('.logo-image');
-      var scrollHeight = 100;
+      var scrollHeight = 100; 
 
       window.addEventListener('scroll', function () {
-        var scrollPercentage = (window.scrollY / scrollHeight) * 100;
-        var translateY = Math.min(scrollPercentage, 100);
+        var scrollPercentage = (window.scrollY / scrollHeight);
+        var translateY = 30 - (scrollPercentage * 30);
 
         logoImage.style.transform = 'translate(-50%, ' + translateY + 'vh)';
       });
