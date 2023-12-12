@@ -457,7 +457,7 @@
         header.classList.add('mount-header-homepage');
         
         var viewportHeight = window.innerHeight;
-        var scrollThreshold = viewportHeight * 1.6; // Adjust the multiplier as needed
+        var scrollThreshold = viewportHeight * 1.65; // Adjust the multiplier as needed
 
         window.addEventListener('scroll', function() {
           var scrollPosition = window.scrollY;
@@ -521,6 +521,16 @@
       const sections = document.querySelectorAll('.shopify-section:not(.index-section)');
       let initialHeight = scrollContent.scrollHeight + 'px';
       let rotated = false;
+
+      function updateMobileIconVisibility() {
+        if (window.pageYOffset > 200) {
+          mobileIcon.style.display = 'none';
+        } else {
+          mobileIcon.style.display = 'block';
+        }
+      }
+      updateMobileIconVisibility();
+      window.addEventListener('scroll', updateMobileIconVisibility);
 
       mobileIcon.addEventListener('click', () => {
         rotated = !rotated;
