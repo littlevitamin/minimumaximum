@@ -2768,7 +2768,7 @@ li.has-submenu:hover > ul {
   display: none!important;
 }
 
-.site-box-collection-image:not(:first-child) {
+.site-box .site-box-background:not(:first-child) {
   display: none!important;
 }
 
