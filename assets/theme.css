@@ -2764,9 +2764,13 @@ li.has-submenu:hover > ul {
 .product-gallery__thumbnails,
 .product-gallery-item:not(:first-child),
 .site-box-collection:not(:first-child),
-.fix-me-with-height:not(:first-child),
+.site-box-collection-image,
 .css-slider-navigation-container {
   display: none!important;
+}
+
+.site-box-collection-image:first-child {
+  display: block!important;
 }
 
 
