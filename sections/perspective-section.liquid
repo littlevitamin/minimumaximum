@@ -8,17 +8,46 @@
   {%- unless section.settings.image == blank -%}
     {%- assign image = section.settings.image -%}
     {%- assign mobile_image = section.settings.mobile_image -%}
+    {%- assign video = section.settings.video -%}
+    {%- assign show_video = section.settings.show_video -%}
+    {%- assign mobile_video = section.settings.mobile_video -%}
+    {%- assign show_mobile_video = section.settings.show_mobile_video -%}
     <div class="perspective-container">
       <div class="box">
         <div class="box__face box__face--front"></div>
-          <img
-            src="{{ image | image_url: width: 640 }}"
-            alt="{{ image.alt | strip_html | escape }}"
-            srcset="{{ image | image_url: width: 320 }} 320w, {{ image | image_url: width: 480 }} 480w, {{ image | image_url: width: 640 }} 640w, {{ image | image_url: width: 840 }} 840w, {{ image | image_url: width: 1080 }} 1080w, {{ image | image_url: width: 1280 }} 1280w, {{ image | image_url: width: 1540 }} 1540w, {{ image | image_url: width: 1860 }} 1860w, {{ image | image_url: width: 2100 }} 2100w"
-            sizes="100vw"
-            width="{{ image.width }}" height="{{ image.height }}"
-            {% unless preload %} loading="lazy" {% endunless %} class="lazy scale-one box__face box__face--back desktop-image"
-            style="opacity: 1;"/>
+          {% if section.settings.show_video %}
+            <video id="vid"
+              class="lazy scale-one box__face box__face--back desktop-image"
+              style="height: inherit; width: inherit; object-fit: cover;" 
+              playsinline="true"
+              autoplay 
+              muted
+              loop 
+              loading="lazy">
+              <source src="{{ section.settings.video }}"/>
+            </video>
+          {% else %}
+            <img
+              src="{{ image | image_url: width: 640 }}"
+              alt="{{ image.alt | strip_html | escape }}"
+              srcset="{{ image | image_url: width: 320 }} 320w, {{ image | image_url: width: 480 }} 480w, {{ image | image_url: width: 640 }} 640w, {{ image | image_url: width: 840 }} 840w, {{ image | image_url: width: 1080 }} 1080w, {{ image | image_url: width: 1280 }} 1280w, {{ image | image_url: width: 1540 }} 1540w, {{ image | image_url: width: 1860 }} 1860w, {{ image | image_url: width: 2100 }} 2100w"
+              sizes="100vw"
+              width="{{ image.width }}" height="{{ image.height }}"
+              {% unless preload %} loading="lazy" {% endunless %} class="lazy scale-one box__face box__face--back desktop-image"
+              style="opacity: 1;"/>
+          {% endif %}
+          {% if section.settings.show_mobile_video %}
+            <video id="mobile_vid"
+              class="lazy scale-one box__face box__face--mobile-back mobile-image"
+              style="height: inherit; width: inherit; object-fit: cover;" 
+              playsinline="true"
+              autoplay 
+              muted
+              loop 
+              loading="lazy">
+              <source src="{{ section.settings.mobile_video }}"/>
+            </video>
+          {% else %}
           <img
             src="{{ mobile_image }}"
             alt="{{ mobile_image.alt | strip_html | escape }}"
@@ -28,6 +57,7 @@
             {% unless preload %} loading="lazy" {% endunless %} class="lazy scale-one box__face box__face--mobile-back mobile-image"
             style="opacity: 1;"
           >
+          {% endif %}
         <div class="box__face box__face--right"></div>
         <div class="box__face box__face--left"></div>
         <div class="box__face box__face--top"></div>
@@ -290,20 +320,31 @@
         "label": "Desktop Image"
       },
       {
+        "type": "checkbox",
+        "id": "show_video",
+        "label": "Enable desktop video option",
+        "default": false
+      },
+      {
+        "type": "url",
+        "id": "video",
+        "label": "Type your desktop video link"
+      },
+      {
         "type": "image_picker",
         "id": "mobile_image",
         "label": "Mobile Image"
       },
       {
-        "type": "url",
-        "id": "link",
-        "label": "t:sections.local-extra-words.sections.announcement-bar.blocks.content.settings.link"
+        "type": "checkbox",
+        "id": "show_mobile_video",
+        "label": "Enable mobile video option",
+        "default": false
       },
       {
-        "type": "checkbox",
-        "id": "target",
-        "label": "t:sections.local-extra-words.sections.announcement-bar.blocks.content.settings.target",
-        "default": false
+        "type": "url",
+        "id": "mobile_video",
+        "label": "Type your mobile video link"
       }
     ],
     "presets": [

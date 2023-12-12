@@ -507,7 +507,7 @@
             var boxElement = document.querySelector('.box__face--mobile-back');
             function handleScroll() {
                 var scale = 1 - window.pageYOffset / (window.innerHeight * 4); //adjust the speed from here
-                scale = Math.max(0.7, Math.min(1, scale));
+                scale = Math.max(0.4, Math.min(1, scale));
                 boxElement.style.transform = 'translate3d(0px, 0px, 0px) scale(' + scale + ')';
             }
             window.addEventListener('scroll', handleScroll);

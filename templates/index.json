@@ -4,7 +4,11 @@
       "type": "perspective-section",
       "settings": {
         "image": "shopify:\/\/shop_images\/MM_Store_1_1.png",
+        "show_video": true,
+        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/13a39f81b1b64073abade2b7e85c24af.mp4",
         "mobile_image": "shopify:\/\/shop_images\/m_2.png",
+        "show_mobile_video": true,
+        "mobile_video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/971a9546788040c7ada7599f52b6abcf.mp4",
         "link": "",
         "target": false
       }
