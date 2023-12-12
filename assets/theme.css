@@ -2763,15 +2763,9 @@ li.has-submenu:hover > ul {
 
 .product-gallery__thumbnails,
 .product-gallery-item:not(:first-child),
-.site-box-collection:not(:first-child),
 .css-slider-navigation-container {
   display: none!important;
 }
-
-.site-box-background:nth-child(2) {
-  display: none!important;
-}
-
 
 .product-gallery-item {
   background-image: url(https://cdn.shopify.com/s/files/1/0635/9731/4234/files/Group_4.svg?v=1701248849);
