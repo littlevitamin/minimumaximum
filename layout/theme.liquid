@@ -502,7 +502,7 @@
         window.addEventListener("scroll", function () {
           var scrollPosition = window.scrollY;
     
-          if (scrollPosition > scrollThreshold) {
+          if (scrollPosition < scrollThreshold) {
             imageContainer.style.position = "fixed";
           } else {
             imageContainer.style.position = "relative";
