@@ -2763,7 +2763,6 @@ li.has-submenu:hover > ul {
 
 .product-gallery__thumbnails,
 .product-gallery-item:not(:first-child),
-.box--column-flow:not(:first-child),
 .css-slider-navigation-container {
   display: none;
 }
