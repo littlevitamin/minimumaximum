@@ -255,6 +255,7 @@ html[dir=ltr] .site-filter-handle-holder {
   display: block;
   white-space: nowrap;
   overflow: hidden;
+  color: #CCCCCC;
 }
 
 .site-filter-handle-holder-mobile {
