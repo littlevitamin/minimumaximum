@@ -120,8 +120,10 @@
     
     --header-background: {{ header_background }};
     --header-background-secondary: {{ header_text | color_modify: 'alpha', backgrounds_opacity }};
-    --header-borders: {{ header_borders }};
-    --header-grid-borders: {{ header_grid_borders }};
+    /* --header-borders: {{ header_borders }};
+    --header-grid-borders: {{ header_grid_borders }}; */
+    --header-borders: #CCCCCC;
+    --header-grid-borders: #CCCCCC;
 
     {%- if settings.cart_image_border != "rgba(0,0,0,0)" -%}
       --cart-image-border: 1px solid {{ settings.cart_image_border }};
