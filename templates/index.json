@@ -8,9 +8,7 @@
         "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/13a39f81b1b64073abade2b7e85c24af.mp4",
         "mobile_image": "shopify:\/\/shop_images\/m_2.png",
         "show_mobile_video": true,
-        "mobile_video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/971a9546788040c7ada7599f52b6abcf.mp4",
-        "link": "",
-        "target": false
+        "mobile_video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/971a9546788040c7ada7599f52b6abcf.mp4"
       }
     },
     "00a34610-6f14-4c42-84e1-0900435a78f3": {
@@ -157,6 +155,17 @@
         "seo_h_tag": "h3"
       }
     },
+    "82cbda9a-c62f-4d7b-a1ef-82703044a81b": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "NEW IN",
+        "subtitle": "See some of the latest products in store now. Visit our retail store or shop online.",
+        "collection": "",
+        "collection_rows": 2,
+        "show_view_all": false,
+        "seo_h_tag": "h2"
+      }
+    },
     "8fdbfdda-dcdc-406f-a2d8-47603bc1137a": {
       "type": "scrolling-images",
       "blocks": {
@@ -205,6 +214,7 @@
     "00a34610-6f14-4c42-84e1-0900435a78f3",
     "16371348113d6d6d6d",
     "679e6177-ed60-482c-ab7b-5d17f9dfbdfb",
+    "82cbda9a-c62f-4d7b-a1ef-82703044a81b",
     "8fdbfdda-dcdc-406f-a2d8-47603bc1137a"
   ]
 }
