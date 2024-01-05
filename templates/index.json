@@ -160,9 +160,9 @@
       "settings": {
         "title": "NEW IN",
         "subtitle": "See some of the latest products in store now. Visit our retail store or shop online.",
-        "collection": "",
-        "collection_rows": 2,
-        "show_view_all": false,
+        "collection": "anya-hindmarch",
+        "collection_rows": 3,
+        "show_view_all": true,
         "seo_h_tag": "h2"
       }
     },
