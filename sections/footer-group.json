@@ -29,7 +29,6 @@
         "email_form",
         "paragraph"
       ],
-      "disabled": true,
       "settings": {
         "custom_background": "rgba(0,0,0,0)",
         "custom_text": "rgba(0,0,0,0)"
