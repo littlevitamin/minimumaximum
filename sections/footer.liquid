@@ -54,6 +54,57 @@
 
         {%- endfor -%}
 
+                  {{ 'section-newsletter.css' | asset_url | stylesheet_tag }}
+
+  {%- render 'custom-colors', id: section.id, background: section.settings.custom_background, text: section.settings.custom_text -%}
+
+  <div id="section-{{ section.id }}" class="site-box-container container--fullscreen">
+
+    <div id="block-{{ section.id }}" class="site-box box--small-fl-auto lap--box--small-fl-auto box__newsletter box--typo-big box--center-align box--text-align-center box--column-flow" data-order="0" style="min-height:50vh">
+
+      <div class="site-box-content">
+        <div class="content">
+
+          {%- for block in section.blocks -%}
+
+            {%- case block.type -%}
+
+              {%- when 'heading' -%}
+                <{{ block.settings.seo_h_tag }} class="newsletter-title h3" {{ block.shopify_attributes }}>{{ block.settings.heading | escape }}</{{ block.settings.seo_h_tag }}>
+
+              {%- when 'paragraph' -%}
+                <div class="newsletter-text rte" {{ block.shopify_attributes }}>{{ block.settings.paragraph }}</div>
+
+              {%- when 'email_form' -%}
+
+                <div class="newsletter-form" {{ block.shopify_attributes }}>
+                  {%- form 'customer', id: 'newsletter-section', class: 'newsletter-form' -%}
+                    {%- render 'form-errors', form: form -%}
+                    {%- if form.posted_successfully? -%}
+                      <div class="alert alert--success">{{ 'general.newsletter.confirmation' | t }}</div>
+                    {%- else -%}
+                      <div class="input-group">
+                        <input type="email" value="{% if customer %}{{ customer.email }}{% endif %}" placeholder="{{ 'general.newsletter.email_label' | t }}" name="contact[email]" id="Email-{{ section.id }}" aria-label="{{ 'general.newsletter.email_label' | t }}" autocorrect="off" autocapitalize="off" required>
+                        <button class="button button--solid" type="submit" name="commit" id="Subscribe-{{ section.id }}">
+                          <span class="button-scroll-in">{{ 'general.newsletter.submit_label' | t }}</span>
+                        </button>
+                      </div>
+                        <input type="hidden" name="contact[tags]" value="newsletter">
+                    {%- endif -%}
+                  {%- endform -%}
+                </div>
+
+            {%- endcase -%}
+
+          {%- endfor -%}
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
       </div>
 
     {%- endif -%}
