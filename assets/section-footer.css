@@ -3,6 +3,7 @@
   padding-inline-end: var(--site-horizontal-padding);
   border-bottom: 0;
   color: var(--main-text);
+  z-index: 10;
 }
 .site-footer:before {
   content: "";
