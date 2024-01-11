@@ -72,6 +72,7 @@
         "menu-2",
         "social"
       ],
+      "disabled": true,
       "settings": {
         "show_payment_icons": true,
         "show_locale_selector": false,
