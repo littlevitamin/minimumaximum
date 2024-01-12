@@ -3,6 +3,11 @@
   margin-inline-start: auto;
   margin-inline-end: auto;
 }
+
+.box__newsletter {
+  justify-content: flex-start;
+  padding-top: 50px;
+}
 @media screen and (max-width: 1024px) {
   .box__newsletter .site-box-content {
     width: 80%;
