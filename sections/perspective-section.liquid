@@ -36,7 +36,17 @@ const material = new THREE.MeshBasicMaterial({
 const mesh = new THREE.Mesh(geometry, material);
 scene.add(mesh);
 
-gsap.to(mesh.position, { duration: 2, x: 1 });
+
+
+
+
+  gsap.to(mesh.position, {
+  x: 1, // 
+  scrollTrigger: {
+    trigger: mesh,
+    scrub: true
+  }
+});
   
 /**
  * Sizes
@@ -149,22 +159,10 @@ tick();
             style="opacity: 1;"
           >
           {% endif %}
-        <!-- <div class="box__face box__face--right"></div>
-        <div class="box__face box__face--left"></div>
-        <div class="box__face box__face--top"></div>
-        <div class="box__face box__face--bottom"></div> -->
         <div class="box__face box__face--right"></div>
-        <div class="box__face box__face--right-one"></div>
-        <div class="box__face box__face--right-two"></div>
-        <div class="box__face box__face--right-three"></div>
-        <div class="box__face box__face--right-four"></div>
         <div class="box__face box__face--left"></div>
         <div class="box__face box__face--top"></div>
         <div class="box__face box__face--bottom"></div>
-        <div class="box__face box__face--bottom-one"></div>
-        <div class="box__face box__face--bottom-two"></div>
-        <div class="box__face box__face--bottom-three"></div>
-        <div class="box__face box__face--bottom-four"></div>
       </div>
     </div>
     <svg class="logo-image" width="1236" height="122" viewBox="0 0 1236 122" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -343,17 +341,17 @@ position: fixed;
   }
   .box__face--front-2 {
     position: fixed;
-    border: 1px solid #CCC;
+    border: 1px solid black;
     transform: scale(0.85);
   }
   .box__face--front-3 {
     position: fixed;
-    border: 1px solid #CCC;
+    border: 1px solid black;
     transform: scale(0.7);
   }
   .box__face--front-4 {
     position: fixed;
-    border: 1px solid #CCC;
+    border: 1px solid black;
     transform: scale(0.55);
   }
   .box__face--back {
@@ -365,26 +363,6 @@ position: fixed;
     border: 0;
     background: white;
   }
-  .box__face--right-one {
-    transform: rotateY(90deg) translateZ(30vw);
-    border: 2px solid #CCC;
-    background: transparent;
-  }
-  .box__face--right-two {
-    transform: rotateY(90deg) translateZ(10vw);
-    border: 3px solid #CCC;
-    background: transparent;
-  }
-  .box__face--right-three {
-    transform: rotateY(90deg) translateZ(-10vw);
-    border: 3px solid #CCC;
-    background: transparent;
-  }
-  .box__face--right-four {
-    transform: rotateY(90deg) translateZ(-30vw);
-    border: 2px solid #CCC;
-    background: transparent;
-  }
   .box__face--left {
     transform: rotateY(-90deg) translateZ(50vw);
     border: 0;
@@ -392,40 +370,15 @@ position: fixed;
   }
   .box__face--top {
     transform: rotateX(90deg) translateZ(50vh);
-    border: 2px solid #CCC;
+    border: 2px solid black;
     background: white;
   }
 
   .box__face--bottom {
     transform: rotateX(-90deg) translateZ(50vh);
-    border: 2px solid #CCC;
+    border: 2px solid black;
     background: white;
   }
-  
-  .box__face--bottom-one {
-    transform: rotateX(-90deg) translateZ(30vh);
-    border: 4px solid #CCC;
-    background: transparent;
-  }
-  
-  .box__face--bottom-two {
-    transform: rotateX(-90deg) translateZ(10vh);
-    border: 12px solid #CCC;
-    background: transparent;
-  }
-  
-  .box__face--bottom-three {
-    transform: rotateX(-90deg) translateZ(-10vh);
-    border: 12px solid #CCC;
-    background: transparent;
-  }
-  
-  .box__face--bottom-four {
-    transform: rotateX(-90deg) translateZ(-30vh);
-    border: 4px solid #CCC;
-    background: transparent;
-  }
-
 
   .logo-image {
     position: absolute;
