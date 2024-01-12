@@ -17,7 +17,7 @@
 
 <script>       
 document.addEventListener("DOMContentLoaded", function () {   
-       
+       gsap.registerPlugin(ScrollTrigger);
 const canvas = document.querySelector(".webgl");
 
 // Scene
@@ -36,6 +36,8 @@ const material = new THREE.MeshBasicMaterial({
 const mesh = new THREE.Mesh(geometry, material);
 scene.add(mesh);
 
+gsap.to(mesh.position, { duration: 2, x: 300 });
+  
 /**
  * Sizes
  */
