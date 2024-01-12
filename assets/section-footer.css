@@ -43,10 +43,16 @@
   .site-footer .footer-top[data-size="4"] {
     grid-template-columns: 1fr 1fr;
   }
+  .mm-image {
+    width: 100%;
+  }
 }
 @media screen and (max-width: 640px) {
   .site-footer .footer-top {
     grid-template-columns: 1fr 1fr!important;
+  }
+  .mm-image {
+    width: 100%;
   }
 }
 .site-footer .footer-top + .footer-bottom {
