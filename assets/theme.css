@@ -2995,7 +2995,7 @@ span, a {
     transform: translateX(0) scaleX(1);
     transition: transform 1s;
 }
-
+/* 
 .collection-arrow:hover {
     transform: translateX(50px) scaleX(5);
-}
+} */
