@@ -13,6 +13,7 @@
     {%- assign mobile_video = section.settings.mobile_video -%}
     {%- assign show_mobile_video = section.settings.show_mobile_video -%}
     <div class="perspective-container">
+        <div class="box">
        <canvas class="webgl"></canvas>
 
 
@@ -112,7 +113,6 @@ const tick = () => {
 tick();
           });  
                                 </script>
-      <div class="box">
         <div class="box__face box__face--front"></div>
         <div class="box__face box__face--front-2"></div>
         <div class="box__face box__face--front-3"></div>
