@@ -43,6 +43,8 @@ gsap.to(mesh.position, {
   scrollTrigger: {
     trigger: canvas, 
     scrub: true,
+    start: "top top",
+    end: "bottom bottom"
   },
   onUpdate: function () {
    
