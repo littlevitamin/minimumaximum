@@ -2992,10 +2992,10 @@ span, a {
  */
 
 .collection-arrow {
-    transform: translateX(0);
+    transform: translateX(0) scaleX(1);
     transition: transform 1s;
 }
 
 .collection-arrow:hover {
-    transform: translateX(150px);
+    transform: translateX(150px) scaleX(1.5);
 }
