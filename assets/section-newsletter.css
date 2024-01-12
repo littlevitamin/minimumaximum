@@ -106,6 +106,14 @@ html[dir=rtl] .newsletter-form .input-group button[type=submit] {
   }
 }
 
+@media screen and (max-width: 479px) {
+  .newsletter-form .input-group > input {
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 0;
+  }
+}
+
 .newsletter-form .button {
   border-radius: 28px;
     background: var(--Cream, #F1E9DC);
