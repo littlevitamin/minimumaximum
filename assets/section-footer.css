@@ -22,7 +22,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   /* grid-gap: min(100px, var(--box-auto-top)); */
-  grid-gap: 5px;
+  grid-gap: 10px;
 }
 .site-footer .footer-top[data-size="3"] {
   grid-template-columns: 1fr 1fr 1fr;
