@@ -50,11 +50,12 @@ html[dir=ltr] .newsletter-form .input-group input[type=email], html[dir=ltr] .ne
   margin-top: 1px;
   margin-inline-start: -1px;
 }
+/* 
 html[dir=rtl] .newsletter-form .input-group button[type=submit] {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
 }
-/* html[dir=ltr] .newsletter-form .input-group button[type=submit] {
+html[dir=ltr] .newsletter-form .input-group button[type=submit] {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
 } */
