@@ -2980,22 +2980,16 @@ span, a {
   opacity: 1;
 }
 
-/* .collection-arrow:hover {
-  transform: translateX(5x);
-  opacity: 0;
-}
-
-.collection-link:hover .collection-list-btn {
-  opacity: 1;
-  transform: scale(1);
-}
- */
-
 .collection-arrow {
-    transform: translateX(0) scaleX(1);
+    transform: translateX(0);
     transition: transform 1s;
 }
-/* 
+
 .collection-arrow:hover {
-    transform: translateX(50px) scaleX(5);
-} */
+    transform: translateX(150px);
+}
+
+.collection-arrow:hover svg {
+    width: 150px;
+    transition: width 1s;
+}
