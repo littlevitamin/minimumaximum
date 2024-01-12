@@ -177,6 +177,10 @@ shop-login-button {
   .footer-top {
     width: 45%;
   }
+
+  .footer-bottom {
+    width: 100%;
+  }
   
   .mount-newsletter {
     width: 50%;
