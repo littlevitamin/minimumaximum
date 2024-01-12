@@ -2981,7 +2981,7 @@ span, a {
 }
 
 .collection-arrow:hover {
-  transform: scale(1.5); /* Adjust the scale factor as needed */
+  transform: translateX(5x);
   opacity: 0;
 }
 
