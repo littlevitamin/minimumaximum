@@ -64,3 +64,12 @@ html[dir=ltr] .newsletter-form .input-group button[type=submit] {
     margin-top: 1em !important;
   }
 }
+
+.newsletter-title {
+  color: var(--Black, #000);
+  font-family: Helvetica;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px; /* 123.077% */
+}
