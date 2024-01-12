@@ -3056,5 +3056,5 @@ span, a {
 .collection-link:hover .collection-list-btn {
   opacity: 1;
   transform: translateX(0);
-  transition: transform 1s, opacity 1s ease-out;
+  transition: transform 1s, opacity 1s ease-in;
 }
