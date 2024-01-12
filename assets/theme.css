@@ -3056,5 +3056,6 @@ span, a {
 .collection-link:hover .collection-list-btn {
   opacity: 1;
   animation-timing-function: linear(0, 0.25 95%, 1);
+  transition-delay: 1s;
   transition: transform 1s, opacity 1s ease-in;
 }
