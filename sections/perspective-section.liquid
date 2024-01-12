@@ -39,9 +39,11 @@ scene.add(mesh);
 
 
 gsap.to(mesh.position, {
-  scrollTrigger: canvas, 
+  scrollTrigger: canvas {
+      scrub: true,
+  }
   x: 1,
-  scrub: true,
+
 });
   
 /**
