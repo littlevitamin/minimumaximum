@@ -6,7 +6,7 @@
 
 .box__newsletter {
   justify-content: flex-start;
-  padding-top: 50px;
+  padding-top: 50px!important;
 }
 @media screen and (max-width: 1024px) {
   .box__newsletter .site-box-content {
