@@ -3010,8 +3010,7 @@ span, a {
   background: rgba(255, 255, 255, 0.80);
   backdrop-filter: blur(10px);
   opacity: 0;
-  /* transition: transform 1.5s, opacity 1.5s; */
-  animation: fadeIn 1s 1.5s forwards;
+  transition: transform 1.5s, opacity 1.5s;
 }
 
 .collection-arrow {
@@ -3053,15 +3052,6 @@ span, a {
   }
 }
 
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(-10px);
-  }
-}
 
 .collection-link:hover .collection-list-btn {
   opacity: 1;
