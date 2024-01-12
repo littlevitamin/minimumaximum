@@ -2947,9 +2947,13 @@ span, a {
   border-radius: 28px;
   background: rgba(255, 255, 255, 0.80);
   backdrop-filter: blur(10px);
+  opacity: 0;
 }
 
 .collection-arrow {
+  position: absolute;
+  bottom: 50px;
+  z-index: 999;
   display: inline-flex;
   padding: 12px;
   flex-direction: column;
