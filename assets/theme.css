@@ -2970,7 +2970,7 @@ span, a {
   backdrop-filter: blur(10px);
   transition: transform 1s, opacity 1s;
 }
-/* 
+
 .collection-list-btn {
   opacity: 0;
   transform: scale(0);
@@ -2988,5 +2988,5 @@ span, a {
 .collection-link:hover .collection-list-btn {
   opacity: 1;
   transform: scale(1);
-} */
+}
 
