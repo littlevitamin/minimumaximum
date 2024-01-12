@@ -13,7 +13,7 @@
     {%- assign mobile_video = section.settings.mobile_video -%}
     {%- assign show_mobile_video = section.settings.show_mobile_video -%}
     <div class="perspective-container">
-       <canvas class="webgl"></canvas>
+       <div class="canvasContainer"><canvas class="webgl"></canvas></div>
 
 <script>       
 document.addEventListener("DOMContentLoaded", function () {   
@@ -285,13 +285,19 @@ tick();
       </svg>     
 
 <style>
-
+.canvasContainer{
+position: fixed; 
+  width: 50vw;
+  height: 50vw;
+  background: grey;
+    z-index: +200;
+}
   .webgl {   
    position: fixed;
    background: none;
-    width: 50vw;
-    height: 50vw;
-    z-index: +200;
+    width: 100%;
+    height: 100%;
+  
 
   }
   .perspective-container {
