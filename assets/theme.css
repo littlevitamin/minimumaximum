@@ -3038,7 +3038,7 @@ span, a {
 }
 
 .collection-arrow:hover {
-  animation: fadeOut 0.5s 1s forwards;
+  animation: fadeOut 0.5s 1s forwards, scaleUp 1s forwards;
 }
 
 @keyframes fadeOut {
@@ -3048,6 +3048,15 @@ span, a {
   100% {
     opacity: 0;
     transform: translateY(-10px);
+  }
+}
+
+@keyframes scaleUp {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.2);
   }
 }
 
