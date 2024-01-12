@@ -3033,7 +3033,7 @@ span, a {
   transition: width 1s;
 }
 
-.collection-arrow:hover svg {
+.collection-link:hover svg {
   width: 150px;
 }
 
