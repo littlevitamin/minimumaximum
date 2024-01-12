@@ -2948,3 +2948,14 @@ span, a {
   background: rgba(255, 255, 255, 0.80);
   backdrop-filter: blur(10px);
 }
+
+.collection-arrow {
+  display: inline-flex;
+  padding: 12px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 78px;
+  background: rgba(255, 255, 255, 0.80);
+  backdrop-filter: blur(10px);
+}
