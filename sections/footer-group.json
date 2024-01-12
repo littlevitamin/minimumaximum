@@ -64,13 +64,31 @@
           "settings": {
             "title": "Follow us"
           }
+        },
+        "text_Hcn8Jw": {
+          "type": "text",
+          "settings": {
+            "title": "Contact information",
+            "content": "<p>Write a short statement about your brand.<\/p>",
+            "size": "text-size--large"
+          }
+        },
+        "text_UqQWXd": {
+          "type": "text",
+          "settings": {
+            "title": "Contact information",
+            "content": "<p>Write a short statement about your brand.<\/p>",
+            "size": "text-size--large"
+          }
         }
       },
       "block_order": [
         "text",
         "menu-1",
         "menu-2",
-        "social"
+        "social",
+        "text_Hcn8Jw",
+        "text_UqQWXd"
       ],
       "settings": {
         "show_payment_icons": true,
