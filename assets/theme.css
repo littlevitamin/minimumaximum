@@ -2934,3 +2934,17 @@ li.has-submenu:hover > ul {
 span, a {
   font-family: var(--font-stack-headings)!important;
 }
+
+.collection-list-btn {
+  z-index: 999;
+  position: absolute;
+  bottom: 50px;
+  display: inline-flex;
+  padding: 6px 18px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 28px;
+  background: rgba(255, 255, 255, 0.80);
+  backdrop-filter: blur(10px);
+}
