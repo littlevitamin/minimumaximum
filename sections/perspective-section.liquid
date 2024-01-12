@@ -13,17 +13,12 @@
     {%- assign mobile_video = section.settings.mobile_video -%}
     {%- assign show_mobile_video = section.settings.show_mobile_video -%}
     <div class="perspective-container">
-        <div class="box">
        <canvas class="webgl"></canvas>
 
-
-    
-      <script>
-        
-        
-      document.addEventListener("DOMContentLoaded", function () {   
+<script>       
+document.addEventListener("DOMContentLoaded", function () {   
        
-const canvas = document.querySelector("canvas.webgl");
+const canvas = document.querySelector("webgl");
 
 // Scene
 const scene = new THREE.Scene();
@@ -82,8 +77,6 @@ const camera = new THREE.PerspectiveCamera(
 camera.position.z = 3;
 scene.add(camera);
 
-
-
 /**
  * Renderer
  */
@@ -101,8 +94,6 @@ const clock = new THREE.Clock();
 const tick = () => {
   const elapsedTime = clock.getElapsedTime();
 
-
-
   // Render
   renderer.render(scene, camera);
 
@@ -111,8 +102,9 @@ const tick = () => {
 };
 
 tick();
-          });  
-                                </script>
+});  
+</script>
+      <div class="box">
         <div class="box__face box__face--front"></div>
         <div class="box__face box__face--front-2"></div>
         <div class="box__face box__face--front-3"></div>
