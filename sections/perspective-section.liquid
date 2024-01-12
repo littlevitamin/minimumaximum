@@ -39,12 +39,12 @@ scene.add(mesh);
 
 
 gsap.to(mesh.position, {
-  x: 1, 
+  x: 0.2, 
   scrollTrigger: {
     trigger: canvas, 
     scrub: true,
-    start: "top top",
-    end: "bottom bottom",
+    start: "bottom bottom",
+    
     markers: "true",
   },
   onUpdate: function () {
