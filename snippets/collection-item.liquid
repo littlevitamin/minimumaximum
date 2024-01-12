@@ -18,14 +18,15 @@
     </span></div>
 
   </div>
-  <a href="{{ collection.url | escape }}">
-    <div class="collection-arrow">
+
+  <a href="{{ collection.url | escape }}" class="collection-link">
+    <div class="collection-arrow" id="collectionArrow">
       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
         <line x1="14" y1="7.56519" y2="7.56519" stroke="black" stroke-width="1.5"/>
         <path d="M7 14.5928L14 7.59277L7 0.592773" stroke="black" stroke-width="1.5"/>
       </svg>
     </div>
-    <button class="collection-list-btn">Shop Collection</button>
+    <button class="collection-list-btn" id="collectionBtn">Shop Collection</button>
   </a>
 
   <span class="site-box-background {% if custom_overlay == true %} with-image {% endif %} {% if text_alignment contains 'vertical-middle' %} no-preloader {% endif %}" aria-hidden="true">
