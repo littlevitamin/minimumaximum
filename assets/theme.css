@@ -2935,7 +2935,7 @@ span, a {
   font-family: var(--font-stack-headings)!important;
 }
 
-.collection-link {
+/* .collection-link {
   display: inline-block;
 }
 
@@ -2988,4 +2988,72 @@ span, a {
 .collection-arrow:hover svg {
     width: 150px;
     transition: width 1s;
+}
+ */
+
+.collection-link {
+  display: inline-block;
+  position: relative;
+}
+
+.collection-list-btn {
+  z-index: 999;
+  position: absolute;
+  bottom: 50px;
+  height: 40px;
+  display: inline-flex;
+  padding: 6px 18px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 28px;
+  background: rgba(255, 255, 255, 0.80);
+  backdrop-filter: blur(10px);
+  opacity: 0;
+  transition: transform 1s, opacity 1s;
+}
+
+.collection-arrow {
+  position: absolute;
+  bottom: 50px;
+  z-index: 999;
+  display: inline-flex;
+  padding: 12px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 78px;
+  background: rgba(255, 255, 255, 0.80);
+  backdrop-filter: blur(10px);
+  opacity: 1;
+  transition: transform 1s, opacity 1s;
+}
+
+.collection-arrow svg {
+  width: 16px;
+  transition: width 1s;
+}
+
+.collection-arrow:hover svg {
+  width: 150px;
+}
+
+.collection-arrow:hover {
+  animation: fadeOut 0.5s 1s forwards;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+}
+
+.collection-link:hover .collection-list-btn {
+  opacity: 1;
+  transform: translateX(0);
+  transition: transform 1s, opacity 1s;
 }
