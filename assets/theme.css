@@ -3000,6 +3000,7 @@ span, a {
   position: absolute;
   bottom: 50px;
   height: 40px;
+  width: 150px;
   display: inline-flex;
   padding: 6px 18px;
   justify-content: center;
@@ -3009,7 +3010,7 @@ span, a {
   background: rgba(255, 255, 255, 0.80);
   backdrop-filter: blur(10px);
   opacity: 0;
-  transition: transform 1s, opacity 1s;
+  transition: transform 2s, opacity 2s;
 }
 
 .collection-arrow {
