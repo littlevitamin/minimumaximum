@@ -2943,8 +2943,6 @@ span, a {
   z-index: 999;
   position: absolute;
   bottom: 50px;
-  padding: 6px 18px;
-  border-radius: 28px;
   background: rgba(255, 255, 255, 0.80);
   backdrop-filter: blur(10px);
   transition: opacity 0.5s, transform 0.5s;
@@ -2953,11 +2951,18 @@ span, a {
 .collection-list-btn {
   opacity: 0;
   height: 40px;
+  border-radius: 28px;
+  padding: 6px 18px;
   transform: scale(0);
 }
 
 .collection-arrow {
   opacity: 1;
+  padding: 12px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 78px;
 }
 
 .collection-arrow:hover {
