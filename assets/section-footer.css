@@ -187,7 +187,7 @@ shop-login-button {
 
 @media screen and (min-width: 1024px) {
   .footer-top {
-    width: 45%;
+    width: 60%;
     height: 300px;
     padding-top: 50px!important;
   }
@@ -197,7 +197,7 @@ shop-login-button {
   }
   
   .mount-newsletter {
-    width: 50%;
+    width: 35%;
     float: right;
   }
 
