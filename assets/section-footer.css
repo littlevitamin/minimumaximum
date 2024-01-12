@@ -173,9 +173,11 @@ shop-login-button {
 
 /* Custom footer styling */
 
-@media screen and (min-width: 990px) {
+@media screen and (min-width: 1024px) {
   .footer-top {
     width: 45%;
+    height: 300px;
+    padding-top: 20px!important;
   }
 
   .footer-bottom {
@@ -185,6 +187,17 @@ shop-login-button {
   .mount-newsletter {
     width: 50%;
     float: right;
+  }
+
+  .site-box-newsletter {
+    height: 300px;
+  }
+
+  .box__newsletter {
+    height: 300px!important;
+    padding: 0;
+    max-height: 300px;
+    min-height: 300px;
   }
 }
 
