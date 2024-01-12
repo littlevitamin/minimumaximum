@@ -2936,7 +2936,6 @@ span, a {
 }
 
 .collection-link {
-  position: relative;
   display: inline-block;
 }
 
@@ -2944,7 +2943,6 @@ span, a {
   z-index: 999;
   position: absolute;
   bottom: 50px;
-  height: 40px;
   padding: 6px 18px;
   border-radius: 28px;
   background: rgba(255, 255, 255, 0.80);
@@ -2954,6 +2952,7 @@ span, a {
 
 .collection-list-btn {
   opacity: 0;
+  height: 40px;
   transform: scale(0);
 }
 
