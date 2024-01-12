@@ -2997,5 +2997,5 @@ span, a {
 }
 
 .collection-arrow:hover {
-    transform: translateX(0px) scaleX(5);
+    transform: translateX(50px) scaleX(5);
 }
