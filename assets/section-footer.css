@@ -46,7 +46,7 @@
 }
 @media screen and (max-width: 640px) {
   .site-footer .footer-top {
-    grid-template-columns: 1fr !important;
+    grid-template-columns: 1fr 1fr!important;
   }
 }
 .site-footer .footer-top + .footer-bottom {
