@@ -2980,7 +2980,7 @@ span, a {
   opacity: 1;
 }
 
-.collection-arrow:hover {
+/* .collection-arrow:hover {
   transform: translateX(5x);
   opacity: 0;
 }
@@ -2989,4 +2989,4 @@ span, a {
   opacity: 1;
   transform: scale(1);
 }
-
+ */
