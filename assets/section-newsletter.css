@@ -99,6 +99,18 @@ html[dir=ltr] .newsletter-form .input-group button[type=submit] {
   border: none;
 }
 
+.newsletter-form .button {
+  border-radius: 28px;
+    background: var(--Cream, #F1E9DC);
+    display: flex;
+    padding: 4px 18px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 30px;
+    margin-top: 10px;
+}
+
 .box__newsletter > div > div {
   display: flex;
   flex-direction: column;
