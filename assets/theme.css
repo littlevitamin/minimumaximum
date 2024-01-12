@@ -2990,3 +2990,12 @@ span, a {
   transform: scale(1);
 }
  */
+
+.collection-arrow {
+    transform: translateX(0);
+    transition: transform 1s;
+}
+
+.collection-arrow:hover {
+    transform: translateX(150px);
+}
