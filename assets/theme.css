@@ -2953,6 +2953,7 @@ span, a {
   background: rgba(255, 255, 255, 0.80);
   backdrop-filter: blur(10px);
   opacity: 0;
+  transition: transform 1s, opacity 1s;
 }
 
 .collection-arrow {
@@ -2967,6 +2968,7 @@ span, a {
   border-radius: 78px;
   background: rgba(255, 255, 255, 0.80);
   backdrop-filter: blur(10px);
+  transition: transform 1s, opacity 1s;
 }
 
 .collection-list-btn {
