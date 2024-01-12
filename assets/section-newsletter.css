@@ -72,6 +72,7 @@ html[dir=ltr] .newsletter-form .input-group button[type=submit] {
   font-style: normal;
   font-weight: 400;
   line-height: 64px; /* 123.077% */
+  order: 1;
 }
 
 .newsletter-text {
@@ -81,4 +82,15 @@ html[dir=ltr] .newsletter-form .input-group button[type=submit] {
   font-style: normal;
   font-weight: 400;
   line-height: 26px; /* 162.5% */
+  order: 2;
 }
+
+.newsletter-form {
+  order: 3;
+}
+
+.box__newsletter > div > div {
+  display: flex;
+  flex-direction: column;
+}
+
