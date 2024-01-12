@@ -217,3 +217,23 @@ shop-login-button {
   .site-box-newsletter {
     z-index: 99999;
   }
+
+.footer-item .title {
+  color: var(--Black-60, #666);
+  font-family: Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: 1.12px;
+  text-transform: uppercase;
+}
+
+.footer-content {
+  color: var(--Black, #000);
+  font-family: Helvetica;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
