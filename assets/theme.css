@@ -2985,10 +2985,6 @@ span, a {
     transition: transform 1s;
 }
 
-.collection-arrow:hover {
-    transform: translateX(150px);
-}
-
 .collection-arrow:hover svg {
     width: 150px;
     transition: width 1s;
