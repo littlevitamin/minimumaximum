@@ -3010,7 +3010,7 @@ span, a {
   background: rgba(255, 255, 255, 0.80);
   backdrop-filter: blur(10px);
   opacity: 0;
-  transition: transform 1.5s, opacity 1.5s;
+  transition: transform 1s, opacity 1s;
 }
 
 .collection-arrow {
