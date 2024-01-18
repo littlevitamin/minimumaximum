@@ -23,6 +23,30 @@ const canvas = document.querySelector(".webgl");
 // Scene
 const scene = new THREE.Scene();
 
+  //Models
+  const dracoLoader = new DRACOLoader()
+dracoLoader.setDecoderPath('/draco/')
+
+const gltfLoader = new GLTFLoader()
+gltfLoader.setDRACOLoader(dracoLoader)
+
+
+  let mixer = null
+
+gltfLoader.load(
+    'https://cdn.shopify.com/s/files/1/0635/9731/4234/files/tote.glb?v=1704896420',
+    (gltf) =>
+    {
+        gltf.scene.scale.set(0.025, 0.025, 0.025)
+        scene.add(gltf.scene)
+
+        // Animation
+        mixer = new THREE.AnimationMixer(gltf.scene)
+        const action = mixer.clipAction(gltf.animations[2])
+        action.play()
+    }
+)
+
 /**
  * Object
  */
@@ -95,6 +119,8 @@ const renderer = new THREE.WebGLRenderer({
   canvas: canvas,
   alpha: true,
 });
+  renderer.shadowMap.enabled = true
+renderer.shadowMap.type = THREE.PCFSoftShadowMap
 renderer.setSize(sizes.width, sizes.height);
 renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
 
