@@ -3517,3 +3517,7 @@ details-disclosure > details {
 .banner__logo {
   max-width: 100%;
 }
+
+#bta-product-widget {
+  background: red;
+}
