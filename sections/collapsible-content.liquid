@@ -93,8 +93,11 @@
                     role="region"
                     aria-labelledby="Summary-{{ block.id }}-{{ section.id }}"
                   >
+                    {% if block.settings.heading == 'Product Details' %}
+                    {{ product.description }}
+                    {% else %}
                     {{ block.settings.row_content }}
-                    {{ block.settings.page.content }}
+                    {% endif %}
                   </div>
                 </details>
               </div>
