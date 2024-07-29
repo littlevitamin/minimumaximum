@@ -171,7 +171,7 @@
 
           {%- else -%}
 
-            {%- if section.settings.show_collection_image and collection.image -%}
+            {%- if section.settings.show_collection_image and collection.image and paginate.current_page < 2 -%}
 
               <div class="site-box box--big lap--box--small-fl-auto box--typo-big box--top-align box--with-scroll box--column-flow box__heading site-box-collection" data-order="0" data-size="{{ collection.products.size }}" data-custom-text="{{ section.id }}"
                 data-heading-with-image
@@ -210,7 +210,7 @@
 
               <div class="fix-pagination-border">
 
-                <div class="fix-collection-grid-box-design clearfix box--can-stick">
+                <div class="fix-collection-grid-box-design clearfix box--can-stick ">
 
                   <div class="site-box box--big lap--box--small-fl-auto box--typo-big box--top-align box--with-scroll box--column-flow box__heading box--extra-border" data-order="0" data-size="{{ collection.products.size }}" data-custom-text="{{ section.id }}" id="fix-height-{{ section.id }}">
 
