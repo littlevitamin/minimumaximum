@@ -74,21 +74,21 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Product Details",
-            "row_content": "<p>789<\/p>"
+            "row_content": ""
           }
         },
         "collapsible_row_AGpd9J": {
           "type": "collapsible_row",
           "settings": {
             "heading": "Size and Fit",
-            "row_content": "<p>456<\/p>"
+            "row_content": ""
           }
         },
         "collapsible_row_k46htn": {
           "type": "collapsible_row",
           "settings": {
             "heading": "Summary",
-            "row_content": "<p>123<\/p>"
+            "row_content": ""
           }
         }
       },
