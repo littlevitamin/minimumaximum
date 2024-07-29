@@ -146,6 +146,11 @@ html[dir=ltr] .product-grid-split-border .box__heading {
     grid-template-columns: 1fr 3.64fr;
     align-items: start;
   }
+  .paginate-true {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;    
+  }
   .fix-collection-grid-box-design .box__heading {
     width: 100%;
     min-height: 0 !important;
