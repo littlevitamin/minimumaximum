@@ -252,7 +252,7 @@
               </div>
 
               {%- if rest_products -%}
-                <div class="product-grid-border-fix fix-bottom-border fix-borders-top-not fix-borders-top-two {% if paginate.pages > 1 %} fix-borders-not {% endif %}" data-count="{{ collection.products.size | minus: 4 | modulo: 4 }}">
+                <div class="product-grid-border-fix grid-fix fix-bottom-border fix-borders-top-not fix-borders-top-two {% if paginate.pages > 1 %} fix-borders-not {% endif %}" data-count="{{ collection.products.size | minus: 4 | modulo: 4 }}">
                   {{ rest_products }}
                   {%- if rest_products_size == 1 -%}
                     <div class="site-box site-box box--small lap--box--small-lg box__collection"></div>
