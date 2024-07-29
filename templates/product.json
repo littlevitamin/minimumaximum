@@ -88,7 +88,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Summary",
-            "row_content": ""
+            "row_content": "<p>{{ product.metafields.custom.summary | metafield_tag }}<\/p>"
           }
         }
       },
