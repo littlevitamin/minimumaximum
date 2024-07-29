@@ -17,7 +17,7 @@ function loadMoreProducts() {
 
         var productGrid = document.getElementById("main-collection-product-grid");
         var lastProductHead = document.querySelectorAll(".paginate-true");
-        lastProductHead = lastProductHead[lastProductHead.length + 1];
+        lastProductHead = lastProductHead[lastProductHead.length - 1];
         productGrid.setAttribute("data-next-url", next_url);
 
         products_on_page.append(new_products.html());
