@@ -92,10 +92,62 @@
       "settings": {
         "heading": "You may also like"
       }
+    },
+    "collapsible_content_BdBdMR": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_hcPxnk": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Product Details",
+            "icon": "perfume",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_AGpd9J": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Size and Fit",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_k46htn": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_hcPxnk",
+        "collapsible_row_AGpd9J",
+        "collapsible_row_k46htn"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Collapsible content",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
-    "product-recommendations"
+    "product-recommendations",
+    "collapsible_content_BdBdMR"
   ]
 }
