@@ -69,8 +69,8 @@
             </div>
           {% endif %}
           <div class="grid__item">
-            {% if block.settings.heading == 'Product Details' and product.description != blank or block.settings.heading == 'Size and Fit' and product.metafields.product.size_and_fit or block.settings.row_content != blank %}
-            {%- for block in section.blocks -%}
+           {%- for block in section.blocks -%}
+              {% if block.settings.heading == 'Product Details' and product.description != blank or block.settings.heading == 'Size and Fit' and product.metafields.product.size_and_fit or block.settings.row_content != blank %}
               <div
                 class="accordion{% if section.settings.layout == 'row' %} content-container color-{{ section.settings.container_color_scheme }} gradient{% endif %}"
                 {{ block.shopify_attributes }}
@@ -103,8 +103,8 @@
                   </div>
                 </details>
               </div>
+              {% endif %}
             {%- endfor -%}
-            {% endif %}
           </div>
         </div>
       </div>
