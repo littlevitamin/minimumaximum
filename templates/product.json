@@ -24,6 +24,13 @@
             "stick_product_header_on_mobile": true
           }
         },
+        "text_tUic8e": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ product.metafields.custom.summary | metafield_tag }}<\/p>",
+            "text_style": "body"
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -41,11 +48,6 @@
             "show_gift_card_recipient": false
           }
         },
-        "description": {
-          "type": "description",
-          "settings": {
-          }
-        },
         "share": {
           "type": "share",
           "settings": {
@@ -54,9 +56,9 @@
       },
       "block_order": [
         "header",
+        "text_tUic8e",
         "variant_picker",
         "buy_buttons",
-        "description",
         "share"
       ],
       "settings": {
@@ -84,18 +86,18 @@
             "row_content": ""
           }
         },
-        "collapsible_row_k46htn": {
+        "collapsible_row_DU6LWC": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Summary",
-            "row_content": "<p>{{ product.metafields.custom.summary | metafield_tag }}<\/p>"
+            "heading": "Delivery and Returns",
+            "row_content": "<p>Lorem ipsum<\/p>"
           }
         }
       },
       "block_order": [
         "collapsible_row_hcPxnk",
         "collapsible_row_AGpd9J",
-        "collapsible_row_k46htn"
+        "collapsible_row_DU6LWC"
       ],
       "settings": {
         "caption": "",
