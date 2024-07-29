@@ -626,6 +626,7 @@
 
   </div>
 
+          
 
   {%- if first_3d_model -%}
     <script type="application/json" id="ProductJSON-{{ product.id }}">
@@ -651,6 +652,9 @@
 
 {{ 'component-pagination.css' | asset_url | stylesheet_tag }}
 
+
+{% render 'collapsible-content' %}
+                      
 {% schema %}
 	{
     "name": "t:sections.split-extra-words.sections.main-product.name",
