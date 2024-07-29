@@ -33,6 +33,14 @@
   min-height: 1.6rem;
   margin: 0;
   word-break: break-word;
+  color: var(--Black, #000);
+  text-align: center;
+  /* Desktop/H5 */
+  font-family: Helvetica;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 133.333% */
 }
 
 .accordion .icon-accordion {
@@ -52,6 +60,13 @@
   word-break: break-word;
   overflow-x: auto;
   padding: 0 0.6rem;
+  color: var(--Black-80, #333);
+  /* Desktop/Body copy */
+  font-family: Helvetica;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
 }
 
 .accordion__content img {
