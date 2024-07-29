@@ -127,6 +127,9 @@
     <div id="CollectionProductGrid" class="collection__holder">
 
       <div id="main-collection-product-grid" data-id="{{ section.id }}"
+      data-next-url="{{ paginate.next.url }}"
+              class="
+                products-on-page"
         {% if collection.products.size <= 4 %} data-no-bottom-borders {% endif %}
         {% if section.settings.collection_desktop_layout == "split" and section.settings.show_collection_image and collection.image %}
           data-no-borders-all
@@ -161,10 +164,7 @@
             </div>
 
             {{ collection_mobile_filter_button }}
-            <div
-              id="product-grid-border-fix"
-              data-next-url="{{ paginate.next.url }}"
-              class="product-grid-border-fix products-on-page fix-bottom-border" data-count="{{ collection.products.size | modulo: 4 }}" style="width:100%">
+            <div class="product-grid-border-fix fix-bottom-border" data-count="{{ collection.products.size | modulo: 4 }}" style="width:100%">
               {{ first_products }}
               {{ rest_products }}
             </div>
