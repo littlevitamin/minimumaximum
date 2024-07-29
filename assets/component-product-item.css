@@ -151,6 +151,9 @@ html[dir=ltr] .product-grid-split-border .box__heading {
     min-height: 0 !important;
     height: auto !important;
     max-height: 100vh !important;
+    padding: 32px 60px;
+    display: flex;
+    flex-direction: row;
   }
   html[dir=ltr] .box--extra-border {
     box-shadow: var(--grid-borders) inset -1px 0px 0px 0px;
