@@ -50,24 +50,6 @@
           "type": "share",
           "settings": {
           }
-        },
-        "collapsible_tab_36TpzQ": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Product Details",
-            "content": "",
-            "page": "",
-            "hide_block_if": true
-          }
-        },
-        "collapsible_tab_mY4twt": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Size and Fit",
-            "content": "",
-            "page": "",
-            "hide_block_if": false
-          }
         }
       },
       "block_order": [
@@ -75,9 +57,7 @@
         "variant_picker",
         "buy_buttons",
         "description",
-        "share",
-        "collapsible_tab_36TpzQ",
-        "collapsible_tab_mY4twt"
+        "share"
       ],
       "settings": {
         "gallery_style": "scroll",
@@ -101,7 +81,7 @@
           "settings": {
             "heading": "Product Details",
             "icon": "perfume",
-            "row_content": "",
+            "row_content": "<p>789<\/p>",
             "page": ""
           }
         },
@@ -110,7 +90,7 @@
           "settings": {
             "heading": "Size and Fit",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>456<\/p>",
             "page": ""
           }
         },
@@ -119,7 +99,7 @@
           "settings": {
             "heading": "Summary",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>123<\/p>",
             "page": ""
           }
         }
