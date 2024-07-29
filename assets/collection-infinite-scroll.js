@@ -22,7 +22,7 @@ function loadMoreProducts() {
 
         products_on_page.append(new_products.html());
         load_more_btn.remove()
-        productHead.remove()
+        lastProductHead.remove()
 
         if(next_url === '') {
             load_more_btn.remove()
