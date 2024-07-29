@@ -143,7 +143,7 @@ html[dir=ltr] .product-grid-split-border .box__heading {
 @media screen and (min-width: 1025px), screen and (min-width: 769px) and (orientation: landscape) {
   .fix-collection-grid-box-design {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 3.64fr;
     align-items: start;
   }
   .fix-collection-grid-box-design .box__heading {
