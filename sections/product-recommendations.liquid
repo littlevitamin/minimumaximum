@@ -13,7 +13,7 @@
           </div>
         </div> 
 
-        <div data-count="{{ recommendations.products.size | modulo: 4 }}" class="product-grid-border-fix fix-borders-split" data-grid-columns="2" id="fix-height-with-{{ section.id }}">
+        <div data-count="{{ recommendations.products.size | modulo: 3 }}" class="product-grid-border-fix fix-borders-split" data-grid-columns="1" id="fix-height-with-{{ section.id }}">
 
           {%- for product in recommendations.products -%}
             
