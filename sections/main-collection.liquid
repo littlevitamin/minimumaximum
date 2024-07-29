@@ -161,7 +161,8 @@
             </div>
 
             {{ collection_mobile_filter_button }}
-            <div      
+            <div
+              id="product-grid-border-fix"
               data-next-url="{{ paginate.next.url }}"
               class="product-grid-border-fix products-on-page fix-bottom-border" data-count="{{ collection.products.size | modulo: 4 }}" style="width:100%">
               {{ first_products }}
