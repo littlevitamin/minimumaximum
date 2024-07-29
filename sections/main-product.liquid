@@ -587,7 +587,7 @@
               <div {{ block.shopify_attributes }}>{%- render 'share', title: product.title, url: product.url, image: product.featured_media -%}</div>
 
             {%- when 'collapsible_tab' -%}
-            {{product.metafields.product.size_and_fit}}",
+            {{product.size_and_fit}}
               {%- liquid
                 assign show_block = true
                 if block.settings.hide_block_if == true 
