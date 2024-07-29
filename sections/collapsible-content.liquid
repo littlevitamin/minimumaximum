@@ -94,9 +94,11 @@
                     aria-labelledby="Summary-{{ block.id }}-{{ section.id }}"
                   >
                     {% if block.settings.heading == 'Product Details' %}
-                    {{ product.description }}
+                      {{ product.description }}
+                    {% elsif block.settings.heading == 'Size and Fit' %}
+                      {{ product.metafields.product.size_and_fit }}
                     {% else %}
-                    {{ block.settings.row_content }}
+                      {{ block.settings.row_content }}
                     {% endif %}
                   </div>
                 </details>
