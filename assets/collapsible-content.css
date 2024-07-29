@@ -92,6 +92,10 @@
   .collapsible-content .accordion {
     padding: 0 40px;
   }
+  .collapsible-content-wrapper-narrow {
+    padding: 0;
+    margin: 0;
+  }
 }
 
 .collapsible-row-layout .accordion {
