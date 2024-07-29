@@ -15,7 +15,7 @@ function loadMoreProducts() {
 
         next_url = new_url;
 
-        var productGrid = document.getElementById("product-grid-border-fix");
+        var productGrid = document.getElementById("main-collection-product-grid");
         productGrid.setAttribute("data-next-url", next_url);
 
         products_on_page.append(new_products.html());
