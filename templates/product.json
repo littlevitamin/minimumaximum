@@ -111,8 +111,8 @@
       ],
       "settings": {
         "caption": "",
-        "heading": "Collapsible content",
-        "heading_size": "h1",
+        "heading": "",
+        "heading_size": "h2",
         "heading_alignment": "center",
         "layout": "none",
         "color_scheme": "",
