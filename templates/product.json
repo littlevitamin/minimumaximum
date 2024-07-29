@@ -50,15 +50,6 @@
           "type": "share",
           "settings": {
           }
-        },
-        "collapsible_tab_hmTfaB": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Collapsible tab",
-            "content": "",
-            "page": "",
-            "hide_block_if": false
-          }
         }
       },
       "block_order": [
@@ -66,8 +57,7 @@
         "variant_picker",
         "buy_buttons",
         "description",
-        "share",
-        "collapsible_tab_hmTfaB"
+        "share"
       ],
       "settings": {
         "gallery_style": "scroll",
