@@ -1388,7 +1388,8 @@ html[dir=ltr] .box--product-media[data-type=video] .video-popup__close svg {
   padding: 6px 14px;
 }
 
-.product__add-to-cart {
+.product__add-to-cart,
+.shopify-payment-button__button--unbranded {
   color: var(--White, var(--White, #FFF));
   background: black;
   font-family: Helvetica;
@@ -1399,5 +1400,5 @@ html[dir=ltr] .box--product-media[data-type=video] .video-popup__close svg {
   padding: 0;
   margin: 0;
   max-width: fit-content;
-  text-transform: none;
+  text-transform: capitalize;
 }
