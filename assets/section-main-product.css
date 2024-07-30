@@ -1345,7 +1345,7 @@ html[dir=ltr] .box--product-media[data-type=video] .video-popup__close svg {
   margin-bottom: 0!important;
 }
 
-.summary {
+.product-summary {
   color: var(--Black-80, #333);
   font-family: Helvetica;
   font-size: 16px;
