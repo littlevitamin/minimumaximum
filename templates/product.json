@@ -41,18 +41,12 @@
             "show_dynamic_checkout": true,
             "show_gift_card_recipient": false
           }
-        },
-        "share": {
-          "type": "share",
-          "settings": {
-          }
         }
       },
       "block_order": [
         "header",
         "variant_picker",
-        "buy_buttons",
-        "share"
+        "buy_buttons"
       ],
       "settings": {
         "gallery_style": "scroll",
