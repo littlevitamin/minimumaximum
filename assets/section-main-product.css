@@ -1407,6 +1407,6 @@ html[dir=ltr] .box--product-media[data-type=video] .video-popup__close svg {
   padding: 12px 24px;
 }
 
-product-page .site-box {
+product-page .box__product-content {
   padding: 140px 80px;
 }
