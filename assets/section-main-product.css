@@ -1433,6 +1433,9 @@ product-page .box__product-content {
   .shopify-payment-button {
     margin: 0;
   }
+  .shopify-payment-button__button--unbranded {
+    padding: 0;
+  }
   .buttons-holder {
     flex-direction: column;
     gap: 20px;
