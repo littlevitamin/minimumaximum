@@ -1427,7 +1427,7 @@ product-page .box__product-content {
     padding: 0 30px !important;
   }
   .product__add-to-cart,
-  .shopify-payment-button {
+  .shopify-payment-button__button--unbranded {
     max-width: unset!important;
   }
 }
