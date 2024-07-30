@@ -1374,3 +1374,16 @@ html[dir=ltr] .box--product-media[data-type=video] .video-popup__close svg {
   letter-spacing: 1.12px;
   text-transform: uppercase;
 }
+
+.product-variant__label {
+  color: var(--Black, #000);
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: 1.12px;
+  text-transform: uppercase;
+  padding: 6px 14px;
+}
