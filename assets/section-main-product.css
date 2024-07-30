@@ -1426,4 +1426,7 @@ product-page .box__product-content {
     order: 3;
     padding: 0 30px !important;
   }
+  .product__add-to-cart {
+    max-width: unset!important;
+  }
 }
