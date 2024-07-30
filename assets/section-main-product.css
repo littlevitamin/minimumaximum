@@ -1426,7 +1426,8 @@ product-page .box__product-content {
     order: 3;
     padding: 0 30px !important;
   }
-  .product__add-to-cart {
+  .product__add-to-cart,
+  .shopify-payment-button {
     max-width: unset!important;
   }
 }
