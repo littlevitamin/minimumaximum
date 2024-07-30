@@ -19,6 +19,7 @@
             "show_badge": true,
             "show_reviews": true,
             "show_tax_info": false,
+            "show_summary": true,
             "show_sku": false,
             "show_barcode": false,
             "stick_product_header_on_mobile": true
