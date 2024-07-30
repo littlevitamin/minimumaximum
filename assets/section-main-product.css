@@ -1390,6 +1390,7 @@ html[dir=ltr] .box--product-media[data-type=video] .video-popup__close svg {
 
 .product__add-to-cart {
   color: var(--White, var(--White, #FFF));
+  background: black;
   font-family: Helvetica;
   font-size: 20px;
   font-style: normal;
