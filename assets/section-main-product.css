@@ -1438,3 +1438,9 @@ product-page .box__product-content {
     gap: 20px;
   }
 }
+
+.add-to-cart-fixed-btn {
+  position: fixed;
+  top: 90%;
+  width: calc(100vw - 40px);
+}
