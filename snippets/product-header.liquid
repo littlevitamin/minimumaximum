@@ -24,7 +24,7 @@
 -%}
 
 {% if block.settings.show_summary != blank %}
-<div class="summary">{ product.metafields.custom_summary }</div>
+<div class="summary">{{  product.metafields.custom.summary }}</div>
 {% endif %}
 
 <div class="price-reviews" id="product-price-{{ section.id }}" {{ block.shopify_attributes }}>
