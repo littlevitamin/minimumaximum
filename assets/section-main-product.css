@@ -1413,7 +1413,7 @@ product-page .box__product-content {
 
 @media screen and (max-width: 1024px) {
   .mount-product-page product-page {
-    display: flex;
+    display: flex!important;
     flex-direction: column;
   }
   .box__product-gallery {
