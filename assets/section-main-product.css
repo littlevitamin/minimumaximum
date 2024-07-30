@@ -1406,3 +1406,7 @@ html[dir=ltr] .box--product-media[data-type=video] .video-popup__close svg {
 .shopify-payment-button__button--unbranded {
   padding: 12px 24px;
 }
+
+product-page .site-box {
+  padding: 140px 80px;
+}
