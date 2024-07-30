@@ -1430,4 +1430,7 @@ product-page .box__product-content {
   .shopify-payment-button__button--unbranded {
     max-width: unset!important;
   }
+  .shopify-payment-button {
+    margin: 0;
+  }
 }
