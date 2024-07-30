@@ -149,3 +149,7 @@ modal-box.popup.active .popup-content {
     max-width: none;
   }
 }
+
+.shopify-model-viewer-ui model-viewer {
+  background: transparent!important;
+}
