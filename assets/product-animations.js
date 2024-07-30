@@ -6,12 +6,10 @@ document.addEventListener('DOMContentLoaded', function() {
       entries.forEach(function(entry) {
         if (entry.isIntersecting) {
           addToCartButton.classList.remove('add-to-cart-fixed-btn');
-        } else {
-          addToCartButton.classList.add('add-to-cart-fixed-btn');
         }
       });
     }, {
-      threshold: [0, 1] // Adjust the threshold as needed
+      threshold: 0.1 // Adjust the threshold as needed
     });
 
     // Observe the "Add to cart" button
