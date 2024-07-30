@@ -1330,4 +1330,6 @@ html[dir=ltr] .box--product-media[data-type=video] .video-popup__close svg {
   line-height: 14px; /* 77.778% */
   letter-spacing: 1.8px;
   text-transform: uppercase;
+  display: flex;
+  padding: 10px 20px;
 }
