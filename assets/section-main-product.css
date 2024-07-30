@@ -1333,3 +1333,12 @@ html[dir=ltr] .box--product-media[data-type=video] .video-popup__close svg {
   display: flex;
   padding: 15px 20px;
 }
+
+.product-title {
+  color: var(--Black, #000);
+  font-family: Helvetica;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px; /* 122.222% */
+}
