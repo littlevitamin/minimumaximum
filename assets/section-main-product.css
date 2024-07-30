@@ -1445,6 +1445,7 @@ product-page .box__product-content {
     top: 90%;
     width: calc(100vw - 40px);
     opacity: 1;
+    z-index: 99999;
     transition: opacity 1s ease;
   }
 }
