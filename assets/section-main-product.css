@@ -1444,5 +1444,7 @@ product-page .box__product-content {
     position: fixed;
     top: 90%;
     width: calc(100vw - 40px);
+    opacity: 1;
+    transition: opacity 1s ease;
   }
 }
