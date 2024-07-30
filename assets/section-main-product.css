@@ -1399,4 +1399,5 @@ html[dir=ltr] .box--product-media[data-type=video] .video-popup__close svg {
   padding: 0;
   margin: 0;
   max-width: fit-content;
+  text-transform: none;
 }
