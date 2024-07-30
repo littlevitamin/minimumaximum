@@ -1360,6 +1360,6 @@ html[dir=ltr] .box--product-media[data-type=video] .video-popup__close svg {
   font-family: Helvetica !important;
   font-size: 28px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 400!important;
   line-height: 36px;
 }
