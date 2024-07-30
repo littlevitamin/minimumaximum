@@ -280,7 +280,7 @@
 
                       <div class="product-variant" data-js-product-variant data-name="product-{{ option.name | escape | downcase | strip }}-{{ section.id }}">
 
-                        <span class="product-variant__name">{{ 'products.page.select_variant' | t: variant: option.name }}</span>
+                        <span class="product-variant__name">{{ option.name }}</span>
 
                         <div class="product-variant__container" data-js-product-variant-container="radio">
                           {%- for value in option.values -%}
