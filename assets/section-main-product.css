@@ -1410,3 +1410,19 @@ html[dir=ltr] .box--product-media[data-type=video] .video-popup__close svg {
 product-page .box__product-content {
   padding: 140px 80px;
 }
+
+@media screen and (max-width: 1024px) {
+  .mount-product-page product-page {
+    display: flex;
+    flex-direction: column;
+  }
+  .box__product-gallery {
+    order: 1;
+  }
+  .product-header--mobile {
+    order: 2;
+  }
+  .box__product-content {
+    order: 3;
+  }
+}
