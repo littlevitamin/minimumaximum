@@ -235,7 +235,7 @@ html[dir=ltr] .product-header .product-badges-holder {
     right: var(--site-horizontal-padding) !important;
   }
   .product-header.product-header--mobile .product-vendor {
-    margin-bottom: 1em;
+    margin-bottom: 68px;
   }
   .product-header.product-header--mobile .product-title {
     margin-bottom: 0.5em;
