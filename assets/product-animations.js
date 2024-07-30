@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
       });
     }, {
-      threshold: 0.1 // Adjust the threshold as needed
+      threshold: 100 // Adjust the threshold as needed
     });
 
     // Observe the "Add to cart" button
