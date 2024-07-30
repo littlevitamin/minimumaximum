@@ -36,7 +36,7 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_quantity_selector": true,
+            "show_quantity_selector": false,
             "show_preorder": false,
             "show_dynamic_checkout": true,
             "show_gift_card_recipient": false
