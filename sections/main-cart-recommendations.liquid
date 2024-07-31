@@ -1,6 +1,6 @@
 {%- if cart.item_count > 0 -%}
 
-  <product-recommendations id="main-product-recommendations" class="product-recommendations site-box site-box-container" data-url="{{ routes.product_recommendations_url }}?section_id={{ section.id }}&product_id={{ cart.items[0].product_id }}&limit=4" style="min-height:1px;overflow:visible">
+  <product-recommendations id="main-product-recommendations" class="product-recommendations site-box site-box-container" data-url="{{ routes.product_recommendations_url }}?section_id={{ section.id }}&product_id={{ cart.items[0].product_id }}&limit=3" style="min-height:1px;overflow:visible">
 
     {%- if recommendations.performed and recommendations.products_count > 0 -%}
 
@@ -15,7 +15,7 @@
             </div>
           </div> 
 
-          <div data-count="{{ recommendations.products.size | modulo: 4 }}" class="product-grid-border-fix fix-borders-split" data-grid-columns="2" id="fix-height-with-{{ section.id }}">
+          <div data-count="{{ recommendations.products.size | modulo: 4 }}" class="product-grid-border-fix fix-borders-split" data-grid-columns="1" id="fix-height-with-{{ section.id }}">
 
             {%- for product in recommendations.products -%}
               
