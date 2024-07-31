@@ -694,3 +694,7 @@ html[dir=ltr] .cart-notice__slider-bar {
   background: var(--Cream, #F1E9DC);
   backdrop-filter: blur(10px);
 }
+
+#CartTotal small {
+  display: none;
+}
