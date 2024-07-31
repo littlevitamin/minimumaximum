@@ -2,11 +2,19 @@
 
 <main-header id="site-header" class="site-header {% if template.name == "index" %}homepage-header{% endif %} desktop-view--{{ section.settings.menu_style }} {% if section.settings.menu_hide_border %} site-header--no-border {% endif %}" data-logo_height="{{ section.settings.logo_height }}"
 data-sticky="{{ section.settings.menu_sticky }}">
+  {% if section.settings.enable_mega_manu %}
     <div class="site-nav-container portable--hide">
       <nav class="primary-menu min-width-container">
         {%- render 'header-mega-menu', linklist: section.settings.main_linklist, collection_linklist: section.settings.collection_linklist, show_locale_selector: section.settings.show_locale_selector, show_country_selector: section.settings.show_country_selector, show_collection_images: section.settings.show_collection_image, promotion_block: promotion_block, type: 'classic' -%}
       </nav>
     </div>
+  {% else %}
+    <div class="site-nav-container portable--hide">
+      <nav class="primary-menu min-width-container">
+        {%- render 'site-nav', linklist: section.settings.main_linklist, collection_linklist: section.settings.collection_linklist, show_locale_selector: section.settings.show_locale_selector, show_country_selector: section.settings.show_country_selector, show_collection_images: section.settings.show_collection_image, promotion_block: promotion_block, type: 'classic' -%}
+      </nav>
+    </div>
+  {% endif %}
 
     {% comment %}<button id="site-menu-handle" class="site-menu-handle site-burger-handle hide portable--show" aria-expanded="false" aria-controls="site-nav--mobile" title="{{ 'general.accessibility_labels.open_menu' | t }}" data-js-sidebar-handle>
       <span class="visually-hidden">{{ 'general.accessibility_labels.open_menu' | t }}</span>
@@ -251,6 +259,12 @@ data-sticky="{{ section.settings.menu_sticky }}">
         "id": "main_linklist",
         "label": "t:sections.split-extra-words.sections.header.settings.menu",
         "default": "main-menu"
+      },
+      {
+        "type": "checkbox",
+        "id": "enable_mega_manu",
+        "label": "Enable mega menu",
+        "default": true
       },
       {
         "type": "select",
