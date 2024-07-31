@@ -603,7 +603,8 @@ html[dir=ltr] .cart-notice__slider-bar {
 @media screen and (min-width: 990px) {
   .cart-content {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1.77fr 1fr;
+    gap: 10rem;
   }
 }
 
