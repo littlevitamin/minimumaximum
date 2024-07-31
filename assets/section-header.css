@@ -949,6 +949,6 @@ html[dir=ltr] .site-nav form[role=search] button {
     display: none;
   }
   .logo.mobile {
-    display: block;
+    display: contents;
   }
 }
