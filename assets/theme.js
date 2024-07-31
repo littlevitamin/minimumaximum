@@ -158,9 +158,5 @@ document.addEventListener('DOMContentLoaded', (event) => {
     megaMenu.addEventListener('mouseover', () => {
       megaMenu.setAttribute('open', '');
     });
-
-    megaMenu.addEventListener('mouseout', () => {
-      megaMenu.removeAttribute('open');
-    });
   }
 });
