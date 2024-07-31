@@ -863,7 +863,7 @@ html[dir=ltr] .site-nav form[role=search] button {
 }
 
 .mega-menu-list .mega-menu__list > li, 
-.mega-menu-list .mega-menu__list > li > a > ul {
+.mega-menu-list .mega-menu__list > li > ul {
   display: flex;
   flex-direction: column;
   gap: 12px;
