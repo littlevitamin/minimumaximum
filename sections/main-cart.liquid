@@ -39,8 +39,7 @@
         {%- if cart.item_count > 0 -%}
 
           {%- render 'cart-form', type: 'page' -%}
-          {%- render 'cart-subtotal' -%}
-
+          
             {%- if settings.cart_free_shipping -%}
               <shipping-notice
                 data-free-shipping="{{ settings.cart_free_shipping_amount | times: 100 }}"
@@ -53,6 +52,8 @@
                 </span>
               </shipping-notice>
             {%- endif -%}
+          
+          {%- render 'cart-subtotal' -%}
           
           <template>
             <div class="main-cart-empty-content">
