@@ -914,6 +914,7 @@ html[dir=ltr] .site-nav form[role=search] button {
 
 .header__menu-item span {
   font-size: 14px;
+  cursor: pointer;
 }
 
 .menu-promotion {
