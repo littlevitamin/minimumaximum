@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "type": "footer",
   "name": "t:sections.refactor_words.labels.footer_group",
@@ -37,25 +46,17 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "text": {
-          "type": "text",
-          "settings": {
-            "title": "WHO",
-            "content": "<p><em>M<\/em>inimu<em>M<\/em>aximu<em>M <\/em>is a new premium retail destination, focusing on luxury, timeless and enduring fashion pieces, accessories and lifestyle goods from independent brands. <\/p>",
-            "size": ""
-          }
-        },
         "menu-1": {
           "type": "menu",
           "settings": {
-            "title": "WHAT",
-            "menu": "footer"
+            "title": "Collections",
+            "menu": "main-menu"
           }
         },
         "menu-2": {
           "type": "menu",
           "settings": {
-            "title": "HOW",
+            "title": "Company",
             "menu": "footer"
           }
         },
@@ -69,25 +70,33 @@
           "type": "text",
           "settings": {
             "title": "Contact information",
-            "content": "<p>Write a short statement about your brand.<\/p>",
+            "content": "<p>+44(0)2036743795<\/p><p>info@minimumaximum.store<\/p>",
+            "size": "text-size--large"
+          }
+        },
+        "text_397ERa": {
+          "type": "text",
+          "settings": {
+            "title": "Visit our store",
+            "content": "<p>220–222 High Street, \u2028<\/p><p>Barnet, \u2028<\/p><p>EN5 5SZ<\/p>",
             "size": "text-size--large"
           }
         },
         "text_UqQWXd": {
           "type": "text",
           "settings": {
-            "title": "Contact information",
-            "content": "<p>Write a short statement about your brand.<\/p>",
+            "title": "Opening Hours",
+            "content": "<p>Monday – Saturday   10:00 - 18:00<\/p><p>Sunday Closed<\/p>",
             "size": "text-size--large"
           }
         }
       },
       "block_order": [
-        "text",
         "menu-1",
         "menu-2",
         "social",
         "text_Hcn8Jw",
+        "text_397ERa",
         "text_UqQWXd"
       ],
       "settings": {
