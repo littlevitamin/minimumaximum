@@ -867,7 +867,12 @@ html[dir=ltr] .site-nav form[role=search] button {
   display: flex;
   flex-direction: column;
   gap: 12px;
+  min-width: 15%;
+}
+
+.mega-menu-list .mega-menu__list > li:first-child {
   min-width: 20%;
+  margin-right: 117px;
 }
 
 .mega-menu-list .mega-menu__list > li > a {
