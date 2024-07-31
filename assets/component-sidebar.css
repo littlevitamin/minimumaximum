@@ -589,7 +589,7 @@ html[dir=ltr] .cart-notice__slider-bar {
 
 .template-cart .cart-shipping-notice {
   display: block;
-  border-top: 1px solid var(--main-borders);
+  /* border-top: 1px solid var(--main-borders); */
   padding-top: 25px;
   margin-top: 25px;
 }
