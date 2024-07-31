@@ -39,10 +39,33 @@
       "type": "breadcrumb",
       "settings": {
       }
+    },
+    "announcement_bar_iPLALj": {
+      "type": "announcement-bar",
+      "blocks": {
+        "content_xNpNaB": {
+          "type": "content",
+          "settings": {
+            "text": "Free returns",
+            "link": "",
+            "target": false
+          }
+        }
+      },
+      "block_order": [
+        "content_xNpNaB"
+      ],
+      "settings": {
+        "visibility": "no-homepage",
+        "bar_txtcolor": "#000000",
+        "bar_bgcolor": "#f1e9dc",
+        "bar_bordercolor": "rgba(0,0,0,0)"
+      }
     }
   },
   "order": [
     "header",
-    "breadcrumb"
+    "breadcrumb",
+    "announcement_bar_iPLALj"
   ]
 }
