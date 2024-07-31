@@ -334,10 +334,10 @@ html[dir=rtl] .site-nav.style--sidebar.active {
 }
 .cart-item .actions .qty-selector, .search-results.predictive-search .search-item .actions .qty-selector {
   height: 30px;
-  width: 30px;
+  width: 20px;
   border: 0;
   padding: 0;
-  font-size: calc(12px / 16 * var(--base-body-size) + 0px);
+  /* font-size: calc(12px / 16 * var(--base-body-size) + 0px); */
 }
 .cart-item .actions .remove, .search-results.predictive-search .search-item .actions .remove {
   border-bottom: 1px solid;
