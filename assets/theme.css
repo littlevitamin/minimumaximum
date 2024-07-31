@@ -3064,8 +3064,11 @@ span, a {
   }
 }
 
-
 .collection-link:hover .collection-list-btn {
   opacity: 1;
   transition: transform 1s, opacity 1s ease-in;
+}
+
+.hidden {
+  display: none;
 }
