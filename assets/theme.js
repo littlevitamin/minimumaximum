@@ -155,13 +155,21 @@ document.addEventListener('DOMContentLoaded', (event) => {
   const megaMenu = document.querySelector('.mega-menu');
   const header = document.getElementById('site-header');
 
-  if (megaMenu) {
+  if (megaMenu && header) {
     megaMenu.addEventListener('mouseover', () => {
       megaMenu.setAttribute('open', '');
     });
 
-    header.addEventListener('mouseout', () => {
-      megaMenu.removeAttribute('open');
+    header.addEventListener('mouseleave', (event) => {
+      if (!megaMenu.contains(event.relatedTarget)) {
+        megaMenu.removeAttribute('open');
+      }
+    });
+
+    megaMenu.addEventListener('mouseleave', (event) => {
+      if (!header.contains(event.relatedTarget)) {
+        megaMenu.removeAttribute('open');
+      }
     });
   }
 });
