@@ -944,7 +944,7 @@ html[dir=ltr] .site-nav form[role=search] button {
   display: none;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 989px) {
   .logo.desktop {
     display: none;
   }
