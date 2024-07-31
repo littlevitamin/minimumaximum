@@ -110,14 +110,13 @@ html[dir=ltr] .site-header .logo img {
   width: 24px;
   height: 40px;
   position: relative;
-  margin: 0;
+  margin: 0 24px;
   overflow: visible;
   transition: opacity 150ms linear;
   justify-content: center;
   align-items: center;
   display: flex;
   cursor: pointer;
-  padding: 0 24px;
 }
 .site-menu-handle svg {
   transition: transform 150ms linear;
@@ -951,5 +950,12 @@ html[dir=ltr] .site-nav form[role=search] button {
   }
   .logo.mobile {
     display: contents;
+  }
+  /* Header icons */
+  .site-menu-handle {
+    width: 24px;
+    height: 24px;
+    margin: 0 10px;
+    margin-left: 10px !important;
   }
 }
