@@ -859,7 +859,10 @@ html[dir=ltr] .site-nav form[role=search] button {
 .mega-menu__content {
   position: absolute;
   top: 90px;
-  width: calc(100vw - 80px);
+  left: 0;
+  width: 100vw;
+  padding: 40px;
+  background: white;
 }
 
 .menu-promotion {
