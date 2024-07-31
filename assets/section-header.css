@@ -900,6 +900,7 @@ html[dir=ltr] .site-nav form[role=search] button {
   letter-spacing: 1.12px;
   text-decoration-line: underline;
   text-transform: uppercase;
+  padding-top: 18px;
 }
 
 .mega-menu__content {
