@@ -597,3 +597,10 @@ html[dir=ltr] .cart-notice__slider-bar {
 .site-nav.style--sidebar .site-nav-container .subtitle.cart-shipping-notice:after {
   padding-top: 20px;
 }
+
+@media screen and (min-width: 990px) {
+  .cart-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
