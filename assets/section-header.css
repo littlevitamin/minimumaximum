@@ -856,6 +856,12 @@ html[dir=ltr] .site-nav form[role=search] button {
   margin: 0;
 }
 
+.mega-menu__content {
+  position: absolute;
+  top: 90px;
+  width: calc(100vw - 80px);
+}
+
 .menu-promotion {
   width: 100%;
 }
