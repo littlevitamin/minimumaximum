@@ -2811,6 +2811,9 @@ li.has-submenu:hover > ul {
 .site-nav-container .link-list {
   display: flex;
   margin: 0;
+}
+
+.navigation-menu .link-list {
   flex-direction: column;
   gap: 20px;
 }
