@@ -77,7 +77,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Delivery and Returns",
-            "row_content": "<p>Lorem ipsum<\/p>"
+            "row_content": "<p>This is the delivery and returns policy<\/p><p><\/p>"
           }
         }
       },
