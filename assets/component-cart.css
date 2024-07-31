@@ -223,9 +223,4 @@ cart-items {
     display: flex;
     gap: 1rem;
   }
-  
-  .cart-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
 }
