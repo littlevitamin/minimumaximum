@@ -698,3 +698,16 @@ html[dir=ltr] .cart-notice__slider-bar {
 .cart-out small {
   display: none!important;
 }
+
+.cart-actions button {
+  width: -webkit-fill-available;
+  min-width: 190px;
+  margin: 0;
+  position: relative;
+  display: flex;
+  height: 50px;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+}
