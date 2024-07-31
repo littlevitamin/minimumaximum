@@ -150,3 +150,17 @@ if ( typeof SiteFilterHandle !== 'function' ) {
   }
 
 }
+
+document.addEventListener('DOMContentLoaded', (event) => {
+  const megaMenu = document.querySelector('.mega-menu');
+
+  if (megaMenu) {
+    megaMenu.addEventListener('mouseover', () => {
+      megaMenu.setAttribute('open', '');
+    });
+
+    megaMenu.addEventListener('mouseout', () => {
+      megaMenu.removeAttribute('open');
+    });
+  }
+});
