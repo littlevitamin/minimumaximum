@@ -585,6 +585,7 @@ html[dir=ltr] .cart-notice__slider-bar {
   font-style: normal;
   font-weight: 400;
   line-height: 26px; /* 162.5% */
+  text-transform: none;
 }
 
 .template-cart .cart-shipping-notice {
