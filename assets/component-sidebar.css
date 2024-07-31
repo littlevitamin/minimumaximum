@@ -629,6 +629,7 @@ html[dir=ltr] .cart-notice__slider-bar {
 
 .cart-content .thumbnail {
   aspect-ratio: 0.82;
+  min-width: 215px;
 }
 
 .cart-content .thumbnail .lazy-image-small {
