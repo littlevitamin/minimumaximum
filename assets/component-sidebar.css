@@ -610,12 +610,12 @@ html[dir=ltr] .cart-notice__slider-bar {
     padding: 40px 24px!important;
   }
   .item-title {
-    color: var(--Black, #000);
-    font-family: Helvetica!important;
+    font-family: Helvetica !important;
     font-size: 36px;
     font-style: normal;
-    font-weight: 700;
-    line-height: 44px; /* 122.222% */
+    font-weight: 700 !important;
+    line-height: 44px !important;
+    text-transform: none;
   }
 }
 
