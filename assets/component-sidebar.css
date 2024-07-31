@@ -626,3 +626,15 @@ html[dir=ltr] .cart-notice__slider-bar {
   display: flex;
   justify-content: space-between;
 }
+
+.cart-content .thumbnail {
+  aspect-ratio: 0.82;
+}
+
+.cart-content .thumbnail .lazy-image-small {
+  padding: 120%!important;
+}
+
+.cart-content figure.lazy-image-small--fit img {
+  object-fit: cover;
+}
