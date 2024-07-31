@@ -890,7 +890,7 @@ html[dir=ltr] .site-nav form[role=search] button {
   line-height: 26px; /* 162.5% */
 }
 
-.mega-menu-list .mega-menu__list > li > ul > li > a:last-child {
+.mega-menu-list .mega-menu__list > li > ul > li:last-child > a {
   color: var(--Black-60, #666);
   font-family: Helvetica;
   font-size: 14px;
