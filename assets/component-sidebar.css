@@ -617,3 +617,8 @@ html[dir=ltr] .cart-notice__slider-bar {
   letter-spacing: 1.12px;
   text-transform: uppercase;
 }
+
+.subtitle .heading {
+  display: flex;
+  justify-content: space-between;
+}
