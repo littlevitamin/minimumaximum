@@ -38,6 +38,8 @@
       "settings": {
         "logo_src": "shopify:\/\/shop_images\/Group_2.svg",
         "logo_height": 40,
+        "mobile_logo_src": "shopify:\/\/shop_images\/Vector_1.svg",
+        "mobile_logo_height": 40,
         "main_linklist": "main-menu",
         "menu_style": "classic",
         "main_linklist_mobile": "mobile-navigation",
