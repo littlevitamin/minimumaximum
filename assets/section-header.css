@@ -914,7 +914,7 @@ html[dir=ltr] .site-nav form[role=search] button {
   left: 0;
   width: 100vw;
   padding: 40px;
-  background: white;
+  background: rgba(255, 255, 255, 0.90);
   backdrop-filter: blur(10px);
 }
 
