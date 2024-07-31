@@ -576,9 +576,15 @@ html[dir=ltr] .cart-notice__slider-bar {
 }
 .cart-notice__text {
   display: block;
-  opacity: var(--alternate-opacity);
+  /* opacity: var(--alternate-opacity); */
   margin-bottom: 10px;
   line-height: 1.1;
+  color: var(--Black, #000);
+  font-family: Helvetica;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
 }
 
 .template-cart .cart-shipping-notice {
