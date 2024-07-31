@@ -622,6 +622,14 @@ html[dir=ltr] .cart-notice__slider-bar {
     line-height: 44px !important;
     text-transform: none;
   }
+  .item-price strong {
+    color: var(--Black, #000);
+    font-family: Helvetica;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 133.333% */
+  }
 }
 
 .subtitle {
