@@ -937,3 +937,18 @@ html[dir=ltr] .site-nav form[role=search] button {
 .site-nav.style--sidebar .css-slider-navigation-container:before {
   display: none !important;
 }
+
+/* Logos */
+
+.logo.mobile {
+  display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .logo.desktop {
+    display: none;
+  }
+  .logo.mobile {
+    display: block;
+  }
+}
