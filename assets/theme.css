@@ -2814,7 +2814,7 @@ li.has-submenu:hover > ul {
 }
 
 .site-nav-container .link-list > li {
-  margin-right: 20px;
+  margin-right: 50px;
 }
 
 @media screen and (min-width: 990px) {

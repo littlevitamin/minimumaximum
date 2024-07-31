@@ -549,7 +549,7 @@ html[dir=ltr] .skip-to-content:focus {
   line-height: 1;
   color: var(--header-text);
   position: relative;
-  padding: 15px 20px;
+  padding: 15px 25px;
   z-index: 9;
   font-size: calc(14px / 16 * var(--base-body-size) + 0px);
 }
