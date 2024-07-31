@@ -695,6 +695,6 @@ html[dir=ltr] .cart-notice__slider-bar {
   backdrop-filter: blur(10px);
 }
 
-#CartTotal small {
+.cart-out small {
   display: none;
 }
