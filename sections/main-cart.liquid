@@ -39,7 +39,7 @@
         {%- if cart.item_count > 0 -%}
           <span class="subtitle">
             <div class="heading">
-            {{ page.title }}
+            <p class="title">Cart</p>
             {{ 'cart.items_count' | t: count: cart.item_count }}
             </div>
             {%- render 'cart-form', type: 'page' -%}
