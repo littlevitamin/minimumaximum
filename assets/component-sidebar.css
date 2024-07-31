@@ -106,6 +106,7 @@ html[dir=rtl] .site-nav.style--sidebar.active {
   width: 100%;
   background: var(--main-background);
   z-index: 99;
+  font-family: Helvetica;
 }
 .site-nav.style--sidebar .site-nav-container .subtitle {
   margin: 0;
