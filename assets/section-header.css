@@ -881,6 +881,15 @@ html[dir=ltr] .site-nav form[role=search] button {
   text-transform: uppercase;
 }
 
+.mega-menu-list .mega-menu__list > li > ul > li > a {
+  color: var(--Black, #000);
+  font-family: Helvetica!important;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px; /* 162.5% */
+}
+
 .mega-menu__content {
   position: absolute;
   top: 85px;
