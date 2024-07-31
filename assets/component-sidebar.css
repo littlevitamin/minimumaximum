@@ -570,7 +570,7 @@ html[dir=ltr] .cart-notice__slider-bar {
   left: 0;
 }
 .cart-notice__slider-bar[style*="100%"] {
-  background: #72CD7B;
+  background: black;
 }
 .cart-notice__text {
   display: block;
