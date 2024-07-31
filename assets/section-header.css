@@ -844,6 +844,7 @@ html[dir=ltr] .site-nav form[role=search] button {
 }
 .primary-menu .icon {
   margin-inline-start: 10px;
+  display: none;
 }
 .primary-menu .icon svg * {
   fill: var(--header-text);
