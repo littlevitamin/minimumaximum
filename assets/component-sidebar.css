@@ -611,7 +611,7 @@ html[dir=ltr] .cart-notice__slider-bar {
   .box__text .site-box-content {
     padding: 40px 24px!important;
   }
-  .item-title {
+  .item-title span {
     font-family: Helvetica !important;
     font-size: 36px;
     font-style: normal;
