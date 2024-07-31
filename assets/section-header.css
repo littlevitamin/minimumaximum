@@ -878,6 +878,10 @@ html[dir=ltr] .site-nav form[role=search] button {
   background: white;
 }
 
+.header__menu-item span {
+  font-size: 14px;
+}
+
 .menu-promotion {
   width: 100%;
 }
