@@ -153,10 +153,15 @@ if ( typeof SiteFilterHandle !== 'function' ) {
 
 document.addEventListener('DOMContentLoaded', (event) => {
   const megaMenu = document.querySelector('.mega-menu');
+  const header = document.getElementById('site-header');
 
   if (megaMenu) {
     megaMenu.addEventListener('mouseover', () => {
       megaMenu.setAttribute('open', '');
+    });
+
+    header.addEventListener('mouseout', () => {
+      megaMenu.removeAttribute('open');
     });
   }
 });
