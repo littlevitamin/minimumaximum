@@ -140,8 +140,9 @@ html[dir=ltr] .site-footer .localization-form-holder ~ .footer-copyright .site-p
   margin-bottom: 1.25em;
 }
 .site-footer .site-social {
-  flex-direction: column;
+  flex-direction: row-reverse;
   margin-bottom: 0;
+  align-items: baseline;
 }
 .site-footer .site-social a {
   display: flex;
