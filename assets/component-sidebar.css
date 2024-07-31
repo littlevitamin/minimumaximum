@@ -230,6 +230,8 @@ html[dir=rtl] .site-nav.style--sidebar.active {
   display: flex;
   align-items: flex-start;
   position: relative;
+  border: 1px solid var(--Black-10, #E5E5E5);
+  gap: 42px;
 }
 .cart-item:not(:last-child), .search-results.predictive-search .search-item:not(:last-child) {
   margin-bottom: 35px;
@@ -266,7 +268,7 @@ html[dir=rtl] .site-nav.style--sidebar.active {
   transform: scale(1.05);
 }
 .cart-item .content, .search-results.predictive-search .search-item .content {
-  margin-inline-start: 20px;
+  /* margin-inline-start: 20px; */
   margin-bottom: 5px;
   word-break: break-word;
 }
