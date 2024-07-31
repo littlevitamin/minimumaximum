@@ -156,7 +156,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
   const header = document.getElementById('site-header');
 
   if (megaMenu) {
-    header.addEventListener('mouseover', () => {
+    megaMenu.addEventListener('mouseover', () => {
       megaMenu.setAttribute('open', '');
     });
 
