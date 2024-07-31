@@ -41,6 +41,19 @@
           {%- render 'cart-form', type: 'page' -%}
           {%- render 'cart-subtotal' -%}
 
+            {%- if settings.cart_free_shipping -%}
+              <shipping-notice
+                data-free-shipping="{{ settings.cart_free_shipping_amount | times: 100 }}"
+                data-cart-total="{{ cart.total_price }}"
+                class="cart-shipping-notice"
+              >
+                <span class="cart-notice__text" data-js-free-shipping-text></span>
+                <span class="cart-notice__slider">
+                  <span class="cart-notice__slider-bar" data-js-free-shipping-slider></span>
+                </span>
+              </shipping-notice>
+            {%- endif -%}
+          
           <template>
             <div class="main-cart-empty-content">
               <p>{{ 'cart.empty' | t }}</p>
