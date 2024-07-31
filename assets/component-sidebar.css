@@ -696,5 +696,5 @@ html[dir=ltr] .cart-notice__slider-bar {
 }
 
 .cart-out small {
-  display: none;
+  display: none!important;
 }
