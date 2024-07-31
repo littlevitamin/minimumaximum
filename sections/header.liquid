@@ -4,7 +4,7 @@
 data-sticky="{{ section.settings.menu_sticky }}">
       <div class="site-nav-container portable--hide">
         <nav class="primary-menu min-width-container">
-          {%- render 'site-nav', linklist: section.settings.main_linklist, collection_linklist: section.settings.collection_linklist, show_locale_selector: section.settings.show_locale_selector, show_country_selector: section.settings.show_country_selector, show_collection_images: section.settings.show_collection_image, promotion_block: promotion_block, type: 'classic' -%}
+          {%- render 'mega-menu', linklist: section.settings.main_linklist, collection_linklist: section.settings.collection_linklist, show_locale_selector: section.settings.show_locale_selector, show_country_selector: section.settings.show_country_selector, show_collection_images: section.settings.show_collection_image, promotion_block: promotion_block, type: 'classic' -%}
         </nav>
       </div>
 
@@ -163,6 +163,8 @@ data-sticky="{{ section.settings.menu_sticky }}">
     </button>
 
   </div>
+
+  
 
 </main-header>
 <script>window.fixVhByVars();</script>
