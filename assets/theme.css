@@ -725,7 +725,7 @@ input[type=submit], .button, .btn {
   fill: var(--main-text);
 }
 .button.button--outline svg circle {
-  stroke: var(--main-text);
+  stroke: white;
 }
 .button.button--outline:focus-visible {
   box-shadow: inset 0px 0px 0px 2px var(--main-text);
