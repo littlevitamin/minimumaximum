@@ -37,13 +37,15 @@
       <div class="cart-content">
 
         {%- if cart.item_count > 0 -%}
-
-          {%- render 'cart-form', type: 'page' -%}
+          <span class="subtitle">
+            {{ 'cart.items_count' | t: count: cart.item_count }}
+            {%- render 'cart-form', type: 'page' -%}
+          </span>
 
           
           <div class="subtotal">
             <span class="subtitle">
-              {{ 'cart.items_count' | t: count: cart.item_count }}
+              <p class="subtotal">Subtotal</p>
               {%- if settings.cart_free_shipping -%}
                 <shipping-notice
                   data-free-shipping="{{ settings.cart_free_shipping_amount | times: 100 }}"
