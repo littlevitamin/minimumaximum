@@ -915,6 +915,7 @@ html[dir=ltr] .site-nav form[role=search] button {
   width: 100vw;
   padding: 40px;
   background: white;
+  backdrop-filter: blur(10px);
 }
 
 .header__menu-item span {
