@@ -598,9 +598,22 @@ html[dir=ltr] .cart-notice__slider-bar {
   padding-top: 20px;
 }
 
+/* Cart page styling */
+
 @media screen and (min-width: 990px) {
   .cart-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+}
+
+.subtitle {
+  color: var(--Black, #000);
+  font-family: Helvetica!important;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: 1.12px;
+  text-transform: uppercase;
 }
