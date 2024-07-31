@@ -128,7 +128,18 @@
         {%- liquid
 
           unless blank_product
-
+           
+            if variant.unit_price_measurement
+              echo '<span class="unit-price text-size--smallest">'
+              echo variant.unit_price | money
+              echo ' / '
+              if variant.unit_price_measurement.reference_value != 1
+                echo variant.unit_price_measurement.reference_value
+              endif
+              echo variant.unit_price_measurement.reference_unit
+              echo '</span>'
+            endif
+                       
             assign price = product.price | money
 
             if product.price_varies
@@ -147,17 +158,6 @@
               else 
                 echo price
               endif
-            endif
-
-            if variant.unit_price_measurement
-              echo '<span class="unit-price text-size--smallest">'
-              echo variant.unit_price | money
-              echo ' / '
-              if variant.unit_price_measurement.reference_value != 1
-                echo variant.unit_price_measurement.reference_value
-              endif
-              echo variant.unit_price_measurement.reference_unit
-              echo '</span>'
             endif
 
           else 
