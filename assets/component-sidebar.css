@@ -606,6 +606,9 @@ html[dir=ltr] .cart-notice__slider-bar {
     grid-template-columns: 1.77fr 1fr;
     gap: 10rem;
   }
+  .box__text .site-box-content {
+    padding: 40px 24px!important;
+  }
 }
 
 .subtitle {
