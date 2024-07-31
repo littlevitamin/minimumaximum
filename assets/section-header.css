@@ -856,6 +856,19 @@ html[dir=ltr] .site-nav form[role=search] button {
   margin: 0;
 }
 
+.mega-menu-list .mega-menu__list {
+  display: flex;
+  flex-direction: row;
+  gap: 22px;
+}
+
+.mega-menu-list .mega-menu__list > li, 
+.mega-menu-list .mega-menu__list > li > a > ul {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
 .mega-menu__content {
   position: absolute;
   top: 90px;
