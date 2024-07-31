@@ -53,17 +53,18 @@
             "menu": "main-menu"
           }
         },
-        "menu-2": {
+        "menu_x6XmdR": {
           "type": "menu",
           "settings": {
             "title": "Company",
-            "menu": "footer"
+            "menu": "footer-menu-company"
           }
         },
-        "social": {
-          "type": "social",
+        "menu-2": {
+          "type": "menu",
           "settings": {
-            "title": "Follow us"
+            "title": "Support",
+            "menu": "footer"
           }
         },
         "text_Hcn8Jw": {
@@ -93,8 +94,8 @@
       },
       "block_order": [
         "menu-1",
+        "menu_x6XmdR",
         "menu-2",
-        "social",
         "text_Hcn8Jw",
         "text_397ERa",
         "text_UqQWXd"
