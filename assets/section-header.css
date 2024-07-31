@@ -1006,7 +1006,8 @@ html[dir=ltr] .site-nav form[role=search] button {
   display: none !important;
 }
 
-.mega-menu-list .mega-menu__list > li:first-child >* {
+.mega-menu-list .mega-menu__list > li:first-child >*,
+.mega-menu-list .mega-menu__list > li:first-child > ul > li:last-child > a {
   color: var(--Black, #000);
   font-family: Helvetica !important;
   font-size: 16px;
