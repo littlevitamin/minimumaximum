@@ -3077,3 +3077,13 @@ span, a {
 .hidden {
   display: none;
 }
+
+/* Cart draw styling */
+.site-nav-container .item-title {
+  color: var(--Black, #000);
+  font-family: Helvetica!important;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 133.333% */
+}
