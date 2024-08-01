@@ -56,6 +56,9 @@ html[dir=ltr] .site-nav.style--sidebar {
     transition: opacity 1s ease;
     background: rgba(0, 0, 0, 0.50)!important;
     backdrop-filter: blur(10px);
+    font-size: 20px;
+    line-height: 26px;
+    text-transform: none;
   }
 }
 .site-nav.style--sidebar a, .site-nav.style--sidebar .button--outline {
