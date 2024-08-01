@@ -717,4 +717,7 @@ html[dir=ltr] .cart-notice__slider-bar {
   .cart-content .thumbnail {
     min-width: -webkit-fill-available;
   }
+  .cart-item {
+    flex-direction: column;
+  }
 }
