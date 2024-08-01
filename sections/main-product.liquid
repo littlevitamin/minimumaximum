@@ -16,14 +16,6 @@
       {%- render 'product-header', product: product, current_variant: current_variant -%}
     </div>
   </noscript>{% endcomment %}
-  <!-- START KiwiSizing code !-->
-  <div id="KiwiSizingChart" 
-    data-sizing-id="44997320"
-    data-display-mode="1"
-    data-recommender-display-mode="1"
-    data-layout-type="0">
-  </div>
-<!-- END KiwiSizing code !-->
 
   <div class="site-box box--big lap--box--bigger box--typo-big box--no-padding box__product-gallery product-gallery 
     {% if section.settings.gallery_style == 'slider' %} {% endif %}
@@ -508,6 +500,15 @@
                           <a href="{{ product.url }}" class="item-title">
                             <span class="underline-animation">{{ product.title | escape }}</span>
                           </a>
+
+                            <!-- START KiwiSizing code !-->
+                              <div id="KiwiSizingChart" 
+                                data-sizing-id="44997320"
+                                data-display-mode="1"
+                                data-recommender-display-mode="1"
+                                data-layout-type="0">
+                              </div>
+                            <!-- END KiwiSizing code !-->
   
                           <span class="price text-size--smaller"><span style="display:flex;flex-direction:row">
   
