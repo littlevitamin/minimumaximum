@@ -108,7 +108,7 @@
     "product_overlay_bg": "#000000",
     "product_overlay_txt": "#ffffff",
     "color_swatches_labels": "color,colour,couleur,cor,colore,culoare,farbe,색,色,カラー,färg,farve,szín,barva",
-    "product_thumbnail_color_swatches": false,
+    "product_thumbnail_color_swatches": true,
     "reviews_badge_desktop": "no",
     "reviews_badge_mobile": false,
     "enable_quick_buy": true,
