@@ -719,8 +719,30 @@ html[dir=ltr] .cart-notice__slider-bar {
   }
   .cart-item {
     flex-direction: column;
+    gap: 0;
   }
   .cart-page #section-related-products {
     display: none;
+  }
+  .item-title {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 142.857% */
+  }
+  .item-price strong {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 133.333% */
+  }
+  .content .text-size--smallest {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px; /* 100% */
+  }
+  .content {
+    padding: 22px;
   }
 }
