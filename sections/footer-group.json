@@ -87,7 +87,7 @@
           "type": "text",
           "settings": {
             "title": "Opening Hours",
-            "content": "<p>Monday – Saturday   10:00 - 18:00<\/p><p>Sunday Closed<\/p>",
+            "content": "<p>Monday – Saturday   <\/p><p>10:00 - 18:00<\/p><p>Sunday <\/p><p>Closed<\/p>",
             "size": "text-size--large"
           }
         }
