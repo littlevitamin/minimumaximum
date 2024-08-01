@@ -159,4 +159,5 @@ details .accordion__content {
 
 details[open] .accordion__content {
   height: -webkit-fill-available;
+  transition: height 1s ease;
 }
