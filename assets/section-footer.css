@@ -158,10 +158,11 @@ html[dir=ltr] .site-footer .localization-form-holder ~ .footer-copyright .site-p
   margin-bottom: 10px;
 }
 .site-footer .site-social {
-  flex-direction: row-reverse;
+  flex-direction: row;
   margin-bottom: 0;
   align-items: baseline;
   gap: 20px;
+  justify-content: end;
 }
 .site-footer .site-social a {
   display: flex;
