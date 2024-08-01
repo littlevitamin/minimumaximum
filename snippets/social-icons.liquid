@@ -63,7 +63,16 @@
 			{%- endif -%}
 		</a>
 	{%- endif -%}
-    
+
+	{%- if settings.social_tiktok != '' -%}
+		<a href="{{ settings.social_tiktok | escape }}" target="_blank" aria-label="TikTok">
+			<span class="icon {{ size }}" aria-hidden="true">{% render 'theme-symbols', icon: 'social_tiktok' %}</span>
+			{%- if type == 'footer' -%}
+				<span class="text underline-animation">TikTok</span>
+			{%- endif -%}
+		</a>
+	{%- endif -%}
+                      
 	{%- if settings.social_facebook != '' -%}
 		<a href="{{ settings.social_facebook | escape }}" target="_blank" aria-label="Facebook">
 			<span class="icon {{ size }}" aria-hidden="true">
@@ -84,16 +93,6 @@
             </span>
 			{%- if type == 'footer' -%}
 				<span class="text underline-animation">Facebook</span>
-			{%- endif -%}
-		</a>
-	{%- endif -%}
-
-
-	{%- if settings.social_tiktok != '' -%}
-		<a href="{{ settings.social_tiktok | escape }}" target="_blank" aria-label="TikTok">
-			<span class="icon {{ size }}" aria-hidden="true">{% render 'theme-symbols', icon: 'social_tiktok' %}</span>
-			{%- if type == 'footer' -%}
-				<span class="text underline-animation">TikTok</span>
 			{%- endif -%}
 		</a>
 	{%- endif -%}
