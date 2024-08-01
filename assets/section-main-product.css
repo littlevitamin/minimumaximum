@@ -954,6 +954,8 @@ html[dir=ltr] #shopify-product-reviews .spr-review-footer {
   position: relative;
   height: auto;
   margin: 5px 10px;
+  display: flex;
+  max-height: 32px;
 }
 .product-variant__container .product-variant__item.hide-variant {
   display: none;
