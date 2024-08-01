@@ -161,6 +161,7 @@ html[dir=ltr] .site-footer .localization-form-holder ~ .footer-copyright .site-p
   flex-direction: row-reverse;
   margin-bottom: 0;
   align-items: baseline;
+  gap: 20px;
 }
 .site-footer .site-social a {
   display: flex;
