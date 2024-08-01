@@ -154,9 +154,9 @@
 
 details summary {
   cursor: pointer;
-  transition: margin 4s ease;
+  transition: height 0.4s ease;
 }
 
 details[open] summary {
-  margin-bottom: 10px;
+  height: -webkit-fill-available;
 }
