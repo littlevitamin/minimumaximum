@@ -81,11 +81,18 @@
 @media screen and (min-width: 750px) {
   .collapsible-content .accordion {
     margin-top: 0;
-    border-bottom: 1px solid #CCC;
     padding: 0 20px;
     max-width: 920px;
     margin: 0 auto;
   }
+}
+
+.collapsible-content .accordion {
+  border-bottom: 1px solid #CCC;  
+}
+
+.collapsible-content .accordion:first-child {
+  border-top: 1px solid #CCC;
 }
 
 @media screen and (max-width: 749px) {
