@@ -180,10 +180,10 @@ html[dir=ltr] .site-footer .localization-form-holder ~ .footer-copyright .site-p
   margin: 0;
   margin-inline-end: 1em;
 }
-.site-footer .site-social .icon svg {
+/* .site-footer .site-social .icon svg {
   width: 100% !important;
   height: 100% !important;
-}
+} */
 .site-footer .site-social .icon svg * {
   fill: var(--main-text);
 }
