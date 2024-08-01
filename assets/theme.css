@@ -165,8 +165,8 @@ summary::-webkit-details-marker {
     --box-big-padding: 7vw;
     --box-smaller-padding: 40px;
     --box-small-padding: 40px;
-    --site-horizontal-padding: 30px;
-    --sidebar-padding: 30px;
+    --site-horizontal-padding: 20px;
+    --sidebar-padding: 20px;
     --box-auto-top: 75px;
     --box-min-height: clamp(250px, 35vh, 500px);
   }
