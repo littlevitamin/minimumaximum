@@ -1486,3 +1486,9 @@ product-page .box__product-content {
   width: fit-content;
   right: 80px;
 }
+
+@media screen and (max-width: 1024px) {
+ .ks-chart-container {
+    right: 20px;
+  } 
+}
