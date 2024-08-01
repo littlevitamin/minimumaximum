@@ -53,6 +53,7 @@
   .site-footer .footer-top {
     grid-template-columns: 1fr!important;
     gap: 20px!important;
+    padding: 32px 0;
   }
   .mm-image {
     width: 100%;
