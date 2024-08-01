@@ -152,11 +152,18 @@
   }
 }
 
-details summary {
-  cursor: pointer;
-  transition: height 1s ease;
+details
+{
+    transition: height 1s ease;
+    overflow: hidden;
 }
 
-details[open] summary {
-  height: -webkit-fill-available;
+details:not([open])
+{
+    height: 0;
+}
+
+details[open]
+{
+    height: -webkit-fill-available;
 }
