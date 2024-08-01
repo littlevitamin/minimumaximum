@@ -161,7 +161,7 @@ html[dir=ltr] .site-footer .localization-form-holder ~ .footer-copyright .site-p
   line-height: 26px; /* 162.5% */
 }
 .site-footer .footer-menu > span:not(:last-child) {
-  margin-bottom: 1.25em;
+  margin-bottom: 10px;
 }
 .site-footer .site-social {
   flex-direction: row-reverse;
