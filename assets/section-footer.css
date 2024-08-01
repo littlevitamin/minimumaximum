@@ -222,7 +222,7 @@ shop-login-button {
   }
   
   .mount-newsletter {
-    width: 35%;
+    width: 30%;
     float: right;
   }
 
@@ -277,7 +277,7 @@ shop-login-button {
   .footer-top > div:nth-child(6) > div {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    min-width: 300px;
+    min-width: 250px;
     position: absolute;
   }
   .footer-top > div:nth-child(6) > div > p:nth-child(even) {
