@@ -140,4 +140,5 @@ html[dir=ltr] .newsletter-form .input-group button[type=submit] {
   font-style: normal;
   font-weight: 400;
   line-height: 26px; /* 162.5% */
+  padding: 0;
 }
