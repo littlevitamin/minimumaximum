@@ -22,7 +22,7 @@
 .box__newsletter .newsletter-title,
 .box__newsletter .newsletter-form,
 .box__newsletter .newsletter-text {
-  margin-bottom: var(--text-spacing);
+  margin-bottom: 6px;
 }
 .box__newsletter .content > *:last-child {
   margin-bottom: 0;
