@@ -60,6 +60,9 @@
   .site-footer:before {
     height: 0;
   }
+  .box__newsletter {
+    padding-bottom: 0;
+  }
 }
 .site-footer .footer-top + .footer-bottom {
   border-top: 1px solid var(--grid-borders);
