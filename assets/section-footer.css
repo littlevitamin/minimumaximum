@@ -272,3 +272,15 @@ shop-login-button {
   font-size: 12px;
   line-height: 16px;
 }
+
+@media screen and (min-width: 1025px) {
+  .footer-top > div:nth-child(6) > div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    min-width: 300px;
+    position: absolute;
+  }
+  .footer-top > div:nth-child(6) > div > p:nth-child(even) {
+    text-align: right;
+  }
+}
