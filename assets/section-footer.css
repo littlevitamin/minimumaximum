@@ -57,6 +57,9 @@
   .mm-image {
     width: 100%;
   }
+  .site-footer:before {
+    height: 0;
+  }
 }
 .site-footer .footer-top + .footer-bottom {
   border-top: 1px solid var(--grid-borders);
