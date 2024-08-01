@@ -70,12 +70,6 @@
     flex-direction: row!important;
   }
 }
-.site-footer .footer-top + .footer-bottom {
-  border-top: 1px solid var(--grid-borders);
-  padding-top: 50px;
-  /* padding-bottom: var(--box-auto-top); */
-  padding-bottom: 0px;
-}
 .site-footer .site-payment {
   max-width: 50vw;
 }
@@ -143,6 +137,12 @@ html[dir=ltr] .site-footer .localization-form-holder ~ .footer-copyright .site-p
 @media screen and (min-width: 641px) {
   .site-footer .footer-item .title {
     margin-bottom: 1.5em;
+  }
+  .site-footer .footer-top + .footer-bottom {
+    border-top: 1px solid var(--grid-borders);
+    padding-top: 50px;
+    /* padding-bottom: var(--box-auto-top); */
+    padding-bottom: 0px;
   }
 }
 .site-footer .footer-content p:last-child {
