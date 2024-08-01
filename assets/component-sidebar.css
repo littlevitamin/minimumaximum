@@ -59,6 +59,7 @@ html[dir=ltr] .site-nav.style--sidebar {
     font-size: 20px;
     line-height: 26px;
     text-transform: none;
+    border: none!important;
   }
 }
 .site-nav.style--sidebar a, .site-nav.style--sidebar .button--outline {
