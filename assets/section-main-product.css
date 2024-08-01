@@ -966,6 +966,14 @@ html[dir=ltr] #shopify-product-reviews .spr-review-footer {
 }
 .product-variant__container .product-variant__item input:checked + label {
   border-color: var(--main-text) !important;
+  border-radius: 28px;
+  background: rgba(255, 255, 255, 0.40);
+  backdrop-filter: blur(20px);
+  padding: 6px 14px;
+  min-width: 48px;
+  height: auto;
+  font-size: 14px;
+  line-height: 20px;
 }
 .product-variant__container .product-variant__item input[disabled] + label, .product-variant__container .product-variant__item input.disabled + label {
   opacity: 0.32;
