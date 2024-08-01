@@ -3086,3 +3086,12 @@ span, a {
   font-weight: 700!important;
   line-height: 24px!important; /* 133.333% */
 }
+
+.site-nav-container .cart-item {
+  border: none;
+}
+
+.site-nav-container figure.lazy-image-small img.lazyloaded {
+  object-fit: cover;
+  padding: 0;
+}
