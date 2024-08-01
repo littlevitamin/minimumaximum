@@ -154,7 +154,7 @@
 
 .accordion-item {
   overflow: hidden;
-  transition: max-height 0.5s ease;
+  transition: max-height 5s ease;
   max-height: 0;
 }
 
