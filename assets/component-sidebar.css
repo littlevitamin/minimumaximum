@@ -720,4 +720,7 @@ html[dir=ltr] .cart-notice__slider-bar {
   .cart-item {
     flex-direction: column;
   }
+  .cart-page #section-related-products {
+    display: none;
+  }
 }
