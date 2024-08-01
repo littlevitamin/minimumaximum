@@ -1361,7 +1361,7 @@ html[dir=ltr] .box--product-media[data-type=video] .video-popup__close svg {
   color: var(--Black, #000);
   font-family: Helvetica !important;
   font-size: 28px;
-  font-style: normal;
+  font-style: italic;
   font-weight: 400!important;
   line-height: 36px;
 }
