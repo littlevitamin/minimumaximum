@@ -137,8 +137,10 @@ html[dir=ltr] .site-footer .localization-form-holder ~ .footer-copyright .site-p
 .site-footer .footer-image svg {
   background: rgba(0, 0, 0, 0.05);
 }
-.site-footer .footer-item .title {
-  margin-bottom: 1.5em;
+@media screen and (min-width: 641px) {
+  .site-footer .footer-item .title {
+    margin-bottom: 1.5em;
+  }
 }
 .site-footer .footer-content p:last-child {
   margin-bottom: 0;
