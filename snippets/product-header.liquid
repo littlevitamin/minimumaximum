@@ -27,6 +27,15 @@
 <div class="product-summary">{{  product.metafields.custom.summary }}</div>
 {% endif %}
 
+<!-- START KiwiSizing code !-->
+  <div id="KiwiSizingChart" 
+    data-sizing-id="44997320"
+    data-display-mode="0"
+    data-recommender-display-mode="0"
+    data-layout-type="0">
+  </div>
+<!-- END KiwiSizing code !-->
+
 <div class="price-reviews" id="product-price-{{ section.id }}" {{ block.shopify_attributes }}>
   <div class="price">
     {%- if product != blank -%}
