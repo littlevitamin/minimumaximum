@@ -742,7 +742,7 @@ html[dir=ltr] .cart-notice__slider-bar {
     font-weight: 400;
     line-height: 14px; /* 100% */
   }
-  .content {
+  .cart-item .content {
     padding: 22px;
   }
   #CartTotal {
