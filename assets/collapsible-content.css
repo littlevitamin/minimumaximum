@@ -152,18 +152,15 @@
   }
 }
 
-details
-{
+details .accordion__content {
     transition: height 1s ease;
     overflow: hidden;
 }
 
-details:not([open]) .accordion__content
-{
+details:not([open]) .accordion__content {
     height: 0px;
 }
 
-details[open] .accordion__content
-{
+details[open] .accordion__content {
     height: -webkit-fill-available;
 }
