@@ -11,7 +11,22 @@
 
 	{%- if settings.social_facebook != '' -%}
 		<a href="{{ settings.social_facebook | escape }}" target="_blank" aria-label="Facebook">
-			<span class="icon {{ size }}" aria-hidden="true">{% render 'theme-symbols', icon: 'social_facebook' %}</span>
+			<span class="icon {{ size }}" aria-hidden="true">
+              {% comment %}
+                {% render 'theme-symbols', icon: 'social_facebook' %}
+                Rendering custom facebook icon
+              {% endcomment %}
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="29" viewBox="0 0 28 29" fill="none">
+                <g clip-path="url(#clip0_644_12583)">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M16.5498 28.7107V16.1107H20.3752L21 10.5107H16.5498V7.78315C16.5498 6.34115 16.5866 4.91069 18.6017 4.91069H20.6426V0.906885C20.6426 0.846685 18.8895 0.710693 17.1159 0.710693C13.412 0.710693 11.0928 3.03077 11.0928 7.29097V10.5107H7V16.1107H11.0928V28.7107H16.5498Z" fill="black"/>
+                </g>
+                <defs>
+                  <clipPath id="clip0_644_12583">
+                    <rect width="28" height="28" fill="white" transform="translate(0 0.710693)"/>
+                  </clipPath>
+                </defs>
+              </svg>
+            </span>
 			{%- if type == 'footer' -%}
 				<span class="text underline-animation">Facebook</span>
 			{%- endif -%}
