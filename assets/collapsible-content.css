@@ -152,6 +152,10 @@
   }
 }
 
+details {
+  cursor: pointer;
+}
+
 details .accordion__content {
   transition: height 1s ease;
   height: 0;
