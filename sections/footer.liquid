@@ -101,9 +101,9 @@
           </div>
         {%- endif -%}
         
-        {% comment %}<span class="site-copyright text-size--smaller">
-          <span class="copyright-text">{{ 'general.copyright' | t }} &copy; {{ 'now' | date: "%Y" }} <a href="{{ routes.root_url }}">{{ shop.name | escape }}</a><div>Crafted by <a href="https://multivitamin.studio">Multivitamin Studio</a></div></span>
-        </span>{% endcomment %}
+        <span class="site-copyright text-size--smaller">
+          <span class="copyright-text">{% comment %}{{ 'general.copyright' | t }} &copy; {{ 'now' | date: "%Y" }}{% endcomment %} <a href="{{ routes.root_url }}">{{ shop.name | escape }}</a><div>Crafted by <a href="https://multivitamin.studio">Multivitamin Studio</a></div></span>
+        </span>
 
         
       </div>
