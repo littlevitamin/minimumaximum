@@ -11,11 +11,11 @@
 
   {%- assign current_variant = product.selected_or_first_available_variant -%}
 
-  <noscript>
+  {% comment %}<noscript>
     <div class="product-header product-header--mobile">
       {%- render 'product-header', product: product, current_variant: current_variant -%}
     </div>
-  </noscript>
+  </noscript>{% endcomment %}
 
   <div class="site-box box--big lap--box--bigger box--typo-big box--no-padding box__product-gallery product-gallery 
     {% if section.settings.gallery_style == 'slider' %} {% endif %}
