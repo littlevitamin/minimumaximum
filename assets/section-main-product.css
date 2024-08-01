@@ -979,7 +979,7 @@ html[dir=ltr] #shopify-product-reviews .spr-review-footer {
   margin: 0;
 }
 .product-variant__container .product-variant__item input:not(:checked) + label {
-  border: 1px solid #ECECEC;
+  border: 1px solid #CCC;
 }
 .product-variant__container .product-variant__item input[disabled] + label, .product-variant__container .product-variant__item input.disabled + label {
   opacity: 0.32;
