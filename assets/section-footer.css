@@ -51,7 +51,8 @@
 }
 @media screen and (max-width: 640px) {
   .site-footer .footer-top {
-    grid-template-columns: 1fr 1fr!important;
+    grid-template-columns: 1fr!important;
+    gap: 20px!important;
   }
   .mm-image {
     width: 100%;
