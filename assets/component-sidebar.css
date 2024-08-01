@@ -745,4 +745,7 @@ html[dir=ltr] .cart-notice__slider-bar {
   .content {
     padding: 22px;
   }
+  #CartTotal {
+    padding-top: 22px;
+  }
 }
