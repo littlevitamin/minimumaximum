@@ -158,12 +158,12 @@ details
     overflow: hidden;
 }
 
-details:not([open])
+details:not([open]) .accordion__content
 {
-    height: 60px;
+    height: 0px;
 }
 
-details[open]
+details[open] .accordion__content
 {
     height: -webkit-fill-available;
 }
