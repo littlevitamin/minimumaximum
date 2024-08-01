@@ -609,7 +609,7 @@ html[dir=ltr] .cart-notice__slider-bar {
 
 /* Cart page styling */
 
-@media screen and (min-width: 990px) {
+@media screen and (min-width: 750px) {
   .cart-content {
     display: grid;
     grid-template-columns: 1.77fr 1fr;
@@ -712,3 +712,5 @@ html[dir=ltr] .cart-notice__slider-bar {
   align-items: center;
   gap: 14px;
 }
+
+@
