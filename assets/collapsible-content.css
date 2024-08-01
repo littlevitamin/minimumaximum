@@ -85,6 +85,11 @@
     max-width: 920px;
     margin: 0 auto;
   }
+  .collapsible-content-wrapper-narrow .grid__item {
+    max-width: 920px;    
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
 }
 
 .collapsible-content .accordion {
