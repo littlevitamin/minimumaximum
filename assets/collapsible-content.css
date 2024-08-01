@@ -152,17 +152,25 @@
   }
 }
 
-details {
+.accordion-item {
+  overflow: hidden;
+  transition: max-height 0.5s ease;
+  max-height: 0;
+}
+
+.accordion-item[open] {
+  max-height: -webkit-fill-available;
+}
+
+.accordion-item summary {
   cursor: pointer;
 }
 
-details .accordion__content {
-  transition: height 1s ease;
-  height: 0;
+.accordion-item .accordion__content {
+  transition: opacity 0.5s ease;
+  opacity: 0;
 }
 
-details[open] .accordion__content {
-  height: -webkit-fill-available;
-  transition: height 1s ease;
-  cursor: auto;
+.accordion-item[open] .accordion__content {
+  opacity: 1;
 }
