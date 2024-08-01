@@ -239,3 +239,7 @@ shop-login-button {
   font-weight: 400;
   line-height: 26px; /* 162.5% */
 }
+
+.footer-content p {
+  margin-bottom: 10px;
+}
