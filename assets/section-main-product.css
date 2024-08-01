@@ -952,7 +952,7 @@ html[dir=ltr] #shopify-product-reviews .spr-review-footer {
 }
 .product-variant__container .product-variant__item {
   position: relative;
-  height: 44px;
+  height: auto;
   margin: 5px 10px;
 }
 .product-variant__container .product-variant__item.hide-variant {
