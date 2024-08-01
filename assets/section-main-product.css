@@ -978,7 +978,7 @@ html[dir=ltr] #shopify-product-reviews .spr-review-footer {
   line-height: 20px;
   margin: 0;
 }
-.product-variant__container .product-variant__item:not(:checked) + label {
+.product-variant__container .product-variant__item input:not(:checked) + label {
   border: 1px solid #ECECEC;
 }
 .product-variant__container .product-variant__item input[disabled] + label, .product-variant__container .product-variant__item input.disabled + label {
