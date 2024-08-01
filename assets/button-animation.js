@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-  var addToCartButton = document.querySelector('.product__add-to-cart');
+  var addToCartButton = document.querySelector('.animated-btn');
   var productHolder = document.querySelector('.buttons-holder');
 
   if (addToCartButton) {
