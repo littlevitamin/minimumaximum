@@ -47,7 +47,7 @@
       <div><span class="product-price product__price--original {% unless title_class %} text-size--large {% endunless %}">{{ 2999 | money }}</span>
     {%- endif -%}
   </div>
-  <span class="unit-price price-before-kiwi product__price--unit text-size--smaller" data-js-product-price-unit>
+  <span class="unit-price product__price--unit text-size--smaller" data-js-product-price-unit>
     {%- if current_variant.unit_price_measurement -%}
       {%- liquid
         echo current_variant.unit_price | money
