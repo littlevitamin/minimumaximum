@@ -1014,12 +1014,13 @@ a.selected .underline-animation-alternative, a.active .underline-animation-alter
   width: calc(100% + 20px);
   margin-inline-start: -10px;
   margin-bottom: -20px;
+  gap: 24px;
 }
 .buttons-holder > * {
   flex: auto;
   width: auto;
   min-width: 190px;
-  margin: 0 10px 20px;
+  margin: 0 0px 20px;
   position: relative;
 }
 
