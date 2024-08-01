@@ -63,6 +63,9 @@
   .box__newsletter {
     padding-bottom: 0;
   }
+  .site-footer .footer-menu>span:not(:last-child) {
+    margin-bottom: 10px!important;
+  }
 }
 .site-footer .footer-top + .footer-bottom {
   border-top: 1px solid var(--grid-borders);
