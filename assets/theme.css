@@ -170,14 +170,6 @@ summary::-webkit-details-marker {
     --box-auto-top: 75px;
     --box-min-height: clamp(250px, 35vh, 500px);
   }
-  .add-to-cart-fixed-btn {
-    position: fixed;
-    top: 90%;
-    width: calc(100vw - 40px);
-    opacity: 1;
-    z-index: 99999;
-    transition: opacity 1s ease;
-  }
 }
 @media screen and (max-width: 640px) {
   :root {
