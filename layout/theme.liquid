@@ -153,7 +153,7 @@
   {%- sections 'header-group' -%}
   <script>window.fixVhByVars();</script>
 
-  <main class="wrapper main-content {% if template.name != 'index' %}main-not-landing{% endif %}" id="main" role="main">
+  <main class="wrapper main-content{% if template.name != 'index' %} main-not-landing{% endif %}{% if template.name == 'cart' %} cart-page{% endif %}" id="main" role="main">
 
     {{ 'component-slider.css' | asset_url | stylesheet_tag }}
     <script src="{{ 'component-slider.js' | asset_url }}" defer></script>
