@@ -246,12 +246,13 @@
 
         <div class="site-nav-container">
           <div class="site-nav-container-last">
-            {%- render 'cart-form' -%}
+            {% comment %}{%- render 'cart-form' -%}
             {%- if settings.cart_recommendations -%}
               <cart-recommendations id="cart-recommendations" data-section="cart-recommendations" data-limit="6"></cart-recommendations>
               <script src="{{ 'component-cart-recommendations.js' | asset_url }}" defer></script>
             {%- endif -%}
-            {%- render 'cart-subtotal' -%}
+            {%- render 'cart-subtotal' -%}{% endcomment %}
+            {% render 'cart-drawer' %}
           </div>
         </div>
 
