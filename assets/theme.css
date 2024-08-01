@@ -2572,8 +2572,8 @@ html[dir=rtl] .alert--success {
   cursor: pointer;
 }
 .site-social a svg {
-  width: 20px !important;
-  height: 20px !important;
+  width: 28px !important;
+  height: 28px !important;
 }
 .no-touchevents .site-social a:hover svg {
   transform: scale(1.05);
