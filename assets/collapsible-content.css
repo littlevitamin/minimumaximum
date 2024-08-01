@@ -153,14 +153,10 @@
 }
 
 details .accordion__content {
-    transition: height 1s ease;
-    overflow: hidden;
-}
-
-details:not([open]) .accordion__content {
-    height: 0px;
+  transition: height 1s ease;
+  height: 0;
 }
 
 details[open] .accordion__content {
-    height: -webkit-fill-available;
+  height: -webkit-fill-available;
 }
