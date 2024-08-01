@@ -160,7 +160,7 @@ details
 
 details:not([open])
 {
-    height: 0;
+    height: 60px;
 }
 
 details[open]
