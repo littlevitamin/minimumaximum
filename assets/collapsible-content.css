@@ -151,3 +151,12 @@
     }
   }
 }
+
+details summary {
+  cursor: pointer;
+  transition: margin 0.4ms ease;
+}
+
+details[open] summary {
+  margin-bottom: 10px;
+}
