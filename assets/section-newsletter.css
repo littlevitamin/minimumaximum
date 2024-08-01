@@ -133,3 +133,11 @@ html[dir=ltr] .newsletter-form .input-group button[type=submit] {
   text-align: left;
 }
 
+.newsletter-form .input-group input {
+  color: var(--Black-60, #666);
+  font-family: Helvetica;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
