@@ -749,7 +749,7 @@ html[dir=ltr] .cart-notice__slider-bar {
     padding-top: 22px;
   }
   .item-title .underline-animation {
-    font-weight: 700;
+    font-weight: 700!important;
     text-transform: none;
   }
 }
