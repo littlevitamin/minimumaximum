@@ -151,6 +151,7 @@ if ( typeof SiteFilterHandle !== 'function' ) {
 
 }
 
+//Header mega menu hover effect
 document.addEventListener('DOMContentLoaded', (event) => {
   const megaMenu = document.querySelector('.mega-menu');
   const header = document.getElementById('site-header');
