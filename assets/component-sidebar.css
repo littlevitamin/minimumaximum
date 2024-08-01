@@ -748,4 +748,8 @@ html[dir=ltr] .cart-notice__slider-bar {
   #CartTotal {
     padding-top: 22px;
   }
+  .item-title .underline-animation {
+    font-weight: 700;
+    text-transform: none;
+  }
 }
