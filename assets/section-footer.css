@@ -245,3 +245,8 @@ shop-login-button {
 .footer-content p {
   margin-bottom: 10px;
 }
+
+.crafted {
+  font-size: 12px;
+  line-height: 16px;
+}
