@@ -1417,6 +1417,12 @@ product-page .box__product-content {
   padding: 140px 80px;
 }
 
+@media screen and (min-width: 1025px) {    
+  .product__add-to-cart {
+    min-width: 190px;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .mount-product-page product-page {
     display: flex!important;
