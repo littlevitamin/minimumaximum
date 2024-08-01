@@ -130,5 +130,6 @@ html[dir=ltr] .newsletter-form .input-group button[type=submit] {
 .box__newsletter > div > div {
   display: flex;
   flex-direction: column;
+  text-align: left;
 }
 
