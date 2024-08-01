@@ -140,7 +140,7 @@ html[dir=ltr] .site-footer .localization-form-holder ~ .footer-copyright .site-p
     margin-bottom: 1.5em;
   }
   .site-footer .footer-top + .footer-bottom {
-    border-top: 1px solid var(--grid-borders);
+    /* border-top: 1px solid var(--grid-borders); */
     padding-top: 50px;
     /* padding-bottom: var(--box-auto-top); */
     padding-bottom: 0px;
