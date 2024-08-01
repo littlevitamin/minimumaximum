@@ -1403,6 +1403,10 @@ html[dir=ltr] .box--product-media[data-type=video] .video-popup__close svg {
   text-transform: capitalize;
 }
 
+.quick-add-to-cart-button .product__add-to-cart {
+  background: transparent;
+}
+
 .shopify-payment-button__button--unbranded {
   padding: 12px 24px;
 }
