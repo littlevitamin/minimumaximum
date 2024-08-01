@@ -66,6 +66,9 @@
   .site-footer .footer-menu>span:not(:last-child) {
     margin-bottom: 10px!important;
   }
+  .site-footer .site-social {
+    flex-direction: row!important;
+  }
 }
 .site-footer .footer-top + .footer-bottom {
   border-top: 1px solid var(--grid-borders);
