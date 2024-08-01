@@ -152,25 +152,10 @@
   }
 }
 
-.accordion-item {
-  overflow: hidden;
-  transition: max-height 5s ease;
-  max-height: 0;
-}
-
-.accordion-item[open] {
-  max-height: -webkit-fill-available;
-}
-
-.accordion-item summary {
+details {
   cursor: pointer;
 }
 
-.accordion-item .accordion__content {
-  transition: opacity 0.5s ease;
-  opacity: 0;
-}
-
-.accordion-item[open] .accordion__content {
-  opacity: 1;
+details[open] .accordion__content {
+  cursor: auto;
 }
