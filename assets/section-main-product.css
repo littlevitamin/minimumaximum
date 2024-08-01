@@ -1418,7 +1418,7 @@ product-page .box__product-content {
 }
 
 @media screen and (min-width: 1025px) {    
-  .product__add-to-cart {
+  .buttons-holder button {
     min-width: 190px!important;
   }
 }
