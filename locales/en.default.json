@@ -23,7 +23,7 @@
       "pinterest": "Pinterest"
     },
     "newsletter": {
-      "email_label": "Enter your email",
+      "email_label": "Your email address",
       "submit_label": "Subscribe",
       "confirmation": "Thanks for subscribing!"
     },
