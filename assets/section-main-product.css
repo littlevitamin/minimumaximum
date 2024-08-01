@@ -996,8 +996,9 @@ html[dir=ltr] #shopify-product-reviews .spr-review-footer {
   cursor: default;
 }
 .product-variant__container .product-variant__item label {
-  font-size: calc(14px / 16 * var(--base-body-size) + 0px);
-  line-height: 1;
+  font-size: 14px!important;
+  line-height: 20px;
+  padding: 6px 14px;
   position: relative;
   width: 100%;
   height: 100%;
