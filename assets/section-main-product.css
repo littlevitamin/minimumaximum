@@ -1479,3 +1479,10 @@ product-page .box__product-content {
     transition: opacity 1s ease;
   }
 }
+
+/* Kiwi styling */
+.ks-chart-container {
+  position: absolute;
+  width: fit-content;
+  right: 80px;
+}
