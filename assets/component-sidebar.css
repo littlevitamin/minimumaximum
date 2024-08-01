@@ -54,7 +54,7 @@ html[dir=ltr] .site-nav.style--sidebar {
     opacity: 1;
     z-index: 99999;
     transition: opacity 1s ease;
-    background: rgba(0, 0, 0, 0.50);
+    background: rgba(0, 0, 0, 0.50)!important;
     backdrop-filter: blur(10px);
   }
 }
