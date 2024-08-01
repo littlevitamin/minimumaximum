@@ -1716,6 +1716,10 @@ html[dir=ltr] .site-box.box--text-align-left {
   .touchevents .site-box-container {
     margin-inline-start: -1px;
   }
+  product-page {
+    display: flex!important;
+    flex-direction: row;
+  }
 }
 .site-box-container:not(.remove-background) {
   background: var(--main-background);
