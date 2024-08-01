@@ -154,7 +154,7 @@
 
 details summary {
   cursor: pointer;
-  transition: height 0.4s ease;
+  transition: height 1s ease;
 }
 
 details[open] summary {
