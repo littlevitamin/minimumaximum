@@ -25,6 +25,12 @@
             "stick_product_header_on_mobile": true
           }
         },
+        "kiwi_size_chart_recommender_kiwi_sizing_qC9NEC": {
+          "type": "shopify:\/\/apps\/kiwi-size-chart-recommender\/blocks\/kiwiSizing\/b7369922-bf15-44ce-a121-a22a8fcbc4b0",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -45,6 +51,7 @@
       },
       "block_order": [
         "header",
+        "kiwi_size_chart_recommender_kiwi_sizing_qC9NEC",
         "variant_picker",
         "buy_buttons"
       ],
