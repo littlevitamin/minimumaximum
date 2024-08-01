@@ -1419,7 +1419,7 @@ product-page .box__product-content {
 
 @media screen and (min-width: 1025px) {    
   .product__add-to-cart {
-    min-width: 190px;
+    min-width: 190px!important;
   }
 }
 
