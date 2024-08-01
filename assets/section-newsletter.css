@@ -149,3 +149,7 @@ html[dir=ltr] .newsletter-form .input-group button[type=submit] {
   line-height: 26px; /* 162.5% */
   padding: 0;
 }
+
+.box__newsletter {
+  min-height: 400px!important;
+}
