@@ -381,7 +381,7 @@
                       
                       <div class="buttons-holder">
 
-                        <button type="submit" name="add" class="product__add-to-cart add-to-cart-fixed-btn product--add-to-cart-button button button--outline {% unless current_variant.available %} disabled {% endunless %}" data-js-product-add-to-cart>
+                        <button type="submit" name="add" class="product__add-to-cart animated-btn add-to-cart-fixed-btn product--add-to-cart-button button button--outline {% unless current_variant.available %} disabled {% endunless %}" data-js-product-add-to-cart>
                           <span class="button-scroll-in add-to-cart__text add-to-cart__text" data-js-product-add-to-cart-text {% if block.settings.show_preorder %} data-show-preorder-wording {% endif %}>
                             {%- liquid
                               if current_variant.available
