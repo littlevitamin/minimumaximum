@@ -974,6 +974,7 @@ html[dir=ltr] #shopify-product-reviews .spr-review-footer {
   height: auto;
   font-size: 14px;
   line-height: 20px;
+  margin: 0;
 }
 .product-variant__container .product-variant__item input[disabled] + label, .product-variant__container .product-variant__item input.disabled + label {
   opacity: 0.32;
