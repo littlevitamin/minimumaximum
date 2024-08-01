@@ -154,9 +154,11 @@ html[dir=ltr] .product-variant__quantity-progress-bar {
 .product-header .product-vendor {
   display: block;
   margin-bottom: 2em;
+  font-style: italic;
 }
 .product-header .product-vendor a {
   border-bottom: 1px solid;
+  font-style: normal;
 }
 .product-header .product-title {
   margin-bottom: 0.65em;
