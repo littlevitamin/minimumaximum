@@ -1441,11 +1441,14 @@ product-page .box__product-content {
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 769px) {
   .mount-product-page product-page {
     display: flex!important;
     flex-direction: column;
   }
+}
+
+@media screen and (max-width: 1024px) {
   .box__product-gallery {
     order: 1;
   }
