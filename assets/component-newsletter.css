@@ -71,5 +71,5 @@
 }
 
 .box__newsletter {
-  min-height: 400px;
+  min-height: 400px!important;
 }
