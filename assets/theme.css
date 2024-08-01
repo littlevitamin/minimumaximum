@@ -3079,8 +3079,7 @@ span, a {
 }
 
 /* Cart draw styling */
-.site-nav-container .item-title {
-  color: var(--Black, #000);
+.site-nav-container .item-title span {
   font-family: Helvetica!important;
   font-size: 18px;
   font-style: normal;
