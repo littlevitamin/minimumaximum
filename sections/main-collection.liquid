@@ -288,7 +288,7 @@
 
 </div>
 
-  {%comment%}Infinite scroll observer logic{%endcomment%}
+  {%comment%}Infinite scroll observer logic
   <script>
     function observeLoadMore(targetElement) {
         var observer = new IntersectionObserver(function(entries, observer) {
@@ -312,7 +312,7 @@
             observeLoadMore(event.target);
         }
     });
-  </script>
+  </script>{%endcomment%}
 
 
 {%- if section.settings.mobile_overlay_text != 'rgba(0,0,0,0)' and section.settings.show_collection_image and collection.image -%}
