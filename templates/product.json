@@ -59,7 +59,7 @@
         "gallery_style": "scroll",
         "gallery_aspect": false,
         "gallery_pagination": "dots",
-        "enable_zoom": true,
+        "enable_zoom": false,
         "enable_video_looping": false
       }
     },
