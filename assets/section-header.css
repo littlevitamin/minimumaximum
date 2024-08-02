@@ -467,6 +467,10 @@ html[dir=ltr] .skip-to-content:focus {
   flex-wrap: nowrap;
   overflow-x: scroll;
 }
+.product-breadcrumb {
+  padding: 0;
+  border: none;
+}
 .breadcrumb::-webkit-scrollbar {
   width: 0 !important;
   height: 0 !important;
