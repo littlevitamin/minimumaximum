@@ -2786,6 +2786,9 @@ li.has-submenu:hover > ul {
   background-repeat: no-repeat;
   background-size: 100% 100%;
 } */
+.product-gallery-item {
+  border-bottom: 1px solid #ccc;
+}
 
 /* Perspective section styling */
   .box {
