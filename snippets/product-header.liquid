@@ -1,3 +1,5 @@
+{% render 'breadcrumb' %}
+
 {%- if block.settings.show_vendor -%}
   {%- if product != blank -%}
     {%- capture vendor -%} {{ product.vendor | link_to_vendor }} {%- endcapture -%}
