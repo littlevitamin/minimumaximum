@@ -2777,11 +2777,11 @@ li.has-submenu:hover > ul {
   display: none!important;
 }
 
-.product-gallery-item {
+/* .product-gallery-item {
   background-image: url(https://cdn.shopify.com/s/files/1/0635/9731/4234/files/Group_4.svg?v=1701248849);
   background-repeat: no-repeat;
   background-size: 100% 100%;
-}
+} */
 
 .product-gallery-item > img {
   /* Set initial state */
