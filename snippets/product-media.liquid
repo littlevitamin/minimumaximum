@@ -1,6 +1,6 @@
 <div 
   id="FeaturedMedia-{{ section.id }}-{{ media.id }}" 
-  class="product-gallery-item gallery-item-{{ index | plus: 1 }} {% if gallery_style == 'slider' %} {% endif %}"
+  class="product-gallery-item box gallery-item-{{ index | plus: 1 }} {% if gallery_style == 'slider' %} {% endif %}"
   data-product-media-type="{{ media.media_type }}{% if media.media_type == 'external_video' %}-{{ media.host }}{% endif %}"
   data-product-single-media-wrapper
   data-media-id="{{ media.id }}"
@@ -15,6 +15,10 @@
   {%- if media.media_type == 'image' and enable_zoom -%} data-image-zoom {%- endif -%}
   {%- if media.media_type == 'image' -%} data-ratio="{{ media.aspect_ratio }}" style="padding-top: {{ 100 | divided_by: media.aspect_ratio }}%" {%- endif -%}
 >
+  <div class="box__face box__face--front"></div>
+  <div class="box__face box__face--front-2"></div>
+  <div class="box__face box__face--front-3"></div>
+  <div class="box__face box__face--front-4"></div>
 
   {%- if media.media_type == 'image' -%}
 
