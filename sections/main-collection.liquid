@@ -283,7 +283,7 @@
         {% comment %}Load more button logic{% endcomment %}
         {% if paginate.next.url != blank %}
           <div class="load-more">
-            <button class="button load-more-btn">Load more</button>
+            <button class="button load-more-btn" onclick="loadMoreProducts();">Load more</button>
           </div>
         {% endif %}
       </div>
