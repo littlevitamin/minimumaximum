@@ -2831,7 +2831,7 @@ li.has-submenu:hover > ul {
     transition: transform 0.3s ease;
   }
   .box__face--right {
-    transform: rotateY(90deg) translateZ(50vw);
+    transform: rotateY(90deg) translateZ(25vw);
     border: 0;
     background: white;
   }
@@ -2856,7 +2856,7 @@ li.has-submenu:hover > ul {
     background: transparent;
   }
   .box__face--left {
-    transform: rotateY(-90deg) translateZ(50vw);
+    transform: rotateY(-90deg) translateZ(25vw);
     border: 0;
     background: white;
   }
