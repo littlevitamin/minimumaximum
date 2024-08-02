@@ -24,8 +24,4 @@ function loadMoreProducts() {
             load_more_btn.hide()
         }
     })
-
-  
-        console.log(next_page);
-        console.log(next_url);
 }
