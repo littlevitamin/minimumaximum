@@ -2790,6 +2790,7 @@ li.has-submenu:hover > ul {
     position: relative;
     transform-style: preserve-3d;
     transition: transform 1s;
+    background: transparent!important;
   }
 
   .box__face {
