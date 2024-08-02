@@ -2798,7 +2798,6 @@ li.has-submenu:hover > ul {
   }
   .box {
     width: 100%!important;
-    padding: 0!important;
     height: 100vh;
     position: relative;
     transform-style: preserve-3d;
