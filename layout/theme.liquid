@@ -50,7 +50,6 @@
   {{ 'theme.css' | asset_url | stylesheet_tag }}
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js" defer="defer"></script>
-  <script src="{{ 'collection-infinite-scroll.js' | asset_url }}" defer="defer"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/ScrollTrigger.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
@@ -68,6 +67,7 @@
 
   {% if template.name == 'collection' %}
     <script src="{{ 'collection-load-more.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'collection-infinite-scroll.js' | asset_url }}" defer="defer"></script>
   {% endif %}
 
   {{ content_for_header }}
