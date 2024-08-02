@@ -280,9 +280,11 @@
         {% endif %}{%endcomment%}
         
         {% comment %}Load more button logic{% endcomment %}
-        <div class="load-more">
-          <button class="button load-more-btn" onclick="loadMoreProducts();">Load more</button>
-        </div>
+        {% if paginate.next.url != blank %}
+          <div class="load-more load-more-{{ paginate.current_page }}">
+            <button class="button load-more-btn" onclick="loadMoreProducts();">Load more</button>
+          </div>
+        {% endif %}
 
       </div>
     </div>
