@@ -2841,6 +2841,7 @@ li.has-submenu:hover > ul {
     background: transparent;
     transform: rotateY(45deg) rotateX(45deg) translateZ(-10vw);
     border-right: 2px solid #CCC;
+    z-index: 9999;
   }
   .box__face--right-two {
     transform: rotateY(90deg) translateZ(10vw);
