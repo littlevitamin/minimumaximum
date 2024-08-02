@@ -273,7 +273,6 @@
           </div>
 
         {%- endif -%}
-      </div>
         {% comment %} {%- render 'pagination', paginate: paginate -%} {% endcomment %}
         {%comment%}Infinite scroll element
         {% if paginate.next.url != blank %}
@@ -286,6 +285,7 @@
             <button class="button load-more-btn" onclick="loadMoreProducts();">Load more</button>
           </div>
         {% endif %}
+      </div>
     </div>
 
   {%- endpaginate -%}
