@@ -17,8 +17,6 @@ function loadMoreProducts() {
       
         var productGrid = document.getElementById("main-collection-product-grid");
         productGrid.setAttribute("data-next-url", next_url);
-
-        removeBtns();
       
         products_on_page.append(new_products.html());
 
@@ -26,11 +24,4 @@ function loadMoreProducts() {
             load_more_btn.hide()
         }
     })
-}
-
-function removeBtns() {
-    var loadMoreButtons = $('.load-more');
-    if (loadMoreButtons.length > 1) {
-        loadMoreButtons.slice(0, -1).remove();
-    }
 }
