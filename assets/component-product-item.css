@@ -444,7 +444,7 @@ html[dir=ltr] .product-grid-split-border .box__heading {
 }
 
 .fit-product-grid-images .box__collection .box--product-image img {
-  object-fit: contain !important;
+  object-fit: fill !important;
   padding: var(--grid-image-padding);
   background: var(--grid-image-background);
 }
