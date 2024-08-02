@@ -9,6 +9,8 @@
 
   {%- assign products_per_page = section.settings.collection_rows | times: 4 -%}
 
+  {%- paginate collection.products by products_per_page -%}
+
     {%- capture collection_mobile_filter_button -%}
       {%- if section.settings.enable_filtering or section.settings.enable_sorting -%}
         <div class="site-filter-handle-holder site-filter-handle-holder-mobile">
@@ -283,6 +285,7 @@
           <div class="load-more">
             <button class="button load-more-btn" onclick="loadMoreProducts();">Load more</button>
           </div>
+  {%- endpaginate -%}
 
 </div>
 
