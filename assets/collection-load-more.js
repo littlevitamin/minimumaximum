@@ -20,8 +20,8 @@ function loadMoreProducts() {
 
         products_on_page.append(new_products.html());
 
-        // if(next_url === '') {
-        //     load_more_btn.hide()
-        // }
+        if(next_url === '') {
+            load_more_btn.hide()
+        }
     })
 }
