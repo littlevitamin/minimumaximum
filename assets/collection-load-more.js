@@ -18,7 +18,6 @@ function loadMoreProducts() {
         var productGrid = document.getElementById("main-collection-product-grid");
         productGrid.setAttribute("data-next-url", next_url);
       
-        load_more_btn.remove()
         products_on_page.append(new_products.html());
 
         if(next_url === '') {
