@@ -280,7 +280,12 @@
           <div class="load-more"></div>
         {% endif %}
 
-
+        {% comment %}Load more button logic{% endcomment %}
+        {% if paginate.next.url != blank %}
+          <div class="load-more">
+            <button class="button load-more-btn">Load more</button>
+          </div>
+        {% endif %}
       </div>
     </div>
 
