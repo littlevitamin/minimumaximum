@@ -2785,7 +2785,8 @@ li.has-submenu:hover > ul {
 
 /* Perspective section styling */
   .box {
-    width: 100%;
+    width: 100%!important;
+    padding: 0!important;
     height: 100vh;
     position: relative;
     transform-style: preserve-3d;
