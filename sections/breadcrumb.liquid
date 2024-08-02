@@ -14,7 +14,7 @@
     endif
   -%}
     
-  <nav class="breadcrumb text-size--smaller" role="navigation" aria-label="breadcrumbs">
+  <nav class="breadcrumb text-size--smaller{% if template.name == 'product' %} hidden{% endif %}" role="navigation" aria-label="breadcrumbs">
 
     <span class="breadcrumb__link"><a href="{{ routes.root_url }}">{{ 'general.breadcrumb.homepage' | t }}</a></span>
 
