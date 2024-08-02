@@ -15,6 +15,9 @@ function loadMoreProducts() {
 
         next_url = new_url;
 
+        console.log(next_page);
+        console.log(next_url);
+      
         var productGrid = document.getElementById("main-collection-product-grid");
         productGrid.setAttribute("data-next-url", next_url);
 
