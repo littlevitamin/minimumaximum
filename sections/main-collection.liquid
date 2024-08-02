@@ -275,10 +275,10 @@
         {%- endif -%}
 
         {% comment %} {%- render 'pagination', paginate: paginate -%} {% endcomment %}
-        {%comment%}Infinite scroll element{%endcomment%}
+        {%comment%}Infinite scroll element
         {% if paginate.next.url != blank %}
           <div class="load-more"></div>
-        {% endif %}
+        {% endif %}{%endcomment%}
 
         {% comment %}Load more button logic{% endcomment %}
         {% if paginate.next.url != blank %}
