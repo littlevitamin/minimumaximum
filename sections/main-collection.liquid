@@ -279,15 +279,14 @@
           <div class="load-more"></div>
         {% endif %}{%endcomment%}
 
+      </div>
+    </div>
         {% comment %}Load more button logic{% endcomment %}
         {% if paginate.next.url != blank %}
           <div class="load-more">
             <button class="button load-more-btn" onclick="loadMoreProducts();">Load more</button>
           </div>
         {% endif %}
-      </div>
-    </div>
-
   {%- endpaginate -%}
 
 </div>
