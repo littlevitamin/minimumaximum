@@ -4,11 +4,13 @@
   endif
 -%}
 {{ 'section-main-collection.css' | asset_url | stylesheet_tag }}
-  
+
 <div id="section-{{ section.id }}" class="site-box-container container--fullscreen" data-handle="{{ collection.handle }}" style="border:none" {%- if section.settings.collection_desktop_layout == "split" -%} data-add-gradient {%- endif -%}>
-    
-    {%- assign products_per_page = section.settings.collection_rows | times: 4 -%}
-  
+
+  {%- assign products_per_page = section.settings.collection_rows | times: 4 -%}
+
+  {%- paginate collection.products by products_per_page -%}
+
     {%- capture collection_mobile_filter_button -%}
       {%- if section.settings.enable_filtering or section.settings.enable_sorting -%}
         <div class="site-filter-handle-holder site-filter-handle-holder-mobile">
@@ -122,8 +124,6 @@
 
     {%- endif -%}
 
-  {%- paginate collection.products by products_per_page -%}
-  
     <div id="CollectionProductGrid" class="collection__holder">
 
       <div id="main-collection-product-grid" data-id="{{ section.id }}"
