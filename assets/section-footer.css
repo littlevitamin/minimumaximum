@@ -162,7 +162,8 @@ html[dir=ltr] .site-footer .localization-form-holder ~ .footer-copyright .site-p
   margin-bottom: 0;
   align-items: baseline;
   gap: 20px;
-  justify-content: end;
+  justify-content: start;
+  margin-top: -50px;
 }
 .site-footer .site-social a {
   display: flex;
