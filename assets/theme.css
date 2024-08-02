@@ -2766,6 +2766,10 @@ li.has-submenu:hover > ul {
   overflow: hidden;
 }
 
+.product-page-wrapper {
+  height: 100vh;
+}
+
 .product-gallery__thumbnails,
 /* .product-gallery-item:not(:first-child), */
 .gallery-item-2,
