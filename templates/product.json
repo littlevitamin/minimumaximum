@@ -84,7 +84,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Delivery and Returns",
-            "row_content": "<p>This is the delivery and returns policy<\/p><p><\/p>"
+            "row_content": "<p>[UK Delivery]<br\/>Royal Mail Tracked 24\/Signed for £10.<\/p><p>Free shipping on orders over £350.<\/p><p>A £5 shipping fee will be applied to all online returns. <\/p><p>Please note, online orders cannot be returned in our store. To reduce paper waste, return labels are provided electronically. You can find more information about our return policy <a href=\"\/pages\/shipping\" target=\"_blank\" title=\"Shipping\"><span style=\"text-decoration:underline\">here<\/span><\/a>.<\/p>"
           }
         }
       },
