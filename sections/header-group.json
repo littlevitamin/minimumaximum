@@ -17,7 +17,7 @@
         "content_zHwH8M": {
           "type": "content",
           "settings": {
-            "text": "FREE SHIPPING WHEN YOU SPEND OVER £350",
+            "text": "FREE SHIPPING ON ORDERS OVER £350",
             "link": "shopify:\/\/pages\/shipping",
             "target": true
           }
@@ -37,7 +37,7 @@
       "type": "header",
       "settings": {
         "logo_src": "shopify:\/\/shop_images\/Group_2.svg",
-        "logo_height": 40,
+        "logo_height": 42,
         "mobile_logo_src": "shopify:\/\/shop_images\/Vector_1.svg",
         "mobile_logo_height": 40,
         "main_linklist": "main-menu",
