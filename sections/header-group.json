@@ -17,9 +17,9 @@
         "content_zHwH8M": {
           "type": "content",
           "settings": {
-            "text": "Free returns",
-            "link": "",
-            "target": false
+            "text": "FREE SHIPPING WHEN YOU SPEND OVER £350",
+            "link": "shopify:\/\/pages\/shipping",
+            "target": true
           }
         }
       },
@@ -41,6 +41,7 @@
         "mobile_logo_src": "shopify:\/\/shop_images\/Vector_1.svg",
         "mobile_logo_height": 40,
         "main_linklist": "main-menu",
+        "enable_mega_manu": true,
         "menu_style": "classic",
         "main_linklist_mobile": "mobile-navigation",
         "main_linklist_right": "main-menu-right",
