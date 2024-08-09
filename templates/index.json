@@ -204,6 +204,22 @@
     },
     "image_banner_njJh6c": {
       "type": "image-banner",
+      "blocks": {
+        "custom_block_f8H9fc": {
+          "type": "custom-block",
+          "settings": {
+            "custom_heading_1": "VISIT US",
+            "custom_text_1": "220–222 High Street, Barnet, \u2028EN5 5SZ",
+            "custom_heading_2": "OPENING HOURS",
+            "custom_text_2": "Monday – Saturday   10:00 - 18:00Sunday Closed",
+            "custom_button_label_1": "View on map",
+            "custom_button_link_1": "https:\/\/maps.app.goo.gl\/FjVTH1BF84KCvtZy6"
+          }
+        }
+      },
+      "block_order": [
+        "custom_block_f8H9fc"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/0ac3172c3fa51ebdd7bd669824331785.png",
         "image_overlay_opacity": 0,
@@ -211,9 +227,6 @@
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
