@@ -3,7 +3,13 @@
   <div class="site-box box--big lap--box--small-fl-auto box--typo-big box--top-align box--column-flow box__heading" data-order="0">
     <div class="reduce-top-margin">
       <div class="site-box-content">
-        <h1 class="title h1" id="LoginRecoverTitle" class="title" data-password_recovery="{{ 'customers.login_page.password_reset.title' | t }}" data-login="{{ 'customers.login_page.title' | t }}">{{ 'customers.login_page.title' | t }}</h1> 
+        {%- if section.settings.login_logo != blank -%}
+          <div class="login-logo">
+            <img src="{{ section.settings.login_logo | img_url: 'master' }}" alt="Login Logo" class="login-logo__image">
+          </div>
+        {% else %}
+          <h1 class="title h1" id="LoginRecoverTitle" class="title" data-password_recovery="{{ 'customers.login_page.password_reset.title' | t }}" data-login="{{ 'customers.login_page.title' | t }}">{{ 'customers.login_page.title' | t }}</h1> 
+        {% endif %}
         {%- if settings.headings_hr -%} <hr /> {%- endif -%}
       </div>
     </div>
@@ -140,8 +146,15 @@
 {%- endif -%}
 
 {% schema %}
-  {
-    "name": "t:sections.local-extra-words.sections.customers.login.name",
-    "class": "section--remove-bottom-margin-after"
-  }
+{
+  "name": "t:sections.local-extra-words.sections.customers.login.name",
+  "class": "section--remove-bottom-margin-after",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "login_logo",
+      "label": "Login Logo"
+    }
+  ]
+}
 {% endschema %}
