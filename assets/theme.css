@@ -10,6 +10,10 @@
 /*
  *  1.1. Reset
 */
+div:empty {
+  display: none!important;
+}
+
 input, :before, :after, * {
   box-sizing: border-box;
 }
@@ -3213,3 +3217,4 @@ span, a {
   object-fit: cover;
   padding: 0;
 }
+
