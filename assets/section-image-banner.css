@@ -27,6 +27,10 @@
     text-align: right;
   }
 
+  .homepage__banner {
+    display: none;
+  }
+
   .banner--content-align-mobile-left .banner__box {
     text-align: left;
   }
