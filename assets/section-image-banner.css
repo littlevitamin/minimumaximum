@@ -23,6 +23,7 @@
 .info-blocks {
   display: flex;
   justify-content: center;
+  gap: 40px;
 }
 
 .info {
@@ -54,6 +55,10 @@
 .second__text {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+}
+
+.second__text > p:nth-child(odd) {
+  text-align: right;
 }
 
 /* Needed for gradient continuity with or without animation, the transform scopes the gradient to its container which happens already when animation are turned on */
