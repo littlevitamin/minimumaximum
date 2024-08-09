@@ -49,6 +49,8 @@
   font-style: normal;
   font-weight: 400;
   line-height: 26px; /* 162.5% */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 /* Needed for gradient continuity with or without animation, the transform scopes the gradient to its container which happens already when animation are turned on */
