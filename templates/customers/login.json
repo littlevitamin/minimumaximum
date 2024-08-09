@@ -1,1 +1,22 @@
-{"sections":{"main":{"type":"customers-login","settings":{}}},"order":["main"]}
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "main": {
+      "type": "customers-login",
+      "settings": {
+        "login_logo": "shopify:\/\/shop_images\/a92a3145ffab9aa08f2c7e25629d97e2.jpg"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}
