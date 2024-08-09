@@ -29,6 +29,10 @@
   text-align: left;
 }
 
+.info p {
+  margin-bottom: 0!important;
+}
+
 .info .banner__heading {
   color: var(--Black-60, #666);
   font-size: 14px;
