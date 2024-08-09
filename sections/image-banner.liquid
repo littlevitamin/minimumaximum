@@ -126,6 +126,41 @@
             >
               {{ block.settings.heading }}
             </h2>
+          {%- when 'custom-block' -%}
+            <div class="info-blocks">
+              <div class="info">
+                <h2
+                  class="banner__heading inline-richtext"
+                >
+                  {{ block.settings.custom_heading_1 }}
+                </h2>
+                <div class="banner__text rte">
+                  <p>{{ block.settings.custom_text_1}}</p>
+                </div>
+              </div>
+              <div class="info">
+                <h2
+                  class="banner__heading inline-richtext"
+                >
+                  {{ block.settings.custom_heading_1 }}
+                </h2>
+                <div class="banner__text rte">
+                  <p>{{ block.settings.custom_text_1}}</p>
+                </div>
+              </div>
+            </div>
+            <div class="banner__buttons">
+                <a
+                  {% if block.settings.custom_button_link_1 == blank %}
+                    role="link" aria-disabled="true"
+                  {% else %}
+                    href="{{ block.settings.custom_button_link_1 }}"
+                  {% endif %}
+                  class="button button--secondary"
+                >
+                  {{- block.settings.custom_button_label_1 | escape -}}
+                </a>
+            </div>
           {%- when 'text' -%}
             <div class="banner__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
               <p>{{ block.settings.text }}</p>
@@ -406,6 +441,48 @@
           "label": "Style 2"
         }
       ]
+    },
+    {
+      "type": "custom-block",
+      "name": "Custom Block",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "inline_richtext",
+          "id": "custom_heading_1",
+          "default": "Heading",
+          "label": "Heading 1"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "custom_text_1",
+          "default": "Text",
+          "label": "Text 1"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "custom_heading_2",
+          "default": "Heading",
+          "label": "Heading 2"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "custom_text_2",
+          "default": "Text",
+          "label": "Text 2"
+        },
+        {
+          "type": "text",
+          "id": "custom_button_label_1",
+          "default": "Button label",
+          "label": "Label"
+        },
+        {
+          "type": "url",
+          "id": "custom_button_link_1",
+          "label": "Link"
+        }
+      ]
     }
   ],
   "presets": [
@@ -423,6 +500,9 @@
         },
         {
           "type": "buttons"
+        },
+        {
+          "type": "custom-block"
         }
       ]
     }
