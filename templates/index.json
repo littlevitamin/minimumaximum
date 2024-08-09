@@ -209,9 +209,9 @@
           "type": "custom-block",
           "settings": {
             "custom_heading_1": "VISIT US",
-            "custom_text_1": "220–222 High Street, Barnet, \u2028EN5 5SZ",
+            "custom_text_1": "<p>220–222 High Street, Barnet, \u2028EN5 5SZ<\/p>",
             "custom_heading_2": "OPENING HOURS",
-            "custom_text_2": "Monday – Saturday   10:00 - 18:00Sunday Closed",
+            "custom_text_2": "<p>Monday – Saturday   <\/p><p>10:00 - 18:00<\/p><p>Sunday <\/p><p>Closed<\/p>",
             "custom_button_label_1": "View on map",
             "custom_button_link_1": "https:\/\/maps.app.goo.gl\/FjVTH1BF84KCvtZy6"
           }
