@@ -202,52 +202,20 @@
         "seo_h_tag": "h1"
       }
     },
-    "679e6177-ed60-482c-ab7b-5d17f9dfbdfb": {
-      "type": "text-columns-with-icons",
-      "blocks": {
-        "template--16337080680634__679e6177-ed60-482c-ab7b-5d17f9dfbdfb-text-icon-1": {
-          "type": "text-icon",
-          "settings": {
-            "title": "",
-            "body": "",
-            "label": "",
-            "link": "shopify:\/\/collections\/vivienne-westwood",
-            "select_icon": "delivery",
-            "custom_icon": "shopify:\/\/shop_images\/vivienne-westwood-1-logo-png-transparent.png"
-          }
-        },
-        "template--16337080680634__679e6177-ed60-482c-ab7b-5d17f9dfbdfb-text-icon-2": {
-          "type": "text-icon",
-          "settings": {
-            "title": "",
-            "body": "",
-            "label": "",
-            "link": "",
-            "select_icon": "time-limit",
-            "custom_icon": "shopify:\/\/shop_images\/LOGO_AMI_2000x_ddd4d1d1-faa7-4146-ba8b-622e5e1889d0.webp"
-          }
-        },
-        "template--16337080680634__679e6177-ed60-482c-ab7b-5d17f9dfbdfb-text-icon-3": {
-          "type": "text-icon",
-          "settings": {
-            "title": "Pickup",
-            "body": "<p>Let your customers know about local pickup<\/p>",
-            "label": "",
-            "link": "",
-            "select_icon": "store"
-          }
-        }
-      },
-      "block_order": [
-        "template--16337080680634__679e6177-ed60-482c-ab7b-5d17f9dfbdfb-text-icon-1",
-        "template--16337080680634__679e6177-ed60-482c-ab7b-5d17f9dfbdfb-text-icon-2",
-        "template--16337080680634__679e6177-ed60-482c-ab7b-5d17f9dfbdfb-text-icon-3"
-      ],
-      "disabled": true,
+    "image_banner_njJh6c": {
+      "type": "image-banner",
       "settings": {
-        "custom_background": "rgba(0,0,0,0)",
-        "custom_text": "rgba(0,0,0,0)",
-        "seo_h_tag": "h3"
+        "image": "shopify:\/\/shop_images\/0ac3172c3fa51ebdd7bd669824331785.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     }
   },
@@ -256,6 +224,6 @@
     "82cbda9a-c62f-4d7b-a1ef-82703044a81b",
     "8fdbfdda-dcdc-406f-a2d8-47603bc1137a",
     "16371348113d6d6d6d",
-    "679e6177-ed60-482c-ab7b-5d17f9dfbdfb"
+    "image_banner_njJh6c"
   ]
 }
