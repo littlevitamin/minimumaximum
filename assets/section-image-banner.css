@@ -20,7 +20,7 @@
   max-height: 230px;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: flex-start!important;
 }
 
 .info-blocks {
