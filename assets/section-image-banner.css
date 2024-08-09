@@ -12,7 +12,7 @@
 .homepage__banner {
   background: rgba(255, 255, 255, 0.80);
   backdrop-filter: blur(10px);
-  position: absolute;
+  position: absolute!important;
   bottom: 20px;
   right: 25px;
 }
