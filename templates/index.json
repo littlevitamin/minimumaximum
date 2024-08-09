@@ -84,6 +84,46 @@
             "link": "",
             "open_in_new_tab": false
           }
+        },
+        "image_x8maGB": {
+          "type": "image",
+          "settings": {
+            "image_padding": 100,
+            "link": "",
+            "open_in_new_tab": false
+          }
+        },
+        "image_4ke9cq": {
+          "type": "image",
+          "settings": {
+            "image_padding": 100,
+            "link": "",
+            "open_in_new_tab": false
+          }
+        },
+        "image_gidefb": {
+          "type": "image",
+          "settings": {
+            "image_padding": 100,
+            "link": "",
+            "open_in_new_tab": false
+          }
+        },
+        "image_Dye6r4": {
+          "type": "image",
+          "settings": {
+            "image_padding": 100,
+            "link": "",
+            "open_in_new_tab": false
+          }
+        },
+        "image_deHjxr": {
+          "type": "image",
+          "settings": {
+            "image_padding": 100,
+            "link": "",
+            "open_in_new_tab": false
+          }
         }
       },
       "block_order": [
@@ -92,7 +132,12 @@
         "f9fff972-d942-45fb-a9dc-3f2751d0ae0c",
         "image_YQX38k",
         "image_7EQMbi",
-        "image_Vhh8Mt"
+        "image_Vhh8Mt",
+        "image_x8maGB",
+        "image_4ke9cq",
+        "image_gidefb",
+        "image_Dye6r4",
+        "image_deHjxr"
       ],
       "settings": {
         "scroll_direction": "ltr",
